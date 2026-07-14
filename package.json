@@ -26,6 +26,7 @@
     "cf:deploy": "node scripts/cloudflare-deploy.mjs",
     "cf:apply": "node scripts/cloudflare-apply-cdn-url.mjs",
     "cf:setup": "npm run cf:install && npm run cf:bucket && npm run cf:upload && npm run cf:deploy && npm run cf:apply && npm run sync:cloud",
+    "supabase:keepalive": "node scripts/supabase-deploy-keepalive.mjs",
     "server:install": "npm install --prefix server",
     "server:dev": "npm run dev --prefix server",
     "party:apply": "node scripts/party-apply-url.mjs",

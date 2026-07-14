@@ -46,6 +46,7 @@ console.log("[keepalive] Setting Cloudflare Worker secrets...");
 for (const [name, value] of [
   ["KEEPALIVE_SUPABASE_URL", supaUrl],
   ["KEEPALIVE_SUPABASE_ANON_KEY", supaAnon],
+  ["KEEPALIVE_SUPABASE_FUNCTION_URL", `${supaUrl.replace(/\/$/, "")}/functions/v1/keepalive`],
 ]) {
   const r = spawnSync(process.execPath, [wranglerBin, "secret", "put", name], {
     cwd: workerDir,
@@ -70,6 +71,5 @@ if (dep.status !== 0) process.exit(dep.status ?? 1);
 
 console.log("\n[keepalive] Manual check:");
 console.log("  curl https://starfall-assets-cdn.dima260208.workers.dev/keepalive");
-console.log("\n[keepalive] Supabase Edge Function (optional):");
-console.log("  supabase functions deploy keepalive");
-console.log("  Dashboard → Cron: 0 */4 * * *");
+console.log("\n[keepalive] Supabase hourly pulse:");
+console.log("  npm run supabase:keepalive");

@@ -1,31 +1,32 @@
 /**
- * Supabase Edge Function — лёгкий keep-alive (cron в Dashboard).
- * Не меняет данные игры; только SELECT 1 для активности проекта.
+ * Supabase Edge Function — hourly infra keep-alive.
+ * Создаёт служебную запись в infra_keepalive_accounts и чистит старше 1 ч.
+ * Не трогает player_accounts / player_profiles.
  *
- * Deploy: supabase functions deploy keepalive
- * Cron (Dashboard): every 4 hours
+ * Cron (Dashboard → Edge Functions → keepalive): 0 * * * *
+ * Или: node scripts/supabase-deploy-keepalive.mjs
  */
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2.49.1";
 
 serve(async (_req) => {
   const url = Deno.env.get("SUPABASE_URL") ?? "";
-  const key = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? Deno.env.get("SUPABASE_ANON_KEY") ?? "";
+  const key = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
   if (!url || !key) {
-    return new Response(JSON.stringify({ ok: false, error: "missing env" }), {
+    return new Response(JSON.stringify({ ok: false, error: "missing service env" }), {
       status: 500,
       headers: { "content-type": "application/json" },
     });
   }
 
   const supa = createClient(url, key, { auth: { persistSession: false } });
-  const { error } = await supa.from("player_profiles").select("player_id", { head: true, count: "exact" });
+  const { data, error } = await supa.rpc("infra_keepalive_tick");
 
   return new Response(
     JSON.stringify({
       ok: !error,
       service: "starfall-supabase-keepalive",
-      db: error ? { error: error.message } : { ok: true },
+      result: error ? { error: error.message } : data,
       ts: Date.now(),
     }),
     { headers: { "content-type": "application/json" } },

@@ -4,7 +4,7 @@ compatibility_date = "2024-01-01"
 
 # Cron keep-alive: Supabase + VPS health (не трогает игровую логику)
 [triggers]
-crons = ["0 */4 * * *"]
+crons = ["0 * * * *"]
 
 # Bucket создаётся командой: npm run cf:bucket
 [[r2_buckets]]

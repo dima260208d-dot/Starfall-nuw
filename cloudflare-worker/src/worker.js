@@ -71,6 +71,14 @@ async function runKeepAlive(env) {
     results.push(await pingUrl(url, { cf: { cacheTtl: 0 } }));
   }
 
+  const fnUrl = env.KEEPALIVE_SUPABASE_FUNCTION_URL || "";
+  const fnKey = env.KEEPALIVE_SUPABASE_ANON_KEY || env.KEEPALIVE_SUPABASE_SERVICE_KEY || "";
+  if (fnUrl && fnKey) {
+    results.push(await pingUrl(fnUrl, {
+      headers: { authorization: `Bearer ${fnKey}` },
+    }));
+  }
+
   console.log(JSON.stringify({ keepalive: results, ts: Date.now() }));
   return results;
 }

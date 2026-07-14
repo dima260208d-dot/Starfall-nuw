@@ -1,0 +1,5 @@
+# Supabase CLI / Edge Functions (Starfall)
+project_id = "wjlbtbzypogndakoorym"
+
+[functions.keepalive]
+verify_jwt = false
