@@ -1,0 +1,60 @@
+# -*- coding: utf-8 -*-
+from pathlib import Path
+d = "motionPinRevealRoot"
+d = "motionPinRevealRoot"
+d = "div"
+parts = [
+"""import { useCallback, useEffect, useState } from "react";
+import { createPortal } from "react-dom";
+import PinIcon from "./PinIcon";
+import { getCollectiblePin } from "../entities/PinData";
+import { COLLECTIBLE_PIN_RARITY_LABEL } from "../entities/CollectiblePinData";
+
+interface Props {
+  pinId: string;
+  goldenFrame?: boolean;
+  onDone: () => void;
+}
+
+export default function PinRevealModal({ pinId, goldenFrame, onDone }: Props) {
+  const [exiting, setExiting] = useState(false);
+  const def = getCollectiblePin(pinId);
+  const dismiss = useCallback(() => {
+    setExiting(true);
+    setTimeout(onDone, 450);
+  }, [onDone]);
+  useEffect(() => {
+    const t = setTimeout(dismiss, 3200);
+    return () => clearTimeout(t);
+  }, [dismiss]);
+  if (!def) return null;
+  const rim = goldenFrame || def.goldenFrame || def.rarity === "golden" ? "#FFD700" : def.color;
+  return createPortal(
+    <""", d, """ onClick={dismiss} style={{
+      position: "fixed", inset: 0, zIndex: 100000,
+      background: "radial-gradient(circle at center, rgba(0,0,30,0.92), rgba(0,0,0,0.98))",
+      display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
+      cursor: "pointer", userSelect: "none",
+      animation: exiting ? "pinRevOut 0.45s ease forwards" : "pinRevIn 0.4s ease",
+    }}>
+      <style>{`@keyframes pinRevIn{from{opacity:0}to{opacity:1}}@keyframes pinRevOut{to{opacity:0;transform:scale(.85)}}@keyframes pinBounce{0%{transform:scale(.3);opacity:0}60%{transform:scale(1.12)}100%{transform:scale(1);opacity:1}}`}</style>
+      <""", d, """ style={{ fontSize: 14, fontWeight: 900, letterSpacing: 4, color: rim, marginBottom: 16 }}>НОВЫЙ ПИН!</""", d, """>
+      <""", d, """ style={{ animation: "pinBounce 0.55s cubic-bezier(0.22,1.4,0.36,1) both" }}>
+        <PinIcon pinId={pinId} size={140} glow animated />
+      </""", d, """>
+      <""", d, """ style={{ marginTop: 20, textAlign: "center", color: "white" }}>
+        <""", d, """ style={{ fontSize: 26, fontWeight: 900 }}>{def.label}</""", d, """>
+        <""", d, """ style={{ fontSize: 13, color: rim, fontWeight: 800, letterSpacing: 2, marginTop: 6 }}>
+          {COLLECTIBLE_PIN_RARITY_LABEL[def.rarity]}
+        </""", d, """>
+      </""", d, """>
+      <""", d, """ style={{ position: "absolute", bottom: 36, fontSize: 12, color: "rgba(255,255,255,0.45)" }}>
+        Нажмите, чтобы продолжить
+      </""", d, """>
+    </""", d, """>,
+    document.body,
+  );
+}
+"""]
+Path("src/components/PinRevealModal.tsx").write_text("".join(parts), encoding="utf-8")
+print("ok", len("".join(parts)))

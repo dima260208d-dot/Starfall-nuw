@@ -1,0 +1,23 @@
+=== CALLISTA COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO CALLISTA (every page): match callista_skin1.png ONLY — green hair, multicolor lens goggles, alchemy flasks, green-white lab coat, explosive reagent vials, NOT any NPC face.
+
+professorVoss — UNIQUE: elderly mentor, SILVER BEARD, cracked spectacles, burnt lab coat green stains, gentle stern eyes, NOT Callista.
+
+censor — UNIQUE: guild censor WOMAN, WHITE GLOVES, black bureaucrat uniform, red seal stamps, cold narrow eyes, NOT herald.
+
+patientZero — UNIQUE: young patient MAN, reaction SCARS on arms neck, bandaged hope in eyes, plain shirt, NOT Remy.
+
+remy — UNIQUE: teen assistant BOY, nervous trembling hands, oversized goggles on forehead, ink-stained sleeves, loyal scared eyes, NOT patient.
+
+herald — UNIQUE: arena announcer OLD MAN, GOLD MEGAPHONE, purple arena sash, bald head, NOT female herald from Lumina.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher grey hood.
+
+shadowVoice ch9 — silhouettes only: rin (poison fan) + octavia (tentacle ink) — NO faces.
+
+rin ch10 — match rin_skin1.png FULL color.
+
+octavia ch10 — match octavia_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

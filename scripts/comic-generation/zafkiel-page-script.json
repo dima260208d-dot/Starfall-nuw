@@ -1,0 +1,228 @@
+{
+  "brawlerId": "zafkiel",
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use narration boxes (cream/yellow rectangles) for context.",
+    "gameBrawlersFromChapter": 10
+  },
+  "npcs": {
+    "malek": "Стархранитель Малек — elderly Chronoguard master, silver beard, white-purple robes, gold staff with clock head",
+    "eri": "Послушница Эри — young FEMALE trainee ONLY: short BROWN hair, brown eyes (NOT purple), simple plain white apprentice tunic, NO halo, NO hourglass, NO pistols, NO white hair — must NEVER look like Zafkiel clone",
+    "riftCaptain": "Капитан Разлома — masked time hunter, cracked hourglass mask, dark armor",
+    "herald": "Глашатай Арены — tall herald in gold arena tabard with crown emblem",
+    "ghost": "Призрак хранителя — translucent fallen Chronoguard spirit"
+  },
+  "chapters": {
+    "1": {
+      "title": "Дом до грома",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide establishing: Citadel of Chronoguard order at dawn, cathedral of gold clocks, purple dawn light.",
+          "narration": ["Орден Хроностражей. Цитадель, где время слушают, а не торопят."],
+          "dialogue": [{"speaker": "malek", "text": "Сегодня ты стоишь у карты потоков, Зафкиэль."}, {"speaker": "zafkiel", "text": "Здесь начинается мой путь."}],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Close-up Zafkiel at glowing temporal map table, Malek behind him pointing at ley lines.",
+          "narration": ["Каждый ученик должен увидеть, куда течёт время — прежде чем трогать его."],
+          "dialogue": [{"speaker": "malek", "text": "Видишь разлом на востоке? Это не ошибка карты."}, {"speaker": "zafkiel", "text": "Он дышит. Как рана."}],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Hairline crack spreads on the main citadel clock wall, light turns ominous purple.",
+          "narration": ["Первый треск. Слишком тихий, чтобы считаться громом."],
+          "dialogue": [{"speaker": "eri", "text": "Старший! Циферблат главной башни…"}, {"speaker": "zafkiel", "text": "Не паникуй. Время иногда кашляет."}],
+          "sfx": "ТРЕСК!"
+        },
+        {
+          "page": 4,
+          "scene": "Training hall diagonal action: purple time shards fly, Zafkiel shields fallen trainee Eri.",
+          "narration": ["Учебный зал. То, что должно было быть тренировкой, стало испытанием."],
+          "dialogue": [{"speaker": "zafkiel", "text": "Держись за мою руку — не за секунду!"}, {"speaker": "eri", "text": "Я… я не успела сдвинуться…"}],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 5,
+          "scene": "Zafkiel fires green Dalet rewind shot, training dummy teleports backward.",
+          "narration": ["Цикл времени: первый заряд. Далет — возврат на два шага назад."],
+          "dialogue": [{"speaker": "malek", "text": "Ты вернул не манекен. Ты вернул момент до ошибки."}, {"speaker": "zafkiel", "text": "Значит, ещё можно исправлять."}],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Quiet candlelit archive, Zafkiel holds pocket hourglass memento from the order.",
+          "narration": ["Ночь. В архиве пахнет пылью и лавандовым маслом старых механизмов."],
+          "dialogue": [{"speaker": "zafkiel", "text": "Отец оставил мне не власть. Он оставил вопрос."}, {"speaker": "ghost", "text": "…а вопросы не стареют."}],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Through purple window rift, distant Arena dome silhouette pulses on horizon.",
+          "narration": ["За стенами цитадели проступает купол Арены — будто кто-то зовёт по имени."],
+          "dialogue": [{"speaker": "eri", "text": "Ты тоже это слышишь? Как колокол без звука."}, {"speaker": "zafkiel", "text": "Арена не зовёт. Она ждёт."}],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Zafkiel raises both pistols, purple energy gathers around clock halo.",
+          "narration": ["Выбор: остаться хранителем часов — или стать тем, кто ломает их ради людей."],
+          "dialogue": [{"speaker": "malek", "text": "Если выйдешь за ворота — обратного тика не будет."}, {"speaker": "zafkiel", "text": "Тогда я сделаю свой тик."}],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Training ring erupts in purple-gold time explosion, sand spirals.",
+          "narration": ["Вспышка. Песок в часах взлетает против гравитации."],
+          "dialogue": [{"speaker": "eri", "text": "Он… остановил взрыв? Нет — откатил его!"}, {"speaker": "malek", "text": "Вижу. И боюсь того, кем он станет."}],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: largest clock hand twitches backward one tick, Zafkiel watches.",
+          "narration": ["Глава I. Дом до грома. Стрелка дёрнулась назад — мир ещё не знает, что это начало."],
+          "dialogue": [{"speaker": "zafkiel", "text": "Если время может отступить… значит, ещё не поздно."}],
+          "sfx": "ТИК."
+        }
+      ]
+    },
+    "2": {
+      "title": "Рана, которая не спит",
+      "pages": [
+        {"page":1,"scene":"Ruined Chronoguard outpost at night, broken clock towers.","narration":["Последний пост. Орден пал за одну ночь."],"dialogue":[{"speaker":"zafkiel","text":"Я вернулся слишком поздно."},{"speaker":"ghost","text":"Ты вернулся — значит, ещё не конец."}],"sfx":null},
+        {"page":2,"scene":"Close-up Zafkiel face lit by embers, grief in purple eyes.","narration":["Пепел на белых перчатках. Память на ладонях."],"dialogue":[{"speaker":"zafkiel","text":"Клятва была держать линию времени."},{"speaker":"zafkiel","text":"Линию разорвали."}],"sfx":null},
+        {"page":3,"scene":"Shadow time rifts tear open above rubble.","narration":["Разломы открываются сами — будто кто-то снимает запрет с прошлого."],"dialogue":[{"speaker":"riftCaptain","text":"Последний хранитель. Сдавай печать часов."},{"speaker":"zafkiel","text":"Печать — на моей груди. Забирай, если догонишь."}],"sfx":"РРРАЗЛОМ!"},
+        {"page":4,"scene":"Diagonal chase through collapsed colonnade, hunters pursue.","narration":["Охота началась не на него — на время, которое он носит в себе."],"dialogue":[{"speaker":"riftCaptain","text":"Беги. Откатывайся. Устанешь — и мы заберём будущее."}],"sfx":"WHOOSH!"},
+        {"page":5,"scene":"Zafkiel fires blue Bet slow shot, hunter legs freeze in ice-clock effect.","narration":["Второй заряд. Бет — ледяная секунда, когда враг думает, что ещё быстр."],"dialogue":[{"speaker":"zafkiel","text":"Ты говоришь про будущее. А я вижу твой прошлый шаг."}],"sfx":"ВЖУХ!"},
+        {"page":6,"scene":"Zafkiel kneels by fallen Chronoguard banner, hourglass brooch cracked but glowing.","narration":["Знамя ордена под ногами. Клятва — внутри."],"dialogue":[{"speaker":"ghost","text":"Мы держали пост, пока не перестали верить в выбор."},{"speaker":"zafkiel","text":"Я верю. Поэтому и стою."}],"sfx":null},
+        {"page":7,"scene":"Arena silhouette pulses through storm of purple shards on horizon.","narration":["Арена светится сквозь бурю — как маяк для сломанных мигов."],"dialogue":[{"speaker":"zafkiel","text":"Там ответ. Или ловушка. Или одно и то же."}],"sfx":null},
+        {"page":8,"scene":"Zafkiel loads purple sand into both pistol chambers.","narration":["Песок из груди-часов пересыпают в стволы. Последний запас ордена."],"dialogue":[{"speaker":"zafkiel","text":"Каждый выстрел — вычтенная секунда моей жизни."}],"sfx":null},
+        {"page":9,"scene":"Outpost clock tower explodes, Zafkiel inside golden time dome shield.","narration":["Башня рушится. Купол времени держит одного — не героем, долгом."],"dialogue":[{"speaker":"riftCaptain","text":"Невозможно… он откатил обвал!"},{"speaker":"zafkiel","text":"Невозможное — моя работа."}],"sfx":"KRAK-BOOM!"},
+        {"page":10,"scene":"Lone figure on last watchtower, only survivor.","narration":["Глава II. Рана, которая не спит. На башне остался один тик сердца."],"dialogue":[{"speaker":"zafkiel","text":"Я последний пост. Значит — я и есть стена."}],"sfx":"ТИК-ТАК."}
+      ]
+    },
+    "3": {
+      "title": "Первый ответный удар",
+      "pages": [
+        {"page":1,"scene":"Scorched border canyon, first real battlefield after the fall.","narration":["Граница, где орден заканчивался, а война — нет."],"dialogue":[{"speaker":"eri","text":"Мы нашли тебя! Я… я не бросила орден."},{"speaker":"zafkiel","text":"Ты пришла. Этого достаточно."}],"sfx":null},
+        {"page":2,"scene":"Close-up Zafkiel jaw set, first real anger.","narration":["Впервые злость не путается со страхом."],"dialogue":[{"speaker":"zafkiel","text":"Они назвали нас хранителями. Мы стали мишенями."}],"sfx":null},
+        {"page":3,"scene":"Enemy war machines with grinding clock gears enter frame.","narration":["Механизмы воров времени. Украденные чертежи ордена."],"dialogue":[{"speaker":"riftCaptain","text":"Сдай пистолеты — и девочка уйдёт живой."},{"speaker":"zafkiel","text":"Она уже не девочка. Она — хранитель."}],"sfx":"ГРРР!"},
+        {"page":4,"scene":"Zafkiel slides under blade, coat clock numerals trail motion.","narration":["Диагональ боя. Каждый удар врага записан на секунду раньше."],"dialogue":[{"speaker":"eri","text":"Слева! Ещё двое!"},{"speaker":"zafkiel","text":"Вижу. Держи мою спину — не время!"}],"sfx":"WHOOSH!"},
+        {"page":5,"scene":"Yellow Zayin stun shot freezes enemy mid-leap.","narration":["Третий заряд. Заин — полная остановка. Полсекунды вечности."],"dialogue":[{"speaker":"zafkiel","text":"Виси. Подумай, зачем ты продаёшь чужие мгновения."}],"sfx":"СТОП!"},
+        {"page":6,"scene":"Quiet detail: empty sword scabbard, two pistols holstered instead.","narration":["Когда-то ему дали клинок. Он выбрал откат, не резку."],"dialogue":[{"speaker":"eri","text":"Ты всё ещё не убиваешь?"},{"speaker":"zafkiel","text":"Я забираю у них будущее. Это хуже."}],"sfx":null},
+        {"page":7,"scene":"Purple Arena anomaly flickers in sky far away.","narration":["Небо рвётся. Аномалия зовёт по имени каждого павшего хранителя."],"dialogue":[{"speaker":"ghost","text":"Туда ушли наши часы. Там — ответ."}],"sfx":null},
+        {"page":8,"scene":"Energy coils around pistols and chest hourglass.","narration":["Супер зреет. Врата ещё не открыты — но уже дышат."],"dialogue":[{"speaker":"zafkiel","text":"Ещё немного. Ещё один бой — и я покажу им вечность."}],"sfx":null},
+        {"page":9,"scene":"Small purple gate circle rewinds enemy squad one second.","narration":["Проблеск силы: враги теряют шаг, словно их вырвали из песни."],"dialogue":[{"speaker":"riftCaptain","text":"Что ты сделал?! Мы уже были у цели!"},{"speaker":"zafkiel","text":"Были. Теперь — снова опоздали."}],"sfx":"KRAK-BOOM!"},
+        {"page":10,"scene":"Enemy commander frozen in time bubble, cliffhanger.","narration":["Глава III. Первый ответный удар. Враг застыл — мир нет."],"dialogue":[{"speaker":"eri","text":"Он жив?"},{"speaker":"zafkiel","text":"Пока да. Время ещё не решило."}],"sfx":"ТИК."}
+      ]
+    },
+    "4": {
+      "title": "След Арены",
+      "pages": [
+        {"page":1,"scene":"Wasteland temporal anomaly eating the ground.","narration":["Аномалия пожирает будущее. Прошлое Арены течёт наружу."],"dialogue":[{"speaker":"zafkiel","text":"Здесь пахнет старыми боями. Чужими и нашими."}],"sfx":null},
+        {"page":2,"scene":"Zafkiel reads Arena invitation etched in gold on cracked hourglass.","narration":["Приглашение выжжено на стекле песка."],"dialogue":[{"speaker":"herald","text":"Голос с купола: «Кто держит время — пусть докажет на песке.»"},{"speaker":"zafkiel","text":"Докажу. Но не ради славы."}],"sfx":null},
+        {"page":3,"scene":"Past Arena ghost warriors visible inside purple vortex.","narration":["В воронке мелькают бои, которых он не видел — но помнит кожей."],"dialogue":[{"speaker":"ghost","text":"Это не призраки. Это застрявшие секунды."},{"speaker":"zafkiel","text":"Тогда я вытащу их."}],"sfx":"ВЖУУУ!"},
+        {"page":4,"scene":"Time wraiths chase through anomaly mist.","narration":["Охота продолжается. Теперь — внутри разлома."],"dialogue":[{"speaker":"riftCaptain","text":"Арена тебя не спасёт!"},{"speaker":"zafkiel","text":"Мне не нужно спасение. Нужен ответ."}],"sfx":"WHOOSH!"},
+        {"page":5,"scene":"Dalet shot pulls ally phantom to safety from vortex.","narration":["Он вернул не себя — чужой миг из петли."],"dialogue":[{"speaker":"eri","text":"Ты… ты вытащил его голос из воронки!"},{"speaker":"zafkiel","text":"Голос — тоже время."}],"sfx":"ВЖУХ!"},
+        {"page":6,"scene":"Remembers order oath inscribed on halo ring.","narration":["Клятва на внутренней стороне нимба: «Не владей. Слушай.»"],"dialogue":[{"speaker":"zafkiel","text":"Я слушал. Теперь — отвечаю."}],"sfx":null},
+        {"page":7,"scene":"Arena dome fully visible, pulling sand from hourglass.","narration":["Купол близко. Песок тянется к арене, как железо к магниту."],"dialogue":[{"speaker":"herald","text":"Ворота турнира откроются на рассвете третьего тика."}],"sfx":null},
+        {"page":8,"scene":"Dual pistols crossed, purple gate runes ignite on ground.","narration":["Руны вечности проступают под сапогами."],"dialogue":[{"speaker":"zafkiel","text":"Путь назад закрыт. Вперёд — тоже время."}],"sfx":null},
+        {"page":9,"scene":"Explosion of clock numerals, path to Arena opens.","narration":["Портал рвётся. За ним — свет прожекторов и чужие крики."],"dialogue":[{"speaker":"eri","text":"Я иду с тобой!"},{"speaker":"zafkiel","text":"Тогда не отставай от секунды."}],"sfx":"KRAK-BOOM!"},
+        {"page":10,"scene":"Footsteps lead into anomaly, no return.","narration":["Глава IV. След Арены. Он шагнул в зов — и эхо шагнуло за ним."],"dialogue":[{"speaker":"zafkiel","text":"Если прошлое Арены голодно… я принесу ему выбор."}],"sfx":"ТИК."}
+      ]
+    },
+    "5": {
+      "title": "Охота начинается",
+      "pages": [
+        {"page":1,"scene":"Misty crossroads of shattered clocks, distant shadow carnival lights.","narration":["Перекрёсток сломанных циферблатов. В тумане — огни чужого праздника."],"dialogue":[{"speaker":"riftCaptain","text":"Ты чувствуешь? Тени танцуют без хозяев."},{"speaker":"zafkiel","text":"Чувствую. Кто-то зовёт гостей без приглашения."}],"sfx":null},
+        {"page":2,"scene":"Hunters with hourglass masks emerge from rifts.","narration":["Охотники разлома. Маски из треснувших часов."],"dialogue":[{"speaker":"riftCaptain","text":"Отдай нимб — и мы не тронем девочку."},{"speaker":"eri","text":"Не смей к нему близко!"}],"sfx":"КРЯСЬ!"},
+        {"page":3,"scene":"Three-way ambush from rift portals.","narration":["Три разлома. Три ловушки. Одна секунда на решение."],"dialogue":[{"speaker":"zafkiel","text":"Эри — влево! Я заберу их прошлое!"}],"sfx":"WHOOSH!"},
+        {"page":4,"scene":"Diagonal fight across floating clock debris.","narration":["Бой на обломках времени. Каждый шаг — риск упасть в вчера."],"dialogue":[{"speaker":"eri","text":"Они множатся!"},{"speaker":"zafkiel","text":"Тогда я урежу им завтра."}],"sfx":"БАЦ!"},
+        {"page":5,"scene":"Gimel poison trail from enhanced pistol shot after super charge hint.","narration":["Усиленный заряд: яд времени жжёт траекторию врага."],"dialogue":[{"speaker":"riftCaptain","text":"Моя броня… ржавеет в прошлом?!"},{"speaker":"zafkiel","text":"Время ест всё. Даже сталь."}],"sfx":"ШШШШ!"},
+        {"page":6,"scene":"Zafkiel alone on clock face floor, doubt.","narration":["Тишина между ударами. Вопрос без ответа."],"dialogue":[{"speaker":"zafkiel","text":"Если всё предрешено… зачем я ещё выбираю?"},{"speaker":"ghost","text":"Потому что выбор — и есть твоя сила."}],"sfx":null},
+        {"page":7,"scene":"Shadow silhouettes dance at panel edge — NOT game brawlers yet.","narration":["На краю панели тени шевелятся сами. Гости без лица."],"dialogue":[{"speaker":"eri","text":"Они… приглашения без имени."},{"speaker":"zafkiel","text":"Не принимай. Ещё не время."}],"sfx":null},
+        {"page":8,"scene":"Loads golden sand vial into pistols.","narration":["Последняя порция песка ордена. Дальше — только Арена."],"dialogue":[{"speaker":"zafkiel","text":"Каждое зерно — обещание, которое я не нарушу."}],"sfx":null},
+        {"page":9,"scene":"Time ripple pushes hunters back in wave.","narration":["Волна отката сметает ловцов, как песок с настила."],"dialogue":[{"speaker":"riftCaptain","text":"Нет! Мы уже победили в будущем!"},{"speaker":"zafkiel","text":"Тогда живи там. Здесь — мой тик."}],"sfx":"KRAK-BOOM!"},
+        {"page":10,"scene":"Shadow invitation card floats unsigned.","narration":["Глава V. Охота начинается. Карта без подписи — но с запахом ада и праздника."],"dialogue":[{"speaker":"zafkiel","text":"Кто-то ждёт меня у ворот. Не сегодня."}],"sfx":"ТИК."}
+      ]
+    },
+    "6": {
+      "title": "Цена силы",
+      "pages": [
+        {"page":1,"scene":"Circular chamber of infinite mirror clocks reflecting Zafkiel.","narration":["Зал зеркал. Каждое — версия, которую он мог бы стать."],"dialogue":[{"speaker":"zafkiel","text":"Сколько меня здесь?"},{"speaker":"ghost","text":"Столько, сколько секунд ты пожалел."}],"sfx":null},
+        {"page":2,"scene":"Reflections show different futures — tyrant, martyr, coward.","narration":["В одном зеркале — тиран. В другом — трус. В третьем — мёртвый герой."],"dialogue":[{"speaker":"zafkiel","text":"Если всё предрешено… кто выбирает — я или отражение?"}],"sfx":null},
+        {"page":3,"scene":"Cracks spread on central mirror, conflict sign.","narration":["Трещина. Не на стекле — на вере."],"dialogue":[{"speaker":"eri","text":"Не смотри на них! Это ловушка разлома!"},{"speaker":"zafkiel","text":"Я уже внутри."}],"sfx":"ТРЕСК!"},
+        {"page":4,"scene":"Zafkiel smashes mirror with pistol, shards become enemies.","narration":["Осколки оживают. Каждый — отменённый выбор."],"dialogue":[{"speaker":"zafkiel","text":"Вы — не моё будущее. Вы — мой страх."}],"sfx":"ДЗЫНЬ!"},
+        {"page":5,"scene":"Aleph accelerated shot through all mirrors at once.","narration":["Алеф: скорость, что опережает сомнение."],"dialogue":[{"speaker":"zafkiel","text":"Я стреляю не в стекло. В приговор."}],"sfx":"ВЖУХ!"},
+        {"page":6,"scene":"Touches halo ring, whispers.","narration":["Нимб холодный. Внутри выгравирована клятва отца."],"dialogue":[{"speaker":"zafkiel","text":"Прости. Я не могу только слушать."},{"speaker":"ghost","text":"Он бы выстрелил раньше."}],"sfx":null},
+        {"page":7,"scene":"Arena heartbeat audible through floor clock.","narration":["Пол — циферблат. Под ним бьётся сердце Арены."],"dialogue":[{"speaker":"herald","text":"До ворот — сто тиков. Докажи, что выбор существует."}],"sfx":"ТУДУМ."},
+        {"page":8,"scene":"Purple spiral from chest hourglass engulfs chamber.","narration":["Песок поднимается с груди. Цена силы — часть себя."],"dialogue":[{"speaker":"eri","text":"Твои глаза… они тускнеют!"},{"speaker":"zafkiel","text":"На миг. Потом снова увижу рассвет."}],"sfx":null},
+        {"page":9,"scene":"KRAK-BOOM shatters fate mirrors.","narration":["Зеркала падают. Остаётся один Зафкиэль — не идеальный, настоящий."],"dialogue":[{"speaker":"zafkiel","text":"Я выбираю. Значит — я ещё жив."}],"sfx":"KRAK-BOOM!"},
+        {"page":10,"scene":"One reflection still moves on its own in broken glass.","narration":["Глава VI. Цена силы. Один отказавшийся уйти отражение смотрит вслед."],"dialogue":[{"speaker":"zafkiel","text":"Следи. Но не решай за меня."}],"sfx":"ТИК."}
+      ]
+    },
+    "7": {
+      "title": "Ворота открыты",
+      "pages": [
+        {"page":1,"scene":"Arena gates — colossal gold doors with crown emblem and clock gears.","narration":["Ворота турнира. За ними — шум толпы и чужие легенды."],"dialogue":[{"speaker":"herald","text":"Имя и печать времени. Или — уходи в разлом."},{"speaker":"zafkiel","text":"Имя — Зафкиэль. Печать — здесь."}],"sfx":null},
+        {"page":2,"scene":"Close-up rank badge glowing on Zafkiel coat.","narration":["Знак допуска вспыхивает на груди, рядом с часами."],"dialogue":[{"speaker":"eri","text":"Ты правда идёшь…"},{"speaker":"zafkiel","text":"Кто-то должен доказать, что хранители не миф."}],"sfx":null},
+        {"page":3,"scene":"Gate construct of spinning clock blades challenges him.","narration":["Страж ворот — механизм, не человек."],"dialogue":[{"speaker":"herald","text":"Пройди лезвия. Не замедлись — не ускоряйся."},{"speaker":"zafkiel","text":"Тогда пойду в своём темпе."}],"sfx":"ЖЖЖ!"},
+        {"page":4,"scene":"Bet slow field lets him pass spinning blades.","narration":["Синий заряд. Мир вокруг лезвий — вязкий, как мёд."],"dialogue":[{"speaker":"zafkiel","text":"Твоя секунда — моя дорога."}],"sfx":"ВЖУХ!"},
+        {"page":5,"scene":"Adjusts white gloves, steadies breath before final gate.","narration":["Пауза. Перед бурей даже хранители дышат."],"dialogue":[{"speaker":"eri","text":"Я останусь у ворот. Если что… откати меня."},{"speaker":"zafkiel","text":"Я откачу весь мир. Но ты войдёшь сама."}],"sfx":null},
+        {"page":6,"scene":"Crowd roar beyond doors, silhouettes of spectators.","narration":["За дверью — тысячи глаз. Ни одного знакомого."],"dialogue":[{"speaker":"herald","text":"Арена ждёт не победителя. Она ждёт историю."}],"sfx":"РРРА!"},
+        {"page":7,"scene":"Both pistols aim at gate lock mechanism.","narration":["Замок — не железо. Это сжатая минута."],"dialogue":[{"speaker":"zafkiel","text":"Откройся. Или я верну тебя в чертёж."}],"sfx":null},
+        {"page":8,"scene":"Gate explodes open in purple-gold light.","narration":["Вспышка. Песок, свет, крик толпы — всё сразу."],"dialogue":[{"speaker":"eri","text":"Мы… внутри!"},{"speaker":"zafkiel","text":"Теперь — не отступать."}],"sfx":"KRAK-BOOM!"},
+        {"page":9,"scene":"First step onto Arena sand, footprints glow.","narration":["Песок Арены помнит каждого. Сегодня — его очередь."],"dialogue":[{"speaker":"herald","text":"Боец Зафкиэль! Толпа — твой судья!"}],"sfx":null},
+        {"page":10,"scene":"Cliffhanger looking up at scoreboard blank with his name forming.","narration":["Глава VII. Ворота открыты. Табло пустое — но уже слушает."],"dialogue":[{"speaker":"zafkiel","text":"Напишите, что угодно. Я перепишу время."}],"sfx":"ТИК."}
+      ]
+    },
+    "8": {
+      "title": "Бой под прожекторами",
+      "pages": [
+        {"page":1,"scene":"Arena match under spotlights, packed crowd stands.","narration":["Первый официальный матч. Прожекторы жгут, как полдень в трущобах времени."],"dialogue":[{"speaker":"herald","text":"На песке — хранитель против трёх наёмников разлома!"},{"speaker":"zafkiel","text":"Трое? Значит, у меня три секунды запаса."}],"sfx":null},
+        {"page":2,"scene":"Fierce focus close-up before bell.","narration":["Колокол ещё не ударил. Внутри — тишина."],"dialogue":[{"speaker":"riftCaptain","text":"На арене ты не откатишь толпу."},{"speaker":"zafkiel","text":"Мне не нужна толпа. Нужен один честный тик."}],"sfx":null},
+        {"page":3,"scene":"Heavily armored enemy team enters arena floor.","narration":["Три бронированных ловца. Их щиты — украденные секунды ордена."],"dialogue":[{"speaker":"eri","text":"С трибуны: их супер заряжен!"},{"speaker":"zafkiel","text":"Слышу. Уже считаю."}],"sfx":"ГОНГ!"},
+        {"page":4,"scene":"Diagonal brawl across arena, sand flying.","narration":["Песок взлетает. Время — тоже оружие."],"dialogue":[{"speaker":"zafkiel","text":"Влево — откат! Вправо — стоп!"},{"speaker":"riftCaptain","text":"Он говорит с боем, как с оркестром!"}],"sfx":"БАЦ!"},
+        {"page":5,"scene":"Time shots counter enemy combo.","narration":["Зелёный. Синий. Жёлтый. Три заряда — три ответа."],"dialogue":[{"speaker":"zafkiel","text":"Ты ударил? Нет. Ты только вспомнил удар."}],"sfx":"WHOOSH!"},
+        {"page":6,"scene":"Quiet beat between rounds, hourglass sand low.","narration":["Перерыв. Песок на исходе. Цена близка."],"dialogue":[{"speaker":"eri","text":"Смени тактику!"},{"speaker":"zafkiel","text":"Тактика — открыть врата."}],"sfx":null},
+        {"page":7,"scene":"Crowd chanting, scoreboard flickers.","narration":["Табло мигает. Имя Зафкиэль — то вверху, то в тени."],"dialogue":[{"speaker":"herald","text":"Толпа требует финала!"}],"sfx":"РРРА!"},
+        {"page":8,"scene":"Super charge: opens Gates of Eternity purple circle on Arena.","narration":["Врата Вечности. Радиус сто двадцать шагов. Четыре секунды вечности."],"dialogue":[{"speaker":"zafkiel","text":"Входите. Выход — в прошлое."}],"sfx":"ВЖУУУ!"},
+        {"page":9,"scene":"SIGNATURE: Gates rewind entire enemy attack, enemies lose position.","narration":["Вся атака откатывается. Враги забывают, что уже победили."],"dialogue":[{"speaker":"riftCaptain","text":"Мы… мы уже стояли у его горла!"},{"speaker":"zafkiel","text":"Стояли. Сидите снова."}],"sfx":"KRAK-BOOM!"},
+        {"page":10,"scene":"Scoreboard shows impossible victory.","narration":["Глава VIII. Бой под прожекторами. Табло пишет победу — мир ещё не верит."],"dialogue":[{"speaker":"herald","text":"Победа! Хранитель… живой!"},{"speaker":"zafkiel","text":"Пока тикает — живой."}],"sfx":"ТИК."}
+      ]
+    },
+    "9": {
+      "title": "Союз из трёх искр",
+      "pages": [
+        {"page":1,"scene":"Arena backstage, purple-green rune storm — foreshadow only silhouettes.","narration":["За кулисами Арены буря рун. Три искры — ещё без имён."],"dialogue":[{"speaker":"zafkiel","text":"Кто-то ломает протокол реальности."},{"speaker":"eri","text":"Там… две тени. И книга в воздухе."}],"sfx":null},
+        {"page":2,"scene":"Mysterious green light and blue book silhouette in smoke — NOT full game character faces yet.","narration":["Зелёный адский свет. Синяя мантия. Запретные руны. Трио ещё не сложилось."],"dialogue":[{"speaker":"zafkiel","text":"Вы тоже слышите зов ворот?"},{"speaker":"shadowVoice","text":"Мы слышим праздник без хозяина."}],"sfx":null},
+        {"page":3,"scene":"Shared enemy wave of time wraiths attacks all three silhouettes.","narration":["Общий враг заставляет союзников появиться раньше судьбы."],"dialogue":[{"speaker":"zafkiel","text":"Назад! Я закрою разлом!"},{"speaker":"shadowVoice","text":"Закрывай. Мы удержим тени."}],"sfx":"БАЦ!"},
+        {"page":4,"scene":"Zafkiel time field protects mysterious allies.","narration":["Круг отката. Внутри — три искры, ещё без лиц."],"dialogue":[{"speaker":"zafkiel","text":"Три разных времени. Один враг."},{"speaker":"eri","text":"Они… помогают?"}],"sfx":"WHOOSH!"},
+        {"page":5,"scene":"Triangle of runes forms on floor connecting three positions.","narration":["Руны сходятся треугольником. Бал вечности ещё не начался — но приглашение вырезано."],"dialogue":[{"speaker":"zafkiel","text":"Когда покажете лица — я запомню."},{"speaker":"shadowVoice","text":"На десятой главе, хранитель."}],"sfx":null},
+        {"page":6,"scene":"Quiet vow exchange with silhouettes.","narration":["Клятва без имён: держать линию у ворот Арены."],"dialogue":[{"speaker":"zafkiel","text":"Если время, ад и звёзды сойдутся…"},{"speaker":"shadowVoice","text":"…мы встретимся у ворот. Не раньше."}],"sfx":null},
+        {"page":7,"scene":"Arena gate runes align as triangle in sky.","narration":["Небо над ареной — треугольник рун. Толпа не видит."],"dialogue":[{"speaker":"herald","text":"Что за знак? Арена молчит…"},{"speaker":"zafkiel","text":"Пусть молчит. Ещё рано."}],"sfx":null},
+        {"page":8,"scene":"Combined energy time + shadow + star runes blast enemy.","narration":["Три искры бьют разом. Враг рассыпается в секунды."],"dialogue":[{"speaker":"zafkiel","text":"Вот зачем нужны союзники — не чтобы выиграть. Чтобы выбрать."}],"sfx":"KRAK-BOOM!"},
+        {"page":9,"scene":"Trio symbol burns into arena floor faintly.","narration":["На песке проступает знак трёх. Имена — потом."],"dialogue":[{"speaker":"eri","text":"Кто они?"},{"speaker":"zafkiel","text":"Те, кто придёт, когда легенда созреет."}],"sfx":null},
+        {"page":10,"scene":"Silhouettes walk away into separate portals.","narration":["Глава IX. Союз из трёх искр. Союз без лиц — но с обещанием."],"dialogue":[{"speaker":"zafkiel","text":"До финала. Там — настоящие встречи."}],"sfx":"ТИК."}
+      ]
+    },
+    "10": {
+      "title": "Легенда на табло",
+      "gameCharacters": true,
+      "pages": [
+        {"page":1,"scene":"Arena legend ceremony, golden spotlights, scoreboard huge.","narration":["Финал. Табло — алтарь новых имён."],"dialogue":[{"speaker":"herald","text":"Зафкиэль! Арена зовёт твоих союзников!"},{"speaker":"zafkiel","text":"Пора показать лицо времени."}],"sfx":null},
+        {"page":2,"scene":"Verdeletta steps from green shadow portal — match game design: green hell light, party pistol, festive demon MC look.","narration":["Из зелёного света — адский церемонимейстер. Верделетта."],"dialogue":[{"speaker":"verdeletta","text":"Наконец-то! Праздник без протокола начинается!"},{"speaker":"zafkiel","text":"Ты из тени на девятой главе."}],"sfx":null},
+        {"page":3,"scene":"Sora floats with blue mantle and living book — match game 3D design.","narration":["Сора. Книга сама открывает страницу с его именем."],"dialogue":[{"speaker":"sora","text":"Звёздные руны сходятся. Мы — треугольник у ворот."},{"speaker":"zafkiel","text":"Бал вечности. Время, ад и небо."}],"sfx":null},
+        {"page":4,"scene":"Trio stands together facing new challenger wave on arena.","narration":["Трио «Бал вечности» впервые целиком на песке."],"dialogue":[{"speaker":"verdeletta","text":"Гости, тени, хранитель — все на танец!"},{"speaker":"sora","text":"Книга пишет: мы не клетка. Мы — выбор."},{"speaker":"zafkiel","text":"Тогда выберем вместе."}],"sfx":"ГОНГ!"},
+        {"page":5,"scene":"Team fight: Zafkiel Gates + Verdeletta shadow ball + Sora meteors.","narration":["Врата откатывают. Теневой бал сбивает. Метеоры добивают."],"dialogue":[{"speaker":"zafkiel","text":"Откат — мой!"},{"speaker":"verdeletta","text":"Праздник — мой!"},{"speaker":"sora","text":"Звёзды — наши!"}],"sfx":"KRAK-BOOM!"},
+        {"page":6,"scene":"Quiet moment trio sits on arena edge, crowd cheers.","narration":["Пауза после бури. Легенда — не крик, а дыхание."],"dialogue":[{"speaker":"zafkiel","text":"Арена — не клетка. Сцена."},{"speaker":"sora","text":"Страница ещё пишется."},{"speaker":"verdeletta","text":"А после — вечеринка. По правилам… почти."}],"sfx":null},
+        {"page":7,"scene":"Scoreboard engraves ZAFKIEL in gold letters permanently.","narration":["Табло вспыхивает. Имя остаётся, даже если время откатить."],"dialogue":[{"speaker":"herald","text":"Легенда записана!"},{"speaker":"zafkiel","text":"Пусть помнят. Я помню дорогу."}],"sfx":null},
+        {"page":8,"scene":"Halo and hourglass shine together over arena night sky.","narration":["Нимб и песок сияют. Орден мёртв — хранитель жив."],"dialogue":[{"speaker":"ghost","text":"Ты сделал то, чего мы боялись."},{"speaker":"zafkiel","text":"Я сделал то, что выбор требовал."}],"sfx":null},
+        {"page":9,"scene":"Final splash: Gates of Eternity over entire arena, trio in center.","narration":["Врата Вечности на весь купол. Прошлое и будущее — один миг."],"dialogue":[{"speaker":"zafkiel","text":"Каждая секунда — мой ход."},{"speaker":"verdeletta","text":"Каждый гость — мой зал!"},{"speaker":"sora","text":"Каждая звезда — наша глава!"}],"sfx":"KRAK-BOOM!"},
+        {"page":10,"scene":"Title end card: Zafkiel walks toward next portal, trio behind, TO BE CONTINUED feel.","narration":["Глава X. Легенда на табло. Комикс дышит — потому что время ещё течёт."],"dialogue":[{"speaker":"zafkiel","text":"Следующий тик — не конец. Начало."}],"sfx":"ТИК."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+=== SILVEN COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO SILVEN (every page): match silven_skin1.png ONLY — young leshy boy, root legs, oak heart glow in chest, green vine powers, leaf hair accents, NOT any NPC face.
+
+oak — UNIQUE: ancient oak tree voice — bark cracks, glowing green words in rustling leaves, NO human body.
+
+mira — UNIQUE: village girl CHILD, twin braids, green apron, freckles, brave smile, NOT Silven.
+
+foreman — UNIQUE: lumber foreman MAN, orange safety vest, chainsaw, empty tired eyes, NOT Marcus or generic mechanic.
+
+emberSaw — UNIQUE: modified chainsaw with RED glowing teeth, mechanical NOT human.
+
+gin — UNIQUE: arena announcer MAN, GOLD MICROPHONE, arena broadcast jacket, NOT female herald.
+
+burnedSpirit — UNIQUE: smoky forest spirit silhouette, branch arms, ash wisps, NO solid human face.
+
+shadowVoice ch9 — silhouettes only: miya (purple shadow ninja bow) + lumina (gold light angel wings) — NO faces.
+
+miya ch10 — match miya_skin1.png FULL color.
+
+lumina ch10 — match lumina_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

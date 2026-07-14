@@ -1,0 +1,1572 @@
+[
+  {
+    "title": "Колокол на вершине",
+    "pages": [
+      [
+        "Wide dawn: snow-capped mountain temple on cliff, blue ice lanterns, frozen prayer flags stiff in wind.",
+        "Горный храм целителей. Утро пахнет инеем и ладаном.",
+        [
+          {
+            "speaker": "abbessYoko",
+            "text": "Сегодня колокол на вершине — твой экзамен, Юки."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Я услышу его раньше, чем он меня."
+          }
+        ],
+        null
+      ],
+      [
+        "Bell platform: Yuki in blue kimono with ice staff climbs frost steps; shrine boy carries incense.",
+        "Ступени скрипят под сапогами. Колокол ждёт на самом краю.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Сестра Юки, верёвки покрылись коркой!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Держись за перила. Лёд слушает тех, кто не спешит."
+          }
+        ],
+        null
+      ],
+      [
+        "Healing hall: Yuki seals cut on shrine boy palm with glowing snowflake; abbess watches.",
+        "Учебный зал. Рана закрывается, будто её стёрли с пергамента.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Боль… уходит, как дыхание на стекле."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Лёд на ранах — не наказание. Это передышка для плоти."
+          }
+        ],
+        null
+      ],
+      [
+        "Flashback inset: younger brother Haru rings ice bell beside Yuki; both in temple robes, smiles.",
+        "Память: Хару смеётся, когда колокол отзывается снежной пылью.",
+        [
+          {
+            "speaker": "brotherHaru",
+            "text": "Слышишь? Он зовёт тех, кто идёт вместе."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Тогда идём. Я буду лечить — ты держи звон."
+          }
+        ],
+        null
+      ],
+      [
+        "Abbess Yoko explains bell resonance maps worthy hearts across mountains.",
+        "Настоятельница учит: колокол слышит не уши — кровь.",
+        [
+          {
+            "speaker": "abbessYoko",
+            "text": "Колокол укажет путь сердца, достойного выйти вниз."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Моё сердце уже смотрит в долину."
+          }
+        ],
+        null
+      ],
+      [
+        "Shrine boy whispers he heard bell at night ringing toward wrong pass.",
+        "Ночной слух мальчика тревожит тишину храма.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Звон шёл не на восток… будто в сторону песка."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Песок — это тоже вершина, только перевёрнутая."
+          }
+        ],
+        null
+      ],
+      [
+        "Meditation garden: Yuki ice staff glows; frost spirals rise like breath.",
+        "Сад медитации. Снежный вихрь обнимает посох.",
+        [
+          {
+            "speaker": "abbessYoko",
+            "text": "Целитель замораживает боль, не чувства."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Чувства я унесу с собой. Боль — оставлю здесь."
+          }
+        ],
+        null
+      ],
+      [
+        "Super preview: Yuki slams staff — healing ice dome erupts over courtyard trainees.",
+        "Посох бьёт камень. Купол исцеляющего льда накрывает двор.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Лёд держит тех, кто ещё дышит!"
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Так… так учат на вершине?"
+          }
+        ],
+        "ДЗЫНЬ!"
+      ],
+      [
+        "Night dispatch: scribe Koto climbs temple gate with sealed roster scroll.",
+        "Ночью к воротам поднимается писец с печатным свитком.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Список участников турнира. Имя Хару вычеркнуто."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Вычеркнуто — значит, его ещё ищут."
+          }
+        ],
+        null
+      ],
+      [
+        "Cliffhanger: distant bell echo rolls up from valley toward Arena glow.",
+        "Из долины катится чужой звон. Юки сжимает посох.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Это не наш колокол… но он помнит его голос."
+          },
+          {
+            "speaker": "abbessYoko",
+            "text": "Если звон зовёт — ответь, не теряя милости."
+          }
+        ],
+        "ГУЛ…"
+      ]
+    ]
+  },
+  {
+    "title": "Пустая келья брата",
+    "pages": [
+      [
+        "Empty monk cell: bare futon, melted candle, frost fern on window.",
+        "Келья Хару пуста, будто вычерпали воздух ложкой.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Его запах ещё здесь — тонкий, как инеевый пар."
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Сестра… тут никто не спал третью ночь."
+          }
+        ],
+        null
+      ],
+      [
+        "Altar niche empty where ice bell should rest; cracked lacquer.",
+        "На алтаре — только след от колокола.",
+        [
+          {
+            "speaker": "abbessYoko",
+            "text": "Ледяной колокол ушёл вместе с ним."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Без колокола путь не слышит дом."
+          }
+        ],
+        null
+      ],
+      [
+        "Torn tournament flyer under mat — Arena seal, bracket dates.",
+        "Под циновкой — обрывок афиши с печатью Арены.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Он подал заявку тайно. Страх перед наставницей."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Страх не оправдание. Молчание — тоже."
+          }
+        ],
+        null
+      ],
+      [
+        "Frost patterns on window form arrow pointing southwest.",
+        "На стекле — узор инея, похожий на стрелу.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Кто-то рисовал снаружи? Или изнутри?"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Лёд рисует правду, когда слова кончились."
+          }
+        ],
+        null
+      ],
+      [
+        "Archive ghost flickers — scholarGhost in torn sutra scrolls.",
+        "В архиве мерцает дух старых записей.",
+        [
+          {
+            "speaker": "scholarGhost",
+            "text": "Имена турнира стирают тех, кто проиграл тишине."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Хару не проиграл. Его просто не вернули."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki reads Haru healing journal — last entry about Arena undercells.",
+        "Дневник брата: последняя строка о подземных клетках.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "«Если не вернусь — слушай колокол, не сердце»."
+          },
+          {
+            "speaker": "abbessYoko",
+            "text": "Он знал, что рискует. И всё равно пошёл."
+          }
+        ],
+        null
+      ],
+      [
+        "Shrine boy confesses hooded figures took bell at dawn.",
+        "Мальчик видел похитителей у восточных ворот.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "У них были маски инея. Они не говорили — дышали снегом."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Опиши их снова. Каждую трещину на маске."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki kneels at empty bed, presses forehead to frozen pillow.",
+        "Юки клянётся вернуть имя в эту комнату.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Хару, я спущусь с горы. Даже если придётся заморозить путь."
+          },
+          {
+            "speaker": "abbessYoko",
+            "text": "Милость без силы — молитва в пустоту."
+          }
+        ],
+        null
+      ],
+      [
+        "Abbess grants descent seal — blue paper, ice wax stamp.",
+        "Настоятельница даёт печать спуска.",
+        [
+          {
+            "speaker": "abbessYoko",
+            "text": "Ты — целитель храма. Но сегодня — его сестра."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Сестра сначала. Целитель — по дороге."
+          }
+        ],
+        null
+      ],
+      [
+        "Departure pack: staff, herbs, brother prayer bead on silk cord.",
+        "Юки уходит. На шее — чётки брата.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Верните колокол! Без него храм глух."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Вернём и колокол, и того, кто в нём звонил."
+          }
+        ],
+        null
+      ]
+    ]
+  },
+  {
+    "title": "Лёд на ранах",
+    "pages": [
+      [
+        "Mountain descent trail: injured pilgrim collapsed, frostbite blackening fingers.",
+        "Тропа вниз. Паломник без сознания — пальцы в инеевой корке.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Дыши. Лёд снимет боль, не жизнь."
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Сестра, у него ещё пульс!"
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki channels healing ice over wounds — paradoxical warm glow inside cold shell.",
+        "Исцеляющий лёд обнимает раны, как перевязь из света.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Холод держит кровь. Тепло вернётся, когда тело поверит."
+          },
+          {
+            "speaker": "abbessYoko",
+            "text": "Не трать силу на тех, кто не дойдёт до Арены."
+          }
+        ],
+        null
+      ],
+      [
+        "Recovered pilgrim warns of gorge bandits wearing frost masks.",
+        "Спасённый шепчет о масках в ущелье.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Он говорит о тех же, кто забрал колокол!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Тогда ущелье — не объезд. Это ответ."
+          }
+        ],
+        null
+      ],
+      [
+        "Training spar: frostCaptain swings ice halberd; Yuki heals dummy between strikes.",
+        "Капитан стражи проверяет её под ударом.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Целитель, который не увернётся, станет трупом."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Труп не лечит. Я увернусь — и подниму вашего бойца."
+          }
+        ],
+        null
+      ],
+      [
+        "Arrow flies at patient dummy — Yuki freezes projectile mid-air.",
+        "Стрела замирает в воздухе, будто время застыло.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Ты замораживаешь не только раны."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Замораживаю то, что убивает быстрее боли."
+          }
+        ],
+        "ВЖУХ!"
+      ],
+      [
+        "Healing snowflake technique lights ten wounds at once on sparring squad.",
+        "Снежинки-катушки закрывают десять ран разом.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Один вдох — десять жизней держатся на льду."
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Арена сожрёт такую щедрость."
+          }
+        ],
+        null
+      ],
+      [
+        "Campfire: frostCaptain shows old Arena scar, asks why she descends.",
+        "У костра капитан показывает шрам от турнира.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Там побеждают не только клинком. Там продают имена."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Имена не продаются. Их возвращают."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki heals captain old shoulder wound; ice steam rises.",
+        "Рана капитана закрывается впервые за годы.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Ты тратишь силу на врага, которого ещё не видела."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Вы не враг. Вы — урок, как держать щит."
+          }
+        ],
+        null
+      ],
+      [
+        "Night vista: Arena dome lights pulse below cloud sea.",
+        "Внизу дышит купол Арены.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Регистрация закрывается через три дня."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Три дня — достаточно, чтобы найти брата."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki traces prayer bead; distant bell vibration in pack.",
+        "Чётки дрожат в такт чужому звону.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Колокол зовёт сильнее. Значит, мы ближе."
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Или ловушка ближе к нам."
+          }
+        ],
+        "ДЗЫНЬ…"
+      ]
+    ]
+  },
+  {
+    "title": "Звон в сторону Арены",
+    "pages": [
+      [
+        "Valley overlook: Yuki sees Arena golden dome through snow haze.",
+        "Долина открывается. Арена светится, как второе солнце.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Там песка больше, чем снега. Но звон всё равно слышен."
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Сестра, колокол в сумке… он тёплый!"
+          }
+        ],
+        null
+      ],
+      [
+        "Ice bell shard in pack resonates, pulling Yuki forward along ridge path.",
+        "Осколок колокола тянет её, как compass needle.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Он помнит дорогу брата. Я просто иду рядом."
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Не отпускай посох. На склоне ветер режет кожу."
+          }
+        ],
+        null
+      ],
+      [
+        "Roadside shrine: Koto unrolls participant roster with missing names column.",
+        "У дорожного алтаря Кото разворачивает список.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Пропавших без финиша — двенадцать. Хару среди них."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Без финиша — не значит без следа."
+          }
+        ],
+        null
+      ],
+      [
+        "Close-up roster: Haru name crossed then rewritten in different ink.",
+        "Имя перечёркнуто — и написано снова чужой рукой.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Кто-то скрывает участников от табло."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Скройте имя — звон всё равно найдёт."
+          }
+        ],
+        null
+      ],
+      [
+        "Bell chimes alone in pack; frost spirals leap toward Arena east.",
+        "Колокол звенит без удара. Вихрь тянется на восток.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Он… зовёт нас?"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Зовёт брата. Мы идём за эхом."
+          }
+        ],
+        "ДЗЫНЬ!"
+      ],
+      [
+        "Merchant caravan ambush aftermath — Yuki heals driver broken ribs.",
+        "Караван перевернут. Юки лечит возницу.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Говорите, кто напал. Потом — дышите глубже."
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "На дороге — следы лошадей к ущелью!"
+          }
+        ],
+        null
+      ],
+      [
+        "Caravan leader describes ice-mask riders carrying wrapped bell shape.",
+        "Торговец видел колокол под плащом.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Маски инея — знак похитителей турнира."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Значит, ущелье — не слух. Это маршрут."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki follows bell vibration into forked pass — west gorge, east Arena.",
+        "Развилка: налево — ущелье, направо — ворота Арены.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Звон тянет на запад. Арена ждёт на востоке."
+          },
+          {
+            "speaker": "koto",
+            "text": "След и табло редко совпадают. Выбирай быстро."
+          }
+        ],
+        null
+      ],
+      [
+        "Storm wall approaches; bell glows brighter pointing into gorge mist.",
+        "Буря сжимает небо. Колокол светится в сторону ущелья.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Туда — ловушки. Но туда же — правда."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Правда не ждёт хорошей погоды."
+          }
+        ],
+        null
+      ],
+      [
+        "Signpost split: carved Arena arrow vs frost-mask scratch marks west.",
+        "На столбе — стрелка к Арене и царапины масок.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Сначала ущелье. Потом песок. Брат не на табло — он в тени."
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Я пойду с вами. Кто-то должен нести благовония."
+          }
+        ],
+        "ВЕТЕР…"
+      ]
+    ]
+  },
+  {
+    "title": "Маски инея в ущелье",
+    "pages": [
+      [
+        "Ice gorge mist: hooded kidnapper silhouettes on rope bridge.",
+        "Ущелье глотает свет. На мосту — маски инея.",
+        [
+          {
+            "speaker": "kidnapper",
+            "text": "Целитель с горы. Брось посох — живёшь."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Посох лечит. Вам он не нужен — вам нужен страх."
+          }
+        ],
+        null
+      ],
+      [
+        "Kidnapper squad advances; frost masks reflect Yuki healing glow.",
+        "Маски блестят, как зеркала без лица.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Строй клин! За спиной — пленники!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Пленников не трону. Маски — другое дело."
+          }
+        ],
+        "КЛАНГ!"
+      ],
+      [
+        "Yuki heals wounded captive while ice wall blocks kidnapper blade.",
+        "Она лечит и держит лёд одновременно.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Держись. Боль уйдёт — страх останется, но живой."
+          },
+          {
+            "speaker": "kidnapper",
+            "text": "Милосердие на мосту — роскошь!"
+          }
+        ],
+        null
+      ],
+      [
+        "frostCaptain shatters mask — Arena scout insignia underneath.",
+        "Под маской — знак аренных разведчиков.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Вы работаете на тех, кто продаёт бойцов!"
+          },
+          {
+            "speaker": "kidnapper",
+            "text": "Мы работаем на тех, кто платит за тишину."
+          }
+        ],
+        null
+      ],
+      [
+        "Captive whispers boy with bell taken to under-arena cells.",
+        "Пленник видел Хару с колоколом.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Это он! Голос был тихий, но я знаю!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Где клетки? Каждое слово — ещё один вдох."
+          }
+        ],
+        null
+      ],
+      [
+        "Chase across cracking ice bridge; Yuki slides staff like anchor.",
+        "Мост трескается. Юки вонзает посох в лёд.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Бегите вперёд! Мост держу я!"
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Не геройствуй — командуй!"
+          }
+        ],
+        "ТРЕСК!"
+      ],
+      [
+        "Kidnapper escapes with bell shard fragment; drops blood on snow.",
+        "Похититель уходит с осколком. На снегу — капля крови.",
+        [
+          {
+            "speaker": "kidnapper",
+            "text": "Колокол цел — пока вы медлите!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Медлить — не в моей клятве."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki finds Haru prayer bead on bridge plank — fresh scratch.",
+        "На доске моста — чётка брата, ещё тёплая.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Он был здесь. Часы назад. Не днями."
+          },
+          {
+            "speaker": "koto",
+            "text": "Значит, клетки ближе, чем кажется."
+          }
+        ],
+        null
+      ],
+      [
+        "Gorge exit opens to Arena outer wall — floodlights sweep snow.",
+        "Из ущелья видна стена Арены. Прожекторы режут снег.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Они вели нас кругом — но вывели к воротам."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Круг — тоже путь. Главное — не потерять имя."
+          }
+        ],
+        null
+      ],
+      [
+        "Night camp under wall: Yuki freezes map of cells from frost breath.",
+        "На снегу она рисует лёдом схему подземелий.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Клетки под западной трибуной. Хару — там."
+          },
+          {
+            "speaker": "scholarGhost",
+            "text": "Имена в клетках стирают с табло первыми."
+          }
+        ],
+        "ШШШ…"
+      ]
+    ]
+  },
+  {
+    "title": "Спасти или заморозить",
+    "pages": [
+      [
+        "Refugee camp at gorge mouth — frost plague spreads between tents.",
+        "Лагерь беженцев. Меж палаток ползёт ледяная лихорадка.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Всех не подниму сразу. Начну с детей."
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Их уже семеро… десять… сестра!"
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki heals row of patients — hair tips whiten from exhaustion.",
+        "Сила уходит. Кончики волос белеют, как иней.",
+        [
+          {
+            "speaker": "abbessYoko",
+            "text": "Помни: целитель тоже рана, если не остановится."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Остановлюсь, когда перестанут кашлять льдом."
+          }
+        ],
+        null
+      ],
+      [
+        "Infected turn violent; claws frost over, eyes cloud white.",
+        "Больные бросаются на помощников.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Они заразят остальных! Решай сейчас!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Ещё один вдох — ещё одна попытка!"
+          }
+        ],
+        "ААА!"
+      ],
+      [
+        "Three infected break line — frostCaptain raises halberd to kill.",
+        "Капитан заносит клинок над заражённым.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Спасти десятерых — или троих, что станут монстрами?"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Не монстры. Люди. Пока я дышу — люди."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki freezes three attackers in stasis pillars — tears on cheeks.",
+        "Троих она замораживает. Слёзы не успевают застыть.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Прости… прости… я верну вас, когда найду лекарство."
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Они… живы внутри?"
+          }
+        ],
+        "ХРУСТ!"
+      ],
+      [
+        "scholarGhost appears over frozen — warns mercy has price on Arena sand.",
+        "Дух архива смотрит на ледяные столбы.",
+        [
+          {
+            "speaker": "scholarGhost",
+            "text": "На песке милость без границы убивает быстрее меча."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Граница сегодня — три человека. Завтра — правила Арены."
+          }
+        ],
+        null
+      ],
+      [
+        "Close-up frozen faces peaceful inside ice — hearts still beat slow.",
+        "Под льдом сердца бьются — редко, но верно.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Они не мертвы. Это сон, который я обещала прервать."
+          },
+          {
+            "speaker": "koto",
+            "text": "Сон длиннее трёх дней — станет скандалом."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki learns controlled stasis — thin ice shell, not tomb.",
+        "Она учится замораживать только время, не душу.",
+        [
+          {
+            "speaker": "abbessYoko",
+            "text": "Лёд на ранах — да. Лёд на воле — только в край."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Край уже здесь. Я его не выбирала — он пришёл."
+          }
+        ],
+        null
+      ],
+      [
+        "Saved child thanks Yuki — saw brother Haru in fever dream calling.",
+        "Ребёнок говорит о сне с Хару.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Он звонил в колокол без звука! Я тоже слышал!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Без звука — значит, под землёй. Идём к западной трибуне."
+          }
+        ],
+        null
+      ],
+      [
+        "Nightmare splash: frozen faces multiply; Yuki wakes gripping staff.",
+        "Кошмар: лица в льду шепчут её имя.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Я заморожу врага — не тех, кого хотела спасти."
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Тогда учись отличать их до удара."
+          }
+        ],
+        "ДЫХ…"
+      ]
+    ]
+  },
+  {
+    "title": "Снежный порог турнира",
+    "pages": [
+      [
+        "Arena outer snow checkpoint: guards scan seals, blizzard flags snap.",
+        "Снежный порог турнира. Ветер бьёт в щиты.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Печать храма действует. Пропуск — на имя целителя."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Целитель ищет брата. Пропуск — на имя Хару."
+          }
+        ],
+        null
+      ],
+      [
+        "Registration desk: frostCaptain vouches; official stamps healer badge.",
+        "Юки получает жетон лекаря арены.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Бойцы регистрируются. Пропавшие — в приложении к списку."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Приложение — туда, куда смотрят те, кто стирает имена."
+          }
+        ],
+        null
+      ],
+      [
+        "Healer tent rivals scoff at mountain girl with ice staff.",
+        "В палатке лекарей над ней смеются.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Смеётесь — пока ваши бойцы дышат. Потом — принесите их сюда."
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Не трать слова. Трать лёд."
+          }
+        ],
+        null
+      ],
+      [
+        "Tournament bracket board — Haru slot empty with question mark sticker.",
+        "На табло — пустая ячейка с именем брата.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Имя есть, а человека нет. Как это?"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Табло врёт медленнее людей. Мы успеем."
+          }
+        ],
+        null
+      ],
+      [
+        "Mid-match call: fighter collapses bleeding; Yuki sprints across sand.",
+        "Крик с песка. Боец падает без сознания.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Отступите! Лёд закроет рану — не сердце!"
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Держите толпу! Она работает!"
+          }
+        ],
+        "ГУДОК!"
+      ],
+      [
+        "Crowd roars as Yuki saves fighter — ice dome over arena edge.",
+        "Трибуны вскрикивают: чудо на краю песка.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Зал пишет о вас. Сponsors уже зовут."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Пусть пишут. Я ищу не славу — фамилию."
+          }
+        ],
+        null
+      ],
+      [
+        "Arena official offers tournament slot if she joins as combat healer.",
+        "Чиновник предлагает место в сетке.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "В сетку — после того, как найду Хару в клетках."
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Клетки не на карте для зрителей."
+          }
+        ],
+        null
+      ],
+      [
+        "Rumor whisper: last seen dragged under west tribune after forfeit bell.",
+        "Слух: его увели после «добровольного» отказа.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "Добровольный — когда колокол уже сломан?"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Значит, колокол держат как ключ. К ключу — идём."
+          }
+        ],
+        null
+      ],
+      [
+        "Yuki maps west tribune service tunnels from healer tent charts.",
+        "Схема под трибуной — узкие ходы и решётки.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Официально там только склад. Неофициально — всё."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Неофициально — мой дом с сегодня."
+          }
+        ],
+        null
+      ],
+      [
+        "Blizzard alert: mountain pass to cells blocked — must use avalanche route.",
+        "Предупреждение: лавина перекрыла старый ход.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Через лавину — безумие."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Безумие — оставить брата под песком."
+          }
+        ],
+        "ГРОХОТ…"
+      ]
+    ]
+  },
+  {
+    "title": "Исцеляющий снег",
+    "pages": [
+      [
+        "Avalanche slope: buried pilgrims under white tomb; Yuki digs with staff.",
+        "Лавина похоронила караван. Юки копает лёдом, как лопатой.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Слышите меня? Ответьте кашлем — любым звуком!"
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Здесь! Под доской — пять голосов!"
+          }
+        ],
+        null
+      ],
+      [
+        "Healing snow technique — soft blue flakes melt into wounds under rubble.",
+        "Исцеляющий снег просачивается сквозь камень.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Снег может лечить, если в нём есть моя клятва."
+          },
+          {
+            "speaker": "abbessYoko",
+            "text": "Клятва без отдыха — ломает целителя."
+          }
+        ],
+        null
+      ],
+      [
+        "Snow dome shelter rises over survivors — translucent ice cathedral.",
+        "Купол из снега держит ветер снаружи.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Держится… сколько?"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Достаточно, чтобы все вышли живыми."
+          }
+        ],
+        null
+      ],
+      [
+        "Mass heal exhausts Yuki — knees buckle; frostCaptain catches her.",
+        "Силы на исходе. Капитан подхватывает её.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Ещё один — и ты ляжешь рядом с ними."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Ещё один — и я смогу спать без кошмара."
+          }
+        ],
+        null
+      ],
+      [
+        "One survivor is Arena escaped prisoner — shackles frozen broken.",
+        "Один из спасённых — беглец из аренных клеток.",
+        [
+          {
+            "speaker": "shrineBoy",
+            "text": "У него клеймо под глазом! Как у похитителей!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Клеймо — не приговор. Говори, где держат пленников."
+          }
+        ],
+        null
+      ],
+      [
+        "Prisoner saw Haru forced to ring ice bell for silent matches.",
+        "Хару заставляли звонить в подпольных боях.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Без зрителей… значит, без свидетелей. Где вход?"
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Закулисье. Туда нас не пустят с жетоном лекаря."
+          }
+        ],
+        null
+      ],
+      [
+        "Aftershock avalanche — Yuki freezes falling rocks into stairs.",
+        "Новый обвал. Она превращает камни в ступени.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Вверх! Ступени держу! Бегите!"
+          },
+          {
+            "speaker": "shrineBoy",
+            "text": "Сестра, за вами снова снежная лавина!"
+          }
+        ],
+        "БУМ!"
+      ],
+      [
+        "Yuki carries injured child while freezing rockfall behind group.",
+        "Она несёт ребёнка и закрывает отступление льдом.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Не оглядывайтесь. Впереди — дыхание, не слава."
+          },
+          {
+            "speaker": "frostCaptain",
+            "text": "Впереди — закулисье. Держись."
+          }
+        ],
+        null
+      ],
+      [
+        "Reach Arena backstage service door — frost breath opens lock.",
+        "Дверь закулисья открывается инеем посоха.",
+        [
+          {
+            "speaker": "koto",
+            "text": "За этой дверью — то, что табло не показывает."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Тогда табло подождёт. Брат — нет."
+          }
+        ],
+        null
+      ],
+      [
+        "Blizzard whiteout; distant trio-colored glow inside corridor mist.",
+        "В коридоре — туман и чужой свет: синий, фиолетовый, ледяной.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Кто там — без лица?"
+          },
+          {
+            "speaker": "scholarGhost",
+            "text": "Те, кто ищет потерянные имена, как ты."
+          }
+        ],
+        "ШШШ…"
+      ]
+    ]
+  },
+  {
+    "title": "Звёздные ученики",
+    "pages": [
+      [
+        "Arena backstage scrap corridor: orange-blue fog, conveyor sparks — SHADOWED trio scene.",
+        "Закулисье. Туман и искры. Три силуэта у трещины — лица скрыты.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Кто шагает в моём снегу?"
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Три школы. Одна буря. Не приближайся к лицам."
+          }
+        ],
+        null
+      ],
+      [
+        "SILHOUETTE: girl with floating spellbook and violet page swirls — NOT full face, match starbound-scholars.",
+        "Силуэт девушки с парящей книгой. Лицо в тени.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Ещё охотница за именами?"
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Охотница на ложь в текстах. Как и ты. Пока."
+          }
+        ],
+        null
+      ],
+      [
+        "SILHOUETTE: boy in star coat, gravity swirl at boots — NOT full face, match starbound-scholars.",
+        "Силуэт мальчика в звёздном плаще. У ног — вихрь. Лицо скрыто.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Звёзды… на земле?"
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Звёзды падают, когда имена стирают. Как снег."
+          }
+        ],
+        "ЖЖЖ!"
+      ],
+      [
+        "Patent hunter squad enters; Yuki raises staff, silhouettes flank.",
+        "Отряд охотников бросается на силуэты. Юки поднимает посох.",
+        [
+          {
+            "speaker": "kidnapper",
+            "text": "Трое без лиц — и одна с горы. Сдавайте ключ-колокол!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Колокол не ключ. Он — голос. Попробуй заглушить."
+          }
+        ],
+        "КЛАНГ!"
+      ],
+      [
+        "Triangle composition: ice healing glow, violet page flash, blue star charge — SHARED palette.",
+        "Треугольник цветов: лёд, фиолетовые страницы, синяя звезда.",
+        [
+          {
+            "speaker": "shadowVoice",
+            "text": "Исцеление без правды — молитва. С правдой — клинок."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Клинок держу я. Правду — найдём вместе."
+          }
+        ],
+        null
+      ],
+      [
+        "Quiet debate: three paths — temple, library, cosmos; faces hidden.",
+        "Тихий спор трёх путей: храм, библиотека, космос. Лица в тени.",
+        [
+          {
+            "speaker": "shadowVoice",
+            "text": "Докажешь милость — станешь легендой. Или ледяной статуей."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Статуя не лечит. Мне хватит быть сестрой."
+          }
+        ],
+        null
+      ],
+      [
+        "Sky triangle burns: snowflake, book page, star icons in smoke above grate.",
+        "В дыму проступают три знака: снежинка, страница, звезда.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Три сердца одной метели. Один враг — стирающие имена."
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "На десятой главе покажем лица. Не раньше."
+          }
+        ],
+        null
+      ],
+      [
+        "Combined strike: healing dome + page slice + gravity pull vs collectors.",
+        "Комбо: ледяной купол, разрез страницы, гравитационный рывок.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Сейчас!"
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Держим линию до ворот финала!"
+          }
+        ],
+        "КРАК-БУМ!"
+      ],
+      [
+        "Triangle mark frosted on steel door; Koto watches from corridor.",
+        "На стальной двери — треугольный знак. Кото смотрит из коридора.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Вас объявят союзниками тени!"
+          },
+          {
+            "speaker": "yuki",
+            "text": "Объявят — не значит узнают. Завтра — на песке."
+          }
+        ],
+        null
+      ],
+      [
+        "Silhouettes depart three ways into fog; Yuki alone with frost triangle on glove.",
+        "Силуэты уходят тремя тропами. На перчатке — знак.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Звёздные ученики. Ответ услышим у табло."
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "У табло сердца громче колоколов."
+          }
+        ],
+        "ШШШ…"
+      ]
+    ]
+  },
+  {
+    "title": "Имена в снегопаде",
+    "pages": [
+      [
+        "Arena ceremony wide: golden scoreboard, snowfall, Koto announces trio rumor.",
+        "Церемония. Снегопад. Слухи о троице гремят громче барабанов.",
+        [
+          {
+            "speaker": "koto",
+            "text": "Верхний круг открыт. Финал — сегодня."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Сегодня снег станет свидетелем."
+          }
+        ],
+        null
+      ],
+      [
+        "FULL COLOR: Mirabel steps from violet library light portal — match mirabel_skin1.png FULL design.",
+        "Из фиолетового света выходит Мирабель — полный облик, не силуэт.",
+        [
+          {
+            "speaker": "mirabel",
+            "text": "Книга хранит потерянные имена. Вместе — до конца."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Имена слышны. Лечи дальше."
+          }
+        ],
+        null
+      ],
+      [
+        "FULL COLOR: Elian descends from blue star vortex — match elian_skin1.png FULL design.",
+        "Из звёздного вихря спускается Элиан — полный дизайн, не силуэт.",
+        [
+          {
+            "speaker": "elian",
+            "text": "Гравитация помнит твой колокол. Мы обещали стычку."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Колокол — не слабость. Вперёд."
+          }
+        ],
+        null
+      ],
+      [
+        "Trio vs frost-mask riflemen on red sand — all FULL faces, Yuki staff center.",
+        "Трое на песке против стрелков в масках. Все лица видны.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Слева — лёд держит."
+          },
+          {
+            "speaker": "mirabel",
+            "text": "Справа — строки режут сети."
+          },
+          {
+            "speaker": "elian",
+            "text": "Центр — мой."
+          }
+        ],
+        "КЛАНГ!"
+      ],
+      [
+        "Team combo: Healing Snow dome + Spell Page barrage + Gravity vortex spin.",
+        "Комбо: исцеляющий снег, залп страниц, вихрь гравитации.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Вместе — удар!"
+          },
+          {
+            "speaker": "mirabel",
+            "text": "Держитесь в круге!"
+          },
+          {
+            "speaker": "elian",
+            "text": "Звезда!"
+          }
+        ],
+        "КРАК-БУМ!"
+      ],
+      [
+        "Upper gate: frostCaptain and kidnapper captain descend with masked escort.",
+        "Верхние ворота. Капитан и похититель спускаются со стражей.",
+        [
+          {
+            "speaker": "frostCaptain",
+            "text": "Юки… вернулась за вторым колоколом?"
+          },
+          {
+            "speaker": "yuki",
+            "text": "За братом. Ваша очередь говорить."
+          }
+        ],
+        null
+      ],
+      [
+        "Arena edge debate: Mirabel truth, Elian cosmos, Yuki mercy between.",
+        "Край арены. Три голоса — текст, звёзды, милость.",
+        [
+          {
+            "speaker": "mirabel",
+            "text": "Суд — не только льдом."
+          },
+          {
+            "speaker": "elian",
+            "text": "Победа — гравитацией."
+          },
+          {
+            "speaker": "yuki",
+            "text": "Мой путь — мой выбор."
+          }
+        ],
+        null
+      ],
+      [
+        "Mirabel finds Haru name in forbidden ledger; Elian pulls hidden cell map.",
+        "Мирабель находит имя в запретном реестре. Элиан вытягивает карту клеток.",
+        [
+          {
+            "speaker": "mirabel",
+            "text": "Хару жив. Строка ещё не стёрта."
+          },
+          {
+            "speaker": "elian",
+            "text": "Клетка семь — под нами. Вниз."
+          }
+        ],
+        null
+      ],
+      [
+        "Final splash: trio vs ice rifle wave — Yuki leads healing snow charge.",
+        "Финальный залп: трое против волны ледяных стволов.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Посох против залпа!"
+          },
+          {
+            "speaker": "kidnapper",
+            "text": "Залп!"
+          },
+          {
+            "speaker": "elian",
+            "text": "Не сегодня!"
+          }
+        ],
+        "ВЖУХ-ВЖУХ!"
+      ],
+      [
+        "End card: Yuki forward, Mirabel and Elian behind, brother bell name visible in snowfall.",
+        "Конец главы X. Имена в снегопаде. Колокол звенит — брат отвечает.",
+        [
+          {
+            "speaker": "yuki",
+            "text": "Имя в снегу — не конец. Клятва сестры."
+          },
+          {
+            "speaker": "mirabel",
+            "text": "Мы рядом."
+          },
+          {
+            "speaker": "elian",
+            "text": "До конца метели."
+          }
+        ],
+        "ВЕТЕР…"
+      ]
+    ]
+  }
+]

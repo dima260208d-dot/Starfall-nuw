@@ -1,0 +1,23 @@
+=== VITTORIA COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO VITTORIA (every page): match vittoria_skin1.png ONLY — vampire girl, spiked gauntlet, velvet cape, crimson moon aura, pale skin, NOT any NPC face.
+
+luca — UNIQUE: Vittoria's brother BOY, dark hair, white shirt, warm protective eyes, NOT Vittoria clone.
+
+marchesa — UNIQUE: mother vampire in portrait OR living — velvet gown, pearl necklace, red eyes like daughter, elegant NOT young Vittoria.
+
+harpoonCaptain — UNIQUE: hunter captain MAN, scar across eyebrow, silver harpoon crossbow team leader, NOT generic soldier.
+
+sisterClara — UNIQUE: healer nun WOMAN, no hood, soft kind face, white robes, NOT female herald.
+
+gin — UNIQUE: arena announcer MAN, GOLD MICROPHONE, arena broadcast jacket.
+
+moonPriest — UNIQUE: moon priest with CRESCENT MOON MASK, robes, speaks in riddles, NOT human face solid.
+
+shadowVoice ch9 — silhouettes only: airin (smoke pilot) + zephyrin (wind blade) — NO faces.
+
+airin ch10 — match airin_skin1.png FULL color.
+
+zephyrin ch10 — match zephyrin_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

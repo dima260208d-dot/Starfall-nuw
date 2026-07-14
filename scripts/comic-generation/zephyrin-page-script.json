@@ -1,0 +1,1558 @@
+{
+  "brawlerId": "zephyrin",
+  "brawlerName": "Зефирин",
+  "lore": "Зефирин — дух ветра, который устал быть невидимым. Она приняла форму девушки, чтобы почувствовать, что значит быть уязвимой. Её торнадо — это её попытки обнять мир, но они отбрасывают врагов прочь. В моменты неуязвимости она становится чистой воздушной субстанцией, недосягаемой для чужой боли. Она ищет того, кто сможет остановить её ветер.",
+  "skinRef": "public/dev-notes/brawler-skins/zephyrin_skin1.png",
+  "trioId": "storm-moon",
+  "trioOthers": [
+    "airin",
+    "vittoria"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "galeElder": "Старейшина шквала — форма из облака, говорит эхом",
+    "catcher": "Ловец духов — стеклянные клетки на поясе, холодные глаза",
+    "stillPoint": "Точка штиля — безмолвный ребёнок в центре Арены, не двигается",
+    "whisper": "Шёпот — бывший дух, пойманный и освобождён: полупрозрачный",
+    "gin": "Джин — диктор Арены",
+    "anchorSmith": "Кузнец якорей — делает гирю «остановки ветра»"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Zephyrin wind spirit girl translucent dress, tornado spiral, glass spirit cages shattered, silver air currents, palette #AB47BC #E1BEE7 #FFFFFF, title ЗЕФИРИН Cyrillic, match zephyrin_skin1.png, NO speech balloons"
+  },
+  "chapters": {
+    "1": {
+      "title": "Верхний ветер",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide: sky layer above clouds, spirits as wind ribbons.",
+          "narration": [
+            "Верхний ветер. Духи — ленты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "galeElder",
+              "text": "Зефирин, ты снова смотришь вниз."
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Внизу — голоса. У нас — свист."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Zephyrin half-transparent — dress flickers.",
+          "narration": [
+            "Полупрозрачное платье."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Невидимой быть. Не значит свободной."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Spirits play — she alone watches humans.",
+          "narration": [
+            "Игра духов. Она смотрит на людей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "galeElder",
+              "text": "Не вмешивайся."
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Они смеются. Я не слышу причину."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "First descent glimpse — arena dome through hole.",
+          "narration": [
+            "Дыра в облаках — купол."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Там… тишина… странная…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Catcher ship flies with glass cages.",
+          "narration": [
+            "Корабль с клетками."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Дух ветра. Редкий трофей!"
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Zephyrin saves whisper spirit — costs visibility.",
+          "narration": [
+            "Спасает духа — становится видимее."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Спасибо… имя… Зефирин…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Elder punishes — binds wind partially.",
+          "narration": [
+            "Наказание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "galeElder",
+              "text": "Форма. Роскошь. Не игрушка."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Zephyrin practices human step on cloud.",
+          "narration": [
+            "Шаг по облаку."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Нога… тяжелая… интересная…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Vision: still point in arena center.",
+          "narration": [
+            "Видение штиля."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…стоп…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: catcher net UP toward her.",
+          "narration": [
+            "Сеть летит вверх."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Ловим!"
+            }
+          ],
+          "sfx": "KRAK!"
+        }
+      ]
+    },
+    "2": {
+      "title": "Стеклянная клетка",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Capture: Zephyrin in glass cage on ship.",
+          "narration": [
+            "Клетка на корабле."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Дух ветра №7. Цена. Arena black market."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Whisper outside cage — cannot help.",
+          "narration": [
+            "Шёпот снаружи."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Держись… я найду…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Catcher shows other spirits broken.",
+          "narration": [
+            "Сломанные духи."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Вы… забираете… голос…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Storm — Zephyrin tornado cracks cage.",
+          "narration": [
+            "Торнадо ломает клетку."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Сейчас. Вихрь!"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 5,
+          "scene": "Escape — semi-solid form bleeding air.",
+          "narration": [
+            "Побег. Форма нестабильна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Больно… быть видимой…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Lands on arena outer wall — wind stolen feeling.",
+          "narration": [
+            "На стене Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Ветер… тонкий… как нить…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Catcher hunts with silver nets.",
+          "narration": [
+            "Охота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Без клетки дух гниёт!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Anchor smith sells stop-weights illegal.",
+          "narration": [
+            "Якоря."
+          ],
+          "dialogue": [
+            {
+              "speaker": "anchorSmith",
+              "text": "Остановить ветер. 50 золотых."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Zephyrin refuses anchor — wants choice not chain.",
+          "narration": [
+            "Отказ."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Остановить. Не значит chained."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Wide: girl of wind on wall, alone.",
+          "narration": [
+            "Глава II. Одна на стене."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Кто остановит… без клетки…"
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Форма девушки",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Zephyrin stabilizes human form — dress solidifies.",
+          "narration": [
+            "Форма стабильна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Красиво… опасно…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Learns whirlwind attack on training dummies.",
+          "narration": [
+            "Вихрь на манekенах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Обнять. Оттолкнуть. Парадокс."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 3,
+          "scene": "Catcher posts wanted posters «Wind Girl».",
+          "narration": [
+            "Плакаты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Живая или в клетке!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "First kindness: Airin smoke signal far — not met yet.",
+          "narration": [
+            "Дымовой сигнал вдали."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Кто… друг…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Still point child appears in dream — silent.",
+          "narration": [
+            "Сон: ребёнок штиля."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…стоп… здесь…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Elder voice on wind — forgive not return.",
+          "narration": [
+            "Голос старейшины."
+          ],
+          "dialogue": [
+            {
+              "speaker": "galeElder",
+              "text": "Вернись. Или выбери путь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Zephyrin chooses path down.",
+          "narration": [
+            "Спуск."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Путь. К тем, кто слышит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Invulnerability flicker — air form.",
+          "narration": [
+            "Неуязвимость."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Недосягаема… и снова одна…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Arena registration as Zephyrin «Breath».",
+          "narration": [
+            "Регистрация «Дыхание»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Дух на турнире?!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: catcher at gate.",
+          "narration": [
+            "Ловец у ворот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Клетка ждёт!"
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Штиль в центре",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena map shows dead calm zone center.",
+          "narration": [
+            "Мёртвый штиль в центре."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Там… тишина… как дом…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Still point child seen once — guards deny.",
+          "narration": [
+            "Ребёнок — guards deny."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Zephyrin walks calm — wind returns stronger after.",
+          "narration": [
+            "Штиль усиливает после."
+          ],
+          "dialogue": [
+            {
+              "speaker": "anchorSmith",
+              "text": "Якорь работает!"
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Работает… как нож…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Whisper intel: still point is arena heart.",
+          "narration": [
+            "Штиль — сердце."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Останови. И услышишь всех."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Catcher bribes officials.",
+          "narration": [
+            "Взятки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Дух. Property!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Zephyrin tornado scatters bribe coins.",
+          "narration": [
+            "Торнадо монет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Ветер не продаётся!"
+            }
+          ],
+          "sfx": "ВЖУУУ!"
+        },
+        {
+          "page": 7,
+          "scene": "Moon silhouette on rampart — Vittoria?",
+          "narration": [
+            "Силуэт луны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Ещё один… одинокий…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Smoke silhouette — Airin?",
+          "narration": [
+            "Дым."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Два…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Registration duel waiver signed.",
+          "narration": [
+            "Подпись."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Ищу того, кто остановит без клетки."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: wind stops abruptly mid-step.",
+          "narration": [
+            "Ветер стих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…привет…"
+            }
+          ],
+          "sfx": "…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Охотники духов",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Pack hunt: catchers with nets arena lower.",
+          "narration": [
+            "Стая ловцов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Берём живой!"
+            }
+          ],
+          "sfx": "KRAK!"
+        },
+        {
+          "page": 2,
+          "scene": "Zephyrin whirlwind lifts allies away.",
+          "narration": [
+            "Вихрь спасает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Не касайтесь их!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Invulnerability saves from harpoon — can't attack back.",
+          "narration": [
+            "Неуязвимость."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Защита… без объятий…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Whisper captured again — bait.",
+          "narration": [
+            "Приманка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Не возвращайся!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Zephyrin surrenders visibility to save whisper.",
+          "narration": [
+            "Спасает Шёпот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Лучше видима и с другом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Catcher offers cage «for safety».",
+          "narration": [
+            "Клетка «для безопасности»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Мир cruel!"
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Cruel. Ваш бизнес."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Anchor smith alliance — temporary weights.",
+          "narration": [
+            "Временные якоря."
+          ],
+          "dialogue": [
+            {
+              "speaker": "anchorSmith",
+              "text": "Научу стоять. Не быть цепью."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Tornado combined with smoke far — Airin help unseen.",
+          "narration": [
+            "Дым + ветер."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Спасибо… незнакомец…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Still point drawing on sand appears overnight.",
+          "narration": [
+            "Рисунок шtiля."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Кто рисует тишину…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: trio rumor storm moon.",
+          "narration": [
+            "Слух триo."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Дым, ветер, луна!"
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Обнять мир",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mirror: Zephyrin tornado destroys village — fear.",
+          "narration": [
+            "Зеркало: разрушение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Обнять. Значит сломать?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback save whisper — worth visibility pain.",
+          "narration": [
+            "Память спасения."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Ты выбрала нас."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Inner: invulnerability = loneliness.",
+          "narration": [
+            "Одиночество."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Недосягаемость. Пустота."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Still point meeting — child holds her wrist — wind calms.",
+          "narration": [
+            "Ребёнок держит запястье."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…стоп… хорошо…"
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Тишина… тёплая…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Learns partial stop — not anchor, trust.",
+          "narration": [
+            "Частичная остановка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Ты остановил… без клетки…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Catcher breaks still point's toy — rage tornado.",
+          "narration": [
+            "Ярость."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Не трогай его!!!"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 7,
+          "scene": "Regret — apologizes to still point.",
+          "narration": [
+            "Изvinение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Обняла слишком сильно…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Elder watches — proud silently.",
+          "narration": [
+            "Старейшина."
+          ],
+          "dialogue": [
+            {
+              "speaker": "galeElder",
+              "text": "Выбор сделан."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Vow: find stop without cage.",
+          "narration": [
+            "Клятва."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Кто остановит ветер. Услышит меня."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: registration final.",
+          "narration": [
+            "Финал регистрации."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Цена. Быть уязвимой. Согласна."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Вихрь у ворот",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Gates: wind banners snap.",
+          "narration": [
+            "Знамёна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Дыхание против Ловца!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Catcher entrance with cage cart.",
+          "narration": [
+            "Клетка на телеге."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Вернись в стекло!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Gate blades; Zephyrin whirlwind through gaps.",
+          "narration": [
+            "Вихрь сквozь лезвия."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Щель. Мой коридор!"
+            }
+          ],
+          "sfx": "ЖЖЖ!"
+        },
+        {
+          "page": 4,
+          "scene": "Still point in crowd — waves.",
+          "narration": [
+            "Ребёнок машет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…удачи…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Anchor lesson: one breath pause.",
+          "narration": [
+            "Пауза дыхания."
+          ],
+          "dialogue": [
+            {
+              "speaker": "anchorSmith",
+              "text": "Один вдох. Якорь внутри."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Smoke and moon silhouettes in rafters.",
+          "narration": [
+            "Силуэты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Шторм… близко…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Crowd roars — first time she smiles.",
+          "narration": [
+            "Улыbka."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Слышу… не только свист…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Invulnerability test at gate — passes.",
+          "narration": [
+            "Тест."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Почему не ломается?!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Gong scheduled.",
+          "narration": [
+            "Гонг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Завтра. Песок!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: dress fully solid — human.",
+          "narration": [
+            "Платье solid."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Пока."
+            }
+          ],
+          "sfx": "ГOНГ!"
+        }
+      ]
+    },
+    "8": {
+      "title": "Торнадо на песке",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Match vs catcher champion net master.",
+          "narration": [
+            "Бой с мастером сетей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Сети против вихря!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Nets fly; tornado shreds.",
+          "narration": [
+            "Торнадо рвёт сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Сейчас. Вихрь!"
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 3,
+          "scene": "Super invulnerability — walks through nets.",
+          "narration": [
+            "Супер."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Невозможно!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Whisper freed mid-match — joins cheer.",
+          "narration": [
+            "Шёпот свободен."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Зефирин!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Zephyrin stops tornado for still point clap.",
+          "narration": [
+            "Останавливает ветер."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…стоп… красиво…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Wins — catcher exiled.",
+          "narration": [
+            "Победа."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Дыхание победило!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Partial human hug whisper — awkward warm.",
+          "narration": [
+            "Объятие."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Обнять… получилось…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Elder sends blessing wind.",
+          "narration": [
+            "Благословение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "galeElder",
+              "text": "Не возвращайся. Иди дальше."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Storm moon mark.",
+          "narration": [
+            "Знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Три пути…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: Airin and Vittoria silhouettes bow.",
+          "narration": [
+            "Поклон."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": ""
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Дым, ветер, луна",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Backstage storm.",
+          "narration": [
+            "Буря."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Снова клетки?"
+            },
+            {
+              "speaker": "smokeSilhouette",
+              "text": "Союз."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "SILHOUETTE smoke goggles.",
+          "narration": [
+            "Дым."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeSilhouette",
+              "text": "Спасаю врагов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "SILHOUETTE crimson cape.",
+          "narration": [
+            "Луна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "moonSilhouette",
+              "text": "Лечу, не кусаю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Catcher remnant attack.",
+          "narration": [
+            "Атака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Вихрь держит!"
+            }
+          ],
+          "sfx": "KRAK!"
+        },
+        {
+          "page": 5,
+          "scene": "Triangle combo.",
+          "narration": [
+            "Комбо."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Одиночество. Общий враг."
+            }
+          ],
+          "sfx": "BOOM!"
+        },
+        {
+          "page": 6,
+          "scene": "Hunters flee; storm moon mark burned into sand.",
+          "narration": [
+            "Знак на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeSilhouette",
+              "text": "Десятая. Лица."
+            },
+            {
+              "speaker": "moonSilhouette",
+              "text": "И правда."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Vow faces chapter 10.",
+          "narration": [
+            "Клятва."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Остановите меня. Без цепи."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Sky symbols.",
+          "narration": [
+            "Знаки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Буря кровавой луны — слышала."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Depart.",
+          "narration": [
+            "Уход."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": ""
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: still point finds her hand.",
+          "narration": [
+            "Рука."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…друг…"
+            }
+          ],
+          "sfx": "ТИК…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Тот, кто остановит",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Finale Storm Moon.",
+          "narration": [
+            "Финал."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Триo!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR Airin.",
+          "narration": [
+            "Айрин."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Ветер и дым. Одна эскадрилья."
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Посадка мягкая."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR Vittoria.",
+          "narration": [
+            "Виттория."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vittoria",
+              "text": "Луна останавливает кровь."
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "А ты. Мой штиль?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs catchers FULL.",
+          "narration": [
+            "Трое."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Вихрь!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Знак!"
+            },
+            {
+              "speaker": "vittoria",
+              "text": "Луна!"
+            }
+          ],
+          "sfx": "ГOНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Combo supers.",
+          "narration": [
+            "Комбо."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Неуязвимость!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Эвакуация!"
+            },
+            {
+              "speaker": "vittoria",
+              "text": "Кровавая луна!"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 6,
+          "scene": "Still point stops her wind mid-finale — gentle.",
+          "narration": [
+            "Штиль."
+          ],
+          "dialogue": [
+            {
+              "speaker": "stillPoint",
+              "text": "…стоп…"
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Ты… смог…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Catcher guild dissolved.",
+          "narration": [
+            "Расформированы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "catcher",
+              "text": "Клетки… пусты…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Whisper ascends free.",
+          "narration": [
+            "Шёпот уходит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "whisper",
+              "text": "Спасибо."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Scoreboard.",
+          "narration": [
+            "Табло."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Легенда!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "End card: Zephyrin solid, trio wind moon smoke.",
+          "narration": [
+            "Конец."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Обнять мир. Не разбить."
+            },
+            {
+              "speaker": "airin",
+              "text": "Рядом."
+            },
+            {
+              "speaker": "vittoria",
+              "text": "До луны."
+            }
+          ],
+          "sfx": "ВЕТЕР…"
+        }
+      ]
+    }
+  }
+}

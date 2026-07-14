@@ -1,0 +1,1751 @@
+{
+  "brawlerId": "elian",
+  "brawlerName": "Элиан",
+  "lore": "Элиан — ученик обсерватории, который научился сгущать свет в заряды и искривлять гравитацию. Его пальто усеяно звёздами не для красоты: каждая — метка пройденного неба. Он не торопится в бою — ждёт, пока шар созреет, и только тогда отпускает катастрофу.",
+  "skinRef": "public/dev-notes/brawler-skins/elian_skin1.png",
+  "trioId": "starbound-scholars",
+  "trioOthers": [
+    "yuki",
+    "mirabel"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "directorKael": "Директор Каэль — обсерватория, строгий плащ",
+    "orbitEater": "Разведчик пожирателей орбит — трещины в небе",
+    "chartSpirit": "Дух карты — шёпот созвездий",
+    "nova": "Нова — соперник-ученик: зависть к звёздам",
+    "herald": "Глашатай Арены — золотой рупор",
+    "hunterCaptain": "Капитан охотников — белая маска",
+    "shadowVoice": "Голос из тени — союзник без лица"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Elian star coat blue charges gravity vortex, palette #1565C0 #FFD54F #E3F2FD, title ЭЛИАН Cyrillic, NO speech balloons, match elian_skin1.png"
+  },
+  "chapters": {
+    "1": {
+      "title": "Карта над городом",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide: observatory dome over city, star chart projected.",
+          "narration": [
+            "Обсерватория. Карта звёзд над крышами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Элиан, сегодня — последняя калибровка."
+            },
+            {
+              "speaker": "elian",
+              "text": "Калибровка подождёт. Заряд — нет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Close: light condenses into blue orb in palm.",
+          "narration": [
+            "Свет сгущается в шар."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Опять быстрее меня…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Не быстрее. Терпеливее."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback: falling star scarred the district.",
+          "narration": [
+            "Память: падшая звезда опалила квартал."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Тогда я промахнулся. Запомнил."
+            }
+          ],
+          "sfx": "ТРЕСК!"
+        },
+        {
+          "page": 4,
+          "scene": "Chart spirit whispers constellation names.",
+          "narration": [
+            "Дух карты шепчет созвездия."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Орбита рвётся…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Слышу. Смотри на трещину, не на страх."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Orbit eater scout marks sky crack.",
+          "narration": [
+            "Разведчик пожирателей метит небо."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Звёзды — наш ужин."
+            },
+            {
+              "speaker": "elian",
+              "text": "Попробуйте. Я подаю первым."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Night: Elian maps Arena dome on star plate.",
+          "narration": [
+            "Ночь. Купол Арены на звёздной карте."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Арена — не телескоп."
+            },
+            {
+              "speaker": "elian",
+              "text": "Там тоже светят. И глохнут."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Gravity bend lifts telescope — training.",
+          "narration": [
+            "Гравитация поднимает телескоп."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Каэль увидит!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Увидит — значит, поможет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Kael gives sealed Arena invitation.",
+          "narration": [
+            "Каэль даёт приглашение на Арену."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Там ищут тех, кто стреляет далеко."
+            },
+            {
+              "speaker": "elian",
+              "text": "Я стреляю, когда созреет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Orb ripens — violet seam in air.",
+          "narration": [
+            "Шар созревает. Фиолетовый шов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Ещё не время… почти."
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: crack over city mirrors Arena gate.",
+          "narration": [
+            "Трещина над городом — как ворота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Элиан…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Иду."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "2": {
+      "title": "Звезда, что упала",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Cliff edge: fallen star fragment still hot.",
+          "narration": [
+            "Обрыв. Осколок звезды ещё горяч."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Ты снова здесь."
+            },
+            {
+              "speaker": "elian",
+              "text": "Здесь — моя ошибка."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Elian charges orb slowly — won't rush.",
+          "narration": [
+            "Заряд созревает медленно."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Голос с рации: не на арене!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Не на арене — пока."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback: blast burned bridge.",
+          "narration": [
+            "Память: мост сгорел от раннего выстрела."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Рано — значит, больно. Запомнил."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Orbit eater tracks charge signature.",
+          "narration": [
+            "Пожиратель идёт по следу заряда."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Вкусно…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Попробуй — обожжёшься."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 5,
+          "scene": "Gravity vortex deflects first strike.",
+          "narration": [
+            "Воронка отводит удар."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Не спешу. Видишь?"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Nova jealous — steals chart page.",
+          "narration": [
+            "Нова крадёт страницу карты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Тебе всё дают!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Верни. Карта — не трофей."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Chart spirit shows Arena coordinates.",
+          "narration": [
+            "Дух показывает координаты Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Там рвут орбиты…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Значит, чинить там."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Elian packs star-marked coat.",
+          "narration": [
+            "Пальто со звёздами — в дорогу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Вернись живым."
+            },
+            {
+              "speaker": "elian",
+              "text": "Вернусь — когда созреет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night sky: eaten constellation blank.",
+          "narration": [
+            "Созвездие съедено — пустота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Имя исчезло. Я найду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Walks down mountain road to dome.",
+          "narration": [
+            "Спуск к куполу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Глава II. Звезда упала. Я подниму ответ."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Заряд созревает",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Observatory dome interior: orb at full ripeness.",
+          "narration": [
+            "Купол. Шар созрел."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Три вдоха… ещё один…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Nova sabotages lens — Elian catches.",
+          "narration": [
+            "Нова портит линзу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Без тебя — я первый!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Первый — не значит готов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Kael expels Nova for tampering.",
+          "narration": [
+            "Каэль изгоняет Нову."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Прочь!"
+            },
+            {
+              "speaker": "nova",
+              "text": "Элиан… ты…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Orbit eaters breach dome roof.",
+          "narration": [
+            "Пожиратели проламывают купол."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Плata!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Платите зарядом."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 5,
+          "scene": "First full vortex — eaters scattered.",
+          "narration": [
+            "Первая полная воронка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Созрело. Теперь — да."
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 6,
+          "scene": "Chart spirit records new star.",
+          "narration": [
+            "Дух записывает новую звезду."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Имя вернётся…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Вернётся — когда победю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena scouts offer fighter slot.",
+          "narration": [
+            "Разведчики Арены зовут на песок."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Имя на табло?"
+            },
+            {
+              "speaker": "elian",
+              "text": "«Созревший заряд». Пока так."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Nova leaves note: meet on sand.",
+          "narration": [
+            "Записка от Новы: встреча на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Зависть — тоже орбита. Кривая."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Elian marks coat star — passed sky.",
+          "narration": [
+            "Новая звезда на пальто."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Ещё одно небо в кармане."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Dome door opens to Arena road.",
+          "narration": [
+            "Дверь на дорогу Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Глава III. Заряд созревает. Выстрел — потом."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Пожиратели орбит",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Bridge: orbit eaters drain streetlights.",
+          "narration": [
+            "Мост. Пожиратели высасывают фонари."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Город голоден."
+            },
+            {
+              "speaker": "elian",
+              "text": "Я — нет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Civilians frozen in gravity well.",
+          "narration": [
+            "Люди застряли в колодце тяжести."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Держитесь! Отпущу — сейчас!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Orb ripens mid-rescue — controlled release.",
+          "narration": [
+            "Шар созревает в спасении."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Раз… два… — живите."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 4,
+          "scene": "Nova watches from roof — conflicted.",
+          "narration": [
+            "Нова на крыше."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Ты… спас их…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Ты мог помочь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Orbit eater marks Elian coat star.",
+          "narration": [
+            "Пожиратель метит звезду на пальто."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Следую за тобой до Арены."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Chart spirit warns: eater leads to trap.",
+          "narration": [
+            "Ловушка на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Это приманка…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Знаю. Иду всё равно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Kael sends observatory log as evidence.",
+          "narration": [
+            "Журнал обсерватории — доказательство."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Покажи судьям."
+            },
+            {
+              "speaker": "elian",
+              "text": "Покажу. На песке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Register at Arena gate.",
+          "narration": [
+            "Регистрация."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Дальний бой?"
+            },
+            {
+              "speaker": "elian",
+              "text": "Дальний — когда готов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Sky crack pulses over dome.",
+          "narration": [
+            "Трещина пульсирует."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Они жрут небо. Я — ответ."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Chapter IV cliff.",
+          "narration": [
+            "Глава IV."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Пожиратели орбит. Я — полная луна."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Воронка на мосту",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Bridge vortex: gravity spiral on deck.",
+          "narration": [
+            "Воронка на мосту."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Падай!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Сначала — созреет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Nova pushed by eater — Elian saves.",
+          "narration": [
+            "Нову толкнули. Элиан ловит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Зачем?!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Ты — ученик. Не наживка."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Orb finally ripe — violet core.",
+          "narration": [
+            "Ядро фиолетовое. Готово."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Сейчас."
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 4,
+          "scene": "Bridge holds; eater retreats wounded.",
+          "narration": [
+            "Мост цел. Пожиратель отступил."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "На Арене… дожую…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Nova admits sabotage.",
+          "narration": [
+            "Нова признаётся."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Я… боялся остаться вторым…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Второй — не ноль. Вставай."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Citizens name him Star Bridge.",
+          "narration": [
+            "Горожане зовут «Звёздный мост»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Имя прилипло."
+            },
+            {
+              "speaker": "elian",
+              "text": "Имя — не орбита."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena lower tier fight scheduled.",
+          "narration": [
+            "Бой на нижнем круге."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Завтра — песок!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Завтра — если шар готов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night calibration on sand sample.",
+          "narration": [
+            "Калибровка на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Песок тяжелее воздуха. Запомню."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Eater constellation appears on scoreboard.",
+          "narration": [
+            "На табло — созвездие пожирателя."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Зовёт. Отвечу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Walks to lower gate.",
+          "narration": [
+            "К нижним воротам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Глава V. Воронка на мосту — урок."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Вина дальнего выстрела",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Flashback: early shot destroyed observatory wing.",
+          "narration": [
+            "Память: ранний выстрел снёс крыло."
+          ],
+          "dialogue": [
+            {
+              "speaker": "directorKael",
+              "text": "Голос памяти: ты убил троих."
+            },
+            {
+              "speaker": "elian",
+              "text": "Знаю. Поэтому жду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Present: Elian refuses premature release.",
+          "narration": [
+            "Отказывается стрелять рано."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Враг у ворот!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Враг подождёт. Заряд — нет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Orb hums — almost ripe.",
+          "narration": [
+            "Шар гудит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Ещё вдох…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Hunter captain demands instant fight.",
+          "narration": [
+            "Капитан требует бой сейчас."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Толпа ждёт!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Толпа — не мой прицел."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Controlled burst — captain pinned not killed.",
+          "narration": [
+            "Контрольный выброс."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Живи. Расскажи, кто кормит пожирателей."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Chart spirit: guilt star on map.",
+          "narration": [
+            "На карте — звезда вины."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Не неси её вечно…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Несу — пока не исправлю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Kael letter: Nova enrolled as rival.",
+          "narration": [
+            "Нова зарегистрировался соперником."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Значит, встретимся честно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Two oaths on chart edge.",
+          "narration": [
+            "Две клятвы на краю карты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Не рано. Не зря."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Arena tribunal grants voice if wins.",
+          "narration": [
+            "Трибунал: голос победителю."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Победи — говори."
+            },
+            {
+              "speaker": "elian",
+              "text": "Говорить буду зарядом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Steps on sand at dawn.",
+          "narration": [
+            "Рассвет на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Глава VI. Вина — не повод стрелять вслепую."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Первый матч на песке",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Lower ring: Elian vs net sniper.",
+          "narration": [
+            "Нижний круг. Снайпер с сетями."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "«Созревший заряд»!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Зрелый — значит, точный."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Waits three beats — crowd boos.",
+          "narration": [
+            "Три такта тишины. Толпа шумит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Слушайте — не кричите."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Orb ripens — single shot cuts nets.",
+          "narration": [
+            "Один выстрел рвёт сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Сейчас."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 4,
+          "scene": "Nova watches — learns patience.",
+          "narration": [
+            "Нова смотрит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Так… вот почему…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Victory without collateral.",
+          "narration": [
+            "Победа без соседних руин."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Чистый удар!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Так и учили."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Orbit eater offers deal in corridor.",
+          "narration": [
+            "Сделка в коридоре."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Сдай заряд — живи."
+            },
+            {
+              "speaker": "elian",
+              "text": "Живу и без твоих карт."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Child fighter lost constellation tattoo.",
+          "narration": [
+            "У ребёнка стёрли созвездие на коже."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Арена жрёт небо. Я — шов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night: orb practice on sand pillar.",
+          "narration": [
+            "Тренировка на столбе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Хватит."
+            },
+            {
+              "speaker": "elian",
+              "text": "Хватит — когда небо цело."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Signs fight vs Eater Proxy.",
+          "narration": [
+            "Вызов прокси пожирателя."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Первый матч — пройден."
+            }
+          ],
+          "sfx": "ШШШ…"
+        },
+        {
+          "page": 10,
+          "scene": "Upper tier stars align on board.",
+          "narration": [
+            "Звёзды на табло сходятся."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Глава VII. Песок принял заряд."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Созвездие врага",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mid ring: constellation hunter with void cloak.",
+          "narration": [
+            "Средний круг. Охотник созвездий."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Твои звёзды — мои!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Мои — на пальто. Снимай руки."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Blinding void — Elian listens to orb hum.",
+          "narration": [
+            "Пустота ослепляет. Он слушает шар."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Гудит… готово…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Gravity vortex opens behind hunter.",
+          "narration": [
+            "Воронка за спиной врага."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Шаг в трещину — удар из тишины."
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 4,
+          "scene": "Mask cracks — orbit eater scout not lord.",
+          "narration": [
+            "Под маской — разведчик."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Пешка. Главный жрёт выше."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Tribunal queue vs Orbit Lord.",
+          "narration": [
+            "Официальный вызов лорда орбит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Финал близко!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Nova tries to steal ripening orb.",
+          "narration": [
+            "Нова крадёт созревающий шар."
+          ],
+          "dialogue": [
+            {
+              "speaker": "nova",
+              "text": "Я докажу!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Не трогай. Ещё не время."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Hunters mass outside quarters.",
+          "narration": [
+            "Окружение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Сдай карту!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Карта — в голове."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Star rain through window — escape.",
+          "narration": [
+            "Дождь звёзд. Побег."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Буря — впереди."
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 9,
+          "scene": "Rain roof eyes upper tier.",
+          "narration": [
+            "Крыша. Верхний ярус."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Лорд орбит. Песок ждёт."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Chapter VIII end.",
+          "narration": [
+            "Глава VIII."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Созвездие врага — не моё небо."
+            }
+          ],
+          "sfx": "ДОЖДЬ…"
+        }
+      ]
+    },
+    "9": {
+      "title": "Спор трёх путей",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena backstage mist: green/purple/gold fog, roots through floor — SHADOWED trio scene, blue star charge + ice healing + violet pages.",
+          "narration": [
+            "Закулисье. Туман. Три силуэта у трещины в полу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Кто там — без приглашения?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Три пути. Один зал. Выбери."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "ice healer swirl SILHOUETTE and floating spellbook SILHOUETTE flank shadow — NOT full faces, only outlines.",
+          "narration": [
+            "Два силуэта по бокам. Лица скрыты туманом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Ещё охотники?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Охотники на ложь. Не на тебя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Arena hunters attack all three silhouettes; hero strikes to break nets.",
+          "narration": [
+            "Охотники Арены бросаются на силуэты. Герой режет сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Если вы против них — говорите быстрее."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 4,
+          "scene": "Triangle composition: blue star charge + ice healing + violet pages protective circle — silhouettes only.",
+          "narration": [
+            "Три цвета в тумане сходятся в круг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Месть — дорога без выхода."
+            },
+            {
+              "speaker": "elian",
+              "text": "Выход найду сам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Silhouettes hold line while hero strikes hunter captain.",
+          "narration": [
+            "Силуэты держат линию. Герой бьёт капитана."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Троих… невозможно…"
+            },
+            {
+              "speaker": "elian",
+              "text": "Невозможное — мой репертуар."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Quiet vow exchange: three ideas, faces hidden.",
+          "narration": [
+            "Тихий спор: три идеи, лица скрыты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Убьёшь врага — станешь легендой. Или пустотой."
+            },
+            {
+              "speaker": "elian",
+              "text": "Пустота не принимает приглашений."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Sky triangle: snowflake, book page, elian symbol burn into mist.",
+          "narration": [
+            "В небе проступают три знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Три пути. Один враг. Пока сходимся."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Combined strike: hero power + root/light/time thread cuts nets.",
+          "narration": [
+            "Комбо: удар героя, нити союзников, рвутся сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Вместе — до ворот."
+            },
+            {
+              "speaker": "elian",
+              "text": "После — каждый своей дорогой."
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 9,
+          "scene": "Triangle mark burned into Arena sand; herald watches.",
+          "narration": [
+            "На песке — треугольный знак. Глашатай затаил дыхание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Тебя объявят союзником тени!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Объявят — не значит узнают."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Silhouettes depart three ways; hero alone with mark on glove.",
+          "narration": [
+            "Силуэты уходят тремя тропами. На перчатке — знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Спор трёх путей. Ответ — на песке завтра."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Завтра мы снова станем тенью."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Имя на звёздах",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena ceremony wide: golden scoreboard, herald announces trio alliance rumor.",
+          "narration": [
+            "Церемония. Слухи о троице гремят громче барабанов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Верхний круг открыт. Финал — сегодня."
+            },
+            {
+              "speaker": "elian",
+              "text": "Сегодня зал полон. Без пустых стульев."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Yuki steps from portal — match yuki_skin1.png FULL design.",
+          "narration": [
+            "Из портала выходит Юки — полный облик, не силуэт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "yuki",
+              "text": "Лёд помнит твою звезду. Стычка у ворот."
+            },
+            {
+              "speaker": "elian",
+              "text": "Холод — не пустота."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Mirabel descends — match mirabel_skin1.png FULL design.",
+          "narration": [
+            "Спускается Мирабель — полный дизайн, лицо видно."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mirabel",
+              "text": "Книга хранит твои неба. Вместе — до конца."
+            },
+            {
+              "speaker": "elian",
+              "text": "Страницы — не цепи."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs arena hunters on sand — SAME wide composition, all FULL faces.",
+          "narration": [
+            "Трое на песке против охотников. Все лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Слева — сети. Режем вместе."
+            },
+            {
+              "speaker": "yuki",
+              "text": "Иней держит."
+            },
+            {
+              "speaker": "mirabel",
+              "text": "Строка режет."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Team fight: gravity vortex + ice storm + book seal combo layout.",
+          "narration": [
+            "Комбо суперов троих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "yuki",
+              "text": "Буря!"
+            },
+            {
+              "speaker": "mirabel",
+              "text": "Глава!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Upper gate: Orbit Eater descends in full regalia.",
+          "narration": [
+            "Пожиратель спускается с верхнего яруса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "orbitEater",
+              "text": "Звёзды — моя трапеза!"
+            },
+            {
+              "speaker": "elian",
+              "text": "Не сегодня."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena edge debate: three voices, three paths.",
+          "narration": [
+            "Край арены. Три голоса — три пути."
+          ],
+          "dialogue": [
+            {
+              "speaker": "yuki",
+              "text": "Исцеление — терпением."
+            },
+            {
+              "speaker": "mirabel",
+              "text": "Истина — в тексте."
+            },
+            {
+              "speaker": "elian",
+              "text": "Мой путь — мой выбор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night sky: observatory dome + mountain temple + library light merge over Arena dome.",
+          "narration": [
+            "Ночное небо: мотивы троицы сливаются над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "chartSpirit",
+              "text": "Не неси вину как второе созвездие."
+            },
+            {
+              "speaker": "elian",
+              "text": "Ношу память. Маску сниму."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final splash: trio vs enemy wave — hero leads.",
+          "narration": [
+            "Финальный залп: герой ведёт, союзники прикрывают."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Вперёд!"
+            },
+            {
+              "speaker": "orbitEater",
+              "text": "Орбиты сожрут вас!"
+            },
+            {
+              "speaker": "mirabel",
+              "text": "Не сегодня!"
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "End card: hero walks forward, trio behind, wind takes token.",
+          "narration": [
+            "Конец главы X. Знак уносит ветер — не прощание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "elian",
+              "text": "Имя на табло — не конец."
+            },
+            {
+              "speaker": "yuki",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "mirabel",
+              "text": "До конца пути."
+            }
+          ],
+          "sfx": "ВЕТЕР…"
+        }
+      ]
+    }
+  }
+}

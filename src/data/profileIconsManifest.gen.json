@@ -1,0 +1,530 @@
+[
+  {
+    "id": "gen:001",
+    "label": "Звезда",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_001.png"
+  },
+  {
+    "id": "gen:002",
+    "label": "Череп",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_002.png"
+  },
+  {
+    "id": "gen:003",
+    "label": "Коготь",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_003.png"
+  },
+  {
+    "id": "gen:004",
+    "label": "Щит",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_004.png"
+  },
+  {
+    "id": "gen:005",
+    "label": "Молния",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_005.png"
+  },
+  {
+    "id": "gen:006",
+    "label": "Кристалл",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_006.png"
+  },
+  {
+    "id": "gen:007",
+    "label": "Дракон",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_007.png"
+  },
+  {
+    "id": "gen:008",
+    "label": "Призрак",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_008.png"
+  },
+  {
+    "id": "gen:009",
+    "label": "Ракета",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_009.png"
+  },
+  {
+    "id": "gen:010",
+    "label": "Корона",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_010.png"
+  },
+  {
+    "id": "gen:011",
+    "label": "Луна",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_011.png"
+  },
+  {
+    "id": "gen:012",
+    "label": "Солнце",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_012.png"
+  },
+  {
+    "id": "gen:013",
+    "label": "Волна",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_013.png"
+  },
+  {
+    "id": "gen:014",
+    "label": "Пламя",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_014.png"
+  },
+  {
+    "id": "gen:015",
+    "label": "Лёд",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_015.png"
+  },
+  {
+    "id": "gen:016",
+    "label": "Лист",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_016.png"
+  },
+  {
+    "id": "gen:017",
+    "label": "Глаз",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_017.png"
+  },
+  {
+    "id": "gen:018",
+    "label": "Ключ",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_018.png"
+  },
+  {
+    "id": "gen:019",
+    "label": "Колокол",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_019.png"
+  },
+  {
+    "id": "gen:020",
+    "label": "Флаг",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_020.png"
+  },
+  {
+    "id": "gen:021",
+    "label": "Якорь",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_021.png"
+  },
+  {
+    "id": "gen:022",
+    "label": "Перо",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_022.png"
+  },
+  {
+    "id": "gen:023",
+    "label": "Кольцо",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_023.png"
+  },
+  {
+    "id": "gen:024",
+    "label": "Кубик",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_024.png"
+  },
+  {
+    "id": "gen:025",
+    "label": "Робот",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_025.png"
+  },
+  {
+    "id": "gen:026",
+    "label": "НЛО",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_026.png"
+  },
+  {
+    "id": "gen:027",
+    "label": "Книга",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_027.png"
+  },
+  {
+    "id": "gen:028",
+    "label": "Маска",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_028.png"
+  },
+  {
+    "id": "gen:029",
+    "label": "Крыло",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_029.png"
+  },
+  {
+    "id": "gen:030",
+    "label": "Лапа",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_030.png"
+  },
+  {
+    "id": "gen:031",
+    "label": "Комета",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_031.png"
+  },
+  {
+    "id": "gen:032",
+    "label": "Планета",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_032.png"
+  },
+  {
+    "id": "gen:033",
+    "label": "Метеор",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_033.png"
+  },
+  {
+    "id": "gen:034",
+    "label": "Трофей",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_034.png"
+  },
+  {
+    "id": "gen:035",
+    "label": "Медаль",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_035.png"
+  },
+  {
+    "id": "gen:036",
+    "label": "Сердце",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_036.png"
+  },
+  {
+    "id": "gen:037",
+    "label": "Лук",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_037.png"
+  },
+  {
+    "id": "gen:038",
+    "label": "Меч",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_038.png"
+  },
+  {
+    "id": "gen:039",
+    "label": "Лук",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_039.png"
+  },
+  {
+    "id": "gen:041",
+    "label": "Портал",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_041.png"
+  },
+  {
+    "id": "gen:042",
+    "label": "Руна",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_042.png"
+  },
+  {
+    "id": "gen:043",
+    "label": "Тотем",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_043.png"
+  },
+  {
+    "id": "gen:044",
+    "label": "Кристалл-2",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_044.png"
+  },
+  {
+    "id": "gen:045",
+    "label": "Нова",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_045.png"
+  },
+  {
+    "id": "gen:046",
+    "label": "Пульсар",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_046.png"
+  },
+  {
+    "id": "gen:047",
+    "label": "Туман",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_047.png"
+  },
+  {
+    "id": "gen:048",
+    "label": "Шторм",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_048.png"
+  },
+  {
+    "id": "gen:049",
+    "label": "Сакура",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_049.png"
+  },
+  {
+    "id": "gen:050",
+    "label": "Оникс",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_050.png"
+  },
+  {
+    "id": "gen:051",
+    "label": "Янтарь",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_051.png"
+  },
+  {
+    "id": "gen:052",
+    "label": "Нефрит",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_052.png"
+  },
+  {
+    "id": "gen:053",
+    "label": "Рубин",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_053.png"
+  },
+  {
+    "id": "gen:054",
+    "label": "Сапфир",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_054.png"
+  },
+  {
+    "id": "gen:055",
+    "label": "Аметист",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_055.png"
+  },
+  {
+    "id": "gen:056",
+    "label": "Опал",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_056.png"
+  },
+  {
+    "id": "gen:057",
+    "label": "Феникс",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_057.png"
+  },
+  {
+    "id": "gen:058",
+    "label": "Ворон",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_058.png"
+  },
+  {
+    "id": "gen:060",
+    "label": "Волк",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_060.png"
+  },
+  {
+    "id": "gen:061",
+    "label": "Лиса",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_061.png"
+  },
+  {
+    "id": "gen:062",
+    "label": "Кот",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_062.png"
+  },
+  {
+    "id": "gen:063",
+    "label": "Сова",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_063.png"
+  },
+  {
+    "id": "gen:064",
+    "label": "Змея",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_064.png"
+  },
+  {
+    "id": "gen:065",
+    "label": "Краб",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_065.png"
+  },
+  {
+    "id": "gen:066",
+    "label": "Осьминог",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_066.png"
+  },
+  {
+    "id": "gen:067",
+    "label": "Рыба",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_067.png"
+  },
+  {
+    "id": "gen:068",
+    "label": "Акула",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_068.png"
+  },
+  {
+    "id": "gen:069",
+    "label": "Кит",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_069.png"
+  },
+  {
+    "id": "gen:070",
+    "label": "Черепаха",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_070.png"
+  },
+  {
+    "id": "gen:071",
+    "label": "Жук",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_071.png"
+  },
+  {
+    "id": "gen:072",
+    "label": "Паук",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_072.png"
+  },
+  {
+    "id": "gen:073",
+    "label": "Гриб",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_073.png"
+  },
+  {
+    "id": "gen:074",
+    "label": "Цветок",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_074.png"
+  },
+  {
+    "id": "gen:075",
+    "label": "Дерево",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_075.png"
+  },
+  {
+    "id": "gen:076",
+    "label": "Гора",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_076.png"
+  },
+  {
+    "id": "gen:077",
+    "label": "Вулкан",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_077.png"
+  },
+  {
+    "id": "gen:078",
+    "label": "Песок",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_078.png"
+  },
+  {
+    "id": "gen:079",
+    "label": "Снег",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_079.png"
+  },
+  {
+    "id": "gen:080",
+    "label": "Радуга",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_080.png"
+  },
+  {
+    "id": "gen:081",
+    "label": "Облако",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_081.png"
+  },
+  {
+    "id": "gen:082",
+    "label": "Гром",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_082.png"
+  },
+  {
+    "id": "gen:083",
+    "label": "Вихрь",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_083.png"
+  },
+  {
+    "id": "gen:084",
+    "label": "Ореол",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_084.png"
+  },
+  {
+    "id": "gen:085",
+    "label": "Сигил",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_085.png"
+  },
+  {
+    "id": "gen:086",
+    "label": "Печать",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_086.png"
+  },
+  {
+    "id": "gen:087",
+    "label": "Амулет",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_087.png"
+  },
+  {
+    "id": "gen:088",
+    "label": "Талисман",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_088.png"
+  },
+  {
+    "id": "gen:089",
+    "label": "Капсула",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_089.png"
+  },
+  {
+    "id": "gen:090",
+    "label": "Чип",
+    "category": "misc",
+    "image": "/profile-icons/gen/gen_090.png"
+  }
+]

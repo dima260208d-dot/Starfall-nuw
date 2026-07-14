@@ -1,0 +1,23 @@
+=== GORO COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO GORO (every page): match goro_skin1.png ONLY — giant bearded barbarian, dual battle axes, fur and leather armor, orange rage eyes, massive build. NOT any NPC face.
+
+braggi — UNIQUE: elderly dwarf-like blacksmith, GREY BEARD to waist, leather apron, massive FORGING HAMMER not axe, burn scars on arms, one blind milky eye, NOT young, NOT Goro size.
+
+skald — UNIQUE: thin lanky bard, LONG BRAIDED HAIR with bone beads, wooden LYRE harp, facial ritual SCARS in patterns, colorful patchwork cloak, NOT armored, NOT bearded giant.
+
+krell — UNIQUE: clan hunter, BONE ARMOR plates stitched together, antler headdress, wolf-pelt cape, sharp cheekbones, cold hunter eyes, bow on back, NOT axes, NOT Goro.
+
+totemKeeper — UNIQUE: tall shaman, carved BEAR MASK covering full face, wooden staff with raven skull, feathered mantle, silent posture, NO visible human face.
+
+herald — UNIQUE: arena announcer MAN, shaved head with NORTH STAR tattoo, brass HORN not megaphone, fur-trimmed arena coat blue-gold, NOT woman herald from Hana comic.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher grey hood — same role different comic OK if identical design from hana lock.
+
+shadowVoice ch9 — silhouettes only: ronin (katana) + hana (pink medic pistol) — NO faces.
+
+ronin ch10 — match ronin_skin1.png FULL color.
+
+hana ch10 — match hana_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

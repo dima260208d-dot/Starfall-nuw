@@ -1,0 +1,23 @@
+=== SORA COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO SORA (every page): match sora_skin1.png ONLY — young male court mage, blue star robe, floating spellbook, dark hair, NOT any NPC face.
+
+archivistLune — UNIQUE: elderly WOMAN archivist, silver MOON-SHAPED SPECTACLES, long white hair in bun, dark blue archivist robe with star embroidery, gentle stern eyes, NOT male, NOT inquisitor mask.
+
+inquisitorVex — UNIQUE: tall inquisitor, smooth WHITE MASK with gold STAR emblem on forehead, black inquisitor coat, burning rune torch in hand, NO visible face, NOT hunterCaptain design exactly but similar white mask with STAR not blank.
+
+starApprentice — UNIQUE: young BOY apprentice age 14, plain brown apprentice robe, nervous wide eyes, short messy hair, NO mask, NOT Sora age look-alike.
+
+observatoryGuard — UNIQUE: palace guard MAN, bronze SPEAR with court seal banner, blue-gold uniform plumed helmet, square jaw, NOT arena herald.
+
+herald — UNIQUE: arena announcer WOMAN, short PLATINUM BLONDE hair, SILVER megaphone, indigo arena coat with comet patch, NOT Goro/Hana herald designs.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher grey hood.
+
+shadowVoice ch9 — silhouettes only: zafkiel (clock/time shapes) + verdeletta (vine/leaf shapes) — NO faces.
+
+zafkiel ch10 — match zafkiel_skin1.png FULL color.
+
+verdeletta ch10 — match verdeletta_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

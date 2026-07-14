@@ -1,0 +1,66 @@
+[
+  {
+    "file": "pin_sheets/game_sheet_common_1.png",
+    "ids": ["g_coin_stack", "g_sword", "g_shield", "g_star", "g_fire", "g_ice", "g_bolt", "g_skull"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_common_2.png",
+    "ids": ["g_clover", "g_target", "g_flag", "g_bell", "g_key", "g_book", "g_music", "g_ball"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_common_3.png",
+    "ids": ["g_pizza", "g_coffee", "g_dragon", "g_wolf", "g_eagle", "g_gem", "g_crown", "g_rocket"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_common_4.png",
+    "ids": ["g_ufo", "g_ghost", "g_alien", "g_robot", "g_pirate", "g_ninja", "g_wizard", "g_viking"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_common_5.png",
+    "ids": ["g_phoenix", "g_kraken", "g_unicorn", "g_comet", "g_blackhole", "g_trophy", "g_medal", "g_champion"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_common_6.png",
+    "ids": ["g_boss", "g_demon", "g_angel", "g_rainbow", "g_legend", "g_mythic", "g_void", "g_time"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_common_7.png",
+    "ids": ["g_chaos", "g_order", "g_infinity", "g_glitch", "g_nebula", "g_eclipse", "g_gold_king", "g_gold_dragon"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_common_8.png",
+    "ids": ["g_gold_star", "g_gold_gem", "g_gold_crown", "g_gold_legend"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_rare_1.png",
+    "ids": ["g2_blade", "g2_hammer", "g2_bow", "g2_dagger", "g2_axe", "g2_spear", "g2_cat", "g2_bear"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_rare_2.png",
+    "ids": ["g2_shark", "g2_spider", "g2_falcon", "g2_cobra", "g2_tiger", "g2_panther", "g2_stag"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_epic_1.png",
+    "ids": ["g2_inferno", "g2_blizzard", "g2_storm", "g2_nature", "g2_shadow", "g2_light", "g2_poison", "g2_crystal"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_epic_2.png",
+    "ids": ["g2_meteor", "g2_tsunami", "g2_plasma", "g2_gravity"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_unique_1.png",
+    "ids": ["g2_overlord", "g2_seraph", "g2_reaper", "g2_titan", "g2_phantom", "g2_spectre", "g2_wraith", "g2_oracle"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_unique_2.png",
+    "ids": ["g2_harbinger", "g2_colossus", "g2_nova", "g2_zenith", "g2_abyss", "g2_prism", "g2_vortex"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_golden_1.png",
+    "ids": ["g2_gold_blade", "g2_gold_phoenix", "g2_gold_crown", "g2_gold_skull", "g2_gold_wings", "g2_gold_flame", "g2_gold_eye", "g2_gold_fist"]
+  },
+  {
+    "file": "pin_sheets/game_sheet_golden_2.png",
+    "ids": ["g2_gold_scales", "g2_gold_halo", "g2_gold_coin", "g2_gold_heart", "g2_gold_star", "g2_gold_dragon", "g2_gold_god"]
+  }
+]

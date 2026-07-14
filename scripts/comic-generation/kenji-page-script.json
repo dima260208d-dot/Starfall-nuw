@@ -1,0 +1,1918 @@
+{
+  "brawlerId": "kenji",
+  "brawlerName": "Кендзи",
+  "lore": "Кендзи — гениальный изобретатель, выгнанный из университета за «слишком опасные эксперименты». Его электрошокеры собраны из деталей старых автоматов, а молнии прыгают между врагами как живые. Он выходит на арену, чтобы доказать, что был прав.",
+  "skinRef": "public/dev-notes/brawler-skins/kenji_skin1.png",
+  "trioId": "forge-swarm",
+  "trioOthers": [
+    "taro",
+    "oliver"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "professorVeldt": "Профессор Вельдт — латунный монокль, изгнал Кендзи, голос как сухой ток",
+    "labKoji": "Кодзи — лаборант, дрожащие руки, верит в опыт больше, чем в приказы",
+    "droneCommander": "Командир дронов — гарнитура совета, без лица за визором",
+    "patentThief": "Вор патентов — чемодан чертежей, улыбка торговца чужими идеями",
+    "arenaTech": "Техник Арены — каска, кабели, боится искр и восхищается ими",
+    "sisterMio": "Сестра Мио — младшая, чинит провода, боится, что брат сгорит от правоты",
+    "koto": "Глашатай Кото — мегафон над решёткой турнира",
+    "shadowVoice": "Голос из тени — союзник трио, лицо скрыто до десятой главы",
+    "taro": "Таро — старый инженер, гаечный ключ, турели держат проход",
+    "oliver": "Оливер — механические жуки, репликатор, память о брате в машине"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Кендзи yellow suit with electric gauntlets, university lab sparks, lightning chain between enemies, palette #F9A825 #212121 #40C4FF, title КЕНДЗИ Cyrillic, NO speech balloons, match kenji_skin1.png"
+  },
+  "chapters": {
+    "1": {
+      "title": "Лаборатория искр",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide dawn: university mechanism lab, copper coils, yellow safety lamps, chalk formulas on blackboards.",
+          "narration": [
+            "Университет опасных механизмов просыпается раньше профессоров. Воздух пахнет озоном и молодой дерзостью."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Кендзи, счётчик снова прыгает за красную линию!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Отодвинься. Я знаю, что делаю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Close-up: Kenji welds shock gauntlets from vending machine solenoids and arcade coin slots.",
+          "narration": [
+            "Электрошокеры рождаются из хлама старых автоматов. Каждая деталь помнит чужие монеты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Монетник давал разряд чище, чем ваш лицензированный ствол."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Ты опять разговариваешь с железом, как с другом."
+            }
+          ],
+          "sfx": "ЖЖЖ!"
+        },
+        {
+          "page": 3,
+          "scene": "Balcony: Professor Veldt watches through smoked glass, arms folded, council badge gleaming.",
+          "narration": [
+            "Профессор Вельдт смотрит сверху — как судья, который уже вынес приговор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Запишите амплитуду. Завтра спросят, кто разрешил."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Он не разрешает. Он собирает доказательства."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Training floor: Kenji tests gauntlet on ceramic dummy; hairline cracks spider outward.",
+          "narration": [
+            "Керамический манекен трескается. Удар выходит ровным — почти хирургическим."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Ещё два вольта — и трещина скажет, кто прав."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Кому? Совету или городу?"
+            }
+          ],
+          "sfx": "ТРЕСК!"
+        },
+        {
+          "page": 5,
+          "scene": "Hologram call: Sister Mio in hospital scrubs, worried smile, city skyline behind.",
+          "narration": [
+            "Сестра Мио звонит между сменами. За её плечом — больница, где ломаются клятвы молчания."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Ты опять не спал. Глаза жёлтее плаща."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Плащ хотя бы не просит больничный."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Triple-target rig: three metal posts; first arc leaps post to post like hunting cat.",
+          "narration": [
+            "Первая цепная молния прыгает между стойками. Лаборатория на секунду становится джунглями света."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Она… выбирает следующую цель сама!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Не цель — маршрут. Наименьшее сопротивление."
+            }
+          ],
+          "sfx": "ВЗРЫВ!"
+        },
+        {
+          "page": 7,
+          "scene": "Night exterior: campus substation flickers; Kenji reroutes surge through handmade coil array.",
+          "narration": [
+            "Ночной квартал гаснет. Кендзи перенаправляет перегрузку — город получает второй вдох."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Если бы мы ждали разрешения, здесь пахло бы горелым проводом."
+            },
+            {
+              "speaker": "professorVeldt",
+              "text": "Ты спас улицу и поставил крест на карьере."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Veldt office: incident report stamped DANGEROUS; coffee untouched.",
+          "narration": [
+            "Отчёт ложится на стол, как приговор. Кофе остывает — единственный честный свидетель."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Твой талант не спорит. Спорит твоя совесть."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Совесть у меня в катушках, не в ваших печатях."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Kenji alone sketches chain paths on glass wall; Mio reflection in pane.",
+          "narration": [
+            "На стекле — схемы, похожие на карту молний. В отражении — лицо сестры."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Вернись домой хотя бы на один ужин."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Когда докажу, что искра лечит, а не только кусает."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Council summons scroll arrives by drone claw on lab window; red seal.",
+          "narration": [
+            "По окну стучит дрон с повесткой совета. Печать краснее рассвета."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Это не приглашение. Это крюк."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Пусть смотрят, на что способен крюк."
+            }
+          ],
+          "sfx": "ДЗЫНЬ!"
+        }
+      ]
+    },
+    "2": {
+      "title": "Изгнание с чертежами",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Council chamber: circular table, holographic city model, professors in grey robes.",
+          "narration": [
+            "Зал совета. Город на голограмме выглядит безопасным — пока не знаешь цену тока."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Кендзи Такэда. Ваш эксперимент едва не сжёг восточный квартал."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Он погасил пожар в кабелях. Вы называете это «едва»."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Evidence wall: scorched wire photos beside Kenji blueprint overlays matching perfectly.",
+          "narration": [
+            "Фото обгоревших проводов рядом с его чертежами. Совпадение пугает сильнее ошибки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "droneCommander",
+              "text": "Совет требует образцы устройств."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Образцы — в моих руках. Решение — в ваших."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback inset: blackout night, Kenji knee-deep in sparking trench, workers cheering.",
+          "narration": [
+            "Воспоминание: он в траншее, искры режут дождь. Рабочие кричат «держит!»"
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Ещё один контур — и детская больница не останется во тьме."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Ты сделал то, что их генераторы не смогли."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 4,
+          "scene": "Veldt slams expulsion decree; Kenji student badge cracks on floor.",
+          "narration": [
+            "Печать изгнания бьёт по столу. Студенческий жетон трескается — как кость."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Университет не станет полигоном для твоей гордыни."
+            },
+            {
+              "speaker": "kenji",
+              "text": "А город не станет кладбищем вашей осторожности."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Hallway: Koji blocks security drones, arms spread, small but stubborn.",
+          "narration": [
+            "Кодзи встаёт между дронами и другом. Ростом — в провод, характером — в балку."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Забирайте меня. Он уже отдал вам всё, кроме пальцев."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Не геройствуй. Мне нужен тот, кто ещё поверит в схему."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Dorm room: Kenji packs gauntlets in oilcloth; wall bare of posters.",
+          "narration": [
+            "Комната пустеет быстрее, чем он успевает прощаться с собой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Чертежи в голове. Детали в рюкзаке."
+            },
+            {
+              "speaker": "sisterMio",
+              "text": "Мама бы сказала: гордость не греет ночью."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Confiscation scene: council aides seize rolled blueprints; Kenji palm hidden copy.",
+          "narration": [
+            "Уносят свитки схем. В рукаве у Кендзи остаётся тонкая копия — как запасная жизнь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "droneCommander",
+              "text": "Любая публикация — уголовная статья."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Опубликую на песке, где ваши печати не дотягиваются."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Campus gate rain: Mio hands insulated lunchbox and patched scarf.",
+          "narration": [
+            "Дождь бьёт по воротам. Мио протягивает обед и шарф, сшитый из старых униформ."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Ешь. Даже гении садятся от голода."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Я вернусь с правом подписывать чертежи своим именем."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Under bridge workshop: Kenji rebuilds coil on crate; neon Arena ad flickers.",
+          "narration": [
+            "Под мостом он собирает катушку на ящике. Реклама Арены мигает, как второй суд."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Двери закрыты — найду окно с прожекторами."
+            },
+            {
+              "speaker": "koto",
+              "text": "Голос с билборда: «Докажи на песке — и город запомнит»."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Close: stolen blueprint unrolls — clause for Lightning Cage public trial highlighted.",
+          "narration": [
+            "Копия раскрывается. Строка о публичном испытании клетки молний подчёркнута молнией."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Клетка. Значит, поставят на вид у всего мира."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Тогда не дай им смотреть на твою искру как на преступление."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Цепь на экзамене",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Underground inventor exam hall: iron bleachers, jury booths, illegal patent banners.",
+          "narration": [
+            "Подпольный экзамен изобретателей. Здесь честь измеряют вольтами, не дипломами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patentThief",
+              "text": "Малыш с катушками… покажешь трюк или сбежишь?"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Покажу цепь. Сбегать будете вы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Registration desk: Kenji signs alias Spark Route; oilcloth gauntlets scanned.",
+          "narration": [
+            "Псевдоним: «Искровой маршрут». Сканер шипит, не узнавая лицензии."
+          ],
+          "dialogue": [
+            {
+              "speaker": "arenaTech",
+              "text": "Без печати совета — только нижняя лига."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Нижняя лига ближе к земле. Мне удобнее."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "First bout: opponent with polished corporate gauntlets; crowd jeers homemade gear.",
+          "narration": [
+            "Противник с глянцевыми перчатками смеётся. Толпа пахнет дорогим маслом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Твоя броня красивая. Моя — честная."
+            },
+            {
+              "speaker": "patentThief",
+              "text": "Красота тоже продаётся. Дешевле, чем ты думаешь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Opening clash: single arc cracks corporate visor; jury leans forward.",
+          "narration": [
+            "Один разряд трещит по визору. Жюри встаёт — как на исповеди."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Один удар — один вопрос: кто разрешил тебе врать?"
+            },
+            {
+              "speaker": "patentThief",
+              "text": "Тот, кто платит за твою лицензию."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 5,
+          "scene": "Intermission: Patent Thief offers buyout contract over fried street food.",
+          "narration": [
+            "Вор патентов сунет контракт под нос. Между строк пахнет кражей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patentThief",
+              "text": "Подпиши — и совет забудет твоё имя."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Забудут — не значит простят. Нет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Semifinal stage: four metal mannequins in square; Kenji coils glow cyan.",
+          "narration": [
+            "Четыре манекена. Катушки светятся холодным голубым — цвет надежды."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Я пробрался смотреть! Не сожги зал!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Сожгу только их уверенность."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Chain lightning demo: arcs hunt each dummy in sequence; crowd silent then erupts.",
+          "narration": [
+            "Молния перескакивает по кругу. Зал сначала молчит, потом взрывается криком."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Видите? Ток считает врагов быстрее вас."
+            },
+            {
+              "speaker": "arenaTech",
+              "text": "Записываю. Совету это не понравится."
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 8,
+          "scene": "Rafter cam drone with council crest films; Veldt live-feed inset on wall screen.",
+          "narration": [
+            "Дрон совета пишет каждую искру. На экране — лицо Вельдта, сжатое как пружина."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Остановите запись. Он покупает себе казнь зрелищем."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Пусть смотрят. Зритель дешевле тьмы в квартале."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final: Kenji wins; jury brands him DANGEROUS GENIUS on hologram badge.",
+          "narration": [
+            "Победа. Голограмма вешает ярлык: «Опасный гений»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patentThief",
+              "text": "Ярлык — это скидка на твою свободу."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Свобода не продаётся. Особенно вам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Back alley: Arena scout hands official lightning trial invitation envelope.",
+          "narration": [
+            "Скаут Арены вручает конверт. Внутри — приглашение на испытание клетки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "arenaTech",
+              "text": "Подпиши — и весь город увидит твою правду."
+            },
+            {
+              "speaker": "kenji",
+              "text": "И их ложь тоже. Честный обмен."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "4": {
+      "title": "Контракт клетки",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Law office booth: lightning cage contract glows on tablet; fine print crawls.",
+          "narration": [
+            "Контракт светится строчками, как змея. Каждый пункт — зуб."
+          ],
+          "dialogue": [
+            {
+              "speaker": "arenaTech",
+              "text": "Провал — пожизненный запрет на публикации схем."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Успех — право говорить вслух то, что вы зажали в архивах."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Clause close-up: PUBLIC TRIAL IN LIGHTNING CAGE before world broadcast.",
+          "narration": [
+            "Строка о публичном испытании в клетке молний занимает полэкрана."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Трансляция на все купола. Ошибка станет мемом."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Пусть мемом станет их трусость."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Mio apartment: siblings at kitchen table; contract between tea cups.",
+          "narration": [
+            "Кухня. Между чашками лежит контракт — третий гость."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Ты хочешь доказать правоту или просто ударить совет в лицо?"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Хочу, чтобы следующий Кодзи не выгнали за спасение улицы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Veldt hologram warns: cage built to contain, not celebrate.",
+          "narration": [
+            "Вельдт появляется голограммой — сухой, как пергамент."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Клетка создана, чтобы держать тебя, не слушать."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Тогда заставлю её говорить за меня."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Kenji signs with gauntlet spark sealing wax; camera drones flash.",
+          "narration": [
+            "Печать воска вспыхивает от искры перчатки. Дроны ловят каждый жест."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Подпись стоит одного риска — остаться правым без голоса."
+            },
+            {
+              "speaker": "arenaTech",
+              "text": "Дата через две недели. Готовь катушки."
+            }
+          ],
+          "sfx": "ВСПЫШКА!"
+        },
+        {
+          "page": 6,
+          "scene": "Patent Thief in parking garage offers forged exit clause.",
+          "narration": [
+            "В паркинге вор патентов суёт поддельный пункт выхода."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patentThief",
+              "text": "Подпиши мою копию — и сбежишь до клетки."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Бегство — тоже подпись. На чужой стороне."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Night calibration: Kenji tunes chain timing on rooftop between billboards.",
+          "narration": [
+            "На крыше он настраивает тайминг цепи. Город гудит, как неисправный трансформатор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Я принёс конденсаторы. Не спрашивай откуда."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Спрошу позже. Сейчас — благодарю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Dream panel: cage bars made of confiscated blueprints burning.",
+          "narration": [
+            "Сон: решётка из сожжённых чертежей. Пепел пахнет чернилами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Ты дрожишь. Проснись."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Дрожь — не страх. Ток ищет выход."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Drone Commander surveillance memo: TARGET CONFIRMED FOR CAGE.",
+          "narration": [
+            "Меморандум дронов: цель подтверждена. Слово «клетка» подчёркнуто дважды."
+          ],
+          "dialogue": [
+            {
+              "speaker": "droneCommander",
+              "text": "До трансляции он должен быть сломан."
+            },
+            {
+              "speaker": "professorVeldt",
+              "text": "Сломанный гений никому не нужен. Нужен пример."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Kenji pins signed contract above workbench; lightning silhouette on wall.",
+          "narration": [
+            "Контракт висит над верстаком. Тень молнии на стене — как обещание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Клетка ждёт. Принесу в неё расчёт, не ярость."
+            },
+            {
+              "speaker": "koto",
+              "text": "Город уже покупает билеты на твой суд."
+            }
+          ],
+          "sfx": "ГУЛ…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Дроны совета",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Scrapyard dawn: council security drones descend in V formation over rust heaps.",
+          "narration": [
+            "На свалке дроны спускаются клином. Металл под ними помнит чужие войны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "droneCommander",
+              "text": "Кендзи Такэда. Сдайте катушки без цепи."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Цепь — единственное, что у меня не просит разрешения."
+            }
+          ],
+          "sfx": "ЖЖЖ!"
+        },
+        {
+          "page": 2,
+          "scene": "Chase panel: Kenji slides under crane shadow; bolt ricochet off steel drum.",
+          "narration": [
+            "Он ныряет под кран. Разряд рикошетит от бочки — искры сыплются дождём."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Ваши дроны тяжёлые. Мой ток — лёгкий."
+            },
+            {
+              "speaker": "droneCommander",
+              "text": "Лёгкий ток не спасёт тебя от протокола."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 3,
+          "scene": "Koji remote message: drone cooling vent marked on wrist projector.",
+          "narration": [
+            "Кодзи шлёт схему: вентиляция охлаждения — слабое горло."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Бей сюда. Я видел их в лаборатории!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Вижу. Не подведи руку, друг."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Chain lightning between three drones; one falls smoking, others stagger.",
+          "narration": [
+            "Молния перескакивает по трём корпусам. Один падает, остальные рябят."
+          ],
+          "dialogue": [
+            {
+              "speaker": "droneCommander",
+              "text": "Невозможная точность для самоучки!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Самоучка учится на ваших ошибках."
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 5,
+          "scene": "Veldt watches from command van; orders non-lethal only on screen.",
+          "narration": [
+            "В фургоне Вельдт жмёт «без летального». Губы белые."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Не убивайте. Совет хочет покаяния, не труп."
+            },
+            {
+              "speaker": "droneCommander",
+              "text": "Покаяние можно записать. Поражение — тоже."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Kenji spares courier drone carrying Koji student ID tag caught on chassis.",
+          "narration": [
+            "Курьерский дрон шатается. На корпусе застрял жетон Кодзи."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Этот летит домой. Остальные — за мной."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Ты… пощадил их почту?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Patent Thief loots fallen drone core; Kenji confronts.",
+          "narration": [
+            "Вор патентов вырывает ядро. Кендзи хватает за запястье."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patentThief",
+              "text": "Совет заплатит за это сердце!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Сердце не товар. Отпускай, пока ток не решил за нас."
+            }
+          ],
+          "sfx": "ШШШ!"
+        },
+        {
+          "page": 8,
+          "scene": "Mio bandages Kenji arm in scrap tunnel; distant rotor hum.",
+          "narration": [
+            "Мио перевязывает руку в тоннеле. Гул роторов — как далёкий гром."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Ты снова выбрал драку вместо сна."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Выбрал тех, кого ещё можно вернуть в лабораторию."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Commander reports failure; Veldt crumples report, orders cage prep accelerated.",
+          "narration": [
+            "Доклад рвётся в кулаке. Клетку ускоряют — страх быстрее расписания."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Если он победит на песке, наш авторитет — пепел."
+            },
+            {
+              "speaker": "droneCommander",
+              "text": "Тогда сожжём его репутацию раньше эфира."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Kenji salvages drone coil; yellow cloak whips in rotor wind cliffhanger.",
+          "narration": [
+            "Он снимает катушку с обломка. Плащ хлещет ветром — флаг без герба."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Дроны сломаны. Совет пришлёт слова. Я отвечу молнией."
+            },
+            {
+              "speaker": "koto",
+              "text": "До клетки — пять дней. Город считает."
+            }
+          ],
+          "sfx": "ВИИИ!"
+        }
+      ]
+    },
+    "6": {
+      "title": "Совесть в катушке",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Dim workshop: Kenji opens palm coil housing; inner copper glows like heartbeat.",
+          "narration": [
+            "Катушка на ладони пульсирует. Совесть нашла себе металлический дом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Ток без меры — хищник. С мерой — инструмент."
+            },
+            {
+              "speaker": "sisterMio",
+              "text": "Инструмент тоже ранит, если дрожит рука."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback: early test scorches lab bench; junior tech yelps, sleeve smoking.",
+          "narration": [
+            "Память: искра царапает чужой рукав. Крик короткий — как обрезанный провод."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Ты снова поставил эксперимент выше людей!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Тогда я переставлю людей выше эксперимента. Навсегда."
+            }
+          ],
+          "sfx": "ТРЕСК!"
+        },
+        {
+          "page": 3,
+          "scene": "Mio argues at clinic window: patients need his stabilizer, not his pride.",
+          "narration": [
+            "У окна клиники Мио спорит с братом. За стеклом — пациенты на капельницах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Им нужен стабилизатор, не твой спектакль на песке."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Спектакль — их единственный судья. Проиграю — подчинюсь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Kenji reprograms gauntlets for non-lethal stagger; numbers dip on meter.",
+          "narration": [
+            "Показания падают. Удар станет шагом, не пропастью."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Ты правда урезаешь мощь перед клеткой?"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Правота без жалости — просто шум."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Overheat scene: coil smokes; conscience metaphor as blue flame inside glass core.",
+          "narration": [
+            "Катушка дымится. В стеклянном сердечнике — голубое пламя, похожее на выбор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Если сгорю — пусть сгорит гордыня, не город."
+            },
+            {
+              "speaker": "sisterMio",
+              "text": "Гордыня и правда часто в одной обмотке."
+            }
+          ],
+          "sfx": "ЖЖЖ…"
+        },
+        {
+          "page": 6,
+          "scene": "Nightmare: city skyline black; only Kenji gauntlets light windows.",
+          "narration": [
+            "Кошмар: город мёртв. Только его перчатки зажигают окна — как глаза."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Проснись. Это не пророчество — предупреждение."
+            },
+            {
+              "speaker": "sisterMio",
+              "text": "Ты уже не спишь. Я слышу твой голос."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Veldt secret memo: sabotage cage coil tolerance to force overload.",
+          "narration": [
+            "Тайная записка: снизить допуск клетки. Заставить его перегрузиться."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Пусть толпа увидит монстра, не спасителя."
+            },
+            {
+              "speaker": "droneCommander",
+              "text": "Монстра легче запретить."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Koji brings hospital power cell schematic — bridge between mercy and proof.",
+          "narration": [
+            "Кодзи приносит схему питания больницы. Мост между милосердием и доказательством."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labKoji",
+              "text": "Покажи им, что твоя цепь держит жизни, не только бьёт."
+            },
+            {
+              "speaker": "kenji",
+              "text": "В клетке будет макет квартала. Я подключу их сердца."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Kenji writes letter to Mio — if cage fails, use patents anonymously.",
+          "narration": [
+            "Письмо сестре: если паду — опубликуй схемы без имени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Я не приму твою смерть как черновик."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Речь не о смерти. Чтобы свет остался."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Sunrise: Kenji straps restrained gauntlets; coil hum soft, resolved.",
+          "narration": [
+            "Рассвет. Перчатки сдержаны, но живы. Гул — как обещание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Сегодня клетка услышит оба моих голоса."
+            },
+            {
+              "speaker": "arenaTech",
+              "text": "Транспорт на арену через час. Не опоздай."
+            }
+          ],
+          "sfx": "ГУЛ…"
+        }
+      ]
+    },
+    "7": {
+      "title": "Решётка турнира",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena outer gate: iron lattice shaped like circuit board; crowd queues in rain.",
+          "narration": [
+            "Ворота Арены — решётка в виде платы. Дождь стучит, как пальцы по клавишам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "arenaTech",
+              "text": "Сканирую оборудование. Любая вспышка вне клетки — дисквалификация."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Вспышки у меня по расписанию. Как ваша честность."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Gear check: gauntlets disassembled, inspected; Koji watches biting lip.",
+          "narration": [
+            "Разбор перчаток на столе. Кодзи кусает губу сильнее винта."
+          ],
+          "dialogue": [
+            {
+              "speaker": "arenaTech",
+              "text": "Самодельные катушки… допускаю с пометкой риска."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Риск — это их любимое слово для «гений»."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Registration hall: hologram bracket shows Kenji vs Council Champion Drone.",
+          "narration": [
+            "Турнирная сетка вспыхивает: Кендзи против чемпиона-дрона совета."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Публика ждёт клетку! Нижний круг — разогрев!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Разогрею провода. Не нервы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Lower ring warm-up: Kenji faces scrap mech; chain clears three weak points.",
+          "narration": [
+            "Нижний круг. Хлам-мех падает после трёх точечных дуг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Каждая цепь — вопрос. Каждый ответ — искра."
+            },
+            {
+              "speaker": "patentThief",
+              "text": "Красиво. Жаль, патент уже мой на бумаге."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 5,
+          "scene": "Veldt VIP box: champagne untouched; drone commander salutes.",
+          "narration": [
+            "Ложа совета. Шампанское нетронуто — праздник для тех, кто уверен в казни."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Пусть толпа полюбит его. Любовь режет глубже ненависти."
+            },
+            {
+              "speaker": "droneCommander",
+              "text": "Когда упадёт — флашки уже готовы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Crowd chant mixes praise and fear; Mio in cheap seats clutching scarf.",
+          "narration": [
+            "Толпа кричит двумя голосами. Мио сжимает шарф, как талисман."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Брат… не смотри наверх. Смотри на свой расчёт."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Смотрю на песок. Песок не врёт."
+            }
+          ],
+          "sfx": "РРРА!"
+        },
+        {
+          "page": 7,
+          "scene": "Semi-final: Kenji defeats patent thief proxy; stolen coil blueprints spill.",
+          "narration": [
+            "Прокси вора патентов падает. Из сумки высыпаются чужие схемы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Воришка несёт чужие имена. Я принесу своё."
+            },
+            {
+              "speaker": "patentThief",
+              "text": "Имя без лицензии — просто шум!"
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 8,
+          "scene": "ArenaTech installs lightning cage on main stage; glass walls rise.",
+          "narration": [
+            "На главной сцене поднимается клетка молний. Стекло звенит, как лёд."
+          ],
+          "dialogue": [
+            {
+              "speaker": "arenaTech",
+              "text": "Диэлектрик держит до миллиона вольт. Не трогай стены."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Трогать буду воздух. Стены — для зрителей."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Broadcast towers ignite; city screens show Kenji silhouette inside cage prep.",
+          "narration": [
+            "Башни вспыхивают. На куполах — его силуэт в пустой клетке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Миллионы смотрят. Один неверный шаг — и история короткая."
+            },
+            {
+              "speaker": "kenji",
+              "text": "История и так короткая. Продлю её смыслом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Night before: Kenji palm on glass wall; reflection splits into boy and inventor.",
+          "narration": [
+            "Накануне ладонь на стекле. Отражение делится на мальчика и изобретателя."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Завтра клетка говорит."
+            },
+            {
+              "speaker": "labKoji",
+              "text": "Мы кричим с трибун. Слышишь?"
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "8": {
+      "title": "Клетка молний",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide broadcast: lightning cage gleams; Tesla coils crown corners; world watches.",
+          "narration": [
+            "Эфир. Клетка молний сияет. Углы увенчаны катушками Теслы. Мир затаил дыхание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Сегодня Кендзи Такэда докажет — или сломается!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Сломаются чужие сомнения."
+            }
+          ],
+          "sfx": "ГУЛ!"
+        },
+        {
+          "page": 2,
+          "scene": "Council Champion Drone enters: polished white chassis, council crest, dual arc blades.",
+          "narration": [
+            "Чемпион-дрон совета входит с лезвиями-дугами. Блеск — как ложная мораль."
+          ],
+          "dialogue": [
+            {
+              "speaker": "droneCommander",
+              "text": "Протокол победы: обезоружить, унизить, забыть."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Мой протокол — осветить, не стереть."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Opening exchange: arcs collide mid-air; glass cage vibrates, crowd roars.",
+          "narration": [
+            "Дуги встречаются в воздухе. Стекло поёт. Толпа взрывается."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Твой разряд чистый. Слишком чистый — без правды."
+            },
+            {
+              "speaker": "droneCommander",
+              "text": "Правда не входит в протокол!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 4,
+          "scene": "Sabotage inset: arenaTech discovers shaved coil tolerance; sweat on brow.",
+          "narration": [
+            "Саботаж: допуск катушки урезан. Техник бледнеет вне кадра."
+          ],
+          "dialogue": [
+            {
+              "speaker": "arenaTech",
+              "text": "Клетка перегрузится на шестьдесят секунд!"
+            },
+            {
+              "speaker": "professorVeldt",
+              "text": "Никому. Это… часть испытания."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Kenji adapts: shorter chains, grounds through floor grid; Mio stands.",
+          "narration": [
+            "Он укорачивает цепь, заземляется в решётку пола. Мио встаёт с места."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Брат! Не ради них — ради тех, кого ты уже спас!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Ради них и держу амплитуду!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Miniature city block inside cage lights up as Kenji feeds stabilizing arc.",
+          "narration": [
+            "Макет квартала внутри клетки вспыхивает. Ток стабилизирует, не жжёт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Видите? Цепь питает дома — не сжигает!"
+            },
+            {
+              "speaker": "koto",
+              "text": "Купола записывают! Это… работает!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Drone overcharges; Kenji absorbs recoil through both gauntlets, knees buckle.",
+          "narration": [
+            "Дрон бьёт перегрузом. Кендзи принимает удар обеими перчатками. Колени сгибаются."
+          ],
+          "dialogue": [
+            {
+              "speaker": "droneCommander",
+              "text": "Добей! Покажи им цену дерзости!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Цена — мои суставы. Не их будущее."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 8,
+          "scene": "Chain finisher: lightning wolf-pack jumps drone to drone; champion core exposed.",
+          "narration": [
+            "Цепь как стая волков перескакивает по корпусам. Сердце чемпиона обнажено."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Последний прыжок — не для зрелища. Для схемы в архиве."
+            },
+            {
+              "speaker": "koto",
+              "text": "Купола пишут! Финал клетки!"
+            }
+          ],
+          "sfx": "КРАК-КРАК!"
+        },
+        {
+          "page": 9,
+          "scene": "Veldt stands in VIP; forced to nod as city grid sim stays alive on screen.",
+          "narration": [
+            "Вельдт вынужден кивнуть. На экране макет города дышит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Он… прав был. Частично."
+            },
+            {
+              "speaker": "sisterMio",
+              "text": "Частично — это ваш стыд, не его победа."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cage opens; Kenji walks out scorched but smiling; crowd splits love and fear.",
+          "narration": [
+            "Клетка открывается. Он выходит обожжённым и живым. Толпа раскалывается."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Клетка пройдена. Совесть и ток — в одной фазе."
+            },
+            {
+              "speaker": "patentThief",
+              "text": "Теперь твоя схема стоит целое состояние…"
+            }
+          ],
+          "sfx": "РРРА!"
+        }
+      ]
+    },
+    "9": {
+      "title": "Мастерская роя",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena backstage scrap foundry: orange fog, conveyor sparks — SHADOWED trio scene.",
+          "narration": [
+            "Закулисье. Туман и искры. Три силуэта у конвейера — лица скрыты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Кто шагает в моём свете?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Три мастерские. Один рой. Не приближайся к лицам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "SILHOUETTE: old man with giant wrench and brass turret shapes — NOT full face.",
+          "narration": [
+            "Силуэт старика с огромным ключом и латунными турелями. Лицо не видно."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Ещё один охотник за патентами?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Охотник на воров. Как и ты. Пока."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "SILHOUETTE: boy with round glasses, bronze bug swarm at feet — NOT full face.",
+          "narration": [
+            "Силуэт мальчика в круглых очках. У ног — рой бронзовых жуков. Лицо скрыто."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Жуки… живые или схема?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Живые, когда есть сердце. Как твоя молния."
+            }
+          ],
+          "sfx": "ЖЖЖ!"
+        },
+        {
+          "page": 4,
+          "scene": "Patent Thief ambush squad enters; Kenji raises gauntlet, silhouettes flank.",
+          "narration": [
+            "Отряд воров патентов. Кендзи поднимает перчатку. Силуэты встают по бокам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patentThief",
+              "text": "Трое без лиц — и один сожжённый гений. Сдавайте схемы!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Схемы в голове. Попробуй украсть."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Triangle composition: yellow sparks, brass muzzle flash, bronze bug shield — SHARED palette.",
+          "narration": [
+            "Треугольник цветов: жёлтые искры, латунь, бронза. Общая палитра мастерской."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Изобретение без совести — оружие. С совестью — крыша."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Крыша держит. Я видел в клетке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Silhouette wrench strike pins thief; bug swarm chews stolen blueprints mid-air.",
+          "narration": [
+            "Ключ силуэта прибивает вора. Жуки рвут украденные чертежи в воздухе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patentThief",
+              "text": "Это… нелегально!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Нелегально — воровать имена. Мы защищаем."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 7,
+          "scene": "Quiet debate: three paths of invention — profit, legacy, memory; faces hidden.",
+          "narration": [
+            "Тихий спор трёх путей: прибыль, наследие, память. Лица по-прежнему в тени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Докажешь правоту — станешь легендой. Или одиноким болтом."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Одинокий болт держит мост. Мне хватит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Sky triangle burns: lightning bolt, wrench, beetle icons in smoke.",
+          "narration": [
+            "В дыму проступают три знака: молния, ключ, жук."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Три сердца механизма. Враг один — жадность."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "На десятой главе покажем лица. Не раньше."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Combined strike: chain arc + turret burst + bug net vs collectors.",
+          "narration": [
+            "Комбо: цепная дуга, залп турели, сеть жуков против коллекционеров."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Держим линию до ворот финала!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 10,
+          "scene": "Triangle mark welded on steel door; silhouettes depart three ways into fog.",
+          "narration": [
+            "На стальной двери — треугольный знак. Силуэты уходят тремя тропами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Мастерская роя. Ответ услышим у табло."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "У табло сердца громче катушек."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Три сердца механизма",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena ceremony: golden scoreboard, koto announces forge-swarm rumor.",
+          "narration": [
+            "Церемония. Слухи о троице «Мастерская роя» гремят громче генераторов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Финал! Кендзи Такэда и союзники, о которых шепчут цеха!"
+            },
+            {
+              "speaker": "kenji",
+              "text": "Шепот закончился. Сейчас — включим свет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Taro steps from brass workshop portal — match taro_skin1.png FULL design.",
+          "narration": [
+            "Из латунного портала выходит Таро — полный облик, не силуэт. Ключ бьёт искрами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "taro",
+              "text": "Малый с молнией. Обещали стычку у ворот."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Обещание держу. Катушки заряжены."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Oliver descends with bronze bug cloak — match oliver_skin1.png FULL design.",
+          "narration": [
+            "С неба спускается Оливер — круглые очки, рой жуков, полный дизайн."
+          ],
+          "dialogue": [
+            {
+              "speaker": "oliver",
+              "text": "Три пути сошлись. Враг один."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Враг — тот, кто продаёт чужие имена. Остальное потом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs patent collectors on Arena sand — all FULL faces, wide shot.",
+          "narration": [
+            "Трое на песке против коллекционеров. Все лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Слева — дроны. Режем цепью."
+            },
+            {
+              "speaker": "taro",
+              "text": "Турель держит центр."
+            },
+            {
+              "speaker": "oliver",
+              "text": "Жуки снимают броню."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Team combo: chain lightning + brass turret volley + bug shield lattice.",
+          "narration": [
+            "Комбо: цепная молния, латунный залп, решётка из жуков."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "taro",
+              "text": "Ключ!"
+            },
+            {
+              "speaker": "oliver",
+              "text": "Рой!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Veldt descends to sand with council lawyers; final confrontation.",
+          "narration": [
+            "Вельдт спускается на песок с юристами. Финальный разговор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVeldt",
+              "text": "Ты выиграл шоу. Университет не открыт."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Откроете, когда город снова упадёт — и вспомнит мой ток."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena edge debate: Taro legacy, Oliver memory, Kenji conscience.",
+          "narration": [
+            "Край арены. Три голоса: наследие, память, совесть."
+          ],
+          "dialogue": [
+            {
+              "speaker": "taro",
+              "text": "Старое железо служит, если не стыдно."
+            },
+            {
+              "speaker": "oliver",
+              "text": "Память жужжит громче пушек."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Совесть — мой предохранитель."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night sky: yellow sparks, brass stars, bronze constellation over Arena dome.",
+          "narration": [
+            "Ночное небо: искры, латунь, бронзовые созвездия над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMio",
+              "text": "Вы сделали то, чего боялись профессора."
+            },
+            {
+              "speaker": "kenji",
+              "text": "Сделали то, что требовали пациенты и улицы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final splash: trio vs Veldt drone wave — Kenji leads chain fan.",
+          "narration": [
+            "Финальный залп: веер цепных дуг ведёт Кендзи."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Цепь!"
+            },
+            {
+              "speaker": "professorVeldt",
+              "text": "Протокол сожжёт вас!"
+            },
+            {
+              "speaker": "oliver",
+              "text": "Не сегодня!"
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "End card: Kenji walks forward, Taro and Oliver behind, gauntlet spark fades to ember.",
+          "narration": [
+            "Конец главы X. Три сердца механизма. Искра тускнеет — не гаснет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "kenji",
+              "text": "Кодзи. Верну тебе лабораторию. Без печати страха."
+            },
+            {
+              "speaker": "taro",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "oliver",
+              "text": "До следующей схемы."
+            }
+          ],
+          "sfx": "ИСКРА…"
+        }
+      ]
+    }
+  }
+}

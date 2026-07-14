@@ -1,0 +1,23 @@
+=== TARO COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO TARO (every page): match taro_skin1.png ONLY — elderly bald engineer, bushy white handlebar mustache, brass goggles on forehead, brown leather apron, giant wrench, steam backpack tanks, NOT any NPC face.
+
+youngTaro — UNIQUE: six-year-old boy flashback, oversized ROUND GLASSES sliding down nose, tiny wrench in small hands, messy brown hair, oil-stained overalls too big, eager grin, NOT old Taro.
+
+patentThief — UNIQUE: slick thief Giz, GREY PINSTRIPE SUIT, leather blueprint CASE with brass locks, thin wire glasses, slicked grey hair, smirk, NOT broker Os.
+
+munitionsBroker — UNIQUE: broker Os, GOLD TEETH smile, purple velvet coat, fat cigar, ledger book, bald with gold earring, NOT Giz.
+
+workshopApprentice — UNIQUE: young apprentice Pem, BLUE WORK ROBE with oil stains, nervous wide eyes, short black hair, tool belt, awe and fear expression, NOT young Taro.
+
+herald — UNIQUE: arena announcer MAN, COPPER MEGAPHONE shaped like gear cog, brass arena vest with rivets, scar across nose, NOT snake bandana herald from Rin comic.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher grey hood.
+
+shadowVoice ch9 — silhouettes only: kenji (katana) + oliver (bow) — NO faces.
+
+kenji ch10 — match kenji_skin1.png FULL color.
+
+oliver ch10 — match oliver_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

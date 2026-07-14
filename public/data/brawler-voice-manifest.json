@@ -1,0 +1,729 @@
+{
+  "version": 1,
+  "categories": [
+    "spawn",
+    "victory",
+    "kill",
+    "damage",
+    "death",
+    "respawn",
+    "super",
+    "taunt"
+  ],
+  "brawlers": {
+    "airin": {
+      "kill": [
+        "audio/voices/airin/kill-0.mp3",
+        "audio/voices/airin/kill-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/airin/taunt-0.mp3",
+        "audio/voices/airin/taunt-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/airin/damage-0.mp3",
+        "audio/voices/airin/damage-1.mp3"
+      ],
+      "death": [
+        "audio/voices/airin/death-0.mp3",
+        "audio/voices/airin/death-1.mp3"
+      ],
+      "super": [
+        "audio/voices/airin/super-0.mp3",
+        "audio/voices/airin/super-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/airin/victory-0.mp3",
+        "audio/voices/airin/victory-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/airin/respawn-0.mp3",
+        "audio/voices/airin/respawn-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/airin/spawn-0.mp3",
+        "audio/voices/airin/spawn-1.mp3"
+      ]
+    },
+    "verdeletta": {
+      "kill": [
+        "audio/voices/verdeletta/kill-0.mp3",
+        "audio/voices/verdeletta/kill-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/verdeletta/damage-0.mp3",
+        "audio/voices/verdeletta/damage-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/verdeletta/spawn-0.mp3",
+        "audio/voices/verdeletta/spawn-1.mp3"
+      ],
+      "super": [
+        "audio/voices/verdeletta/super-0.mp3",
+        "audio/voices/verdeletta/super-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/verdeletta/victory-0.mp3",
+        "audio/voices/verdeletta/victory-1.mp3"
+      ],
+      "death": [
+        "audio/voices/verdeletta/death-0.mp3",
+        "audio/voices/verdeletta/death-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/verdeletta/taunt-0.mp3",
+        "audio/voices/verdeletta/taunt-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/verdeletta/respawn-0.mp3",
+        "audio/voices/verdeletta/respawn-1.mp3"
+      ]
+    },
+    "vittoria": {
+      "taunt": [
+        "audio/voices/vittoria/taunt-0.mp3",
+        "audio/voices/vittoria/taunt-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/vittoria/respawn-0.mp3",
+        "audio/voices/vittoria/respawn-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/vittoria/kill-0.mp3",
+        "audio/voices/vittoria/kill-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/vittoria/spawn-0.mp3",
+        "audio/voices/vittoria/spawn-1.mp3"
+      ],
+      "death": [
+        "audio/voices/vittoria/death-0.mp3",
+        "audio/voices/vittoria/death-1.mp3"
+      ],
+      "super": [
+        "audio/voices/vittoria/super-0.mp3",
+        "audio/voices/vittoria/super-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/vittoria/victory-0.mp3",
+        "audio/voices/vittoria/victory-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/vittoria/damage-0.mp3",
+        "audio/voices/vittoria/damage-1.mp3"
+      ]
+    },
+    "goro": {
+      "death": [
+        "audio/voices/goro/death-0.mp3",
+        "audio/voices/goro/death-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/goro/damage-0.mp3",
+        "audio/voices/goro/damage-1.mp3"
+      ],
+      "super": [
+        "audio/voices/goro/super-0.mp3",
+        "audio/voices/goro/super-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/goro/respawn-0.mp3",
+        "audio/voices/goro/respawn-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/goro/spawn-0.mp3",
+        "audio/voices/goro/spawn-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/goro/victory-0.mp3",
+        "audio/voices/goro/victory-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/goro/kill-0.mp3",
+        "audio/voices/goro/kill-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/goro/taunt-0.mp3",
+        "audio/voices/goro/taunt-1.mp3"
+      ]
+    },
+    "zafkiel": {
+      "taunt": [
+        "audio/voices/zafkiel/taunt-0.mp3",
+        "audio/voices/zafkiel/taunt-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/zafkiel/victory-0.mp3",
+        "audio/voices/zafkiel/victory-1.mp3"
+      ],
+      "death": [
+        "audio/voices/zafkiel/death-0.mp3",
+        "audio/voices/zafkiel/death-1.mp3"
+      ],
+      "super": [
+        "audio/voices/zafkiel/super-0.mp3",
+        "audio/voices/zafkiel/super-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/zafkiel/spawn-0.mp3",
+        "audio/voices/zafkiel/spawn-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/zafkiel/damage-0.mp3",
+        "audio/voices/zafkiel/damage-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/zafkiel/respawn-0.mp3",
+        "audio/voices/zafkiel/respawn-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/zafkiel/kill-0.mp3",
+        "audio/voices/zafkiel/kill-1.mp3"
+      ]
+    },
+    "zephyrin": {
+      "victory": [
+        "audio/voices/zephyrin/victory-0.mp3",
+        "audio/voices/zephyrin/victory-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/zephyrin/respawn-0.mp3",
+        "audio/voices/zephyrin/respawn-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/zephyrin/kill-0.mp3",
+        "audio/voices/zephyrin/kill-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/zephyrin/damage-0.mp3",
+        "audio/voices/zephyrin/damage-1.mp3"
+      ],
+      "death": [
+        "audio/voices/zephyrin/death-0.mp3",
+        "audio/voices/zephyrin/death-1.mp3"
+      ],
+      "super": [
+        "audio/voices/zephyrin/super-0.mp3",
+        "audio/voices/zephyrin/super-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/zephyrin/taunt-0.mp3",
+        "audio/voices/zephyrin/taunt-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/zephyrin/spawn-0.mp3",
+        "audio/voices/zephyrin/spawn-1.mp3"
+      ]
+    },
+    "callista": {
+      "spawn": [
+        "audio/voices/callista/spawn-0.mp3",
+        "audio/voices/callista/spawn-1.mp3"
+      ],
+      "super": [
+        "audio/voices/callista/super-0.mp3",
+        "audio/voices/callista/super-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/callista/kill-0.mp3",
+        "audio/voices/callista/kill-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/callista/damage-0.mp3",
+        "audio/voices/callista/damage-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/callista/taunt-0.mp3",
+        "audio/voices/callista/taunt-1.mp3"
+      ],
+      "death": [
+        "audio/voices/callista/death-0.mp3",
+        "audio/voices/callista/death-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/callista/victory-0.mp3",
+        "audio/voices/callista/victory-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/callista/respawn-0.mp3",
+        "audio/voices/callista/respawn-1.mp3"
+      ]
+    },
+    "kenji": {
+      "taunt": [
+        "audio/voices/kenji/taunt-0.mp3",
+        "audio/voices/kenji/taunt-1.mp3"
+      ],
+      "super": [
+        "audio/voices/kenji/super-0.mp3",
+        "audio/voices/kenji/super-1.mp3"
+      ],
+      "death": [
+        "audio/voices/kenji/death-0.mp3",
+        "audio/voices/kenji/death-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/kenji/kill-0.mp3",
+        "audio/voices/kenji/kill-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/kenji/respawn-0.mp3",
+        "audio/voices/kenji/respawn-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/kenji/damage-0.mp3",
+        "audio/voices/kenji/damage-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/kenji/spawn-0.mp3",
+        "audio/voices/kenji/spawn-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/kenji/victory-0.mp3",
+        "audio/voices/kenji/victory-1.mp3"
+      ]
+    },
+    "lumina": {
+      "super": [
+        "audio/voices/lumina/super-0.mp3",
+        "audio/voices/lumina/super-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/lumina/spawn-0.mp3",
+        "audio/voices/lumina/spawn-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/lumina/respawn-0.mp3",
+        "audio/voices/lumina/respawn-1.mp3"
+      ],
+      "death": [
+        "audio/voices/lumina/death-0.mp3",
+        "audio/voices/lumina/death-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/lumina/victory-0.mp3",
+        "audio/voices/lumina/victory-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/lumina/kill-0.mp3",
+        "audio/voices/lumina/kill-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/lumina/taunt-0.mp3",
+        "audio/voices/lumina/taunt-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/lumina/damage-0.mp3",
+        ""
+      ]
+    },
+    "mirabel": {
+      "spawn": [
+        "audio/voices/mirabel/spawn-0.mp3",
+        "audio/voices/mirabel/spawn-1.mp3"
+      ],
+      "death": [
+        "audio/voices/mirabel/death-0.mp3",
+        "audio/voices/mirabel/death-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/mirabel/kill-0.mp3",
+        "audio/voices/mirabel/kill-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/mirabel/taunt-0.mp3",
+        "audio/voices/mirabel/taunt-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/mirabel/damage-0.mp3",
+        "audio/voices/mirabel/damage-1.mp3"
+      ],
+      "super": [
+        "audio/voices/mirabel/super-0.mp3",
+        "audio/voices/mirabel/super-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/mirabel/respawn-0.mp3",
+        "audio/voices/mirabel/respawn-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/mirabel/victory-0.mp3",
+        "audio/voices/mirabel/victory-1.mp3"
+      ]
+    },
+    "miya": {
+      "taunt": [
+        "audio/voices/miya/taunt-0.mp3",
+        "audio/voices/miya/taunt-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/miya/victory-0.mp3",
+        "audio/voices/miya/victory-1.mp3"
+      ],
+      "super": [
+        "audio/voices/miya/super-0.mp3",
+        "audio/voices/miya/super-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/miya/kill-0.mp3",
+        "audio/voices/miya/kill-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/miya/respawn-0.mp3",
+        "audio/voices/miya/respawn-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/miya/spawn-0.mp3",
+        "audio/voices/miya/spawn-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/miya/damage-0.mp3",
+        "audio/voices/miya/damage-1.mp3"
+      ],
+      "death": [
+        "audio/voices/miya/death-0.mp3",
+        "audio/voices/miya/death-1.mp3"
+      ]
+    },
+    "octavia": {
+      "kill": [
+        "audio/voices/octavia/kill-0.mp3",
+        "audio/voices/octavia/kill-1.mp3"
+      ],
+      "death": [
+        "audio/voices/octavia/death-0.mp3",
+        "audio/voices/octavia/death-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/octavia/damage-0.mp3",
+        "audio/voices/octavia/damage-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/octavia/victory-0.mp3",
+        "audio/voices/octavia/victory-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/octavia/spawn-0.mp3",
+        "audio/voices/octavia/spawn-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/octavia/respawn-0.mp3",
+        "audio/voices/octavia/respawn-1.mp3"
+      ],
+      "super": [
+        "audio/voices/octavia/super-0.mp3",
+        "audio/voices/octavia/super-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/octavia/taunt-0.mp3",
+        "audio/voices/octavia/taunt-1.mp3"
+      ]
+    },
+    "oliver": {
+      "death": [
+        "audio/voices/oliver/death-0.mp3",
+        "audio/voices/oliver/death-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/oliver/respawn-0.mp3",
+        "audio/voices/oliver/respawn-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/oliver/spawn-0.mp3",
+        "audio/voices/oliver/spawn-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/oliver/damage-0.mp3",
+        "audio/voices/oliver/damage-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/oliver/taunt-0.mp3",
+        "audio/voices/oliver/taunt-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/oliver/kill-0.mp3",
+        "audio/voices/oliver/kill-1.mp3"
+      ],
+      "super": [
+        "audio/voices/oliver/super-0.mp3",
+        "audio/voices/oliver/super-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/oliver/victory-0.mp3",
+        "audio/voices/oliver/victory-1.mp3"
+      ]
+    },
+    "rin": {
+      "super": [
+        "audio/voices/rin/super-0.mp3",
+        "audio/voices/rin/super-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/rin/respawn-0.mp3",
+        "audio/voices/rin/respawn-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/rin/victory-0.mp3",
+        "audio/voices/rin/victory-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/rin/spawn-0.mp3",
+        "audio/voices/rin/spawn-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/rin/damage-0.mp3",
+        "audio/voices/rin/damage-1.mp3"
+      ],
+      "death": [
+        "audio/voices/rin/death-0.mp3",
+        "audio/voices/rin/death-1.mp3"
+      ],
+      "taunt": [
+        "",
+        "audio/voices/rin/taunt-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/rin/kill-0.mp3",
+        "audio/voices/rin/kill-1.mp3"
+      ]
+    },
+    "ronin": {
+      "respawn": [
+        "audio/voices/ronin/respawn-0.mp3",
+        "audio/voices/ronin/respawn-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/ronin/taunt-0.mp3",
+        "audio/voices/ronin/taunt-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/ronin/damage-0.mp3",
+        "audio/voices/ronin/damage-1.mp3"
+      ],
+      "death": [
+        "audio/voices/ronin/death-0.mp3",
+        "audio/voices/ronin/death-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/ronin/kill-0.mp3",
+        "audio/voices/ronin/kill-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/ronin/spawn-0.mp3",
+        "audio/voices/ronin/spawn-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/ronin/victory-0.mp3",
+        "audio/voices/ronin/victory-1.mp3"
+      ],
+      "super": [
+        "audio/voices/ronin/super-0.mp3",
+        "audio/voices/ronin/super-1.mp3"
+      ]
+    },
+    "silven": {
+      "damage": [
+        "audio/voices/silven/damage-0.mp3",
+        "audio/voices/silven/damage-1.mp3"
+      ],
+      "death": [
+        "audio/voices/silven/death-0.mp3",
+        "audio/voices/silven/death-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/silven/spawn-0.mp3",
+        "audio/voices/silven/spawn-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/silven/respawn-0.mp3",
+        "audio/voices/silven/respawn-1.mp3"
+      ],
+      "super": [
+        "audio/voices/silven/super-0.mp3",
+        "audio/voices/silven/super-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/silven/victory-0.mp3",
+        "audio/voices/silven/victory-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/silven/kill-0.mp3",
+        "audio/voices/silven/kill-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/silven/taunt-0.mp3",
+        "audio/voices/silven/taunt-1.mp3"
+      ]
+    },
+    "sora": {
+      "kill": [
+        "audio/voices/sora/kill-0.mp3",
+        "audio/voices/sora/kill-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/sora/spawn-0.mp3",
+        "audio/voices/sora/spawn-1.mp3"
+      ],
+      "death": [
+        "audio/voices/sora/death-0.mp3",
+        "audio/voices/sora/death-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/sora/damage-0.mp3",
+        "audio/voices/sora/damage-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/sora/taunt-0.mp3",
+        "audio/voices/sora/taunt-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/sora/victory-0.mp3",
+        "audio/voices/sora/victory-1.mp3"
+      ],
+      "super": [
+        "audio/voices/sora/super-0.mp3",
+        "audio/voices/sora/super-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/sora/respawn-0.mp3",
+        "audio/voices/sora/respawn-1.mp3"
+      ]
+    },
+    "taro": {
+      "kill": [
+        "audio/voices/taro/kill-0.mp3",
+        "audio/voices/taro/kill-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/taro/victory-0.mp3",
+        "audio/voices/taro/victory-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/taro/taunt-0.mp3",
+        "audio/voices/taro/taunt-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/taro/damage-0.mp3",
+        "audio/voices/taro/damage-1.mp3"
+      ],
+      "death": [
+        "audio/voices/taro/death-0.mp3",
+        "audio/voices/taro/death-1.mp3"
+      ],
+      "super": [
+        "audio/voices/taro/super-0.mp3",
+        "audio/voices/taro/super-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/taro/spawn-0.mp3",
+        "audio/voices/taro/spawn-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/taro/respawn-0.mp3",
+        "audio/voices/taro/respawn-1.mp3"
+      ]
+    },
+    "hana": {
+      "victory": [
+        "audio/voices/hana/victory-0.mp3",
+        "audio/voices/hana/victory-1.mp3"
+      ],
+      "death": [
+        "audio/voices/hana/death-0.mp3",
+        "audio/voices/hana/death-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/hana/kill-0.mp3",
+        "audio/voices/hana/kill-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/hana/spawn-0.mp3",
+        "audio/voices/hana/spawn-1.mp3"
+      ],
+      "super": [
+        "audio/voices/hana/super-0.mp3",
+        "audio/voices/hana/super-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/hana/damage-0.mp3",
+        "audio/voices/hana/damage-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/hana/respawn-0.mp3",
+        "audio/voices/hana/respawn-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/hana/taunt-0.mp3",
+        "audio/voices/hana/taunt-1.mp3"
+      ]
+    },
+    "elian": {
+      "victory": [
+        "audio/voices/elian/victory-0.mp3",
+        "audio/voices/elian/victory-1.mp3"
+      ],
+      "super": [
+        "audio/voices/elian/super-0.mp3",
+        "audio/voices/elian/super-1.mp3"
+      ],
+      "death": [
+        "audio/voices/elian/death-0.mp3",
+        "audio/voices/elian/death-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/elian/respawn-0.mp3",
+        "audio/voices/elian/respawn-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/elian/spawn-0.mp3",
+        "audio/voices/elian/spawn-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/elian/damage-0.mp3",
+        "audio/voices/elian/damage-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/elian/kill-0.mp3",
+        "audio/voices/elian/kill-1.mp3"
+      ],
+      "taunt": [
+        "audio/voices/elian/taunt-0.mp3",
+        "audio/voices/elian/taunt-1.mp3"
+      ]
+    },
+    "yuki": {
+      "taunt": [
+        "audio/voices/yuki/taunt-0.mp3",
+        "audio/voices/yuki/taunt-1.mp3"
+      ],
+      "respawn": [
+        "audio/voices/yuki/respawn-0.mp3",
+        "audio/voices/yuki/respawn-1.mp3"
+      ],
+      "spawn": [
+        "audio/voices/yuki/spawn-0.mp3",
+        "audio/voices/yuki/spawn-1.mp3"
+      ],
+      "death": [
+        "audio/voices/yuki/death-0.mp3",
+        "audio/voices/yuki/death-1.mp3"
+      ],
+      "super": [
+        "audio/voices/yuki/super-0.mp3",
+        "audio/voices/yuki/super-1.mp3"
+      ],
+      "kill": [
+        "audio/voices/yuki/kill-0.mp3",
+        "audio/voices/yuki/kill-1.mp3"
+      ],
+      "victory": [
+        "audio/voices/yuki/victory-0.mp3",
+        "audio/voices/yuki/victory-1.mp3"
+      ],
+      "damage": [
+        "audio/voices/yuki/damage-0.mp3",
+        "audio/voices/yuki/damage-1.mp3"
+      ]
+    }
+  }
+}

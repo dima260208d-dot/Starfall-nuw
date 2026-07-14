@@ -1,0 +1,23 @@
+=== AIRIN COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO AIRIN (every page): match airin_skin1.png ONLY — steampunk pilot, goggles on forehead, smoke grenades belt, silver evacuation sigil glove, leather flight coat, NOT any NPC face.
+
+marcus — UNIQUE: old hangar mechanic, GREY MUSTACHE, oil-stained gloves, brass wrench, gruff warm eyes, NOT Airin.
+
+lina — UNIQUE: squadron wingmate WOMAN, short BLONDE hair, leather flight helmet, friendly face before betrayal arc, NOT Airin.
+
+corsair — UNIQUE: traitor ace pilot MAN, BLACK AVIATOR goggles, gold squadron scarf, cold smirk, NOT Marcus.
+
+beacon — UNIQUE: old biplane radio voice — metallic ghost overlay, propeller silhouette, NOT human face solid.
+
+gin — UNIQUE: arena announcer MAN, GOLD MICROPHONE, arena broadcast jacket, NOT female herald.
+
+smokeHunter — UNIQUE: filter mask hunter, dual pistols, grey cloak, NOT hunterCaptain white mask.
+
+shadowVoice ch9 — silhouettes only: zephyrin (wind blade) + vittoria (moon lance) — NO faces.
+
+zephyrin ch10 — match zephyrin_skin1.png FULL color.
+
+vittoria ch10 — match vittoria_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

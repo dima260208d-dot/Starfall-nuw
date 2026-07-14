@@ -1,0 +1,140 @@
+// Starfall battle wire protocol (FlatBuffers schema)
+namespace starfall.battle;
+
+enum UnitState : uint8 {
+  IDLE = 0,
+  MOVE = 1,
+  ATTACK = 2,
+  SUPER = 3,
+  HIT = 4,
+  DEAD = 5,
+  RESPAWN = 6,
+}
+
+enum EventType : uint8 {
+  HIT = 0,
+  KILL = 1,
+  GEM_GRAB = 2,
+  SAFE_DESTROY = 3,
+  PROJECTILE_SPAWN = 4,
+  PROJECTILE_DESTROY = 5,
+}
+
+table Event {
+  ty: EventType;
+  tick: uint32;
+  a: uint16;   // attacker / owner / player
+  b: uint16;   // target / gem / etc.
+  damage: uint8;
+  x: int16;
+  y: int16;
+  vx: int8;
+  vy: int8;
+  kind: uint8;
+}
+
+table Unit {
+  id: uint16;
+  x: int16;       // fixed * 10
+  y: int16;
+  a: uint8;       // 0-255 → 0-360°
+  hp: uint8;
+  mhp: uint8;
+  flags: uint8;   // bit0 alive, bit1 bush, bit2 gas, bit3 bot
+  state: UnitState;
+  state_tick: uint16;
+  sc: uint8;      // super charge / 100 * 255
+}
+
+table Projectile {
+  id: uint32;
+  x: int16;
+  y: int16;
+  vx: int8;       // * 10 units/s
+  vy: int8;
+  owner: uint16;
+  kind: uint8;
+  born_tick: uint32;
+}
+
+table StateDelta {
+  tick: uint32;
+  time_x10: uint16;
+  keyframe: uint8;  // 1 = full unit list baseline
+  ack_tick: uint32; // client ACK for keyframe
+  gas_r: uint16;
+  gas_cx: int16;
+  gas_cy: int16;
+  score_blue: uint16;
+  score_red: uint16;
+  over: uint8;
+  winner: uint8;    // 0 none, 1 blue, 2 red
+  units: [Unit];
+  projectiles: [Projectile];
+  events: [Event];
+  removed_units: [uint16];
+}
+
+table TurnInput {
+  pt: uint32;     // predicted_tick
+  mx: int8;       // * 127
+  my: int8;
+  ax: int8;
+  ay: int8;
+  wx: int16;      // * 10
+  wy: int16;
+  flags: uint8;   // attack, super, manual, pending
+}
+
+table ClientTurn {
+  turn: TurnInput;
+}
+
+table ServerJoined {
+  room_id: string;
+  team: uint8;
+  slot: uint8;
+  phase: uint8;
+  udp_port: uint16;
+  worker_id: string;
+}
+
+table ServerYou {
+  unit_id: uint16;
+  team: uint8;
+}
+
+table MapCell {
+  row: [uint8];
+}
+
+table ServerStart {
+  seed: uint32;
+  map_n: uint16;
+  map_cell: uint16;
+  map_rows: [MapCell];
+  map_hash: uint32;
+}
+
+table ServerResult {
+  winner: uint8;
+  trophy_delta: int16;
+  coins: uint16;
+  xp: uint16;
+}
+
+union PacketBody {
+  ClientTurn,
+  ServerJoined,
+  ServerYou,
+  ServerStart,
+  StateDelta,
+  ServerResult,
+}
+
+table Envelope {
+  kind: uint8;  // 1=turn 2=joined 3=you 4=start 5=state 6=result 7=ready 8=ping 9=pong 10=voice 11=pin 12=afk_bot 13=ack
+  body: PacketBody;
+}
+
+root_type Envelope;

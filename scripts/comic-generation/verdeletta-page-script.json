@@ -1,0 +1,1775 @@
+{
+  "brawlerId": "verdeletta",
+  "brawlerName": "Верделетта",
+  "lore": "Верделетта — адский церемонимейстер. Она организует хаотичные торжества в преисподней и устраивает «вечеринки» в мире живых. Её пистолет — инструмент приглашения. Тени находят тех, кто не заплатил за вход.",
+  "skinRef": "public/dev-notes/brawler-skins/verdeletta_skin1.png",
+  "trioId": "eternal-ball",
+  "trioOthers": [
+    "zafkiel",
+    "sora"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "brasso": "Брассо — демон-распорядитель: латунная маска, строгий протокол, ненавидит хаос",
+    "mora": "Мора — смертная барменша: знает адские слухи, зелёный фартук, острый язык",
+    "gatekeeper": "Привратник преисподней — рога из дыма, книга гостей, не улыбается",
+    "unpaidGuest": "Гость без билета — тень живёт отдельно от тела, глаза пустые",
+    "herald": "Глашатай Арены — золотой рупор, аренская куртка, кричит как гром",
+    "hunterCaptain": "Капитан охотников протокола — белая маска, цепи, охотится на нарушителей",
+    "shadowVoice": "Голос из тени — один из троицы, лицо скрыто"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Верделетта hell ceremony masteress, green hell light, shadow guests, invitation pistol, palette #2E7D32 #1B5E20 #69F0AE, title ВЕРДЕЛЕТТА Cyrillic, NO speech balloons, match verdeletta_skin1.png"
+  },
+  "chapters": {
+    "1": {
+      "title": "Зал, который не спит",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide: hell ballroom chandeliers drip green fire, Verdeletta adjusts invitation pistol.",
+          "narration": [
+            "Главный зал преисподней. Люстры капают зелёным огнём."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Сегодня по протоколу — тишина."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Тишина скучна. Включи музыку."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Close: invitation shot marks a sinner — green rune flares on chest.",
+          "narration": [
+            "Выстрел-приглашение. На груди гостя вспыхивает руна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Ты в списке. Не опаздывай."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Training: shadow guest materializes beside Verdeletta, bows wrong way.",
+          "narration": [
+            "Тень-гостья материализуется и кланяется не туда."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Она снова ломает этикет!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Этикет для тех, кто боится веселья."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Mora's bar at hell border: whispers of living-world parties.",
+          "narration": [
+            "Бар на границе. Мора слышала о балах в мире живых."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Ты зовёшь смертных без разрешения?"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Разрешение — для скучных."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Verdeletta finds Arena invite signed by her own shadow.",
+          "narration": [
+            "Приглашение на Арену. Подпись — её собственная тень."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Моя тень подписала раньше меня. Дерзко."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Gatekeeper blocks exit — guest book shows unpaid names.",
+          "narration": [
+            "Привратник закрывает ворота. В книге — должники."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gatekeeper",
+              "text": "Сначала закрой зал. Потом уходи."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Зал никогда не закрывается."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Shadow guest over limit — oldest fades screaming.",
+          "narration": [
+            "Шестая тень. Самая старая исчезает с криком."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Лимит — шесть! Ты снова перешла черту!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Черта — для тех, кто считает."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Verdeletta packs invitation pistol; green light on horizon.",
+          "narration": [
+            "Она берёт пистолет. На горизонте — купол Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Тени последуют за тобой."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Пусть. Бал без гостей — не бал."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night: moving shadow detaches from drunk demon.",
+          "narration": [
+            "Ночь. Тень отделяется от пьяного демона."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Я… не платил…"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Тогда танцуй быстрее."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: Verdeletta steps toward Arena road, shadows dance behind.",
+          "narration": [
+            "Она выходит на дорогу. Тени пляшут следом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Следующий зал — на песке."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "2": {
+      "title": "Билет без имени",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Alley in living world: Verdeletta opens pop-up hell ballroom.",
+          "narration": [
+            "Переулок в мире живых. Вспыхивает теневой зал."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Здесь нельзя!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Здесь как раз можно."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 2,
+          "scene": "Unpaid guest's shadow crawls on wall separately.",
+          "narration": [
+            "Тень гостя ползёт по стене отдельно от тела."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Она… меня не слушает…"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Тени слушают только музыку."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Brasso arrives with protocol chains.",
+          "narration": [
+            "Брассо приходит с цепями протокола."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Закрыть бал! Немедленно!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Закрыть — значит обидеть гостей."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Shadow guests pin protocol hunters with dance moves.",
+          "narration": [
+            "Тени гостей путают охотников танцем."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Шаг влево — и вы свободны. Шучу."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 5,
+          "scene": "Guest without ticket melts into floor shadow.",
+          "narration": [
+            "Гость без билета тает в пол."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Я не хотел…"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Никто не хочет. Все приходят."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Mora hides survivors in bar cellar.",
+          "narration": [
+            "Мора прячет выживших в подвале бара."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Ты превращаешь город в ад."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Город и так пахнет дымом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Invitation mark spreads — green runes on walls.",
+          "narration": [
+            "Метки расползаются по стенам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Это уже не бал. Это охота."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Охота — тоже развлечение."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Verdeletta reads shadow-signed Arena ticket again.",
+          "narration": [
+            "Билет на Арену. Подпись тени дрожит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Ты хочешь, чтобы я пришла. Я приду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Protocol captain vows to stop her at gates.",
+          "narration": [
+            "Капитан клянётся остановить её у ворот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "На Арене — закон."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "На Арене — сцена."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Wide: pop-up ballroom collapses; Verdeletta walks toward dome.",
+          "narration": [
+            "Зал схлопывается. Она идёт к куполу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Глава II. Билет без имени. Имя напишу сама."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Протокол преисподней",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Hell tribunal: stewards demand Verdeletta return.",
+          "narration": [
+            "Трибунал преисподней. Распорядители требуют возврата."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Ты нарушила протокол трижды."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Протокол нарушил мой вечер."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback: first party that escaped hell gates.",
+          "narration": [
+            "Память: первый бал, вырвавшийся за ворота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gatekeeper",
+              "text": "Это было ошибкой."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Ошибки веселее правил."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Verdeletta summons three steward shadows — super preview.",
+          "narration": [
+            "Три тени-распорядителя. Медленные, но мощные."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Ты зовёшь их на песок?!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Они любят дирижировать."
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 4,
+          "scene": "Steward shadow kills mock enemy — another spawns.",
+          "narration": [
+            "Распорядитель убивает манекен — рождается ещё один."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Каждая смерть — новый гость."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Gatekeeper shows debt list: unpaid souls in thousands.",
+          "narration": [
+            "Список должников — тысячи имён."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gatekeeper",
+              "text": "Тени найдут каждого."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Пусть найдут. Я найду Арену."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Mora smuggles Verdeletta through service tunnel.",
+          "narration": [
+            "Мора проводит через служебный ход."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Если поймают — не знаю тебя."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Ты уже знаешь. Этого хватит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Protocol hunters ambush tunnel.",
+          "narration": [
+            "З засада в туннеле."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Сдавай пистолет!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Пистолет — приглашение. Не отнимай у гостей."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 8,
+          "scene": "Shadow guests hold line; Verdeletta escapes.",
+          "narration": [
+            "Тени держат линию. Она вырывается."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Спасибо за танец, Брассо."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Arena outer wall: green fire reflects in her eyes.",
+          "narration": [
+            "Стена Арены. Зелёный огонь в глазах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Следующий боец — без псевдонима?"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Псевдоним — «Хозяйка зала»."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Registration: clerk stamps invite — shadow laughs.",
+          "narration": [
+            "Регистрация. Тень смеётся за спиной."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Глава III. Протокол можно нарушить. Бал — нет."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Бал на крыше",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Rooftop party: living city skyline, shadow orchestra.",
+          "narration": [
+            "Бал на крыше. Теневой оркестр."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Соседи вызывают стражу!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Стража — тоже гости."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Citizen sees own shadow bow to Verdeletta.",
+          "narration": [
+            "Горожанин видит: его тень кланяется ей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Это… я?"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Ты опоздал. Тень — пунктуальнее."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Invitation shot marks rooftop guard.",
+          "narration": [
+            "Метка на стражнике крыши."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "VIP-билет. Не промахнись."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 4,
+          "scene": "Brasso crashes party through chimney.",
+          "narration": [
+            "Брассо падает из трубы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Хватит!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Никогда не хватит."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 5,
+          "scene": "Dance floor becomes battlefield — shadows vs chains.",
+          "narration": [
+            "Танцпол — поле боя. Тени против цепей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Медленный вальс, быстрый конец."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Mora throws guest list into wind.",
+          "narration": [
+            "Мора бросает список гостей в ветер."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Ты теряешь контроль."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Контроль — для скучных залов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Moving shadows hunt unpaid across rooftops.",
+          "narration": [
+            "Тени охотятся на должников по крышам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Я заплачу!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Плати танцем."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Verdeletta sees Arena scoreboard glow green.",
+          "narration": [
+            "Табло Арены вспыхивает зелёным."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Теневой бал замечен!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Наконец-то аплодисменты."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "She marks Arena gates with invitation rune.",
+          "narration": [
+            "Руна приглашения на воротах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gatekeeper",
+              "text": "Это не вход."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Это приглашение."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Sunrise: party ends; one shadow remains loyal.",
+          "narration": [
+            "Рассвет. Остаётся одна верная тень."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Глава IV. Бал на крыше. Следующий — внутри."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Тень шевелится",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mirror alley: citizen watches shadow move alone.",
+          "narration": [
+            "Зеркальный переулок. Тень движется одна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Она идёт без меня…"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Значит, ты уже опоздал."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Verdeletta explains omen — chosen for next ball.",
+          "narration": [
+            "Примета: тень шевелится — выбран для бала."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Это жестоко."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Жестоко — отказать без танца."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Shadow guest copies citizen's face wrong.",
+          "narration": [
+            "Тень копирует лицо криво."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Гости не обязаны быть похожими."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Hunter captain tracks shadow trail to Arena slums.",
+          "narration": [
+            "Капитан идёт по следу тени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Бал закончится на песке."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Песок — отличный паркет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Verdeletta traps hunter in dance circle.",
+          "narration": [
+            "Круг танца ловит охотника."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Раз, два — и ты гость."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Brasso offers deal: return or exile.",
+          "narration": [
+            "Брассо предлагает сделку."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Вернись — забудем."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Забыть — не мой жанр."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Citizen's shadow merges back — screams.",
+          "narration": [
+            "Тень возвращается в тело. Крик."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Больше… не хочу…"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Никто не хочет. Все приходят."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Verdeletta feels protocol wound — first doubt.",
+          "narration": [
+            "Впервые — сомнение. Протокол ранит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Может, лимит гостей… не враг."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Arena lower tier lights invite her.",
+          "narration": [
+            "Нижний ярус зовёт огнями."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Боец «Хозяйка зала» — на регистрации!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "She walks into Arena mist, shadows waltz.",
+          "narration": [
+            "Туман Арены. Тени вальсируют."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Глава V. Тень шевелится. Я — дирижёр."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Цена входа",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Flashback: first protocol breach — laughter in silence hall.",
+          "narration": [
+            "Память: первый смех в зале тишины."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gatekeeper",
+              "text": "Ты смеялась на похоронах демона."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Похороны — тоже бал."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Present: Verdeletta counts shadow guests like coins.",
+          "narration": [
+            "Она считает теней, как монеты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Каждый гость — долг."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Долг — мотивация танцевать."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Unpaid soul offers soul coin — rejected.",
+          "narration": [
+            "Душа предлагает монету — отказ."
+          ],
+          "dialogue": [
+            {
+              "speaker": "unpaidGuest",
+              "text": "Возьми всё!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Мне нужен танец, не медь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Mora reveals Arena ticket price: one true name.",
+          "narration": [
+            "Цена билета — одно настоящее имя."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Арена берёт имя."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "У меня их много."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Verdeletta writes alias on sand — green fire.",
+          "narration": [
+            "Псевдоним горит на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "«Зелёный вальс». Пойдёт."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Steward shadows practice formation.",
+          "narration": [
+            "Распорядители строятся."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Они убьют тебя на арене."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Они дирижируют моей победой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Hunter captain breaks one shadow — Verdeletta bleeds.",
+          "narration": [
+            "Охотник ломает тень. Она кровоточит зелёным."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Мои гости — моя кровь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "She pays debt with own invitation mark.",
+          "narration": [
+            "Она платит меткой на себе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gatekeeper",
+              "text": "Безумие."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Безумие — вход бесплатный."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Arena gate opens to green spotlight.",
+          "narration": [
+            "Ворота. Зелёный прожектор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Выход на песок!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Verdeletta steps in — crowd roars.",
+          "narration": [
+            "Она выходит. Толпа ревёт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Глава VI. Цена входа оплачена."
+            }
+          ],
+          "sfx": "РРРА!"
+        }
+      ]
+    },
+    "7": {
+      "title": "Первый песок",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Lower ring sand: Verdeletta vs chain fighter.",
+          "narration": [
+            "Нижний круг. Противник с цепями."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Первый бой «Зелёного вальса»!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Музыка — громче."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Invitation shots mark both enemies.",
+          "narration": [
+            "Две метки. Две тени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Гости, занимайте места."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 3,
+          "scene": "Shadow guests flank; crowd chants.",
+          "narration": [
+            "Тени фланируют. Толпа поёт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mora",
+              "text": "Они любят её!"
+            },
+            {
+              "speaker": "brasso",
+              "text": "Они любят катастрофу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Enemy cuts shadow — Verdeletta falters.",
+          "narration": [
+            "Враг режет тень. Она дрогнула."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Мои гости не одноразовые."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Super preview: three stewards on sand.",
+          "narration": [
+            "Три распорядителя на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Открытие главного зала!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Victory: herald declares winner.",
+          "narration": [
+            "Победа. Глашатай объявляет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "«Зелёный вальс» проходит дальше!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Hunter captain offers truce — trap.",
+          "narration": [
+            "Капитан предлагает перемирие — ловушка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Сдай пистолет."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Без дирижёра оркестр молчит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Child fighter's shadow dances alone — guilt.",
+          "narration": [
+            "Тень ребёнка танцует одна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Арена жрёт малых. Я — не протокол."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night training: sixth shadow limit.",
+          "narration": [
+            "Ночь. Лимит шести теней."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Ты сдержалась."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Пока."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Signs next fight vs Protocol Lord.",
+          "narration": [
+            "Следующий — «Лорд протокола»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Глава VII. Первый песок пройден."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "8": {
+      "title": "Охота распорядителей",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mid ring: Protocol Lord in white chains.",
+          "narration": [
+            "Средний круг. Лорд протокола в цепях."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Верни порядок!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Порядок — скучный гость."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Lord summons anti-shadow nets.",
+          "narration": [
+            "Сети против теней."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Сети — некрасивые занавесы."
+            }
+          ],
+          "sfx": "РВАНЬ!"
+        },
+        {
+          "page": 3,
+          "scene": "Stewards break nets; Verdeletta marks lord.",
+          "narration": [
+            "Распорядители рвут сети. Метка на лорде."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Ты приглашён. Не опаздывай."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Lord is brasso in disguise — reveal.",
+          "narration": [
+            "Лорд срывает маску — Брассо."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Я должен остановить тебя."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Ты должен дирижировать."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Emotional beat: old friends across sand.",
+          "narration": [
+            "Песок между старыми друзьями."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Протокол спасал нас."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Бал спасал меня."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Verdeletta wins without killing — cage of dance.",
+          "narration": [
+            "Победа без смерти — клетка танца."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Живи. Дирижируй следующий раз."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Tribunal grants upper gate access.",
+          "narration": [
+            "Трибунал открывает верхний ярус."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Финал — на рассвете!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Hunters mass outside quarters.",
+          "narration": [
+            "Охотники окружают."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Ты сломала все правила."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Правила — не мои гости."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Shadow ball escape through ceiling.",
+          "narration": [
+            "Побег через потолок — теневой бал."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "До финала. Не опаздывайте."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "Rain-slick roof toward upper tier.",
+          "narration": [
+            "Крыша под дождём. Верхний ярус."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Глава VIII. Охота закончится на сцене."
+            }
+          ],
+          "sfx": "ДОЖДЬ…"
+        }
+      ]
+    },
+    "9": {
+      "title": "Спор трёх путей",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena backstage mist: green/purple/gold fog, roots through floor — SHADOWED trio scene, green hell + white-gold clock + violet runes.",
+          "narration": [
+            "Закулисье. Туман. Три силуэта у трещины в полу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Кто там — без приглашения?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Три пути. Один зал. Выбери."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "clock-halo SILHOUETTE and floating rune book SILHOUETTE flank shadow — NOT full faces, only outlines.",
+          "narration": [
+            "Два силуэта по бокам. Лица скрыты туманом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Ещё охотники?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Охотники на ложь. Не на тебя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Arena hunters attack all three silhouettes; hero strikes to break nets.",
+          "narration": [
+            "Охотники Арены бросаются на силуэты. Герой режет сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Если вы против них — говорите быстрее."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 4,
+          "scene": "Triangle composition: green hell + white-gold clock + violet runes protective circle — silhouettes only.",
+          "narration": [
+            "Три цвета в тумане сходятся в круг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Месть — дорога без выхода."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Выход найду сам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Silhouettes hold line while hero strikes hunter captain.",
+          "narration": [
+            "Силуэты держат линию. Герой бьёт капитана."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Троих… невозможно…"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Невозможное — мой репертуар."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Quiet vow exchange: three ideas, faces hidden.",
+          "narration": [
+            "Тихий спор: три идеи, лица скрыты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Убьёшь врага — станешь легендой. Или пустотой."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Пустота не принимает приглашений."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Sky triangle: hourglass, rune page, verdeletta symbol burn into mist.",
+          "narration": [
+            "В небе проступают три знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Три пути. Один враг. Пока сходимся."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Combined strike: hero power + root/light/time thread cuts nets.",
+          "narration": [
+            "Комбо: удар героя, нити союзников, рвутся сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Вместе — до ворот."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "После — каждый своей дорогой."
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 9,
+          "scene": "Triangle mark burned into Arena sand; herald watches.",
+          "narration": [
+            "На песке — треугольный знак. Глашатай затаил дыхание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Тебя объявят союзником тени!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Объявят — не значит узнают."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Silhouettes depart three ways; hero alone with mark on glove.",
+          "narration": [
+            "Силуэты уходят тремя тропами. На перчатке — знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Спор трёх путей. Ответ — на песке завтра."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Завтра мы снова станем тенью."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Бал вечности",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena ceremony wide: golden scoreboard, herald announces trio alliance rumor.",
+          "narration": [
+            "Церемония. Слухи о троице гремят громче барабанов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Верхний круг открыт. Финал — сегодня."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Сегодня зал полон. Без пустых стульев."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Zafkiel steps from portal — match zafkiel_skin1.png FULL design.",
+          "narration": [
+            "Из портала выходит Зафкиэль — полный облик, не силуэт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zafkiel",
+              "text": "Время пришло на бал. Часы не опаздывают."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Часы тикают. Я — не секунда."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Sora descends — match sora_skin1.png FULL design.",
+          "narration": [
+            "Спускается Сора — полный дизайн, лицо видно."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Руны помнят ваш зал. Мы обещали стычку."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Руны — не приглашения. Но я пришла."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs arena hunters on sand — SAME wide composition, all FULL faces.",
+          "narration": [
+            "Трое на песке против охотников. Все лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Слева — сети. Режем вместе."
+            },
+            {
+              "speaker": "zafkiel",
+              "text": "Откат держит линию."
+            },
+            {
+              "speaker": "sora",
+              "text": "Страница режет."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Team fight: invitation mark + clock rewind + rune seal combo layout.",
+          "narration": [
+            "Комбо суперов троих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "zafkiel",
+              "text": "Стоп!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Печать!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Upper gate: Protocol Brasso descends in full regalia.",
+          "narration": [
+            "Брассо спускается с верхнего яруса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "brasso",
+              "text": "Последний танец — по протоколу!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Протокол — не музыка."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena edge debate: three voices, three paths.",
+          "narration": [
+            "Край арены. Три голоса — три пути."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zafkiel",
+              "text": "Суд — секундой."
+            },
+            {
+              "speaker": "sora",
+              "text": "Запрет — свитком."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Мой путь — мой выбор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night sky: green hell fire + clock halo + violet runes merge over Arena dome.",
+          "narration": [
+            "Ночное небо: мотивы троицы сливаются над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gatekeeper",
+              "text": "Не превращай гостей в пепел."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Ношу память. Маску сниму."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final splash: trio vs enemy wave — hero leads.",
+          "narration": [
+            "Финальный залп: герой ведёт, союзники прикрывают."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Вперёд!"
+            },
+            {
+              "speaker": "brasso",
+              "text": "Цепи поглотят бал!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Не сегодня!"
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "End card: hero walks forward, trio behind, wind takes token.",
+          "narration": [
+            "Конец главы X. Знак уносит ветер — не прощание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Имя на табло — не конец."
+            },
+            {
+              "speaker": "zafkiel",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "sora",
+              "text": "До конца пути."
+            }
+          ],
+          "sfx": "ВЕТЕР…"
+        }
+      ]
+    }
+  }
+}

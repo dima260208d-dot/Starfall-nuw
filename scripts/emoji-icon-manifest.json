@@ -1,0 +1,1142 @@
+[
+  {
+    "emoji": "☀",
+    "file": "ui/emojis/u2600.png"
+  },
+  {
+    "emoji": "☄",
+    "file": "ui/emojis/u2604.png"
+  },
+  {
+    "emoji": "★",
+    "file": "ui/emojis/u2605.png"
+  },
+  {
+    "emoji": "☆",
+    "file": "ui/emojis/u2606.png"
+  },
+  {
+    "emoji": "☇",
+    "file": "ui/emojis/u2607.png"
+  },
+  {
+    "emoji": "☈",
+    "file": "ui/emojis/u2608.png"
+  },
+  {
+    "emoji": "☉",
+    "file": "ui/emojis/u2609.png"
+  },
+  {
+    "emoji": "☊",
+    "file": "ui/emojis/u260a.png"
+  },
+  {
+    "emoji": "☋",
+    "file": "ui/emojis/u260b.png"
+  },
+  {
+    "emoji": "☌",
+    "file": "ui/emojis/u260c.png"
+  },
+  {
+    "emoji": "☍",
+    "file": "ui/emojis/u260d.png"
+  },
+  {
+    "emoji": "☕",
+    "file": "ui/emojis/u2615.png"
+  },
+  {
+    "emoji": "☠",
+    "file": "ui/emojis/u2620.png"
+  },
+  {
+    "emoji": "☰",
+    "file": "ui/emojis/u2630.png"
+  },
+  {
+    "emoji": "☼",
+    "file": "ui/emojis/u263c.png"
+  },
+  {
+    "emoji": "♕",
+    "file": "ui/emojis/u2655.png"
+  },
+  {
+    "emoji": "♛",
+    "file": "ui/emojis/u265b.png"
+  },
+  {
+    "emoji": "♾",
+    "file": "ui/emojis/u267e.png"
+  },
+  {
+    "emoji": "⚓",
+    "file": "ui/emojis/u2693.png"
+  },
+  {
+    "emoji": "⚔",
+    "file": "ui/emojis/u2694.png"
+  },
+  {
+    "emoji": "⚖",
+    "file": "ui/emojis/u2696.png"
+  },
+  {
+    "emoji": "⚗",
+    "file": "ui/emojis/u2697.png"
+  },
+  {
+    "emoji": "⚙",
+    "file": "ui/emojis/u2699.png"
+  },
+  {
+    "emoji": "⚠",
+    "file": "ui/emojis/u26a0.png"
+  },
+  {
+    "emoji": "⚡",
+    "file": "ui/emojis/u26a1.png"
+  },
+  {
+    "emoji": "⚽",
+    "file": "ui/emojis/u26bd.png"
+  },
+  {
+    "emoji": "⛈",
+    "file": "ui/emojis/u26c8.png"
+  },
+  {
+    "emoji": "⛊",
+    "file": "ui/emojis/u26ca.png"
+  },
+  {
+    "emoji": "⛋",
+    "file": "ui/emojis/u26cb.png"
+  },
+  {
+    "emoji": "⛢",
+    "file": "ui/emojis/u26e2.png"
+  },
+  {
+    "emoji": "⛭",
+    "file": "ui/emojis/u26ed.png"
+  },
+  {
+    "emoji": "⛯",
+    "file": "ui/emojis/u26ef.png"
+  },
+  {
+    "emoji": "⛰",
+    "file": "ui/emojis/u26f0.png"
+  },
+  {
+    "emoji": "✅",
+    "file": "ui/emojis/u2705.png"
+  },
+  {
+    "emoji": "✈",
+    "file": "ui/emojis/u2708.png"
+  },
+  {
+    "emoji": "✉",
+    "file": "ui/emojis/u2709.png"
+  },
+  {
+    "emoji": "✋",
+    "file": "ui/emojis/u270b.png"
+  },
+  {
+    "emoji": "✏",
+    "file": "ui/emojis/u270f.png"
+  },
+  {
+    "emoji": "✓",
+    "file": "ui/emojis/u2713.png"
+  },
+  {
+    "emoji": "✕",
+    "file": "ui/emojis/u2715.png"
+  },
+  {
+    "emoji": "✖",
+    "file": "ui/emojis/u2716.png"
+  },
+  {
+    "emoji": "✗",
+    "file": "ui/emojis/u2717.png"
+  },
+  {
+    "emoji": "✙",
+    "file": "ui/emojis/u2719.png"
+  },
+  {
+    "emoji": "✚",
+    "file": "ui/emojis/u271a.png"
+  },
+  {
+    "emoji": "✛",
+    "file": "ui/emojis/u271b.png"
+  },
+  {
+    "emoji": "✜",
+    "file": "ui/emojis/u271c.png"
+  },
+  {
+    "emoji": "✦",
+    "file": "ui/emojis/u2726.png"
+  },
+  {
+    "emoji": "✧",
+    "file": "ui/emojis/u2727.png"
+  },
+  {
+    "emoji": "✨",
+    "file": "ui/emojis/u2728.png"
+  },
+  {
+    "emoji": "✪",
+    "file": "ui/emojis/u272a.png"
+  },
+  {
+    "emoji": "✫",
+    "file": "ui/emojis/u272b.png"
+  },
+  {
+    "emoji": "✬",
+    "file": "ui/emojis/u272c.png"
+  },
+  {
+    "emoji": "✭",
+    "file": "ui/emojis/u272d.png"
+  },
+  {
+    "emoji": "✮",
+    "file": "ui/emojis/u272e.png"
+  },
+  {
+    "emoji": "✲",
+    "file": "ui/emojis/u2732.png"
+  },
+  {
+    "emoji": "✴",
+    "file": "ui/emojis/u2734.png"
+  },
+  {
+    "emoji": "✵",
+    "file": "ui/emojis/u2735.png"
+  },
+  {
+    "emoji": "✶",
+    "file": "ui/emojis/u2736.png"
+  },
+  {
+    "emoji": "✷",
+    "file": "ui/emojis/u2737.png"
+  },
+  {
+    "emoji": "✸",
+    "file": "ui/emojis/u2738.png"
+  },
+  {
+    "emoji": "✹",
+    "file": "ui/emojis/u2739.png"
+  },
+  {
+    "emoji": "✺",
+    "file": "ui/emojis/u273a.png"
+  },
+  {
+    "emoji": "✼",
+    "file": "ui/emojis/u273c.png"
+  },
+  {
+    "emoji": "✽",
+    "file": "ui/emojis/u273d.png"
+  },
+  {
+    "emoji": "✾",
+    "file": "ui/emojis/u273e.png"
+  },
+  {
+    "emoji": "✿",
+    "file": "ui/emojis/u273f.png"
+  },
+  {
+    "emoji": "❀",
+    "file": "ui/emojis/u2740.png"
+  },
+  {
+    "emoji": "❂",
+    "file": "ui/emojis/u2742.png"
+  },
+  {
+    "emoji": "❃",
+    "file": "ui/emojis/u2743.png"
+  },
+  {
+    "emoji": "❄",
+    "file": "ui/emojis/u2744.png"
+  },
+  {
+    "emoji": "❉",
+    "file": "ui/emojis/u2749.png"
+  },
+  {
+    "emoji": "❋",
+    "file": "ui/emojis/u274b.png"
+  },
+  {
+    "emoji": "❌",
+    "file": "ui/emojis/u274c.png"
+  },
+  {
+    "emoji": "❓",
+    "file": "ui/emojis/u2753.png"
+  },
+  {
+    "emoji": "❖",
+    "file": "ui/emojis/u2756.png"
+  },
+  {
+    "emoji": "❤",
+    "file": "ui/emojis/u2764.png"
+  },
+  {
+    "emoji": "➕",
+    "file": "ui/emojis/u2795.png"
+  },
+  {
+    "emoji": "🌀",
+    "file": "ui/emojis/u1f300.png"
+  },
+  {
+    "emoji": "🌊",
+    "file": "ui/emojis/u1f30a.png"
+  },
+  {
+    "emoji": "🌌",
+    "file": "ui/emojis/u1f30c.png"
+  },
+  {
+    "emoji": "🌐",
+    "file": "ui/emojis/u1f310.png"
+  },
+  {
+    "emoji": "🌑",
+    "file": "ui/emojis/u1f311.png"
+  },
+  {
+    "emoji": "🌙",
+    "file": "ui/emojis/u1f319.png"
+  },
+  {
+    "emoji": "🌟",
+    "file": "ui/emojis/u1f31f.png"
+  },
+  {
+    "emoji": "🌠",
+    "file": "ui/emojis/u1f320.png"
+  },
+  {
+    "emoji": "🌧",
+    "file": "ui/emojis/u1f327.png"
+  },
+  {
+    "emoji": "🌪",
+    "file": "ui/emojis/u1f32a.png"
+  },
+  {
+    "emoji": "🌫",
+    "file": "ui/emojis/u1f32b.png"
+  },
+  {
+    "emoji": "🌲",
+    "file": "ui/emojis/u1f332.png"
+  },
+  {
+    "emoji": "🌳",
+    "file": "ui/emojis/u1f333.png"
+  },
+  {
+    "emoji": "🌵",
+    "file": "ui/emojis/u1f335.png"
+  },
+  {
+    "emoji": "🌸",
+    "file": "ui/emojis/u1f338.png"
+  },
+  {
+    "emoji": "🌹",
+    "file": "ui/emojis/u1f339.png"
+  },
+  {
+    "emoji": "🌿",
+    "file": "ui/emojis/u1f33f.png"
+  },
+  {
+    "emoji": "🍀",
+    "file": "ui/emojis/u1f340.png"
+  },
+  {
+    "emoji": "🍃",
+    "file": "ui/emojis/u1f343.png"
+  },
+  {
+    "emoji": "🍕",
+    "file": "ui/emojis/u1f355.png"
+  },
+  {
+    "emoji": "🎁",
+    "file": "ui/emojis/u1f381.png"
+  },
+  {
+    "emoji": "🎉",
+    "file": "ui/emojis/u1f389.png"
+  },
+  {
+    "emoji": "🎒",
+    "file": "ui/emojis/u1f392.png"
+  },
+  {
+    "emoji": "🎓",
+    "file": "ui/emojis/u1f393.png"
+  },
+  {
+    "emoji": "🎖",
+    "file": "ui/emojis/u1f396.png"
+  },
+  {
+    "emoji": "🎟",
+    "file": "ui/emojis/u1f39f.png"
+  },
+  {
+    "emoji": "🎨",
+    "file": "ui/emojis/u1f3a8.png"
+  },
+  {
+    "emoji": "🎪",
+    "file": "ui/emojis/u1f3aa.png"
+  },
+  {
+    "emoji": "🎬",
+    "file": "ui/emojis/u1f3ac.png"
+  },
+  {
+    "emoji": "🎭",
+    "file": "ui/emojis/u1f3ad.png"
+  },
+  {
+    "emoji": "🎮",
+    "file": "ui/emojis/u1f3ae.png"
+  },
+  {
+    "emoji": "🎯",
+    "file": "ui/emojis/u1f3af.png"
+  },
+  {
+    "emoji": "🎲",
+    "file": "ui/emojis/u1f3b2.png"
+  },
+  {
+    "emoji": "🎴",
+    "file": "ui/emojis/u1f3b4.png"
+  },
+  {
+    "emoji": "🎵",
+    "file": "ui/emojis/u1f3b5.png"
+  },
+  {
+    "emoji": "🎷",
+    "file": "ui/emojis/u1f3b7.png"
+  },
+  {
+    "emoji": "🎺",
+    "file": "ui/emojis/u1f3ba.png"
+  },
+  {
+    "emoji": "🏁",
+    "file": "ui/emojis/u1f3c1.png"
+  },
+  {
+    "emoji": "🏃",
+    "file": "ui/emojis/u1f3c3.png"
+  },
+  {
+    "emoji": "🏅",
+    "file": "ui/emojis/u1f3c5.png"
+  },
+  {
+    "emoji": "🏆",
+    "file": "ui/emojis/u1f3c6.png"
+  },
+  {
+    "emoji": "🏛",
+    "file": "ui/emojis/u1f3db.png"
+  },
+  {
+    "emoji": "🏠",
+    "file": "ui/emojis/u1f3e0.png"
+  },
+  {
+    "emoji": "🏰",
+    "file": "ui/emojis/u1f3f0.png"
+  },
+  {
+    "emoji": "🏴",
+    "file": "ui/emojis/u1f3f4.png"
+  },
+  {
+    "emoji": "🏷",
+    "file": "ui/emojis/u1f3f7.png"
+  },
+  {
+    "emoji": "🏹",
+    "file": "ui/emojis/u1f3f9.png"
+  },
+  {
+    "emoji": "🐆",
+    "file": "ui/emojis/u1f406.png"
+  },
+  {
+    "emoji": "🐉",
+    "file": "ui/emojis/u1f409.png"
+  },
+  {
+    "emoji": "🐍",
+    "file": "ui/emojis/u1f40d.png"
+  },
+  {
+    "emoji": "🐙",
+    "file": "ui/emojis/u1f419.png"
+  },
+  {
+    "emoji": "🐛",
+    "file": "ui/emojis/u1f41b.png"
+  },
+  {
+    "emoji": "🐯",
+    "file": "ui/emojis/u1f42f.png"
+  },
+  {
+    "emoji": "🐱",
+    "file": "ui/emojis/u1f431.png"
+  },
+  {
+    "emoji": "🐲",
+    "file": "ui/emojis/u1f432.png"
+  },
+  {
+    "emoji": "🐺",
+    "file": "ui/emojis/u1f43a.png"
+  },
+  {
+    "emoji": "🐻",
+    "file": "ui/emojis/u1f43b.png"
+  },
+  {
+    "emoji": "🐾",
+    "file": "ui/emojis/u1f43e.png"
+  },
+  {
+    "emoji": "👁",
+    "file": "ui/emojis/u1f441.png"
+  },
+  {
+    "emoji": "👊",
+    "file": "ui/emojis/u1f44a.png"
+  },
+  {
+    "emoji": "👋",
+    "file": "ui/emojis/u1f44b.png"
+  },
+  {
+    "emoji": "👍",
+    "file": "ui/emojis/u1f44d.png"
+  },
+  {
+    "emoji": "👑",
+    "file": "ui/emojis/u1f451.png"
+  },
+  {
+    "emoji": "👟",
+    "file": "ui/emojis/u1f45f.png"
+  },
+  {
+    "emoji": "👠",
+    "file": "ui/emojis/u1f460.png"
+  },
+  {
+    "emoji": "👤",
+    "file": "ui/emojis/u1f464.png"
+  },
+  {
+    "emoji": "👥",
+    "file": "ui/emojis/u1f465.png"
+  },
+  {
+    "emoji": "👹",
+    "file": "ui/emojis/u1f479.png"
+  },
+  {
+    "emoji": "👻",
+    "file": "ui/emojis/u1f47b.png"
+  },
+  {
+    "emoji": "👽",
+    "file": "ui/emojis/u1f47d.png"
+  },
+  {
+    "emoji": "👾",
+    "file": "ui/emojis/u1f47e.png"
+  },
+  {
+    "emoji": "💀",
+    "file": "ui/emojis/u1f480.png"
+  },
+  {
+    "emoji": "💃",
+    "file": "ui/emojis/u1f483.png"
+  },
+  {
+    "emoji": "💉",
+    "file": "ui/emojis/u1f489.png"
+  },
+  {
+    "emoji": "💎",
+    "file": "ui/emojis/u1f48e.png"
+  },
+  {
+    "emoji": "💔",
+    "file": "ui/emojis/u1f494.png"
+  },
+  {
+    "emoji": "💖",
+    "file": "ui/emojis/u1f496.png"
+  },
+  {
+    "emoji": "💚",
+    "file": "ui/emojis/u1f49a.png"
+  },
+  {
+    "emoji": "💜",
+    "file": "ui/emojis/u1f49c.png"
+  },
+  {
+    "emoji": "💠",
+    "file": "ui/emojis/u1f4a0.png"
+  },
+  {
+    "emoji": "💡",
+    "file": "ui/emojis/u1f4a1.png"
+  },
+  {
+    "emoji": "💥",
+    "file": "ui/emojis/u1f4a5.png"
+  },
+  {
+    "emoji": "💦",
+    "file": "ui/emojis/u1f4a6.png"
+  },
+  {
+    "emoji": "💧",
+    "file": "ui/emojis/u1f4a7.png"
+  },
+  {
+    "emoji": "💨",
+    "file": "ui/emojis/u1f4a8.png"
+  },
+  {
+    "emoji": "💫",
+    "file": "ui/emojis/u1f4ab.png"
+  },
+  {
+    "emoji": "💬",
+    "file": "ui/emojis/u1f4ac.png"
+  },
+  {
+    "emoji": "💰",
+    "file": "ui/emojis/u1f4b0.png"
+  },
+  {
+    "emoji": "💳",
+    "file": "ui/emojis/u1f4b3.png"
+  },
+  {
+    "emoji": "💾",
+    "file": "ui/emojis/u1f4be.png"
+  },
+  {
+    "emoji": "📂",
+    "file": "ui/emojis/u1f4c2.png"
+  },
+  {
+    "emoji": "📅",
+    "file": "ui/emojis/u1f4c5.png"
+  },
+  {
+    "emoji": "📈",
+    "file": "ui/emojis/u1f4c8.png"
+  },
+  {
+    "emoji": "📊",
+    "file": "ui/emojis/u1f4ca.png"
+  },
+  {
+    "emoji": "📋",
+    "file": "ui/emojis/u1f4cb.png"
+  },
+  {
+    "emoji": "📌",
+    "file": "ui/emojis/u1f4cc.png"
+  },
+  {
+    "emoji": "📍",
+    "file": "ui/emojis/u1f4cd.png"
+  },
+  {
+    "emoji": "📎",
+    "file": "ui/emojis/u1f4ce.png"
+  },
+  {
+    "emoji": "📏",
+    "file": "ui/emojis/u1f4cf.png"
+  },
+  {
+    "emoji": "📖",
+    "file": "ui/emojis/u1f4d6.png"
+  },
+  {
+    "emoji": "📘",
+    "file": "ui/emojis/u1f4d8.png"
+  },
+  {
+    "emoji": "📚",
+    "file": "ui/emojis/u1f4da.png"
+  },
+  {
+    "emoji": "📜",
+    "file": "ui/emojis/u1f4dc.png"
+  },
+  {
+    "emoji": "📝",
+    "file": "ui/emojis/u1f4dd.png"
+  },
+  {
+    "emoji": "📢",
+    "file": "ui/emojis/u1f4e2.png"
+  },
+  {
+    "emoji": "📤",
+    "file": "ui/emojis/u1f4e4.png"
+  },
+  {
+    "emoji": "📥",
+    "file": "ui/emojis/u1f4e5.png"
+  },
+  {
+    "emoji": "📦",
+    "file": "ui/emojis/u1f4e6.png"
+  },
+  {
+    "emoji": "📨",
+    "file": "ui/emojis/u1f4e8.png"
+  },
+  {
+    "emoji": "📩",
+    "file": "ui/emojis/u1f4e9.png"
+  },
+  {
+    "emoji": "📭",
+    "file": "ui/emojis/u1f4ed.png"
+  },
+  {
+    "emoji": "📯",
+    "file": "ui/emojis/u1f4ef.png"
+  },
+  {
+    "emoji": "📰",
+    "file": "ui/emojis/u1f4f0.png"
+  },
+  {
+    "emoji": "📱",
+    "file": "ui/emojis/u1f4f1.png"
+  },
+  {
+    "emoji": "📷",
+    "file": "ui/emojis/u1f4f7.png"
+  },
+  {
+    "emoji": "📺",
+    "file": "ui/emojis/u1f4fa.png"
+  },
+  {
+    "emoji": "🔁",
+    "file": "ui/emojis/u1f501.png"
+  },
+  {
+    "emoji": "🔄",
+    "file": "ui/emojis/u1f504.png"
+  },
+  {
+    "emoji": "🔆",
+    "file": "ui/emojis/u1f506.png"
+  },
+  {
+    "emoji": "🔋",
+    "file": "ui/emojis/u1f50b.png"
+  },
+  {
+    "emoji": "🔌",
+    "file": "ui/emojis/u1f50c.png"
+  },
+  {
+    "emoji": "🔍",
+    "file": "ui/emojis/u1f50d.png"
+  },
+  {
+    "emoji": "🔐",
+    "file": "ui/emojis/u1f510.png"
+  },
+  {
+    "emoji": "🔑",
+    "file": "ui/emojis/u1f511.png"
+  },
+  {
+    "emoji": "🔒",
+    "file": "ui/emojis/u1f512.png"
+  },
+  {
+    "emoji": "🔓",
+    "file": "ui/emojis/u1f513.png"
+  },
+  {
+    "emoji": "🔔",
+    "file": "ui/emojis/u1f514.png"
+  },
+  {
+    "emoji": "🔗",
+    "file": "ui/emojis/u1f517.png"
+  },
+  {
+    "emoji": "🔥",
+    "file": "ui/emojis/u1f525.png"
+  },
+  {
+    "emoji": "🔨",
+    "file": "ui/emojis/u1f528.png"
+  },
+  {
+    "emoji": "🔩",
+    "file": "ui/emojis/u1f529.png"
+  },
+  {
+    "emoji": "🔪",
+    "file": "ui/emojis/u1f52a.png"
+  },
+  {
+    "emoji": "🔫",
+    "file": "ui/emojis/u1f52b.png"
+  },
+  {
+    "emoji": "🔬",
+    "file": "ui/emojis/u1f52c.png"
+  },
+  {
+    "emoji": "🔮",
+    "file": "ui/emojis/u1f52e.png"
+  },
+  {
+    "emoji": "🔱",
+    "file": "ui/emojis/u1f531.png"
+  },
+  {
+    "emoji": "🔲",
+    "file": "ui/emojis/u1f532.png"
+  },
+  {
+    "emoji": "🔴",
+    "file": "ui/emojis/u1f534.png"
+  },
+  {
+    "emoji": "🔵",
+    "file": "ui/emojis/u1f535.png"
+  },
+  {
+    "emoji": "🔶",
+    "file": "ui/emojis/u1f536.png"
+  },
+  {
+    "emoji": "🔺",
+    "file": "ui/emojis/u1f53a.png"
+  },
+  {
+    "emoji": "🕳",
+    "file": "ui/emojis/u1f573.png"
+  },
+  {
+    "emoji": "🕶",
+    "file": "ui/emojis/u1f576.png"
+  },
+  {
+    "emoji": "🕷",
+    "file": "ui/emojis/u1f577.png"
+  },
+  {
+    "emoji": "🖌",
+    "file": "ui/emojis/u1f58c.png"
+  },
+  {
+    "emoji": "🖤",
+    "file": "ui/emojis/u1f5a4.png"
+  },
+  {
+    "emoji": "🖥",
+    "file": "ui/emojis/u1f5a5.png"
+  },
+  {
+    "emoji": "🖼",
+    "file": "ui/emojis/u1f5bc.png"
+  },
+  {
+    "emoji": "🗑",
+    "file": "ui/emojis/u1f5d1.png"
+  },
+  {
+    "emoji": "🗝",
+    "file": "ui/emojis/u1f5dd.png"
+  },
+  {
+    "emoji": "🗡",
+    "file": "ui/emojis/u1f5e1.png"
+  },
+  {
+    "emoji": "🗺",
+    "file": "ui/emojis/u1f5fa.png"
+  },
+  {
+    "emoji": "🗿",
+    "file": "ui/emojis/u1f5ff.png"
+  },
+  {
+    "emoji": "😂",
+    "file": "ui/emojis/u1f602.png"
+  },
+  {
+    "emoji": "😄",
+    "file": "ui/emojis/u1f604.png"
+  },
+  {
+    "emoji": "😇",
+    "file": "ui/emojis/u1f607.png"
+  },
+  {
+    "emoji": "😈",
+    "file": "ui/emojis/u1f608.png"
+  },
+  {
+    "emoji": "😍",
+    "file": "ui/emojis/u1f60d.png"
+  },
+  {
+    "emoji": "😠",
+    "file": "ui/emojis/u1f620.png"
+  },
+  {
+    "emoji": "😡",
+    "file": "ui/emojis/u1f621.png"
+  },
+  {
+    "emoji": "😢",
+    "file": "ui/emojis/u1f622.png"
+  },
+  {
+    "emoji": "😤",
+    "file": "ui/emojis/u1f624.png"
+  },
+  {
+    "emoji": "😭",
+    "file": "ui/emojis/u1f62d.png"
+  },
+  {
+    "emoji": "😱",
+    "file": "ui/emojis/u1f631.png"
+  },
+  {
+    "emoji": "😵",
+    "file": "ui/emojis/u1f635.png"
+  },
+  {
+    "emoji": "🚀",
+    "file": "ui/emojis/u1f680.png"
+  },
+  {
+    "emoji": "🚧",
+    "file": "ui/emojis/u1f6a7.png"
+  },
+  {
+    "emoji": "🚪",
+    "file": "ui/emojis/u1f6aa.png"
+  },
+  {
+    "emoji": "🛒",
+    "file": "ui/emojis/u1f6d2.png"
+  },
+  {
+    "emoji": "🛠",
+    "file": "ui/emojis/u1f6e0.png"
+  },
+  {
+    "emoji": "🛡",
+    "file": "ui/emojis/u1f6e1.png"
+  },
+  {
+    "emoji": "🛤",
+    "file": "ui/emojis/u1f6e4.png"
+  },
+  {
+    "emoji": "🛸",
+    "file": "ui/emojis/u1f6f8.png"
+  },
+  {
+    "emoji": "🟢",
+    "file": "ui/emojis/u1f7e2.png"
+  },
+  {
+    "emoji": "🟣",
+    "file": "ui/emojis/u1f7e3.png"
+  },
+  {
+    "emoji": "🤍",
+    "file": "ui/emojis/u1f90d.png"
+  },
+  {
+    "emoji": "🤖",
+    "file": "ui/emojis/u1f916.png"
+  },
+  {
+    "emoji": "🤝",
+    "file": "ui/emojis/u1f91d.png"
+  },
+  {
+    "emoji": "🥇",
+    "file": "ui/emojis/u1f947.png"
+  },
+  {
+    "emoji": "🥈",
+    "file": "ui/emojis/u1f948.png"
+  },
+  {
+    "emoji": "🥉",
+    "file": "ui/emojis/u1f949.png"
+  },
+  {
+    "emoji": "🥷",
+    "file": "ui/emojis/u1f977.png"
+  },
+  {
+    "emoji": "🦁",
+    "file": "ui/emojis/u1f981.png"
+  },
+  {
+    "emoji": "🦂",
+    "file": "ui/emojis/u1f982.png"
+  },
+  {
+    "emoji": "🦄",
+    "file": "ui/emojis/u1f984.png"
+  },
+  {
+    "emoji": "🦅",
+    "file": "ui/emojis/u1f985.png"
+  },
+  {
+    "emoji": "🦇",
+    "file": "ui/emojis/u1f987.png"
+  },
+  {
+    "emoji": "🦈",
+    "file": "ui/emojis/u1f988.png"
+  },
+  {
+    "emoji": "🦌",
+    "file": "ui/emojis/u1f98c.png"
+  },
+  {
+    "emoji": "🦑",
+    "file": "ui/emojis/u1f991.png"
+  },
+  {
+    "emoji": "🦸",
+    "file": "ui/emojis/u1f9b8.png"
+  },
+  {
+    "emoji": "🧑",
+    "file": "ui/emojis/u1f9d1.png"
+  },
+  {
+    "emoji": "🧙",
+    "file": "ui/emojis/u1f9d9.png"
+  },
+  {
+    "emoji": "🧚",
+    "file": "ui/emojis/u1f9da.png"
+  },
+  {
+    "emoji": "🧠",
+    "file": "ui/emojis/u1f9e0.png"
+  },
+  {
+    "emoji": "🧪",
+    "file": "ui/emojis/u1f9ea.png"
+  },
+  {
+    "emoji": "🧱",
+    "file": "ui/emojis/u1f9f1.png"
+  },
+  {
+    "emoji": "🧹",
+    "file": "ui/emojis/u1f9f9.png"
+  },
+  {
+    "emoji": "🧿",
+    "file": "ui/emojis/u1f9ff.png"
+  },
+  {
+    "emoji": "🩸",
+    "file": "ui/emojis/u1fa78.png"
+  },
+  {
+    "emoji": "🪓",
+    "file": "ui/emojis/u1fa93.png"
+  },
+  {
+    "emoji": "🪙",
+    "file": "ui/emojis/u1fa99.png"
+  },
+  {
+    "emoji": "🪨",
+    "file": "ui/emojis/u1faa8.png"
+  },
+  {
+    "emoji": "🪫",
+    "file": "ui/emojis/u1faab.png"
+  },
+  {
+    "emoji": "🪲",
+    "file": "ui/emojis/u1fab2.png"
+  },
+  {
+    "emoji": "🪵",
+    "file": "ui/emojis/u1fab5.png"
+  },
+  {
+    "emoji": "🪽",
+    "file": "ui/emojis/u1fabd.png"
+  },
+  {
+    "emoji": "🫙",
+    "file": "ui/emojis/u1fad9.png"
+  }
+]

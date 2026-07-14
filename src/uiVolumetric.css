@@ -1,0 +1,318 @@
+/*
+ * Single volumetric button style (character-menu recipe).
+ * Geometry lives in index.css; all fill/shadow/glow lives here only.
+ */
+
+/* ── Shared selector: full volumetric (NOT profile / trophy road) ── */
+:where(
+  button:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-btn:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-back-btn:not(.no-ui-shear),
+  .ui-tab:not(.no-ui-shear),
+  .ui-resource-pill:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-hamburger-btn:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-pill:not(.ui-badge):not(.no-ui-shear),
+  button.ui-vol-round,
+  .char-selected-btn
+):not(:disabled),
+.char-selected-btn:disabled {
+  filter:
+    drop-shadow(0 5px 10px rgba(0, 0, 0, 0.44))
+    drop-shadow(0 0 16px var(--menu-btn-glow, rgba(123, 47, 190, 0.38)));
+}
+
+:where(
+  button:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-btn:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-back-btn:not(.no-ui-shear),
+  .ui-tab:not(.no-ui-shear),
+  .ui-resource-pill:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-hamburger-btn:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-pill:not(.ui-badge):not(.no-ui-shear),
+  button.ui-vol-round,
+  .char-selected-btn
+):not(:disabled)::before,
+.char-selected-btn:disabled::before {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.1) 28%,
+      transparent 44%,
+      rgba(0, 0, 0, 0.1) 54%,
+      rgba(0, 0, 0, 0.42) 100%
+    ),
+    var(--ui-shear-fill, rgba(15, 8, 42, 0.82)) !important;
+  border: 2px solid rgba(0, 0, 0, 0.82) !important;
+  backdrop-filter: var(--ui-shear-blur, blur(12px) saturate(1.15)) !important;
+  -webkit-backdrop-filter: var(--ui-shear-blur, blur(12px) saturate(1.15)) !important;
+  box-shadow:
+    0 5px 0 rgba(0, 0, 0, 0.54),
+    0 3px 6px rgba(0, 0, 0, 0.38),
+    0 9px 24px rgba(0, 0, 0, 0.46),
+    0 0 22px var(--menu-btn-glow, rgba(123, 47, 190, 0.42)),
+    inset 0 3px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -4px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+:where(
+  button:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-btn:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-back-btn:not(.no-ui-shear),
+  .ui-tab:not(.no-ui-shear),
+  .ui-resource-pill:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-hamburger-btn:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-pill:not(.ui-badge):not(.no-ui-shear),
+  button.ui-vol-round
+):hover:not(:disabled) {
+  filter:
+    drop-shadow(0 5px 10px rgba(0, 0, 0, 0.44))
+    drop-shadow(0 0 20px var(--menu-btn-glow, rgba(123, 47, 190, 0.48))) !important;
+}
+
+:where(
+  button:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-btn:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-back-btn:not(.no-ui-shear),
+  .ui-tab:not(.no-ui-shear),
+  .ui-resource-pill:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-hamburger-btn:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-pill:not(.ui-badge):not(.no-ui-shear),
+  button.ui-vol-round
+):hover:not(:disabled)::before {
+  filter: brightness(1.07) !important;
+  box-shadow:
+    0 5px 0 rgba(0, 0, 0, 0.58),
+    0 4px 8px rgba(0, 0, 0, 0.42),
+    0 11px 28px rgba(0, 0, 0, 0.5),
+    0 0 28px var(--menu-btn-glow, rgba(123, 47, 190, 0.52)),
+    inset 0 3px 0 rgba(255, 255, 255, 0.56),
+    inset 0 -4px 0 rgba(0, 0, 0, 0.52) !important;
+}
+
+:where(
+  button:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-btn:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-back-btn:not(.no-ui-shear),
+  .ui-tab:not(.no-ui-shear),
+  .ui-resource-pill:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-hamburger-btn:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-pill:not(.ui-badge):not(.no-ui-shear),
+  button.ui-vol-round,
+  .char-selected-btn
+)::after,
+.char-selected-btn:disabled::after {
+  border: none !important;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, transparent 38%) !important;
+  opacity: 1;
+}
+
+:where(
+  button:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-btn:not(.no-ui-shear):not(.menu-top-bar-flat):not(.menu-top-bar-soft):not(.ui-shape-round):not(.ui-shape-pill),
+  .ui-back-btn:not(.no-ui-shear),
+  .ui-tab:not(.no-ui-shear),
+  .ui-resource-pill:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-hamburger-btn:not(.no-ui-shear):not(.menu-top-bar-soft),
+  .ui-pill:not(.ui-badge):not(.no-ui-shear),
+  button.ui-vol-round
+):active:not(:disabled)::before {
+  box-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.48),
+    0 0 14px var(--menu-btn-glow, rgba(123, 47, 190, 0.36)),
+    inset 0 4px 8px rgba(0, 0, 0, 0.48) !important;
+}
+
+/* Rounded icon buttons — same recipe, round geometry */
+button.ui-vol-round {
+  position: relative;
+  isolation: isolate;
+  overflow: visible !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+button.ui-vol-round::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  clip-path: none !important;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+button.ui-vol-round::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  clip-path: none !important;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+/* Main menu top bar — softer volumetric (resources, hamburger) */
+.main-menu-shell button.menu-top-bar-soft:not(.no-ui-shear):not(:disabled),
+.main-menu-shell .ui-resource-pill.menu-top-bar-soft:not(:disabled) {
+  filter:
+    drop-shadow(0 4px 8px rgba(0, 0, 0, 0.36))
+    drop-shadow(0 0 14px var(--menu-btn-glow, rgba(123, 47, 190, 0.32)));
+}
+
+.main-menu-shell button.menu-top-bar-soft:not(.no-ui-shear):not(:disabled)::before,
+.main-menu-shell .ui-resource-pill.menu-top-bar-soft:not(:disabled)::before {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.14) 0%,
+      rgba(255, 255, 255, 0.05) 28%,
+      transparent 44%,
+      rgba(0, 0, 0, 0.08) 54%,
+      rgba(0, 0, 0, 0.32) 100%
+    ),
+    var(--ui-shear-fill, rgba(15, 8, 42, 0.82)) !important;
+  border: 2px solid rgba(0, 0, 0, 0.82) !important;
+  box-shadow:
+    0 4px 0 rgba(0, 0, 0, 0.46),
+    0 2px 5px rgba(0, 0, 0, 0.32),
+    0 7px 18px rgba(0, 0, 0, 0.38),
+    0 0 18px var(--menu-btn-glow, rgba(123, 47, 190, 0.35)),
+    inset 0 2px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -3px 0 rgba(0, 0, 0, 0.38) !important;
+}
+
+.main-menu-shell button.menu-top-bar-soft:not(.no-ui-shear):not(:disabled):hover::before,
+.main-menu-shell .ui-resource-pill.menu-top-bar-soft:not(:disabled):hover::before {
+  box-shadow:
+    0 4px 0 rgba(0, 0, 0, 0.5),
+    0 3px 7px rgba(0, 0, 0, 0.36),
+    0 9px 22px rgba(0, 0, 0, 0.42),
+    0 0 22px var(--menu-btn-glow, rgba(123, 47, 190, 0.42)),
+    inset 0 2px 0 rgba(255, 255, 255, 0.32),
+    inset 0 -3px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+.main-menu-shell button.menu-top-bar-soft:not(.no-ui-shear)::after,
+.main-menu-shell .ui-resource-pill.menu-top-bar-soft::after {
+  border: none !important;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 30%) !important;
+}
+
+/* Profile + Trophy Road — flat (no white volumetric plate) */
+.main-menu-shell button.menu-top-bar-flat:not(.no-ui-shear):not(:disabled) {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.32)) !important;
+}
+
+.main-menu-shell button.menu-top-bar-flat:not(.no-ui-shear):not(:disabled)::before {
+  background: var(--ui-shear-fill, rgba(15, 8, 42, 0.82)) !important;
+  border: 1.5px solid rgba(0, 0, 0, 0.82) !important;
+  backdrop-filter: var(--ui-shear-blur, blur(12px) saturate(1.15)) !important;
+  -webkit-backdrop-filter: var(--ui-shear-blur, blur(12px) saturate(1.15)) !important;
+  box-shadow: 0 0 14px var(--menu-btn-glow, rgba(123, 47, 190, 0.32)) !important;
+}
+
+.main-menu-shell button.menu-top-bar-flat:not(.no-ui-shear):not(:disabled):hover::before {
+  filter: brightness(1.04) !important;
+  box-shadow: 0 0 18px var(--menu-btn-glow, rgba(123, 47, 190, 0.4)) !important;
+}
+
+.main-menu-shell button.menu-top-bar-flat:not(.no-ui-shear):not(:disabled):active::before {
+  box-shadow:
+    0 0 10px var(--menu-btn-glow, rgba(123, 47, 190, 0.28)),
+    inset 0 2px 5px rgba(0, 0, 0, 0.35) !important;
+}
+
+.main-menu-shell button.menu-top-bar-flat:not(.no-ui-shear)::after {
+  display: none !important;
+}
+
+/* Character screen color overrides */
+.char-back-list-btn {
+  --ui-shear-fill: rgba(88, 88, 98, 0.58) !important;
+  --menu-btn-glow: rgba(180, 180, 190, 0.22);
+}
+
+.char-selected-btn,
+.char-selected-btn:disabled {
+  --ui-shear-fill: linear-gradient(160deg, rgba(74, 20, 140, 0.88), rgba(123, 47, 190, 0.72)) !important;
+  --menu-btn-glow: rgba(213, 0, 249, 0.55);
+  opacity: 1 !important;
+  cursor: default;
+}
+
+.char-max-level-shimmer {
+  width: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  background: linear-gradient(
+    90deg,
+    #c9a227 0%,
+    #ffe57f 18%,
+    #fff8e1 32%,
+    #ffb300 50%,
+    #ffe57f 68%,
+    #ff8f00 82%,
+    #c9a227 100%
+  );
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: char-max-shimmer 2.8s linear infinite;
+  filter: drop-shadow(0 0 10px rgba(255, 193, 7, 0.45));
+}
+
+@keyframes char-max-shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 220% center; }
+}
+
+.char-lore-block {
+  align-self: stretch;
+}
+
+/* «НОВОЕ» на кнопке режима — только верх/низ, как часть кнопки */
+.ui-vol-new-strip {
+  filter: none !important;
+  box-shadow:
+    inset 0 3px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -4px 0 rgba(0, 0, 0, 0.48);
+}
+
+.ui-vol-new-strip--pulse {
+  animation: uiVolNewStripPulse 2s ease-in-out infinite;
+}
+
+@keyframes uiVolNewStripPulse {
+  0%, 100% {
+    box-shadow:
+      inset 0 3px 0 rgba(255, 255, 255, 0.5),
+      inset 0 -4px 0 rgba(0, 0, 0, 0.48);
+  }
+  50% {
+    box-shadow:
+      inset 0 3px 0 rgba(255, 255, 255, 0.72),
+      inset 0 -4px 0 rgba(0, 0, 0, 0.52);
+  }
+}
+
+.ui-vol-new-pill {
+  filter:
+    drop-shadow(0 3px 6px rgba(0, 0, 0, 0.42))
+    drop-shadow(0 0 12px rgba(255, 23, 68, 0.55));
+  box-shadow:
+    0 3px 0 rgba(0, 0, 0, 0.52),
+    0 2px 4px rgba(0, 0, 0, 0.35),
+    0 5px 14px rgba(0, 0, 0, 0.36),
+    0 0 16px rgba(255, 23, 68, 0.75),
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.38);
+  border: 2px solid rgba(0, 0, 0, 0.78) !important;
+}

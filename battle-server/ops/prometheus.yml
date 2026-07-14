@@ -1,0 +1,27 @@
+# Prometheus scrape config for Starfall battle workers (VPS localhost).
+# Point Grafana / Prometheus at http://217.60.245.116/mm/metrics for aggregated metrics.
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: starfall-matchmaker
+    static_configs:
+      - targets: ["127.0.0.1:8090"]
+    metrics_path: /metrics
+
+  - job_name: starfall-battle-workers
+    static_configs:
+      - targets:
+          - "127.0.0.1:8101"
+          - "127.0.0.1:8102"
+          - "127.0.0.1:8103"
+          - "127.0.0.1:8104"
+          - "127.0.0.1:8105"
+          - "127.0.0.1:8106"
+          - "127.0.0.1:8107"
+          - "127.0.0.1:8108"
+          - "127.0.0.1:8109"
+          - "127.0.0.1:8110"
+          - "127.0.0.1:8111"
+          - "127.0.0.1:8112"
+    metrics_path: /metrics

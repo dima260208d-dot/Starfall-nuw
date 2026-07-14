@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 96" width="160" height="96">
+  <defs>
+    <linearGradient id="bgP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1f3c"/>
+      <stop offset="55%" stop-color="#1a3a6e"/>
+      <stop offset="100%" stop-color="#0f2748"/>
+    </linearGradient>
+    <linearGradient id="glowP" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#4fc3f7" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0288d1" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="96" rx="14" fill="url(#bgP)"/>
+  <circle cx="80" cy="48" r="38" fill="url(#glowP)" opacity="0.22"/>
+  <path d="M80 18 L88 42 L114 44 L94 60 L100 86 L80 72 L60 86 L66 60 L46 44 L72 42 Z" fill="none" stroke="#81d4fa" stroke-width="2.2" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M80 26 L85 44 L104 46 L90 58 L94 76 L80 66 L66 76 L70 58 L56 46 L75 44 Z" fill="#e1f5fe" opacity="0.12"/>
+  <g stroke="#4fc3f7" stroke-width="1.2" opacity="0.45">
+    <line x1="22" y1="22" x2="42" y2="18"/><line x1="138" y1="20" x2="122" y2="26"/>
+    <line x1="24" y1="78" x2="40" y2="72"/><line x1="136" y1="76" x2="118" y2="70"/>
+  </g>
+</svg>

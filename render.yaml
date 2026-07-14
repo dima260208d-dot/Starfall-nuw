@@ -1,0 +1,26 @@
+# Blueprint Render — Starfall
+
+services:
+  # Диспетчер команд / пати (шаг 1)
+  - type: web
+    name: starfall-party
+    runtime: docker
+    rootDir: server
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: "8080"
+
+  # Синхронизация боёв (шаг 2 — включите позже)
+  # - type: web
+  #   name: starfall-edge
+  #   runtime: docker
+  #   rootDir: edge-server
+  #   plan: free
+  #   healthCheckPath: /health
+  #   envVars:
+  #     - key: PORT
+  #       value: "8080"
+  #     - key: R2_PUBLIC_URL
+  #       sync: false

@@ -1,0 +1,12 @@
+[
+  { "id": "miya", "name": "Miya", "desc": "purple hair ninja girl with shurikens" },
+  { "id": "ronin", "name": "Ronin", "desc": "huge red samurai armor with katana" },
+  { "id": "yuki", "name": "Yuki", "desc": "blue kimono ice mage girl with snow staff" },
+  { "id": "kenji", "name": "Kenji", "desc": "yellow suit boy with electric shock gloves" },
+  { "id": "hana", "name": "Hana", "desc": "pink medical coat girl with healing pistol" },
+  { "id": "goro", "name": "Goro", "desc": "huge bearded berserker with dual axes" },
+  { "id": "sora", "name": "Sora", "desc": "blue robe mage boy with floating spellbook fire" },
+  { "id": "rin", "name": "Rin", "desc": "green hair girl with poison daggers" },
+  { "id": "taro", "name": "Taro", "desc": "old engineer with wrench and mechanical backpack" },
+  { "id": "zafkiel", "name": "Zafkiel", "desc": "purple gold time keeper with hourglass pistols" }
+]

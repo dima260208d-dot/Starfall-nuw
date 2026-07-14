@@ -1,0 +1,1757 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const npcs = {
+  "oak": "Дуб — древний голос без тела: треск коры, слова в листве",
+  "mira": "Мира — девочка из соседней деревни: косички, зелёный фартук, не боится лешего",
+  "foreman": "Бригадир — лесоруб в оранжевом жилете, бензопила, пустые глаза",
+  "emberSaw": "Огненная пила — модифицированная пила с красными зубьями",
+  "gin": "Джин — диктор Арены",
+  "burnedSpirit": "Дух сожжённого леса — дымный силуэт с ветками вместо рук"
+};
+
+const chapters = {
+  "1": {
+    "title": "Мальчик под дубом",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Wide: ancient forest clearing, boy Silven plays with acorn.",
+        "narration": [
+          "Дубовая поляна. Мальчик играет с желудем."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Сильвен! Мама зовёт на ужин!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Дуб шепчет. Подожди минутку."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Silven talks to oak; leaves rustle answers.",
+        "narration": [
+          "Листья отвечают на шёпот."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Слушай корни. Они помнят дождь."
+          },
+          {
+            "speaker": "silven",
+            "text": "А людей помнят?"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Village edge: loggers mark trees with orange paint.",
+        "narration": [
+          "На стволах — оранжевая краска."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Через неделю — сруб. Королевский заказ."
+          },
+          {
+            "speaker": "silven",
+            "text": "Дуб старше королевства."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Silven plants saplings along stream.",
+        "narration": [
+          "Сильвен сажает ростки у ручья."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Зачем? Их всё равно сожгут."
+          },
+          {
+            "speaker": "silven",
+            "text": "Пока растут — ещё не сожгли."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Night: fireflies like green stars.",
+        "narration": [
+          "Светлячки — зелёные звёзды."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Лес умрёт — город чем дышать будет?"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Foreman meets Silven — offers coin for oak location.",
+        "narration": [
+          "Бригадир предлагает монеты за место дуба."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Мальчик, укажи большой дуб. Получишь дом."
+          },
+          {
+            "speaker": "silven",
+            "text": "Дом там, где корни. Не продам."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Silven weaves first thorn ivy on wrist.",
+        "narration": [
+          "Первый колючий плющ на запястье."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Шипы — не злость. Граница."
+          },
+          {
+            "speaker": "silven",
+            "text": "Научи держать границу без огня."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Storm: lightning far — Silven not afraid.",
+        "narration": [
+          "Гроза вдали. Мальчик не боится."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Беги в деревню!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Дуб переживёт. Я с ним."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Dawn: orange paint closer to clearing.",
+        "narration": [
+          "Рассвет. Краска ближе к поляне."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Неделя… или меньше, если они врут."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: smoke smell from east.",
+        "narration": [
+          "Запах дыма с востока."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Это… уже?"
+          },
+          {
+            "speaker": "silven",
+            "text": "Беги. Предупреди. Я — к корням."
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  },
+  "2": {
+    "title": "Пепельная поляна",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Inferno wide: forest burns, Silven runs against fleeing animals.",
+        "narration": [
+          "Лес горит. Сильвен бежит навстречу зверям."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Жги быстрее! Королевский срок!"
+          }
+        ],
+        "sfx": "БУМ!"
+      },
+      {
+        "page": 2,
+        "scene": "Silven tries to save oak — ember saws block path.",
+        "narration": [
+          "К дубу — огненные пилы."
+        ],
+        "dialogue": [
+          {
+            "speaker": "emberSaw",
+            "text": "Деревья — добыча!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Вы ошиблись!"
+          }
+        ],
+        "sfx": "ЖЖЖ!"
+      },
+      {
+        "page": 3,
+        "scene": "Mira trapped under fallen branch; Silven lifts with vines.",
+        "narration": [
+          "Мира под веткой. Лозы поднимают бревно."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Больно…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Держись. Корни держат меня."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Oak trunk cracks; green light pours out.",
+        "narration": [
+          "Ствол трескается. Зелёный свет."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Мальчик… сердце… или лес…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Оба!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Silven places hand on oak — offer heart.",
+        "narration": [
+          "Ладонь на коре. Предложение сердца."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Возьми. Расти вместо меня."
+          },
+          {
+            "speaker": "oak",
+            "text": "…принято…"
+          }
+        ],
+        "sfx": "КРАК!"
+      },
+      {
+        "page": 6,
+        "scene": "Transformation: root legs form; human heart glows inside oak chest.",
+        "narration": [
+          "Корни вместо ног. Сердце светится в дубе."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Я… ещё я?"
+          },
+          {
+            "speaker": "oak",
+            "text": "Ты. Мы."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Foreman flees; Silven does not chase.",
+        "narration": [
+          "Бригадир бежит. Сильвен не гонится."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Гоняться. Кормить огонь. Не буду."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Ash falls like black snow.",
+        "narration": [
+          "Пепел — чёрный снег."
+        ],
+        "dialogue": [
+          {
+            "speaker": "burnedSpirit",
+            "text": "Запах… дома…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Я помню. Построим новый."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Mira safe at village; parents fear Silven form.",
+        "narration": [
+          "Мира в безопасности. Родители боятся."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Он спас меня!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Пусть боятся. Пока живы."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Wide: lone leshy in ash field, single green sprout.",
+        "narration": [
+          "Глава II. Пепельная поляна. Один росток."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Лес просит защиты. Не просит, чтобы я ненавидел."
+          }
+        ],
+        "sfx": null
+      }
+    ]
+  },
+  "3": {
+    "title": "Сердце дуба",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Silven learns vine attack on charred stumps.",
+        "narration": [
+          "Учебные лозы на обугленных пнях."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Цель. Ноги, не шея. Укорени врага."
+          },
+          {
+            "speaker": "silven",
+            "text": "Корни помнят пощаду?"
+          },
+          {
+            "speaker": "oak",
+            "text": "Помнят всё."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "He plants life saplings in skull of burned deer.",
+        "narration": [
+          "Росток в черепе сожжённого оленя."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Даже из смерти. Урок роста."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Hunters track leshy for trophy.",
+        "narration": [
+          "Охотники за трофеем лешего."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Живой корень. Цена на чёрном рынке!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Silven traps hunters in living net — no kill.",
+        "narration": [
+          "Живая сеть. Без убийства."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Снимите сапоги. Идите босиком. Почувствуйте землю."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Mira brings water; argues he must leave.",
+        "narration": [
+          "Мира приносит воду."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Уходи к Арене. Там сажают героев."
+          },
+          {
+            "speaker": "silven",
+            "text": "Герои. Не деревья. Я посажу себя там."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Vision: seed glowing under arena stone in dream.",
+        "narration": [
+          "Сон: семя под камнем Арены."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Жизнь проросла там, где кровь."
+          },
+          {
+            "speaker": "silven",
+            "text": "Значит, не месть. Рост."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "First Life Tree prototype — small, fragile.",
+        "narration": [
+          "Первое Древо жизни — хрупкое."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Держит рану открытой, пока не заживёт."
+          },
+          {
+            "speaker": "mira",
+            "text": "Как ты."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Foreman returns with mercenaries.",
+        "narration": [
+          "Бригадир с наёмниками."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Срубим и лешего!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Пню — второй шанс. Тебе тоже."
+          }
+        ],
+        "sfx": "WHOOSH!"
+      },
+      {
+        "page": 9,
+        "scene": "Silven heals mercenary burn — enemy confused.",
+        "narration": [
+          "Лечит ожог наёмника."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Что ты делаешь?!"
+          },
+          {
+            "speaker": "silven",
+            "text": "То, чего лес не научил. Прощать медленно."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: arena seed sprout in Silven palm.",
+        "narration": [
+          "Росток семени Арены на ладони."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Ты звал меня до пожара."
+          }
+        ],
+        "sfx": "ТИК…"
+      }
+    ]
+  },
+  "4": {
+    "title": "Семя под камнем",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Journey: Silven walks through scorched border.",
+        "narration": [
+          "Путь через выжженную границу."
+        ],
+        "dialogue": [
+          {
+            "speaker": "burnedSpirit",
+            "text": "Шаг… за шагом… зелень…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Слышу. Иду."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Arena outskirts: stone foundation, green crack.",
+        "narration": [
+          "Фундамент Арены. Зелёная трещина."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Ещё один беглец?"
+          },
+          {
+            "speaker": "silven",
+            "text": "Не беглец. Садовник."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Silven pries stone — seed pulses.",
+        "narration": [
+          "Камень сдвигается. Семя пульсирует."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Ты рос под кровью. Вырос. Значит, выбор есть."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Arena botanist tries to confiscate seed.",
+        "narration": [
+          "Ботаник Арены требует семя."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Гильдия платит!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Гильдия не поливала. Не отдам."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Vine duel: Silven roots foreman boots.",
+        "narration": [
+          "Лозы оплетают сапоги."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Отпусти!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Почувствуй почву. Потом говори."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Registration: Silven names himself Root Witness.",
+        "narration": [
+          "Регистрация: «Корневой Свидетель»."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Имя. Не легенда. Обещание."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Night: seed whispers coordinates of upper tier.",
+        "narration": [
+          "Семя шепчет координаты."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Там вырастет большое дерево."
+          },
+          {
+            "speaker": "silven",
+            "text": "На песке?"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Mira letter: village forgives, fears still.",
+        "narration": [
+          "Письмо: простили, но боятся."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Страх. Почва. Из неё тоже растёт доверие."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Lumber cart explosion — Silven saves horses.",
+        "narration": [
+          "Взрыв телеги. Спасает лошадей."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Жизнь. Не только люди."
+          }
+        ],
+        "sfx": "БУМ!"
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: shadow ninja silhouette watches from roof.",
+        "narration": [
+          "На крыше — силуэт ниндзя-тени."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Кто смотрит? Друг или охотник?"
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  },
+  "5": {
+    "title": "Пилы и огонь",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Mercenary loggers with fire saws enter lower tier.",
+        "narration": [
+          "Лесорубы с огненными пилами на нижнем ярусе."
+        ],
+        "dialogue": [
+          {
+            "speaker": "emberSaw",
+            "text": "Корни на песке. Трофей!"
+          }
+        ],
+        "sfx": "ЖЖЖ!"
+      },
+      {
+        "page": 2,
+        "scene": "Silven builds wall of thorn ivy.",
+        "narration": [
+          "Стена колючего плюща."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "За стеной — те, кто не хотел жечь."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Chase through market: vines trip, not kill.",
+        "narration": [
+          "Погоня. Лозы подставляют подножку."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Монстр!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Монстр. Тот, кто жжёт без спроса."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Mira arrives with villagers — bring saplings.",
+        "narration": [
+          "Мира с деревенскими и саженцами."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Мы… хотим помочь."
+          },
+          {
+            "speaker": "silven",
+            "text": "Тогда копайте. Молчите меньше."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Life Tree on sand — first arena heal pulse.",
+        "narration": [
+          "Древо жизни на песке. Первая волна лечения."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Что это за зелёный столб?!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Напоминание, что песок. Не конец."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Foreman arm trapped; Silven frees with care.",
+        "narration": [
+          "Бригадир в ловушке. Сильвен освобождает."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Зачем…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Лес не просил ненависти. Я слушаю лес."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Intel: foreman hired by arena lumber guild.",
+        "narration": [
+          "Бригадир нанят аренской гильдией."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Они хотят убить символ!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Символ. Семя. Убить нельзя."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Night training: roots through floor boards.",
+        "narration": [
+          "Корни пробивают пол."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Сильнее. Но не глубже злости."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Burned spirit warns of trio shadows.",
+        "narration": [
+          "Дух предупреждает о тенях триo."
+        ],
+        "dialogue": [
+          {
+            "speaker": "burnedSpirit",
+            "text": "Три… спора… правды…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Уже слышал шёпот."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: orange paint symbol on arena gate.",
+        "narration": [
+          "На воротах — символ оранжевой краски."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Они пришли за мной. Я. За семенем."
+          }
+        ],
+        "sfx": "КРАК!"
+      }
+    ]
+  },
+  "6": {
+    "title": "Корни без ненависти",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Hall of mirrors: Silven sees himself burning forest.",
+        "narration": [
+          "Зеркала: Сильвен поджигает лес."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Это не я!"
+          },
+          {
+            "speaker": "oak",
+            "text": "Страх рисует. Не корни."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Flashback: boy Silven angry at foreman — oak calmed.",
+        "narration": [
+          "Память: злость. Дуб успокоил."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Ненависть. Сухая ветка. Горит быстро."
+          },
+          {
+            "speaker": "silven",
+            "text": "А справедливость?"
+          },
+          {
+            "speaker": "oak",
+            "text": "Растёт медленно."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Arena trial: must destroy Life Tree to advance.",
+        "narration": [
+          "Условие: уничтожить Древо для прохода."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Правила есть правила!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Правила без жизни. Мёртвые."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Silven refuses; crowd splits.",
+        "narration": [
+          "Отказ. Толпа расколота."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Слабак!"
+          },
+          {
+            "speaker": "mira",
+            "text": "Он сильнее вас всех!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Heal enemy fighter after match — controversy.",
+        "narration": [
+          "Лечит врага после боя."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Его пила сломана. Человек. Нет."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Debate with oak: protect vs forgive.",
+        "narration": [
+          "Спор с дубом."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Можно ли прощать бригадира?"
+          },
+          {
+            "speaker": "silven",
+            "text": "Можно ли без этого жить дальше?"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Silven plants tree on grave of unknown soldier.",
+        "narration": [
+          "Дерево на могиле неизвестного."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Имени не знаю. Жизнь — знаю."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Night: purple shadow flickers — ninja?",
+        "narration": [
+          "Фиолетовая тень — ниндзя?"
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Тень… знакомая…"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Foreman surrenders saw — breaks it.",
+        "narration": [
+          "Бригадир ломает пилу."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Я… устал жечь."
+          },
+          {
+            "speaker": "silven",
+            "text": "Почва простит. Медленно."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: Silven accepts exile from guild if seed stays.",
+        "narration": [
+          "Изgnание из гильдии — семя остаётся."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Цена без ненависти. Одиночество. Временное."
+          }
+        ],
+        "sfx": null
+      }
+    ]
+  },
+  "7": {
+    "title": "Лозы у ворот",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Arena gates wrapped in ivy — Silven's doing.",
+        "narration": [
+          "Ворота оплетены плющом."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Это… декорация?!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Приглашение. Живое."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Gate trial: blades; vines catch Silven without harm.",
+        "narration": [
+          "Лезвия. Лозы ловят без крови."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Шипы наружу. Мягкость внутрь."
+          }
+        ],
+        "sfx": "ЖЖЖ!"
+      },
+      {
+        "page": 3,
+        "scene": "Mira in stands — waves oak leaf.",
+        "narration": [
+          "Мира машет дубовым листом."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Корни!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Вижу. Расту."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Foreman testifies: guild ordered burn.",
+        "narration": [
+          "Бригадир свидетельствует против гильдии."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Сказали. Или смерть семье."
+          },
+          {
+            "speaker": "silven",
+            "text": "Семья жива. Расти дальше."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Guild master attacks with flame thrower.",
+        "narration": [
+          "Мастер гильдии — огнемёт."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Огонь снова? Я уже горел."
+          }
+        ],
+        "sfx": "БУМ!"
+      },
+      {
+        "page": 6,
+        "scene": "Life Tree blocks flame — absorbs into growth spurt.",
+        "narration": [
+          "Древо поглощает огонь — рост."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "НЕВЕРОЯТНО!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Silven offered official gardener role — refuses title.",
+        "narration": [
+          "Предлагают должность — отказ."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Я не декор. Я корень."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Seed pulses: chapter 8 match scheduled.",
+        "narration": [
+          "Семя пульсирует: бой назначен."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Покажи миру сад на песке."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Night: two silhouettes — purple shadow and gold light.",
+        "narration": [
+          "Два силуэта: тень и свет."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Трио… близко…"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: gong practice echoes.",
+        "narration": [
+          "Эхо тренировочного гонга."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Завтра. Песок."
+          }
+        ],
+        "sfx": "ГОНГ!"
+      }
+    ]
+  },
+  "8": {
+    "title": "Древо на песке",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Official match: Silven vs flame axe champion.",
+        "narration": [
+          "Бой: Сильвен против чемпиона с огненным топором."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Корни против пламени!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Champion mocks trees; Silven silent.",
+        "narration": [
+          "Насмешки. Молчание."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Говори топором. Отвечу листом."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Vine slow — champion rooted briefly.",
+        "narration": [
+          "Замедление лозой."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Стоял. Подумай о пепле."
+          }
+        ],
+        "sfx": "ВЖУХ!"
+      },
+      {
+        "page": 4,
+        "scene": "Super: Life Tree erupts center ring — heals allies.",
+        "narration": [
+          "Супер: Древо жизни в центре. Лечит."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Он… лечит всех!"
+          },
+          {
+            "speaker": "gin",
+            "text": "Даже врага?!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Champion breaks axe on trunk — tree holds.",
+        "narration": [
+          "Топор ломается о ствол."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Жизнь тверже стали."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Silven wins without kill — crowd stunned.",
+        "narration": [
+          "Победа без убийства."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Победа Корневого Свидетеля!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Guild disbanded; foreman plants sapling on sand.",
+        "narration": [
+          "Гильдия распущена. Бригадир сажает росток."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Первый раз… без приказа."
+          },
+          {
+            "speaker": "silven",
+            "text": "Первый. Не последний."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Burned spirit fades smiling.",
+        "narration": [
+          "Дух рассеивается."
+        ],
+        "dialogue": [
+          {
+            "speaker": "burnedSpirit",
+            "text": "Зелень… достаточно…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Спи."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Arena offers seed vault — Silven accepts shared custody.",
+        "narration": [
+          "Хранилище семян — общая опека."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Семя. Не моё. Наше."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: ninja shadow and angel silhouette bow from afar.",
+        "narration": [
+          "Тень ниндзя и силуэт ангела кивают издалека."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Кто они?"
+          }
+        ],
+        "sfx": null
+      }
+    ]
+  },
+  "9": {
+    "title": "Тень, корни, свет",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Backstage fog: roots break through floor.",
+        "narration": [
+          "Туман. Корни уже здесь — чужие."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Кто лезет в мои корни?"
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Не твои. Общие."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "SILHOUETTE: purple hair ribbon, shuriken — NOT full face.",
+        "narration": [
+          "Силуэт с лентой и сюрикеном."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shadowVoice",
+            "text": "Месть или правосудие?"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "SILHOUETTE: golden threads, wings — NOT full face.",
+        "narration": [
+          "Силуэт с золотыми нитями."
+        ],
+        "dialogue": [
+          {
+            "speaker": "lightSilhouette",
+            "text": "Милосердие или слабость?"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Loggers attack all three; Silven holds line.",
+        "narration": [
+          "Лесорубы атакуют. Сильвен держит линию."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Если спорите о каре. Спорьте после!"
+          }
+        ],
+        "sfx": "КЛАНГ!"
+      },
+      {
+        "page": 5,
+        "scene": "Triangle: green roots, purple shadow, gold light.",
+        "narration": [
+          "Треугольник цветов."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shadowVoice",
+            "text": "Три пути."
+          },
+          {
+            "speaker": "lightSilhouette",
+            "text": "Один лес."
+          },
+          {
+            "speaker": "silven",
+            "text": "Один враг. Огонь без спроса."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Combined: vines + shuriken + light cage on loggers.",
+        "narration": [
+          "Комбо против лесорубов."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Остановите их!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Остановитесь сами."
+          }
+        ],
+        "sfx": "KRAK-BOOM!"
+      },
+      {
+        "page": 7,
+        "scene": "Debate justice without hatred.",
+        "narration": [
+          "Спор без ненависти."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shadowVoice",
+            "text": "Убить лорда. Легко."
+          },
+          {
+            "speaker": "silven",
+            "text": "Легко. Сжечь. Я выбрал растить."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Sky: shuriken, oak leaf, wing symbols.",
+        "narration": [
+          "Знаки в небе."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Тень живого леса… не сказка."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Silhouettes leave; Silven keeps sprout.",
+        "narration": [
+          "Силуэты уходят."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "До десятой. Там. Лица."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: arena dome cracks green.",
+        "narration": [
+          "Купол трескается зеленью."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Растёт…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Почти."
+          }
+        ],
+        "sfx": "ТИК…"
+      }
+    ]
+  },
+  "10": {
+    "title": "Лес на арене",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Finale ceremony: shadow-grove trio announced.",
+        "narration": [
+          "Финал: триo «Тень живого леса»."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Мия! Сильвен! Лумина!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "FULL COLOR: Miya leaps from roof — match miya_skin1.png.",
+        "narration": [
+          "Мия — полный облик."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Лес и тень. Старые друзья."
+          },
+          {
+            "speaker": "silven",
+            "text": "Ты сожжённому. Брат по боли."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "FULL COLOR: Lumina descends — match lumina_skin1.png.",
+        "narration": [
+          "Лумина — полный облик."
+        ],
+        "dialogue": [
+          {
+            "speaker": "lumina",
+            "text": "Свет не спорит с корнями."
+          },
+          {
+            "speaker": "silven",
+            "text": "Спорит. Но слышит."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Trio vs guild remnant on sand — FULL faces.",
+        "narration": [
+          "Трое против остатков гильдии."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Слева!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Центр — дерево!"
+          },
+          {
+            "speaker": "lumina",
+            "text": "Свет. Граница!"
+          }
+        ],
+        "sfx": "ГОНГ!"
+      },
+      {
+        "page": 5,
+        "scene": "Combo: Life Tree + Reality Tear + Golden Cage.",
+        "narration": [
+          "Комбо суперов."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Рост!"
+          },
+          {
+            "speaker": "miya",
+            "text": "Разрыв!"
+          },
+          {
+            "speaker": "lumina",
+            "text": "Клетка!"
+          }
+        ],
+        "sfx": "KRAK-BOOM!"
+      },
+      {
+        "page": 6,
+        "scene": "Foreman plants circle of saplings around ring.",
+        "narration": [
+          "Бригадир сажает круг саженцев."
+        ],
+        "dialogue": [
+          {
+            "speaker": "foreman",
+            "text": "Новая работа."
+          },
+          {
+            "speaker": "silven",
+            "text": "Лучшая."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Silven offers oak acorn to Mira in stands.",
+        "narration": [
+          "Желудь Мире."
+        ],
+        "dialogue": [
+          {
+            "speaker": "mira",
+            "text": "Я…"
+          },
+          {
+            "speaker": "silven",
+            "text": "Поливай. Это. Мы."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Scoreboard: Living Forest legend.",
+        "narration": [
+          "Табло: легенда."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Записано!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Night: forest vision over arena — green dome.",
+        "narration": [
+          "Ночь. Зелёный купол-видение."
+        ],
+        "dialogue": [
+          {
+            "speaker": "oak",
+            "text": "Достаточно?"
+          },
+          {
+            "speaker": "silven",
+            "text": "Только начало."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "End card: Silven stands on sand, roots and wings behind.",
+        "narration": [
+          "Конец X. Лес на арене."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Ненависть не поливала. Рост. Поливала."
+          },
+          {
+            "speaker": "miya",
+            "text": "Рядом."
+          },
+          {
+            "speaker": "lumina",
+            "text": "До конца."
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  }
+};
+
+const script = {
+  brawlerId: "silven",
+  brawlerName: "Сильвен",
+  lore: "Сильвен был обычным мальчиком-лешим, пока люди не выжгли его лес. Оставшись один, он отдал своё сердце древнему дубу, и тот ответил. Теперь Сильвен сажает деревья жизни везде, где проходит бой.",
+  skinRef: "public/dev-notes/brawler-skins/silven_skin1.png",
+  trioId: "shadow-grove",
+  trioOthers: ["miya","lumina"],
+  rules: {
+  "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+  "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+  "gameBrawlersFromChapter": 10,
+  "chapter9SilhouettesOnly": true,
+  "bannedPhrases": [
+    "Здесь начинается мой путь",
+    "не паникуй",
+    "Держись за мою спину",
+    "вернул не манекен",
+    "Арена не зовёт",
+    "обратного тика",
+    "сделаю свой тик",
+    "боюсь того кем станет",
+    "последний пост",
+    "невозможное — моя работа",
+    "откатил",
+    "три секунды запаса"
+  ]
+},
+  npcs,
+  cover: {
+    prompt: "finished full-color comic book cover, vertical 2:3 poster; hero Silven boy leshy root legs, ancient oak heart glow, burned forest regrowing, green life tree sprouting on battlefield, palette #558B2F #33691E #AED581, title СИЛЬВЕН Cyrillic, match silven_skin1.png, NO speech balloons"
+  },
+  chapters
+};
+
+const outPath = path.join(__dirname, "silven-page-script.json");
+fs.writeFileSync(outPath, JSON.stringify(script, null, 2), "utf8");
+console.log("Wrote", outPath);

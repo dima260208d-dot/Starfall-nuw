@@ -1,0 +1,128 @@
+[
+  {
+    "id": "miya",
+    "attack": "Top-down mobile brawler game projectile sprite: three purple ninja shuriken stars clustered, sharp metallic blades, cartoon style like casual arena shooter, centered, NO text. Subject uses purple silver black only — absolutely NO green in the artwork.",
+    "ult": "Top-down VFX sprite: purple dimensional rift portal ring with dark energy swirl, teleport super ability, cartoon mobile game, centered, NO text. Purple black white only — NO green in subject.",
+    "impact": "Hit impact burst: purple star flash with small shuriken shards, cartoon mobile game VFX, centered, NO text. Purple white — NO green in subject."
+  },
+  {
+    "id": "ronin",
+    "attack": "Top-down melee slash VFX: wide golden katana arc crescent slash trail, red samurai energy, cartoon mobile brawler, centered, NO text. Red gold white — NO green in subject.",
+    "ult": "Top-down super VFX: golden samurai shield dome with red armor glow, defensive wall ability, cartoon mobile game, centered, NO text. Gold red — NO green in subject.",
+    "impact": "Melee hit impact: red and gold slash burst sparks, cartoon brawler hit flash, centered, NO text. Red gold white — NO green."
+  },
+  {
+    "id": "yuki",
+    "attack": "Top-down projectile: icy blue snowball with frost crystals and white sparkle, cartoon mobile brawler, centered, NO text. Blue white cyan — NO green in subject.",
+    "ult": "Top-down super zone: soft blue healing snow cloud with snowflakes, support aura, cartoon mobile game, centered, NO text. Blue white — NO green.",
+    "impact": "Ice hit impact: blue frost star burst with ice chips, cartoon VFX, centered, NO text. Blue white — NO green."
+  },
+  {
+    "id": "kenji",
+    "attack": "Top-down projectile: yellow black lightning bolt energy orb with electric sparks, cartoon mobile brawler, centered, NO text. Yellow black white — NO green.",
+    "ult": "Top-down super: electric lightning cage square frame with yellow bolts at corners, cartoon mobile game, centered, NO text. Yellow black — NO green.",
+    "impact": "Electric hit impact: yellow lightning star burst, cartoon VFX, centered, NO text. Yellow white black — NO green."
+  },
+  {
+    "id": "hana",
+    "attack": "Top-down projectile: pink cherry blossom petal cluster with soft glow, cartoon mobile brawler, centered, NO text. Pink white — NO green.",
+    "ult": "Top-down super zone: pink petal healing swirl cloud with floating petals, cartoon mobile game, centered, NO text. Pink white — NO green.",
+    "impact": "Petal hit impact: pink flower burst with petals flying, cartoon VFX, centered, NO text. Pink white — NO green."
+  },
+  {
+    "id": "goro",
+    "attack": "Top-down melee slash: orange red fiery fist arc wave, berserker punch trail, cartoon mobile brawler, centered, NO text. Orange red yellow — NO green.",
+    "ult": "Top-down super aura: raging orange fire ring aura burst, berserker mode, cartoon mobile game, centered, NO text. Orange red — NO green.",
+    "impact": "Fire punch impact: orange explosion puff with embers, cartoon hit VFX, centered, NO text. Orange red yellow — NO green."
+  },
+  {
+    "id": "sora",
+    "attack": "Top-down projectile: orange yellow shooting star comet with fire tail tip, cartoon mobile brawler, centered, NO text. Orange yellow white — NO green.",
+    "ult": "Top-down super: large falling meteor fireball with smoke trail warning, cartoon mobile game, centered, NO text. Orange red black — NO green.",
+    "impact": "Star hit impact: orange yellow starburst with embers, cartoon VFX, centered, NO text. Orange yellow — NO green."
+  },
+  {
+    "id": "rin",
+    "attack": "Top-down projectile: green toxic poison vial droplet with skull mist, cartoon mobile brawler, centered, NO text. Use teal lime dark green poison colors — but NO same bright chroma green as background.",
+    "ult": "Top-down super zone: toxic green purple poison fog cloud puddle, cartoon mobile game, centered, NO text. Dark teal purple — avoid bright #00FF00 green in art.",
+    "impact": "Poison hit impact: green toxic splash burst with bubbles, cartoon VFX, centered, NO text. Dark green teal — NO bright chroma green."
+  },
+  {
+    "id": "taro",
+    "attack": "Top-down projectile: yellow bullet pellet with golden glow, turret shot, cartoon mobile brawler, centered, NO text. Yellow gold black — NO green.",
+    "ult": "Top-down super: yellow robotic turret gun muzzle with energy ring, cartoon mobile game, centered, NO text. Yellow grey black — NO green.",
+    "impact": "Bullet impact: yellow spark star with metal chips, cartoon VFX, centered, NO text. Yellow white — NO green."
+  },
+  {
+    "id": "zafkiel",
+    "attack": "Top-down projectile: silver purple clock gear time orb with blue hourglass glow, cartoon mobile brawler, centered, NO text. Silver purple blue white — NO green.",
+    "ult": "Top-down super: purple time vortex spiral portal with clock fragments, cartoon mobile game, centered, NO text. Purple blue silver — NO green.",
+    "impact": "Time hit impact: silver purple ripple ring burst, cartoon VFX, centered, NO text. Purple silver white — NO green."
+  },
+  {
+    "id": "verdeletta",
+    "attack": "Top-down projectile: dark green black shadow bolt with purple hell flame tip, cartoon mobile brawler, centered, NO text. Dark forest green purple black — NOT bright chroma green.",
+    "ult": "Top-down super: dark hell portal with shadow hands and purple green flames, cartoon mobile game, centered, NO text. Dark green purple black — NO bright #00FF00.",
+    "impact": "Shadow hit impact: dark green purple smoke burst with skull silhouette, cartoon VFX, centered, NO text. Dark green purple — NO bright chroma green."
+  },
+  {
+    "id": "lumina",
+    "attack": "Top-down projectile: bright blue white light beam capsule with lens flare, cartoon mobile brawler, centered, NO text. Blue white cyan — NO green.",
+    "ult": "Top-down super: blue energy dome shield with chain lightning arcs, cartoon mobile game, centered, NO text. Blue white electric — NO green.",
+    "impact": "Light hit impact: blue white star flash with lens rays, cartoon VFX, centered, NO text. Blue white — NO green."
+  },
+  {
+    "id": "oliver",
+    "attack": "Top-down projectile: small brown orange mechanical bug robot with wings, cartoon mobile brawler, centered, NO text. Brown orange grey — NO green.",
+    "ult": "Top-down super: swarm of tiny orange bugs in circular burst, replicator ability, cartoon mobile game, centered, NO text. Orange brown — NO green.",
+    "impact": "Bug hit impact: orange spark puff with tiny bug parts, cartoon VFX, centered, NO text. Orange brown — NO green."
+  },
+  {
+    "id": "callista",
+    "attack": "Top-down projectile: orange-brown glass acid flask with dark teal liquid inside, cartoon mobile brawler, centered, NO text. Orange brown dark teal — NO bright chroma green anywhere in subject.",
+    "ult": "Top-down super: shattered acid flask puddle splash zone with dark teal liquid pool, cartoon mobile game, centered, NO text. Dark teal orange — NO bright #00FF00 in art.",
+    "impact": "Acid impact: dark teal liquid splash burst from bottle shatter, cartoon VFX, centered, NO text. Dark teal yellow orange — NO chroma green."
+  },
+  {
+    "id": "airin",
+    "attack": "Top-down projectile: white red medical capsule pill with smoke wisp, cartoon mobile brawler, centered, NO text. White red grey — NO green.",
+    "ult": "Top-down super: grey smoke evacuation cloud puff with red cross sigil, cartoon mobile game, centered, NO text. Grey white red — NO green.",
+    "impact": "Capsule impact: white grey smoke puff burst, cartoon VFX, centered, NO text. Grey white — NO green."
+  },
+  {
+    "id": "elian",
+    "attack": "Top-down projectile: golden four-point star comet with purple gravity trail, cartoon mobile brawler, centered, NO text. Gold purple — NO green.",
+    "ult": "Top-down super: purple black gravity vortex spiral pulling stars inward, cartoon mobile game, centered, NO text. Purple black gold — NO green.",
+    "impact": "Gravity hit impact: purple gold star collapse burst, cartoon VFX, centered, NO text. Purple gold — NO green."
+  },
+  {
+    "id": "silven",
+    "attack": "Top-down projectile: green vine whip tendril with leaves, nature druid, cartoon mobile brawler, centered, NO text. Forest green brown — dark natural green NOT bright chroma green.",
+    "ult": "Top-down super: ancient tree spirit roots erupting in circle, cartoon mobile game, centered, NO text. Brown dark green wood — NO bright #00FF00.",
+    "impact": "Nature hit impact: green leaf burst with vine splinters, cartoon VFX, centered, NO text. Dark green brown — NO chroma green."
+  },
+  {
+    "id": "vittoria",
+    "attack": "Top-down melee slash: red vampire claw slash arc with blood droplets, cartoon mobile brawler, centered, NO text. Red crimson black — NO green.",
+    "ult": "Top-down super: red blood moon circle aura with bat wings silhouette, cartoon mobile game, centered, NO text. Red crimson black — NO green.",
+    "impact": "Bite hit impact: red blood splash burst, cartoon VFX, centered, NO text. Red crimson — NO green."
+  },
+  {
+    "id": "octavia",
+    "attack": "Top-down projectile: dark purple ink blob orb with tentacle wisps, cartoon mobile brawler, centered, NO text. Purple black teal ink — NO green.",
+    "ult": "Top-down super: large purple ink puddle pool with tentacle edges, cartoon mobile game, centered, NO text. Purple black — NO green.",
+    "impact": "Ink hit impact: purple ink splash splatter burst, cartoon VFX, centered, NO text. Purple black — NO green."
+  },
+  {
+    "id": "zephyrin",
+    "attack": "Top-down projectile: white cyan tornado spiral small cyclone, wind brawler, cartoon mobile game, centered, NO text. White cyan blue — NO green.",
+    "ult": "Top-down super: large white wind tornado column with debris swirl, cartoon mobile game, centered, NO text. White grey cyan — NO green.",
+    "impact": "Wind hit impact: white air puff ring burst, cartoon VFX, centered, NO text. White cyan — NO green."
+  },
+  {
+    "id": "mirabel",
+    "attack": "Top-down projectile: yellow orange knowledge spark star cluster with book glow, cartoon mobile brawler, centered, NO text. Yellow orange — NO green.",
+    "ult": "Top-down super: golden star burst with multiple spark trails learning buff, cartoon mobile game, centered, NO text. Yellow gold white — NO green.",
+    "impact": "Spark hit impact: yellow star flash with tiny sparks, cartoon VFX, centered, NO text. Yellow orange white — NO green."
+  }
+]

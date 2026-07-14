@@ -1,0 +1,302 @@
+[
+  {
+    "id": "pbg:001",
+    "label": "Туманность",
+    "image": "/portrait-bg/pbg-001.png",
+    "free": true
+  },
+  {
+    "id": "pbg:002",
+    "label": "Закат",
+    "image": "/portrait-bg/pbg-002.png",
+    "free": false
+  },
+  {
+    "id": "pbg:003",
+    "label": "Аврора",
+    "image": "/portrait-bg/pbg-003.png",
+    "free": false
+  },
+  {
+    "id": "pbg:004",
+    "label": "Подводный мир",
+    "image": "/portrait-bg/pbg-004.png",
+    "free": false
+  },
+  {
+    "id": "pbg:005",
+    "label": "Зачарованный лес",
+    "image": "/portrait-bg/pbg-005.png",
+    "free": false
+  },
+  {
+    "id": "pbg:006",
+    "label": "Неон-город",
+    "image": "/portrait-bg/pbg-006.png",
+    "free": false
+  },
+  {
+    "id": "pbg:007",
+    "label": "Сакура",
+    "image": "/portrait-bg/pbg-007.png",
+    "free": false
+  },
+  {
+    "id": "pbg:008",
+    "label": "Вулкан",
+    "image": "/portrait-bg/pbg-008.png",
+    "free": false
+  },
+  {
+    "id": "pbg:009",
+    "label": "Ледяной дворец",
+    "image": "/portrait-bg/pbg-009.png",
+    "free": false
+  },
+  {
+    "id": "pbg:010",
+    "label": "Золотой храм",
+    "image": "/portrait-bg/pbg-010.png",
+    "free": false
+  },
+  {
+    "id": "pbg:011",
+    "label": "Пустыня",
+    "image": "/portrait-bg/pbg-011.png",
+    "free": false
+  },
+  {
+    "id": "pbg:012",
+    "label": "Гроза",
+    "image": "/portrait-bg/pbg-012.png",
+    "free": false
+  },
+  {
+    "id": "pbg:013",
+    "label": "Тропики",
+    "image": "/portrait-bg/pbg-013.png",
+    "free": false
+  },
+  {
+    "id": "pbg:014",
+    "label": "Лунный лес",
+    "image": "/portrait-bg/pbg-014.png",
+    "free": false
+  },
+  {
+    "id": "pbg:015",
+    "label": "Зимняя ночь",
+    "image": "/portrait-bg/pbg-015.png",
+    "free": false
+  },
+  {
+    "id": "pbg:016",
+    "label": "Космос",
+    "image": "/portrait-bg/pbg-016.png",
+    "free": false
+  },
+  {
+    "id": "pbg:017",
+    "label": "Кристальная пещера",
+    "image": "/portrait-bg/pbg-017.png",
+    "free": false
+  },
+  {
+    "id": "pbg:018",
+    "label": "Тёмный замок",
+    "image": "/portrait-bg/pbg-018.png",
+    "free": false
+  },
+  {
+    "id": "pbg:019",
+    "label": "Цветущий луг",
+    "image": "/portrait-bg/pbg-019.png",
+    "free": false
+  },
+  {
+    "id": "pbg:020",
+    "label": "Храм джунглей",
+    "image": "/portrait-bg/pbg-020.png",
+    "free": false
+  },
+  {
+    "id": "pbg:021",
+    "label": "Северное сияние",
+    "image": "/portrait-bg/pbg-021.png",
+    "free": false
+  },
+  {
+    "id": "pbg:022",
+    "label": "Звёздный дождь",
+    "image": "/portrait-bg/pbg-022.png",
+    "free": false
+  },
+  {
+    "id": "pbg:023",
+    "label": "Дзен-сад",
+    "image": "/portrait-bg/pbg-023.png",
+    "free": false
+  },
+  {
+    "id": "pbg:024",
+    "label": "Стимпанк",
+    "image": "/portrait-bg/pbg-024.png",
+    "free": false
+  },
+  {
+    "id": "pbg:025",
+    "label": "Осенняя роща",
+    "image": "/portrait-bg/pbg-025.png",
+    "free": false
+  },
+  {
+    "id": "pbg:026",
+    "label": "Коралловый риф",
+    "image": "/portrait-bg/pbg-026.png",
+    "free": false
+  },
+  {
+    "id": "pbg:027",
+    "label": "Логово дракона",
+    "image": "/portrait-bg/pbg-027.png",
+    "free": false
+  },
+  {
+    "id": "pbg:028",
+    "label": "Лавандовые поля",
+    "image": "/portrait-bg/pbg-028.png",
+    "free": false
+  },
+  {
+    "id": "pbg:029",
+    "label": "Synthwave",
+    "image": "/portrait-bg/pbg-029.png",
+    "free": false
+  },
+  {
+    "id": "pbg:030",
+    "label": "Парящие острова",
+    "image": "/portrait-bg/pbg-030.png",
+    "free": false
+  },
+  {
+    "id": "pbg:031",
+    "label": "Светящийся лес",
+    "image": "/portrait-bg/pbg-031.png",
+    "free": false
+  },
+  {
+    "id": "pbg:032",
+    "label": "Библиотека",
+    "image": "/portrait-bg/pbg-032.png",
+    "free": false
+  },
+  {
+    "id": "pbg:033",
+    "label": "Додзё",
+    "image": "/portrait-bg/pbg-033.png",
+    "free": false
+  },
+  {
+    "id": "pbg:034",
+    "label": "Конфетный мир",
+    "image": "/portrait-bg/pbg-034.png",
+    "free": false
+  },
+  {
+    "id": "pbg:035",
+    "label": "Витражи",
+    "image": "/portrait-bg/pbg-035.png",
+    "free": false
+  },
+  {
+    "id": "pbg:036",
+    "label": "Каньон",
+    "image": "/portrait-bg/pbg-036.png",
+    "free": false
+  },
+  {
+    "id": "pbg:037",
+    "label": "Бальный зал",
+    "image": "/portrait-bg/pbg-037.png",
+    "free": false
+  },
+  {
+    "id": "pbg:038",
+    "label": "Арктика",
+    "image": "/portrait-bg/pbg-038.png",
+    "free": false
+  },
+  {
+    "id": "pbg:039",
+    "label": "Море и шторм",
+    "image": "/portrait-bg/pbg-039.png",
+    "free": false
+  },
+  {
+    "id": "pbg:040",
+    "label": "Башня мага",
+    "image": "/portrait-bg/pbg-040.png",
+    "free": false
+  },
+  {
+    "id": "pbg:041",
+    "label": "Бамбуковая роща",
+    "image": "/portrait-bg/pbg-041.png",
+    "free": false
+  },
+  {
+    "id": "pbg:042",
+    "label": "Египет",
+    "image": "/portrait-bg/pbg-042.png",
+    "free": false
+  },
+  {
+    "id": "pbg:043",
+    "label": "Особняк",
+    "image": "/portrait-bg/pbg-043.png",
+    "free": false
+  },
+  {
+    "id": "pbg:044",
+    "label": "Стадион",
+    "image": "/portrait-bg/pbg-044.png",
+    "free": false
+  },
+  {
+    "id": "pbg:045",
+    "label": "Поляна светлячков",
+    "image": "/portrait-bg/pbg-045.png",
+    "free": false
+  },
+  {
+    "id": "pbg:046",
+    "label": "Лёд и лава",
+    "image": "/portrait-bg/pbg-046.png",
+    "free": false
+  },
+  {
+    "id": "pbg:047",
+    "label": "Небесное царство",
+    "image": "/portrait-bg/pbg-047.png",
+    "free": false
+  },
+  {
+    "id": "pbg:048",
+    "label": "Демонический мир",
+    "image": "/portrait-bg/pbg-048.png",
+    "free": false
+  },
+  {
+    "id": "pbg:049",
+    "label": "Храм стражей",
+    "image": "/portrait-bg/pbg-049.png",
+    "free": false
+  },
+  {
+    "id": "pbg:050",
+    "label": "Легендарный свет",
+    "image": "/portrait-bg/pbg-050.png",
+    "free": false
+  }
+]

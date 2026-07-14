@@ -1,0 +1,95 @@
+/* Loading screen — Brawl-style parallelogram bar, solid purple fill */
+
+.loading-screen-logo {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  z-index: 5;
+  height: clamp(72px, 12vh, 96px);
+  width: auto;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.65));
+}
+
+.loading-bar-wrap {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  transform: translateX(-50%);
+  width: min(520px, 78vw);
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-bar-pct {
+  text-align: center;
+  font-size: clamp(26px, 4.5vw, 34px);
+  font-weight: 900;
+  color: #ffffff;
+  -webkit-text-stroke: 2.5px #000000;
+  paint-order: stroke fill;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.85);
+}
+
+/* Объёмная рамка — параллелограмм */
+.loading-bar-outer {
+  --load-shear: 14px;
+  width: 100%;
+  height: 34px;
+  padding: 4px;
+  box-sizing: border-box;
+  clip-path: polygon(
+    var(--load-shear) 0,
+    100% 0,
+    calc(100% - var(--load-shear)) 100%,
+    0 100%
+  );
+  background: #12082a;
+  box-shadow:
+    0 4px 0 rgba(0, 0, 0, 0.75),
+    0 6px 16px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.6);
+}
+
+.loading-bar-inner {
+  --load-shear: 10px;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(
+    var(--load-shear) 0,
+    100% 0,
+    calc(100% - var(--load-shear)) 100%,
+    0 100%
+  );
+  background: rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+  position: relative;
+}
+
+.loading-bar-fill {
+  height: 100%;
+  background: #9c27b0;
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.32),
+    inset 0 -3px 0 rgba(0, 0, 0, 0.38);
+  transition: width 0.28s ease;
+  position: relative;
+}
+
+.loading-bar-fill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+}

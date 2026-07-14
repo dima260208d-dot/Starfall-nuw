@@ -1,0 +1,27 @@
+=== MANDATORY RULES FOR EVERY COMIC PAGE (VIOLATION = REJECT) ===
+
+1. ORIENTATION: STRICT VERTICAL PORTRAIT ONLY.
+   - Canvas is TALL like a phone screen or manga page (aspect ratio 2:3, width:height = 2:3).
+   - Height MUST be greater than width. NEVER landscape. NEVER horizontal wide strip.
+   - Panels stack inside the TALL page (top to bottom).
+
+2. SPEECH BALLOONS: Russian Cyrillic dialogue ONLY inside white oval balloons.
+   - FORBIDDEN: any name prefix before dialogue.
+   - WRONG: "Зафкиэль: текст", "Эри: текст", "Глашатай: текст"
+   - RIGHT: just "текст" — who speaks is shown by bubble tail pointing to character.
+
+3. NARRATION BOXES: REQUIRED on every page.
+   - Cream/yellow rectangular caption boxes with story context in Russian.
+   - Explains what is happening so the page is readable without guessing.
+
+4. UNIQUE DIALOGUE: Each page has different lines from the script. Never repeat the same phrase on every page.
+
+5. LIVING STORY: Zafkiel talks WITH NPCs (Malek, Eri, Herald, Ghost, Rift Captain). Not monologue only.
+   - Eri: young FEMALE, short BROWN hair, brown eyes, plain white tunic — NEVER looks like Zafkiel.
+   - Game brawlers (Verdeletta, Sora) ONLY in chapter 10.
+
+6. ZAFKIEL LOOK (match zafkiel_skin1.png): male, WHITE hair, purple glowing eyes, white coat gold trim, chest hourglass, dual white-gold pistols, clock halo.
+
+7. STYLE: Injustice-style full-color superhero comic, multi-panel, black gutters, cinematic lighting.
+
+8. FORBIDDEN: horizontal layout, name prefixes in balloons, same repeated dialogue, watermark, beards on Zafkiel, dark purple hair, rifles.

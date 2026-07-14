@@ -1,0 +1,23 @@
+=== VERDELETTA COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO VERDELETTA (every page): match verdeletta_skin1.png ONLY — young woman curly black hair, green plaid shirt, black cargo pants, brass invitation pistol green glow, choker gem, NOT any NPC face.
+
+brasso — UNIQUE: demon steward, BRASS MASK covering full face with rivets, formal black tailcoat, clipboard protocol, rigid posture, NOT smiling, NOT Verdeletta.
+
+mora — UNIQUE: mortal barwoman, GREEN APRON over dark dress, short red hair, sharp eyes, towel on shoulder, bar counter hell border, NOT Verdeletta duplicate.
+
+gatekeeper — UNIQUE: hell gatekeeper, HORNS made of SMOKE not flesh, giant GUEST BOOK chain, stone face no smile, grey robes, NOT brasso.
+
+unpaidGuest — UNIQUE: shadow guest, body semi-transparent, EMPTY WHITE EYES, tattered party clothes, shadow detaches from body, NOT living demon face.
+
+herald — UNIQUE: arena announcer MAN, GOLD MEGAPHONE, arena jacket with hell-green trim, loud open mouth, NOT copper gear herald from Taro comic.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, protocol chains, grey hood.
+
+shadowVoice ch9 — silhouettes only: zafkiel (clock hands) + sora (wind scarf) — NO faces.
+
+zafkiel ch10 — match zafkiel_skin1.png FULL color.
+
+sora ch10 — match sora_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

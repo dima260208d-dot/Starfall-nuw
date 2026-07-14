@@ -1,0 +1,23 @@
+=== ZEPHYRIN COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO ZEPHYRIN (every page): match zephyrin_skin1.png ONLY — wind spirit girl, translucent flowing dress, silver air currents, tornado aura, pale violet eyes, NOT any NPC face.
+
+galeElder — UNIQUE: storm elder spirit, CLOUD-SHAPED humanoid form, white-grey wisps, echo voice ripples, no solid skin, NOT Zephyrin.
+
+catcher — UNIQUE: spirit hunter MAN, GLASS CAGES on belt, cold blue eyes, leather coat, net launcher, NOT generic soldier.
+
+stillPoint — UNIQUE: silent child in arena center, STILL unmoving, simple grey tunic, blank calm face, NOT moving child.
+
+whisper — UNIQUE: freed half-spirit, SEMI-TRANSPARENT body, wind ribbon hair, grateful soft eyes, NOT solid human.
+
+gin — UNIQUE: arena announcer MAN, GOLD MICROPHONE, arena broadcast jacket, NOT female herald.
+
+anchorSmith — UNIQUE: anchor smith DWARF, heavy iron ANVIL hammer, wind-stop weight chains, soot face, NOT generic blacksmith.
+
+shadowVoice ch9 — silhouettes only: airin (smoke pilot) + vittoria (moon lance) — NO faces.
+
+airin ch10 — match airin_skin1.png FULL color.
+
+vittoria ch10 — match vittoria_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

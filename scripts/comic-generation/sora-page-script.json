@@ -1,0 +1,1667 @@
+{
+  "brawlerId": "sora",
+  "brawlerName": "Сора",
+  "lore": "Сора — придворный маг, изгнанный за запретные звёздные руны. Летающая книга шепчет формулы, метеоритный дождь шрамит арену. Знание может осветить путь или сжечь дом.",
+  "skinRef": "public/dev-notes/brawler-skins/sora_skin1.png",
+  "trioId": "eternal-ball",
+  "trioOthers": [
+    "zafkiel",
+    "verdeletta"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "archivistLune": "Архивариус Люн — седой, лунные очки, хранитель запретных полок",
+    "inquisitorVex": "Инквизитор Векс — белая маска со звездой, жжёт руны",
+    "starApprentice": "Звёздный ученик Эли — роба, страх и зависть",
+    "observatoryGuard": "Страж обсерватории — копьё, печать двора",
+    "herald": "Глашатай Арены — золотой рупор",
+    "hunterCaptain": "Капитан охотников — белая маска",
+    "shadowVoice": "Голос из тени — союзник без лица"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3; hero Сора blue robe floating spellbook, meteor rain, observatory, palette #1A237E #FFD700 #FF6F00, title СОРА Cyrillic, NO speech balloons, match sora_skin1.png"
+  },
+  "chapters": {
+    "1": {
+      "title": "Книга на балконе",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Palace observatory balcony at dusk, floating book.",
+          "narration": [
+            "Дворцовая обсерватория. Книга парит у звёзд."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Сегодня — только разрешённые страницы, Сора."
+            },
+            {
+              "speaker": "sora",
+              "text": "Тогда найду интересное сам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Fire orb practice over city lights.",
+          "narration": [
+            "Огненный шар над городом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "starApprentice",
+              "text": "Учитель… это запретно?"
+            },
+            {
+              "speaker": "sora",
+              "text": "Нельзя? Значит, туда и загляну."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Book whispers star rune.",
+          "narration": [
+            "Книга шепчет звёздную руну."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Слушай… страница сама шепчет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Observatory guard knocks — inspection.",
+          "narration": [
+            "Страж стучит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "observatoryGuard",
+              "text": "Двор приказал проверку!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Скажите это звёздам — пусть подождут."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Hidden page glows — Arena map.",
+          "narration": [
+            "Страница сама открыла карту Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Карта… живая."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Lune warns: inquisitors coming.",
+          "narration": [
+            "Люн: инквизиторы идут."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Сожги страницу!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Дом не трону. Страницу спрячу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Meteor scorch on practice dome.",
+          "narration": [
+            "Пробный метеор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Раз, два… пять. Пока держится."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 8,
+          "scene": "Exile edict arrives.",
+          "narration": [
+            "Указ об изгнании."
+          ],
+          "dialogue": [
+            {
+              "speaker": "observatoryGuard",
+              "text": "Ты изгнан!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Зато к нему ближе."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Pack book; stars reflect in eyes.",
+          "narration": [
+            "Книга в рюкзаке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "starApprentice",
+              "text": "Я… останусь."
+            },
+            {
+              "speaker": "sora",
+              "text": "Останься живым."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Leaves balcony toward Arena glow.",
+          "narration": [
+            "Уходит к куполу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Ладно. Вперёд, к куполу."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "2": {
+      "title": "Пепел запретных рун",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Night raid: inquisitors burn archive.",
+          "narration": [
+            "Инквизиторы жгут архив."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Руны — ересь!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Вы просто не смотрите вверх."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 2,
+          "scene": "Lune trapped under beam.",
+          "narration": [
+            "Люн под балкой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Беги!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Держись! Книга — впереди!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Fireball frees path.",
+          "narration": [
+            "Огненный шар прочищает путь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Люн? Держись!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 4,
+          "scene": "Ash of forbidden rune on palm.",
+          "narration": [
+            "Пепел руны на ладони."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Жгло и раньше. Переживу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Vex marks him for Arena bounty.",
+          "narration": [
+            "Векс объявляет награду."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "На Арене сожгу публично."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Apprentice Eli guilt — leaked location.",
+          "narration": [
+            "Эли предал место."
+          ],
+          "dialogue": [
+            {
+              "speaker": "starApprentice",
+              "text": "Я… боялся…"
+            },
+            {
+              "speaker": "sora",
+              "text": "Тогда помоги мне уйти."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Book page shows medical wing? No — star gate.",
+          "narration": [
+            "Страница указывает ворота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Зов услышан."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Lune gives moon spectacles — see rifts.",
+          "narration": [
+            "Лунные очки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Видь разрывы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Road to dome.",
+          "narration": [
+            "Дорога."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Жив. Значит, ещё успею."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Meteor trail in sky.",
+          "narration": [
+            "След метеора."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Глава II. Дальше — только вперёд."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Пять огненных трещин",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wasteland: five meteor scars in pentagon.",
+          "narration": [
+            "Пять трещин — пентаграмма."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Те же руны… что в книге."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Practice meteor rain — super preview.",
+          "narration": [
+            "Метеоритный дождь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Пять огней!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 3,
+          "scene": "Hunters flee scorched ring.",
+          "narration": [
+            "Охотники бегут."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Это не маг — это катастрофа!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Rune in crater matches book page.",
+          "narration": [
+            "Руна в кратере = страница."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Совпало. Не случайность."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Vex scouts from ridge.",
+          "narration": [
+            "Векс на гребне."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Ересьник!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Debate: knowledge burns or saves.",
+          "narration": [
+            "Спор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "starApprentice",
+              "text": "Ты сжёг лабораторию…"
+            },
+            {
+              "speaker": "sora",
+              "text": "Сжёг то, что держало нас."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Night reading — book opens Arena tier.",
+          "narration": [
+            "Книга открывает ярус Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Открылась сама. Иду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Register alias Star Scribe.",
+          "narration": [
+            "Псевдоним «Звёздный писец»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Опасный маг?"
+            },
+            {
+              "speaker": "sora",
+              "text": "Опасный — тот, кто не читает."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Gate near.",
+          "narration": [
+            "Ворота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Пентаграмма завершена."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Fireball over shoulder.",
+          "narration": [
+            "Шар за спиной."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Глава III. Пентаграмма замкнулась."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "4": {
+      "title": "Страница зовёт",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena archive: living page crawls on wall.",
+          "narration": [
+            "Живая страница на стене."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Ты звал?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Page shows star gate coordinates.",
+          "narration": [
+            "Координаты звёздных ворот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Голос письма: осторожно."
+            },
+            {
+              "speaker": "sora",
+              "text": "Буду осторожен. Не трус."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Vex trap — nullify runes circle.",
+          "narration": [
+            "Круг обнуления рун."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Без книги — ты никто!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Book eats nullify circle.",
+          "narration": [
+            "Книга поглощает круг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Съела круг. Спасибо, книга."
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 5,
+          "scene": "Rescued scholars point to upper tier.",
+          "narration": [
+            "Учёные указывают вверх."
+          ],
+          "dialogue": [
+            {
+              "speaker": "starApprentice",
+              "text": "Там Векс."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Meteor marks gate.",
+          "narration": [
+            "Метеор на воротах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Приглашение принято."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Slum chase — fireballs vs nets.",
+          "narration": [
+            "Погоня."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Сети горят."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 8,
+          "scene": "Lune letter: don't burn home.",
+          "narration": [
+            "Письмо Люна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Дом у меня в рюкзаке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Lower sand visible.",
+          "narration": [
+            "Песок."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "На круг!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Steps in.",
+          "narration": [
+            "Входит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Глава IV. Вхожу."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Инквизиторы звёзд",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Market: rune hunters sell star shards.",
+          "narration": [
+            "Охотники продают осколки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Ересь на вес!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Ваши весы врут."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Free captive mage.",
+          "narration": [
+            "Освобождение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Выпускаю. Бегите."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Vex army enters slums.",
+          "narration": [
+            "Армия Векса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Сожги изгнанника!"
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 4,
+          "scene": "Meteor rain covers escape.",
+          "narration": [
+            "Дождь метеоров — прикрытие."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Пять огней! Прикрываю отход!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 5,
+          "scene": "Book gains new page from victory.",
+          "narration": [
+            "Новая страница."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Книга пишет сама."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Hunter captain alliance with Vex.",
+          "narration": [
+            "Союз с капитаном."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Руны — не ваш товар!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Star apprentice redeems — helps.",
+          "narration": [
+            "Эли помогает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "starApprentice",
+              "text": "Исправлю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Map to observatory under arena.",
+          "narration": [
+            "Обсерватория под ареной."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Звёзды под песком."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Prepares spells.",
+          "narration": [
+            "Подготовка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Небо переживёт вашу инквизицию."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Gate opens.",
+          "narration": [
+            "Ворота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Глава V. Охота началась."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "6": {
+      "title": "Знание как пожар",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Burned library dream.",
+          "narration": [
+            "Сон: сожжённая библиотека."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Голос: не сжигай."
+            },
+            {
+              "speaker": "sora",
+              "text": "Не сожгу. Подсвечу путь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback exile — almost saved city.",
+          "narration": [
+            "Изгнание: почти спас город."
+          ],
+          "dialogue": [
+            {
+              "speaker": "observatoryGuard",
+              "text": "Ты чуть не спас нас!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Чуть — но спас."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Inner conflict: light path or burn.",
+          "narration": [
+            "Знание — пожар или фонарь?"
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Без света сгорит всё. Я выбрал свет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Carves rune on book cover — oath.",
+          "narration": [
+            "Клятва на обложке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Светить. Не жечь дом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Vex offer: join inquisitors.",
+          "narration": [
+            "Предложение Векса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Стань судьёй ереси."
+            },
+            {
+              "speaker": "sora",
+              "text": "Судите сами. Я покажу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Night meteor over child district — saved.",
+          "narration": [
+            "Метеор спас район."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Ещё трясёт… но держу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Tribunal grants star gate trial.",
+          "narration": [
+            "Трибунал: бой за ворота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Победи — открой небо."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Book whispers trio names.",
+          "narration": [
+            "Книга шепчет троицу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Часы… бал… странно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Walks to sand.",
+          "narration": [
+            "К песку."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Книга со мной. Пойду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Observatory dome under arena glows.",
+          "narration": [
+            "Купол под ареной."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Глава VI. Огонь под контролем."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Ворота небесного круга",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Lower ring: Sora vs rune nullifier.",
+          "narration": [
+            "Нижний круг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "«Звёздный писец»!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Запишем победу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Fireballs break nullifier rods.",
+          "narration": [
+            "Шары ломают стержни."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Пусто. Как ваш аргумент."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 3,
+          "scene": "Crowd fears meteors.",
+          "narration": [
+            "Толпа боится."
+          ],
+          "dialogue": [
+            {
+              "speaker": "starApprentice",
+              "text": "Контроль!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Controlled meteor on sand edge only.",
+          "narration": [
+            "Метеор на краю."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Пять огней! Только край песка!"
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 5,
+          "scene": "Win declared.",
+          "narration": [
+            "Победа."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Проходит!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Vex backstage threat.",
+          "narration": [
+            "Угроза."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Сожгу книгу!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Попробуй сожги. Не получится."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Heals fallen foe with warm light page.",
+          "narration": [
+            "Страница тепла."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Держись. Страница тепла."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Signs Vex duel.",
+          "narration": [
+            "Вызов Векса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Финал!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night study star gate.",
+          "narration": [
+            "Ночь. Ворота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Небесный круг близко."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Upper tier stars align.",
+          "narration": [
+            "Звёзды выстроились."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Глава VII. Ворота дрожат."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "8": {
+      "title": "Метеоры на песке",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mid ring: Vex with star mask.",
+          "narration": [
+            "Векс на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Ересь сгорит!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Вам просто страшно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Nullify field — book counters.",
+          "narration": [
+            "Поле обнуления."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Страница — щит!"
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 3,
+          "scene": "Meteor rain finale on sand.",
+          "narration": [
+            "Метеоритный дождь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Пять огней!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 4,
+          "scene": "Vex mask cracks — court inquisitor.",
+          "narration": [
+            "Под маской — дворцовый."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Опять подстава. Где настоящий?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Star gate opens one breath.",
+          "narration": [
+            "Ворота открылись на миг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Голос: не входи слепо."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Tribunal upper access.",
+          "narration": [
+            "Верхний ярус."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Финал трио!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Hunters surround.",
+          "narration": [
+            "Окружение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Руны — наши!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Я читаю. Вы — нет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Escape on book flight.",
+          "narration": [
+            "Полёт на книге."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Держись, книга!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 9,
+          "scene": "Rain roof.",
+          "narration": [
+            "Крыша."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Бал близко."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Chapter VIII.",
+          "narration": [
+            "Глава VIII."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Это только начало."
+            }
+          ],
+          "sfx": "ДОЖДЬ…"
+        }
+      ]
+    },
+    "9": {
+      "title": "Спор трёх путей",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena backstage mist — SHADOWED trio, violet runes + gold clocks + green hell.",
+          "narration": [
+            "Закулисье. Туман. Три силуэта у трещины."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Кто там — без приглашения?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Три пути. Один зал. Выбери."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "clock-halo hourglass and green hell invitation SILHOUETTE — NOT full faces.",
+          "narration": [
+            "Два силуэта по бокам. Лица скрыты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Ещё охотники?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Охотники на ложь. Не на тебя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Hunters attack silhouettes; hero breaks nets.",
+          "narration": [
+            "Охотники бросаются на силуэты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Если вы против них — говорите быстрее."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 4,
+          "scene": "Triangle: violet runes + gold clocks + green hell.",
+          "narration": [
+            "Три цвета в тумане сходятся."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Месть — дорога без выхода."
+            },
+            {
+              "speaker": "sora",
+              "text": "Выход найду сам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Silhouettes hold line; hero strikes captain.",
+          "narration": [
+            "Силуэты держат линию."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Троих… как?"
+            },
+            {
+              "speaker": "sora",
+              "text": "Трое — мой любимый расклад."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Quiet vow exchange, faces hidden.",
+          "narration": [
+            "Тихий спор трёх идей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Убьёшь врага — станешь легендой."
+            },
+            {
+              "speaker": "sora",
+              "text": "Я не пустой. Проверь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Sky marks: hourglass, invitation, hero symbol.",
+          "narration": [
+            "В небе проступают три знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Три пути. Один враг. Пока сходимся."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Combined strike cuts arena nets.",
+          "narration": [
+            "Комбо рвёт сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Вместе — до ворот."
+            },
+            {
+              "speaker": "sora",
+              "text": "После — каждый своей дорогой."
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 9,
+          "scene": "Triangle burned into sand.",
+          "narration": [
+            "На песке — треугольный знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Тебя объявят союзником тени!"
+            },
+            {
+              "speaker": "sora",
+              "text": "Объявят — не значит узнают."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Silhouettes depart; hero with mark on glove.",
+          "narration": [
+            "Силуэты уходят тремя тропами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Спор трёх путей. Ответ — завтра."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Завтра мы снова станем тенью."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Руна на табло",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena ceremony: golden scoreboard, trio rumor.",
+          "narration": [
+            "Церемония. Слухи о троице гремят."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Верхний круг открыт. Финал — сегодня."
+            },
+            {
+              "speaker": "sora",
+              "text": "Наконец-то полный зал."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: zafkiel — match zafkiel_skin1.png.",
+          "narration": [
+            "Зафкиэль выходит — полный облик."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zafkiel",
+              "text": "Время пришло на бал. Часы не опаздывают."
+            },
+            {
+              "speaker": "sora",
+              "text": "Тикайте. Я не опоздаю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: verdeletta — match verdeletta_skin1.png.",
+          "narration": [
+            "Верделетта — полный дизайн."
+          ],
+          "dialogue": [
+            {
+              "speaker": "verdeletta",
+              "text": "Руны помнят ваш зал. Мы обещали стычку."
+            },
+            {
+              "speaker": "sora",
+              "text": "Я пришёл. Не за праздником."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs hunters on sand — all FULL faces.",
+          "narration": [
+            "Трое на песке. Лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Слева — сети. Режем вместе."
+            },
+            {
+              "speaker": "zafkiel",
+              "text": "Откат держит."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Тени танцуют."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Team combo: meteor rain + eternity gate + shadow ball.",
+          "narration": [
+            "Комбо суперов троих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "zafkiel",
+              "text": "Стоп!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Бал!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "inquisitorVex descends upper gate.",
+          "narration": [
+            "Векс спускается."
+          ],
+          "dialogue": [
+            {
+              "speaker": "inquisitorVex",
+              "text": "Изгнанник… вернулся за вторым небом?"
+            },
+            {
+              "speaker": "sora",
+              "text": "За своей страницей."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena edge: three paths debate.",
+          "narration": [
+            "Три голоса — три пути."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zafkiel",
+              "text": "Суд — секундой."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Хаос — приглашение."
+            },
+            {
+              "speaker": "sora",
+              "text": "Выбираю сам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night sky: observatory + clock citadel + hell ballroom over Arena.",
+          "narration": [
+            "Ночное небо над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "archivistLune",
+              "text": "Не сжигай дом ради одной формулы."
+            },
+            {
+              "speaker": "sora",
+              "text": "Помню Люна. Маску сорву."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final splash: trio vs enemy wave.",
+          "narration": [
+            "Финальный залп."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Вперёд!"
+            },
+            {
+              "speaker": "inquisitorVex",
+              "text": "Руны сгорят!"
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "Не сегодня!"
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "End card: hero forward, trio behind.",
+          "narration": [
+            "Конец главы X."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sora",
+              "text": "Табло — не финал. Продолжаем."
+            },
+            {
+              "speaker": "zafkiel",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "verdeletta",
+              "text": "До конца пути."
+            }
+          ],
+          "sfx": "ВЕТЕР…"
+        }
+      ]
+    }
+  }
+}

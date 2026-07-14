@@ -1,0 +1,23 @@
+=== MIRABEL COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO MIRABEL (every page): match mirabel_skin1.png ONLY — academy scholar girl, red magic book, knowledge sparks, ink-stained fingers, star chart accessories, NOT any NPC face.
+
+headArchivist — UNIQUE: old archivist MAN, parchment skin, grey beard, erasure seal stamp on belt, stern tired eyes, NOT Mirabel.
+
+tome — UNIQUE: forbidden red book with SELF-WRITING pages, glowing runes, whisper voice as rustle, NOT human face solid.
+
+pageBoy — UNIQUE: young page BOY, ink-stained fingers, simple tunic, warm loyal eyes, childhood friend NOT Mirabel clone.
+
+eraserSquad — UNIQUE: eraser squad soldiers, WHITE MASKS, forgetting blade knives, uniform grey robes, NOT generic soldier face.
+
+gin — UNIQUE: arena announcer MAN, GOLD MICROPHONE, arena broadcast jacket, NOT female herald.
+
+sisterBell — UNIQUE: nun from Yuki temple WOMAN, bell pendant, white-blue robes, kind messenger face, NOT female herald.
+
+shadowVoice ch9 — silhouettes only: yuki (ice scholar) + elian (star mage) — NO faces.
+
+yuki ch10 — match yuki_skin1.png FULL color.
+
+elian ch10 — match elian_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

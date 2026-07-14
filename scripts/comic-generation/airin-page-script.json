@@ -1,0 +1,1830 @@
+{
+  "brawlerId": "airin",
+  "brawlerName": "Айрин",
+  "lore": "Айрин — бывший военный лётчик королевства стимпанк, которую предали и бросили в дымовой ловушке. Она выжила, но с тех пор носит очки на лбу и дымовые шашки. Её эвакуация спасает не только тела, но и души — она верит, что каждый заслуживает второго шанса. Даже врагам.",
+  "skinRef": "public/dev-notes/brawler-skins/airin_skin1.png",
+  "trioId": "storm-moon",
+  "trioOthers": [
+    "zephyrin",
+    "vittoria"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "marcus": "Маркус — старый механик ангара: седые усы, масляные перчатки, говорит коротко",
+    "lina": "Лина — напарница эскадрильи: короткие светлые волосы, кожаный шлем, была другом до предательства",
+    "corsair": "Корсар — предатель-ас: чёрные очки, золотой шарф эскадрильи, холодная улыбка",
+    "beacon": "Маяк — голос старого бипланa по радио: треск, металлический шёпот",
+    "gin": "Джин — диктор Арены: золотой микрофон, аренская куртка",
+    "smokeHunter": "Дымовой охотник — маска фильтра, двойные пистолеты, серый плащ"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Айрин steampunk pilot goggles on forehead, smoke grenades, silver evacuation sigil glowing, burning airdrome docks, traitor ace silhouettes in smoke, palette #37474F #78909C #B0BEC5, title АЙРИН Cyrillic, match airin_skin1.png, NO speech balloons"
+  },
+  "chapters": {
+    "1": {
+      "title": "Дым на взлётной",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide dawn: royal steampunk airdrome, brass hangars, propellers spinning in mist.",
+          "narration": [
+            "Королевский аэродром просыпается раньше солнца."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Третий патруль, Айрин. Небо чистое — пока."
+            },
+            {
+              "speaker": "airin",
+              "text": "Чистое? Так говорят перед грозой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Training sortie: Airin loops biplane above dock cranes.",
+          "narration": [
+            "Учебный петля над кранами доков."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Ты снова ушла от эскадрильи!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Я не сбилась. Просто обогнула облака."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Close-up: goggles pushed up, smoke capsules on belt gleam.",
+          "narration": [
+            "Очки на лбу. Капсулы на поясе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Дым не для красоты. Кому-то внизу — второй шанс."
+            },
+            {
+              "speaker": "airin",
+              "text": "Знаю. Поэтому ношу шесть."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Briefing room: map of western front with red pins.",
+          "narration": [
+            "Карта западного фронта усыпана красными булавками."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Корсар зовёт нас на ночной рейд."
+            },
+            {
+              "speaker": "airin",
+              "text": "Ночной рейд? Лечу первой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Hangar: Airin checks silver evacuation sigil on glove.",
+          "narration": [
+            "Серебряный знак эвакуации на перчатке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Если упаду — заберите тех, кто не успел."
+            },
+            {
+              "speaker": "marcus",
+              "text": "Ты не падаешь. Ты вытаскиваешь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Sunset flight: contrails cross like stitches in sky.",
+          "narration": [
+            "Кondensacionные швы на закате."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Красиво… как будто кто-то шьёт небо."
+            },
+            {
+              "speaker": "airin",
+              "text": "Швы рвутся. Я это уже видела."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Night radio crackle: unknown signal from east.",
+          "narration": [
+            "Радио ловит чужой сигнал с востока."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…координаты… купол… маяк…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Старый биплан? Кто ты?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Airin lands, Corsair watches from shadow of fuel tank.",
+          "narration": [
+            "Корсар наблюдает из тени топливного бака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Летчица с серебряной рукой. Запомню."
+            },
+            {
+              "speaker": "airin",
+              "text": "Запоминай. Я не прячусь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Marcus finds cracked lens in Airin cockpit.",
+          "narration": [
+            "В кабине — треснувшее стекло прицела."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Это не камень. Это выстрел."
+            },
+            {
+              "speaker": "airin",
+              "text": "Значит, война уже здесь."
+            }
+          ],
+          "sfx": "ТРЕСК!"
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: smoke trail curves wrong on radar screen.",
+          "narration": [
+            "На радаре дым идёт против ветра."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Это не наш маршрут!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Завтра узнаем, чей."
+            }
+          ],
+          "sfx": "БИИИП!"
+        }
+      ]
+    },
+    "2": {
+      "title": "Ловушка эскадрильи",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Pre-dawn: squadron enters grey smoke canyon per Corsair plan.",
+          "narration": [
+            "Эскадрилья входит в серый дымяный каньон."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Цель в центре. Огонь по моей команде."
+            },
+            {
+              "speaker": "airin",
+              "text": "Слишком гладко. Дым слишком густой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Planes vanish in smoke; tracers from below.",
+          "narration": [
+            "Самолёты теряют друг друга. Трассеры снизу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Нас бьют свои!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Не свои. Предатели."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 3,
+          "scene": "Airin deploys smoke capsule — silver mark flares.",
+          "narration": [
+            "Дымовая капсула. Серебряный знак вспыхивает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Лина! На мой знак — ко мне!"
+            },
+            {
+              "speaker": "lina",
+              "text": "Вижу блеск! Держусь!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 4,
+          "scene": "Corsair biplane dives at Airin wing.",
+          "narration": [
+            "Корсар идёт на таран по крылу Айрин."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Королевство платит за лишних героев."
+            },
+            {
+              "speaker": "airin",
+              "text": "Я не героиня. Я механик, который умеет падать."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Explosion: Lina plane spirals; Airin catches her on wing run.",
+          "narration": [
+            "Лина падает. Айрин выравнивает её фюзеляж."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Я… не могу дышать…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Дыши моим ритмом. Ещё чуть-чуть."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Ground: wreckage and smoke; Lina dies in Airin arms.",
+          "narration": [
+            "Обломки на земле. Лина умирает на руках."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Не… не лети за ними… спасай…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Кого?"
+            }
+          ],
+          "sfx": "КРАК…"
+        },
+        {
+          "page": 7,
+          "scene": "Corsair escapes upward; Marcus arrives too late.",
+          "narration": [
+            "Корсар уходит вверх. Маркус опоздал."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Ловушка. Их подставили."
+            },
+            {
+              "speaker": "airin",
+              "text": "Нас подставили. Я выжила. Кому-то ещё помогу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Airin finds squadron patch torn on barbed wire.",
+          "narration": [
+            "На колючке — нашивка эскадрильи."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Нас стёрли с неба. Я — нет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night: Airin burns letter of commission.",
+          "narration": [
+            "Ночь. Айрин сжигает офицерский патент."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Королевство подарило крылья и забрало доверие."
+            },
+            {
+              "speaker": "marcus",
+              "text": "Крылья остались."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Wide: lone pilot walks to hidden hangar, smoke rising.",
+          "narration": [
+            "Глава II. Ловушка эскадрильи. Одна на земле."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Лина. Я найду того, кто назвал дым «своим»."
+            }
+          ],
+          "sfx": "ВЖЖЖ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Серебряный знак",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Hidden cliff hangar: Airin upgrades evacuation sigil.",
+          "narration": [
+            "Секретный ангар. Знак эвакуации переплавляют."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Серебро тянет не тела. Намерение."
+            },
+            {
+              "speaker": "airin",
+              "text": "Тогда пусть тянет и врагов. К выходу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback inset: first test saves mechanic from fuel fire.",
+          "narration": [
+            "Память: знак спас механика из огня."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Ты вытащила его сквозь пламя!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Он чинил мой биплан. Я его вытащила."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Smoke Hunter ambush at supply road.",
+          "narration": [
+            "З засада дымовых охотников на тракте."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Айрин «Призрак». За тебя платят двойную цену."
+            },
+            {
+              "speaker": "airin",
+              "text": "Платите сколько хотите. Отвечу дымом."
+            }
+          ],
+          "sfx": "БАЦ!"
+        },
+        {
+          "page": 4,
+          "scene": "Airin marks hunter with smoke — he chokes, she disarms.",
+          "narration": [
+            "Дымовая метка. Охотник падает на колени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Ты… лечишь…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Живи. Второй шанс один."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Interrogation: hunter reveals Arena beacon inside dome.",
+          "narration": [
+            "Допрос: маяк старого биплана внутри купола."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Корсар летит на турнир. Там. Иммунитет."
+            },
+            {
+              "speaker": "airin",
+              "text": "Арена не прикрывает трусов. Я проверю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Airin repairs Beacon radio from wreck.",
+          "narration": [
+            "Из обломков — радио Маяка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…координаты совпали… я ждал…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Ты. Мой старый биплан? Говори медленнее."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Practice: silver sigil pulls dummy allies through smoke wall.",
+          "narration": [
+            "Тренировка: союзники-манекены сквозь стену дыма."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Радиус растёт. Сердце не выдержит вечно."
+            },
+            {
+              "speaker": "airin",
+              "text": "Сердце выдержит, пока есть кому тащить."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night flight toward distant Arena glow.",
+          "narration": [
+            "Ночной полёт к сиянию купола."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Лина видела это на карте. Я — своими глазами."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Corsair contrail crosses hers — taunting S-turn.",
+          "narration": [
+            "Корсар рисует насмешливую S в небе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Догоняй, серебряная!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Сначала посадка. Потом расчёт."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: beacon signal locks on Arena medical wing.",
+          "narration": [
+            "Сигнал Маяка фиксирует медкрыло Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…посадка разрешена…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Наконец посадка с разрешением."
+            }
+          ],
+          "sfx": "БИП-БИП!"
+        }
+      ]
+    },
+    "4": {
+      "title": "Маяк внутри купола",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena outer dock: steampunk cranes under violet dome.",
+          "narration": [
+            "Внешние доки Арены под фиолетовым куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Новая звезда стимпанка! Кто посадил без разрешения?!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Тот, кого звали мёртвой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Airin presents cracked squadron patch to clerk.",
+          "narration": [
+            "Айрин кладёт нашивку на стойку регистрации."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Хочу бой с Корсаром. Или его имя на табло."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Medical wing: beacon signal pulses over empty bed.",
+          "narration": [
+            "Медкрыло. Маяк пульсирует над пустой койкой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…здесь лечат… даже врагов…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Значит, я не ошиблась дорогой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Corsair press conference: gold scarf, lies about trap.",
+          "narration": [
+            "Корсар на пресс-конференции — золотой шарф, ложь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Айрин предала эскадрилью. Я. Герой."
+            },
+            {
+              "speaker": "airin",
+              "text": "Герои не прячутся в дым."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Rooftop: smoke duel — Airin tags Corsair cape.",
+          "narration": [
+            "Крыша. Дымовая метка на плаще Корсара."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Толпа любит драму!"
+            },
+            {
+              "speaker": "airin",
+              "text": "На песке будет видно."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Marcus arrives with rebuilt biplane engine.",
+          "narration": [
+            "Маркус привёз восстановленный мотор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Лина бы хотела, чтобы ты летала дальше."
+            },
+            {
+              "speaker": "airin",
+              "text": "Летаю. Ради тех, кто не может."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Night: Airin saves fallen smoke hunter in alley.",
+          "narration": [
+            "Ночь. Айрин спасает раненого охотника."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Зачем… я охотился…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Потому что все заслуживают второй шанс."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Arena poster: Blood Moon tournament bracket.",
+          "narration": [
+            "Афиша турнира «Кровавая луна»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Трио беглецов. Слух или угроза?"
+            },
+            {
+              "speaker": "airin",
+              "text": "Слух. Пока."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Airin calibrates silver sigil under arena lights.",
+          "narration": [
+            "Калибровка знака под прожекторами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Эвакуация. Не побег. Это выбор жить."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: wind silhouette and moon silhouette on adjacent roofs.",
+          "narration": [
+            "На соседних крышах — силуэты ветра и луны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Кто-то смотрит. Не враждебно. Пока."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Асы-предатели",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Chase through dock maze: smoke vs smoke.",
+          "narration": [
+            "Погоня в доках: дым против дыма."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Корсар нанял десять эскадрилий!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Десять — не бесконечность."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 2,
+          "scene": "Airin traps hunters in silver evacuation circle.",
+          "narration": [
+            "Серебряный круг эвакуации ловит охотников."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Сдавайтесь. Или дышите моим дымом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Corsair hires arena mercenary pilots.",
+          "narration": [
+            "Корсар нанимает наёмных пилотов Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Убейте её до регистрации!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Регистрация уже стоит. Проверь чернила."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Dogfight illustration: biplane vs dual prop fighters.",
+          "narration": [
+            "Воздушная схvatka: биплан против двух винтов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Левый крыло — слабое!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Слабое. Не значит сломанное!"
+            }
+          ],
+          "sfx": "ДЗЫНЬ!"
+        },
+        {
+          "page": 5,
+          "scene": "Airin deploys smoke screen for dock workers escape.",
+          "narration": [
+            "Дымовая завеса для рабочих доков."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Бегите к восточному крану! Знак увидите!"
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Corsair wounds Marcus; Airin chooses save over chase.",
+          "narration": [
+            "Корсар ранит Маркуса. Айрин разворачивается."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Охота подождёт. Друг. Нет."
+            },
+            {
+              "speaker": "marcus",
+              "text": "Глупая…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Нет. Последовательная."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Infirmary: Airin hands hunter her last smoke capsule.",
+          "narration": [
+            "Айрин отдаёт охотнику последнюю капсулу — для его напарника."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Ты… врагам…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Врагам — один шанс. Не больше."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Intel: Corsair registered as Golden Scarf.",
+          "narration": [
+            "Корсар зарегистрирован как «Золотой Шарф»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Бой через три дня!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Три дня на крыло. И на совесть."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night repair montage: silver sigil burns brighter.",
+          "narration": [
+            "Ночной ремонт. Знак светится сильнее."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…готовность… восемьдесят…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Доведём до ста. На песке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: registration clerk slain, Airin name smeared in blood.",
+          "narration": [
+            "Кlerk мёртв. Имя Айрин smeared кровью."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Они хотят, чтобы я исчезла до гонга. Не выйдет."
+            }
+          ],
+          "sfx": "КРАК!"
+        }
+      ]
+    },
+    "6": {
+      "title": "Цена спасения",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mirror hangar: Airin sees herself as traitor in propaganda posters.",
+          "narration": [
+            "В зеркале ангара — её лицо на плакатах «предательница»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Королевство рисует меня монстром."
+            },
+            {
+              "speaker": "marcus",
+              "text": "Монстры не перевязывают врагов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback: young Airin saved enemy pilot during war game.",
+          "narration": [
+            "Память: учебный бой — она спасла вражеского пилота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Ты могла выиграть!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Выигрыш без жизни. Пустой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Arena tribunal: Airin argues for enemy medic access.",
+          "narration": [
+            "Трибунал: Айрин требует доступ к медикам для всех."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Арена не благотворительность!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Арена. Зеркало. Я покажу лицо."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Corsair offers deal: disappear, Lina name cleared.",
+          "narration": [
+            "Корсар предлагает сделку: исчезни — очистим Лину."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Мёртвым — статуи."
+            },
+            {
+              "speaker": "airin",
+              "text": "Лина у меня в голове. Статуи не нужны."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Airin refuses; silver sigil flares purple stress lines.",
+          "narration": [
+            "Отказ. Знак трескается от перегрузки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Ты не богиня!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Знаю. Поэтому выбираю, кого тащить."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Quiet page: Airin bandages smoke hunter who tried to kill her.",
+          "narration": [
+            "Тишина. Перевязка охотника, который охотился на неё."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Почему…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Потому что ты ещё не выбрал, кем быть."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Dream: Lina asks her to hate.",
+          "narration": [
+            "Сон: Лина просит ненавидеть."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lina",
+              "text": "Ненавидь. Легче."
+            },
+            {
+              "speaker": "airin",
+              "text": "Легче. Но не то."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Marcus installs limiter on sigil.",
+          "narration": [
+            "Маркус ставит ограничитель на знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Спасать всех. Себя убьёшь."
+            },
+            {
+              "speaker": "airin",
+              "text": "Спасу сколько смогу. Без геройства."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Storm clouds gather; wind howls over dome.",
+          "narration": [
+            "Шторм. Ветер воет над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…буря… три пути…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Три? Кто ещё слушает?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: Airin signs waiver — fight even traitors after match.",
+          "narration": [
+            "Айрин подписывает: после боя — лечить даже врагов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Цена спасения. Быть уязвимой. Я согласна."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Ворота шторма",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena gates: brass gears and storm banners.",
+          "narration": [
+            "Ворота Арены: шестерни и штормовые знамёна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Золотой Шарф против Серебряного Дыма!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Пусть песок решит, кто предатель."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Prefight: Airin gives smoke capsules to crowd medics.",
+          "narration": [
+            "Перед боем — капсулы медикам в зале."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Если упаду — используйте на любого."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Corsair entrance on golden prop sled.",
+          "narration": [
+            "Корсар выезжает на золотых полозьях."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Небо было моим!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Небо. У всех. Ты просто громче врал."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Mechanical gate test: blades spin; Airin smoke-jumps through.",
+          "narration": [
+            "Лезвия вращаются. Айрин проходит в дымовой прыжок."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Безумие!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Расчёт!"
+            }
+          ],
+          "sfx": "ЖЖЖ!"
+        },
+        {
+          "page": 5,
+          "scene": "Silver sigil marks safe zone on sand.",
+          "narration": [
+            "На песке — безопасная зона знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Кто в круге. Под моей защитой. Даже он."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Corsair tries to shoot medic; Airin intercepts.",
+          "narration": [
+            "Корсар целится в медика. Айрин перехватывает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Сентиментальность!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Профессионализм."
+            }
+          ],
+          "sfx": "БАЦ!"
+        },
+        {
+          "page": 7,
+          "scene": "Crowd roars split — half believe each pilot.",
+          "narration": [
+            "Толпа расколота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "История или клевета?!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Storm banner unfurls: Blood Moon trio prophecy.",
+          "narration": [
+            "Знамя: пророчество триo «Кровавая луна»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…ветер… луна… дым…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Слышала слухи. Сегодня. Правда."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Gong imminent; Airin holsters goggles over eyes.",
+          "narration": [
+            "Гонг близко. Очки опущены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Лина. Смотри. Я не исчезну в дыме."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: gong strike, sand explodes upward.",
+          "narration": [
+            "Гонг. Песок взлетает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Умри красиво!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Живи честно!"
+            }
+          ],
+          "sfx": "ГОНГ!"
+        }
+      ]
+    },
+    "8": {
+      "title": "Бой в дымовой завесе",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Sand ring: smoke clouds obscure half the arena.",
+          "narration": [
+            "Песок. Половина арены в дымовой завесе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Кто видит?!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Вижу через знак."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Airin tags Corsair — reduced vision debuff visualized.",
+          "narration": [
+            "Дымовая метка на Корсаре. Обзор сужается."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Где ты?!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Рядом. Ты просто не видишь."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 3,
+          "scene": "Evacuation super: injured child pulled from falling rigging.",
+          "narration": [
+            "Супер: ребёнок из падающих сеток — в круг знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Держись! Знак не обжигает!"
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 4,
+          "scene": "Corsair charges blind; Airin slides under prop blade.",
+          "narration": [
+            "Корсар бьёт вслепую. Айрин под лезвием."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Ты бьёшь тень. Я. Дым."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Crowd sees silver trails forming wings shape.",
+          "narration": [
+            "Серебряные следы складываются в крылья."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Это… красиво…"
+            },
+            {
+              "speaker": "gin",
+              "text": "НЕВЕРОЯТНО!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Corsair rips scarf — reveals squadron patch underneath.",
+          "narration": [
+            "Корсар рвёт шарф — нашивка эскадрильи."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Ты носил наш знак, пока нас убивал."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Final exchange: smoke vs gold tracer fire.",
+          "narration": [
+            "Финал: дым против золотых трассеров."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Королевство выбрало меня!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Я выбираю тех, кто падает."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 8,
+          "scene": "Corsair disarmed; Airin offers hand.",
+          "narration": [
+            "Корсар обезоружен. Айрин протягивает руку."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Второй шанс. Одно слово."
+            },
+            {
+              "speaker": "corsair",
+              "text": "…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Tribunal rules: Corsair exiled; Airin name cleared.",
+          "narration": [
+            "Трибунал: Корсар изгнан. Имя Айрин очищено."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Победа Серебряного Дыма!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Night: Airin exhausted; storm silhouette on upper tier.",
+          "narration": [
+            "Ночь. Знак тусклый. Силуэт бури на ярусе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "marcus",
+              "text": "Ты доказала не небо. Людей."
+            },
+            {
+              "speaker": "airin",
+              "text": "Кто там?"
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "9": {
+      "title": "Три искры бури",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Backstage storm: violet fog, wind tears banners.",
+          "narration": [
+            "Закулисье. Фиолетовый туман рвёт знамёна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "После победы. Снова охота?"
+            },
+            {
+              "speaker": "windSilhouette",
+              "text": "Охота на одиночек. Не на тебя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "SILHOUETTE: translucent dress, tornado feet — NOT full face.",
+          "narration": [
+            "Силуэт в полупрозрачном платье. Лица нет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Дух?"
+            },
+            {
+              "speaker": "windSilhouette",
+              "text": "Ветер. Устала быть невидимой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "SILHOUETTE: velvet cape, crescent moon brooch — NOT full face.",
+          "narration": [
+            "Силуэт с бархатным плащом и лунным брошью."
+          ],
+          "dialogue": [
+            {
+              "speaker": "moonSilhouette",
+              "text": "Луна всё видела."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Smoke hunters attack all three; Airin deploys cover.",
+          "narration": [
+            "Охотники атакуют. Айрин — дымовой купол."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Если вы враги моих врагов — говорите быстрее."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Triangle composition: grey smoke, silver wind, crimson moon.",
+          "narration": [
+            "Три цвета: дым, ветер, луна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "windSilhouette",
+              "text": "Мы устали быть по одной."
+            },
+            {
+              "speaker": "moonSilhouette",
+              "text": "И от проклятия."
+            },
+            {
+              "speaker": "airin",
+              "text": "Я от лжи. Пока сходимся."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Combined strike: smoke blind + wind push + moon flare.",
+          "narration": [
+            "Комбо: слепота, отброс, вспышка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "smokeHunter",
+              "text": "Что это?!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Второй шанс. Для нас троих."
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 7,
+          "scene": "Quiet vow: three fugitives, faces hidden.",
+          "narration": [
+            "Клятва без лиц."
+          ],
+          "dialogue": [
+            {
+              "speaker": "windSilhouette",
+              "text": "На десятой. Покажемся."
+            },
+            {
+              "speaker": "moonSilhouette",
+              "text": "Если доживём."
+            },
+            {
+              "speaker": "airin",
+              "text": "Доживём. Я не тащу одна."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Sky mark: propeller, tornado, crescent.",
+          "narration": [
+            "В небе: пропeller, торнадо, полумесяц."
+          ],
+          "dialogue": [
+            {
+              "speaker": "beacon",
+              "text": "…шторм… собран…"
+            },
+            {
+              "speaker": "airin",
+              "text": "Запомню знак."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Hunters flee; trio stands in triangle on wet sand.",
+          "narration": [
+            "Охотники бегут. Трое на мокром песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Буря кровавой луны… не сказка."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Silhouettes depart three directions; Airin clutches silver sigil.",
+          "narration": [
+            "Силуэты уходят. Айрин сжимает знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Финал близко."
+            }
+          ],
+          "sfx": "ТИК…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Вторая посадка",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Ceremony wide: Blood Moon bracket, trio rumor confirmed.",
+          "narration": [
+            "Церемония. Слух о триo подтверждён."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Штормовое трио выходит на песок!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Пора показать лица."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Zephyrin descends — match zephyrin_skin1.png FULL design.",
+          "narration": [
+            "Зефирин — полный облик, не силуэт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Ты ловила мой ветер в дыме."
+            },
+            {
+              "speaker": "airin",
+              "text": "А ты не дала мне разбиться."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Vittoria steps from moonlight — match vittoria_skin1.png.",
+          "narration": [
+            "Виттория выходит из лунного света."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vittoria",
+              "text": "Кровь и дым. Странные сёстры."
+            },
+            {
+              "speaker": "airin",
+              "text": "Обе. Про второй шанс."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs smoke hunter squad on sand — all FULL faces.",
+          "narration": [
+            "Трое против охотников. Все лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Слева — дым!"
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Центр — вихрь!"
+            },
+            {
+              "speaker": "vittoria",
+              "text": "Справа — луна!"
+            }
+          ],
+          "sfx": "ГОНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Combo: Evacuation + Tornado + Blood Moon super layout.",
+          "narration": [
+            "Комбо суперов троих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Знак!"
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Вихрь!"
+            },
+            {
+              "speaker": "vittoria",
+              "text": "Луна!"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 6,
+          "scene": "Corsair escape attempt from exile tunnel — trio blocks.",
+          "narration": [
+            "Корсар бежит из туннеля изgnания."
+          ],
+          "dialogue": [
+            {
+              "speaker": "corsair",
+              "text": "Вы не суд!"
+            },
+            {
+              "speaker": "airin",
+              "text": "Не суд. Зеркало."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Airin offers Corsair evacuation sigil one last time.",
+          "narration": [
+            "Последнее предложение знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Слово. Одно. Живи."
+            },
+            {
+              "speaker": "corsair",
+              "text": "…прости…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Scoreboard: Storm Moon legend registered.",
+          "narration": [
+            "Табло: легенда «Буря кровавой луны»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "История написана!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night flight: trio on biplane wing, moon above dome.",
+          "narration": [
+            "Ночной полёт над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "zephyrin",
+              "text": "Кто остановит мой ветер?"
+            },
+            {
+              "speaker": "vittoria",
+              "text": "Тот, кому не страшно."
+            },
+            {
+              "speaker": "airin",
+              "text": "Мы попробуем."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "End card: Airin lands, silver sigil bright, smoke clears to stars.",
+          "narration": [
+            "Конец главы X. Вторая посадка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "airin",
+              "text": "Лина. Небо снова чужое. Но честное."
+            },
+            {
+              "speaker": "zephyrin",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "vittoria",
+              "text": "До новой луны."
+            }
+          ],
+          "sfx": "ВЖЖЖ…"
+        }
+      ]
+    }
+  }
+}

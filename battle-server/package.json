@@ -1,0 +1,25 @@
+{
+  "name": "starfall-battle-server",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Authoritative battle server v2 — uWebSockets.js + UDP snapshots + FlatBuffers binary",
+  "scripts": {
+    "worker": "node src/worker.mjs",
+    "matchmaker": "node src/matchmaker.mjs",
+    "compile": "node ../scripts/compile-headless.mjs",
+    "preworker": "node ../scripts/compile-headless.mjs",
+    "test:match": "node test/headless-match.mjs"
+  },
+  "dependencies": {
+    "planck-js": "^1.3.0",
+    "tsx": "^4.19.4",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.48.0"
+  },
+  "devDependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

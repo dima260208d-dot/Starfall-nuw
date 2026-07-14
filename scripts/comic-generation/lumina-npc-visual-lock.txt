@@ -1,0 +1,23 @@
+=== LUMINA COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO LUMINA (every page): match lumina_skin1.png ONLY — mythic girl white-gold glowing wings, golden thread magic, pale skin, sorrowful eyes, NOT any NPC face.
+
+sisterMaris — UNIQUE: elderly nun, GREY ROBE with white wimple, soft wrinkled face, wooden rosary, candle in hand, gentle eyes, NOT Lumina.
+
+lostSoul — UNIQUE: semi-transparent ghost woman, faded blue-grey dress, hollow glowing eyes, chains of light faint, NOT solid mortal face.
+
+lightHunter — UNIQUE: tall hunter, BLACK CLOAK hood, anti-light goggles, silver bolt crossbow, scarred jaw, hates wings symbol on arm, NOT arena herald.
+
+penitent — UNIQUE: scarred warrior monk, BANDAGED arms, kneeling posture, ash-marked forehead, humble eyes, NO wings, NOT hunter.
+
+herald — UNIQUE: arena announcer WOMAN, GOLD MEGAPHONE, white-gold arena coat, braided hair, NOT male herald from other comics.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher grey hood.
+
+shadowVoice ch9 — silhouettes only: miya (bow) + silven (nature staff) — NO faces.
+
+miya ch10 — match miya_skin1.png FULL color.
+
+silven ch10 — match silven_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

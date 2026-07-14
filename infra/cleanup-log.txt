@@ -1,0 +1,5 @@
+﻿CHECK OK: C:\Users\Дмитрий\Downloads\zip-repl\package.json
+CHECK OK: C:\Users\Дмитрий\Downloads\zip-repl\src\App.tsx
+CHECK OK: C:\Users\Дмитрий\Downloads\zip-repl\public\cloud-config.json
+CHECK OK: C:\Users\Дмитрий\Downloads\zip-repl\server\src\index.mjs
+FREE GB: 110.2

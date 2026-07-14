@@ -1,0 +1,23 @@
+=== ELIAN COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO ELIAN (every page): match elian_skin1.png ONLY — young scholar, star-pattern coat, blue light charges, gravity vortex, calm eyes, NOT any NPC face.
+
+directorKael — UNIQUE: elderly observatory director, STRICT GREY CLOAK, silver hair bun, star charts in hand, stern gentle eyes, NOT Elian.
+
+orbitEater — UNIQUE: alien scout creature, VOID BLACK body, crack-shaped eyes, jagged limbs, eats starlight, NOT human.
+
+chartSpirit — UNIQUE: translucent constellation ghost, glowing star map face, whisper form, NO solid mortal features.
+
+nova — UNIQUE: teen rival scholar BOY, jealous scowl, short black hair, plain blue student robe, NOT Elian clone.
+
+herald — UNIQUE: arena announcer WOMAN, GOLD MEGAPHONE, navy arena coat, NOT male herald from Oliver comic.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher grey hood.
+
+shadowVoice ch9 — silhouettes only: yuki (ice bow) + mirabel (star book) — NO faces.
+
+yuki ch10 — match yuki_skin1.png FULL color.
+
+mirabel ch10 — match mirabel_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

@@ -1,0 +1,7 @@
+{
+  "pkg": "com.dima.starfall.battleudp",
+  "classpath": "com.dima.starfall.BattleUdpPlugin",
+  "ios": {
+    "src": "native/BattleUdp/ios"
+  }
+}

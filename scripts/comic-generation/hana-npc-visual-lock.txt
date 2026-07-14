@@ -1,0 +1,23 @@
+=== HANA COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO HANA (every page): match hana_skin1.png ONLY — young female medic, pink coat, healing pistol, gentle but fierce eyes, NOT any NPC face.
+
+yuko — UNIQUE: elderly WOMAN, long GREY BRAID down back, strict rose-pink head nurse uniform with white cross armband, sharp stern eyes, NO glasses, NOT young, NOT male.
+
+mika — UNIQUE: young GIRL patient age 10, white bandages on arms, stubborn bright eyes, hospital gown with flower patch, small frame, NOT adult, NOT medic coat.
+
+vendrick — UNIQUE: mercenary captain, scarred jaw, TROPHY DOG TAGS on belt chain, black tactical vest, cruel half-smile, short cropped hair, NO monocle, NOT scientist.
+
+drSato — UNIQUE: middle-aged MAN field surgeon, thin WIRE-RIM GLASSES, bloodstained green scrubs, exhausted dark circles, clipboard, NO braid, NOT pink coat.
+
+herald — UNIQUE: arena announcer WOMAN, curly RED hair, GOLD megaphone (NOT bronze), white-gold arena jacket with rose emblem, NOT bald koto, NOT Kenji herald.
+
+hunterCaptain — UNIQUE: tall figure, smooth WHITE MASK no mouth, net launcher on back, grey hooded cloak, NO visible face skin, NOT vendrick.
+
+shadowVoice ch9 — silhouettes only: ronin (katana scroll shape) + goro (shield bulk) — NO faces.
+
+ronin ch10 — match ronin_skin1.png FULL color, NOT Hana NPC faces.
+
+goro ch10 — match goro_skin1.png FULL color, NOT Hana NPC faces.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

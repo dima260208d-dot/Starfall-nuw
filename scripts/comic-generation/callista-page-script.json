@@ -1,0 +1,1783 @@
+{
+  "brawlerId": "callista",
+  "brawlerName": "Каллиста",
+  "lore": "Каллиста — алхимик, которая взорвала свою лабораторию, пытаясь создать лекарство от всех болезней. После этого она носит очки с разноцветными линзами, потому что каждый свой реактив видит в новом свете. Её супер — взрывная смесь всех рецептов, которые она накопила. Она не знает, вылечит это или убьёт, но готова рискнуть ради науки.",
+  "skinRef": "public/dev-notes/brawler-skins/callista_skin1.png",
+  "trioId": "venom-tide",
+  "trioOthers": [
+    "rin",
+    "octavia"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "professorVoss": "Профессор Восс — наставник до взрыва лаборатории",
+    "censor": "Цензор гильдии — белые перчатки, запреты",
+    "patientZero": "Первый пациент — шрамы реакции, надежда",
+    "remy": "Реми — ассистент: дрожит, но верит",
+    "herald": "Глашатай Арены — золотой рупор",
+    "hunterCaptain": "Капитан охотников — белая маска",
+    "shadowVoice": "Голос из тени — союзник без лица"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Callista green hair lens goggles explosive flasks, palette #43A047 #FFFFFF #A5D6A7, title КАЛЛИСТА Cyrillic, NO speech balloons, match callista_skin1.png"
+  },
+  "chapters": {
+    "1": {
+      "title": "Лаборатория до грома",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide: alchemy lab before dawn, flasks glow green.",
+          "narration": [
+            "Лаборатория до грома. Утро пахнет кислотой и надеждой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVoss",
+              "text": "Каллиста, последняя проба — сегодня."
+            },
+            {
+              "speaker": "callista",
+              "text": "Формула почти готова. Не дышите на колбы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Close: multicolor lens goggles reflect mixing reagents.",
+          "narration": [
+            "Разноцветные линзы. Каждый реактив — свой оттенок."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Зелёная пробирка опять пузырится!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Пузырится — значит, жива. Не тряси."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback inset: first failed cure — smoke, not healing.",
+          "narration": [
+            "Память: дым вместо исцеления."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Тогда я ошиблась в дозе. Не повторю."
+            }
+          ],
+          "sfx": "ТРЕСК!"
+        },
+        {
+          "page": 4,
+          "scene": "Patient Zero knocks — scars from early trials.",
+          "narration": [
+            "Первый пациент стучит. Шрамы от ранних проб."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Вы правда думаете, что вылечите всё?"
+            },
+            {
+              "speaker": "callista",
+              "text": "Думаю — значит, пробую."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Voss warns guild inspectors coming.",
+          "narration": [
+            "Восс слышал: инспекторы уже в городе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVoss",
+              "text": "Гильдия не любит сюрпризов."
+            },
+            {
+              "speaker": "callista",
+              "text": "Лекарство — не сюрприз. Это ответ."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Night: Callista writes formula on ceiling.",
+          "narration": [
+            "Ночь. Формула на потолке — как карта."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Вы не спите третий день…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Сплю между каплями."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Green crack flickers above central flask.",
+          "narration": [
+            "Над центральной колбой — трещина зелёного света."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Смотри на трещину, Реми. Не на страх."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Arena dome visible through lab window.",
+          "narration": [
+            "Вдали — купол Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Там продают чудеса за кровь."
+            },
+            {
+              "speaker": "callista",
+              "text": "Моё чудо — в пробирке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Super preview: flasks orbit before merge.",
+          "narration": [
+            "Колбы кружат перед слиянием."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Ещё секунда… ещё капля…"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: flask overheats — red light.",
+          "narration": [
+            "Колба перегревается. Красный свет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVoss",
+              "text": "Каллиста, отойди!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Не сейчас!"
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "2": {
+      "title": "Осколки формулы",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Explosion wide: lab roof gone, green rain of glass.",
+          "narration": [
+            "Гром. Крыша улетела. Стекло — дождь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Каллиста!!!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Живу. Формула… нет."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 2,
+          "scene": "Ruins: Callista finds one intact lens.",
+          "narration": [
+            "В руинах — целая линза."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Вижу боль сквозь неё. Вижу правду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback shard: Voss pulled from rubble dead.",
+          "narration": [
+            "Осколок: Восс под обломками."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Я убила лабораторию. Не его."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Censor arrives with white gloves.",
+          "narration": [
+            "Цензор гильдии. Белые перчатки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Все рецепты — гильдии."
+            },
+            {
+              "speaker": "callista",
+              "text": "Рецепты — в голове. Забирайте обломки."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Patient Zero still alive — side effect glow.",
+          "narration": [
+            "Пациент жив. Кожа светится."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Больно… но дышу…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Значит, смесь не зря."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Remy salvages notebook pages.",
+          "narration": [
+            "Реми вытаскивает страницы блокнота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Половина сгорела!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Половины хватит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Guild hunters mark lab site.",
+          "narration": [
+            "Охотники гильдии ставят метки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Арена ждёт таких, как ты."
+            },
+            {
+              "speaker": "callista",
+              "text": "Арена получит ответ."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Callista packs lens goggles and three flasks.",
+          "narration": [
+            "Очки и три колбы — весь багаж."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Куда?"
+            },
+            {
+              "speaker": "callista",
+              "text": "Туда, где продают науку."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night: writes alias on charred wall.",
+          "narration": [
+            "На обугленной стене — псевдоним."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "«Зелёная формула». Пока так."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Walks toward Arena road.",
+          "narration": [
+            "Дорога к куполу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Глава II. Осколки формулы — не конец."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Линзы видят боль",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Basement clinic: lenses show pain as color.",
+          "narration": [
+            "Подвал. Боль видна цветом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Моя рука… синяя…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Синий — воспаление. Держи."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Callista mixes acid and ice — test on plate.",
+          "narration": [
+            "Кислота и лёд на пластине."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Они не должны дружить!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Дружат — когда я смотрю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback: Voss gave her first goggles.",
+          "narration": [
+            "Память: Восс подарил первые линзы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVoss",
+              "text": "Голос памяти: смотри, не гадай."
+            },
+            {
+              "speaker": "callista",
+              "text": "Смотрю. Руки дрожат — не глаза."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Censor raids basement door.",
+          "narration": [
+            "Цензор ломает дверь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Сдай формулы!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Формула — в дозе. Попробуйте сами."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 5,
+          "scene": "Healing mist and burn — enemy retreats.",
+          "narration": [
+            "Туман лечит союзника, жжёт врага."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Один реактив — два исхода."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Patient Zero names Arena black clinic.",
+          "narration": [
+            "Пациент знает чёрную клинику Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Там покупают тела…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Куплю имя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Remy bribes clerk for transit papers.",
+          "narration": [
+            "Реми подкупает чиновника."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Держи."
+            },
+            {
+              "speaker": "callista",
+              "text": "Не платим рецептами."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Register alias at outer gate.",
+          "narration": [
+            "Регистрация у внешних ворот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Без крови на песке?"
+            },
+            {
+              "speaker": "callista",
+              "text": "Без смерти — да."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Lens sees poison in arena water supply.",
+          "narration": [
+            "В воде арены — яд."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Гильдия уже здесь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Arena wall pulses green.",
+          "narration": [
+            "Стена пульсирует зелёным."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Глава III. Линзы видят боль. И врага."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Гильдия пришла",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Guild hall: censor displays banned list.",
+          "narration": [
+            "Зал гильдии. Список запретов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Твоё имя — вверху."
+            },
+            {
+              "speaker": "callista",
+              "text": "Спасибо. Заметнее."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Remy caught copying formulas.",
+          "narration": [
+            "Реми поймали с копиями."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Я… просто хотел помочь…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Помощь — не в тетради. В колбе."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Callista trades smoke bomb for Remy.",
+          "narration": [
+            "Дымовая шашка — за ассистента."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Беги!"
+            },
+            {
+              "speaker": "remy",
+              "text": "А ты?!"
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 4,
+          "scene": "Alley fight: flask shatters hunter mask.",
+          "narration": [
+            "Переулок. Колба бьёт в маску."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Безумие!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Безумие — моя доза."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 5,
+          "scene": "Finds guild seal on patient collars.",
+          "narration": [
+            "На ошейниках пациентов — печать гильдии."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Нас держали…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Держали — значит, можно освободить."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Debate Remy: science vs safety.",
+          "narration": [
+            "Спор: наука или безопасность."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Ты снова взорвёшься!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Взорвусь — если не попробую."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Dream: Voss asks stop.",
+          "narration": [
+            "Сон: Восс просит остановиться."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVoss",
+              "text": "Голос памяти: хватит."
+            },
+            {
+              "speaker": "callista",
+              "text": "Хватит — когда вылечу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Caravan to Arena gates.",
+          "narration": [
+            "Караван к воротам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Я иду с тобой."
+            },
+            {
+              "speaker": "callista",
+              "text": "Держись за флакон, не за меня."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Outer wall — wanted poster with goggles.",
+          "narration": [
+            "Розыск. На афише — её очки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Пусть ищут. Я ищу лекарство."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Registers Green Formula.",
+          "narration": [
+            "Регистрация."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Имя на ветру. Пока так."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Кислота и лёд",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Cold storage: acid meets ice — stable flash.",
+          "narration": [
+            "Холодильник. Кислота и лёд сходятся."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Стабильно… три секунды… хватит!"
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 2,
+          "scene": "Hunter captain with net of empty flasks.",
+          "narration": [
+            "Капитан с сетью из пустых колб."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Сдай рецепты!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Рецепты — в памяти. Сеть — в мусор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Mega-mix preview on dummy — heals then scorches.",
+          "narration": [
+            "Смесь на манекене: лечит, потом жжёт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Он… жив?"
+            },
+            {
+              "speaker": "callista",
+              "text": "Пока да."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Frees test subjects from guild wagon.",
+          "narration": [
+            "Освобождает подопытных из фургона."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Спасибо…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Не благодари. Дыши."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Censor offers amnesty for all notebooks.",
+          "narration": [
+            "Амнистия за блокноты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Всё — и забудем."
+            },
+            {
+              "speaker": "callista",
+              "text": "Забыть — не лечит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Night: counts surviving formulas on fingers.",
+          "narration": [
+            "Ночь. Формулы на пальцах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Семь. Восьмая — на песке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena lower tier registration confirmed.",
+          "narration": [
+            "Нижний ярус подтверждён."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Первый бой — завтра."
+            },
+            {
+              "speaker": "callista",
+              "text": "Завтра — рано. Сегодня — проба."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Lens sees poison in opponent gloves.",
+          "narration": [
+            "В перчатках соперника — яд."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Читер. Приятно — я тоже."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Prepares final flask for sand.",
+          "narration": [
+            "Последняя колба для песка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Ты не знаешь, что будет…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Именно поэтому иду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Sunrise over Arena.",
+          "narration": [
+            "Рассвет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Глава V. Кислота и лёд — мой язык."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Риск ради науки",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Shrine of broken glass: oath to heal or burn trying.",
+          "narration": [
+            "Алтарь из осколков."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Ты рискуешь всеми."
+            },
+            {
+              "speaker": "callista",
+              "text": "Риск — моя работа. Лекарство — ваша."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback: Voss said science needs courage.",
+          "narration": [
+            "Память: Восс о смелости."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVoss",
+              "text": "Голос памяти: ошибайся честно."
+            },
+            {
+              "speaker": "callista",
+              "text": "Ошибаюсь каждый день. Честно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Remy almost sold notebook for bail.",
+          "narration": [
+            "Реми чуть не продал блокнот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Мне предлагали…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Второй раз — выбор. Выбери меня."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Argument: cure all vs one at a time.",
+          "narration": [
+            "Спор: всех сразу или по одному."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Гильдия решит!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Гильдия лечит карман."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Patient Zero takes first public dose.",
+          "narration": [
+            "Первый пациент пьёт дозу на людях."
+          ],
+          "dialogue": [
+            {
+              "speaker": "patientZero",
+              "text": "Если умру…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Не умрёшь. Я смотрю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Dose works — crowd gasps.",
+          "narration": [
+            "Доза сработала. Толпа затаила дыхание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Получилось?!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Пока — да. Завтра — снова."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Tribunal: winner can expose guild.",
+          "narration": [
+            "Трибунал: победа — право голоса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Убей чемпиона — говори."
+            },
+            {
+              "speaker": "callista",
+              "text": "Говорить буду колбой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Two notches on flask strap.",
+          "narration": [
+            "Две насечки на ремне."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Наука. Жизнь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Walks to lower gate with Remy.",
+          "narration": [
+            "К нижним воротам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Я с тобой."
+            },
+            {
+              "speaker": "callista",
+              "text": "Держи пробирки. Я — прицел."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Gate opens to sand.",
+          "narration": [
+            "Ворота на песок."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Глава VI. Риск — не глупость. Это проба."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Первый реактив на песке",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Lower ring: Callista vs armored alchemist.",
+          "narration": [
+            "Нижний круг. Алхимик в броне."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "«Зелёная формула»!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Формула готова. Не мешайте."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Lens spots weak joint — flask arc.",
+          "narration": [
+            "Линза видит слабый шов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Туда."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 3,
+          "scene": "Crowd chokes on colored smoke — she shields ally.",
+          "narration": [
+            "Дым в толпе. Она прикрывает Реми."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Каллиста!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Enemy poison blade — she neutralizes mid-air.",
+          "narration": [
+            "Ядовитый клинок. Нейтрализация в воздухе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Кислота любит кислоту."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Mega-mix ends fight — arena healer stunned.",
+          "narration": [
+            "Смесь завершает бой. Медик в шоке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Победа!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Он жив?"
+            },
+            {
+              "speaker": "herald",
+              "text": "Да!"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 6,
+          "scene": "Censor backstage: surrender patents.",
+          "narration": [
+            "Закулисье. Цензор требует патенты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Сдай всё!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Сдам — когда вылечу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Child fighter with reaction scars.",
+          "narration": [
+            "Ребёнок со шрамами реакции."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Арена жрёт малых. Я — противоядие."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night: mixes sand sample in palm.",
+          "narration": [
+            "Ночь. Песок в ладони — новый реактив."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Песок впитывает всё. И отдаёт."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Signs fight vs Guild Proxy.",
+          "narration": [
+            "Вызов прокси гильдии."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Первый реактив на песке — пройден."
+            }
+          ],
+          "sfx": "ШШШ…"
+        },
+        {
+          "page": 10,
+          "scene": "Upper tier glows.",
+          "narration": [
+            "Верхний ярус."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Глава VII. Песок — новая колба."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Смесь без имени",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mid ring: Guild Proxy in white coat.",
+          "narration": [
+            "Средний круг. Прокси гильдии."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Наука принадлежит нам!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Наука принадлежит больным."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Proxy throws banned mixtures — she counters.",
+          "narration": [
+            "Запретные смеси. Она отвечает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Я видела эту дозу. Слабее."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 3,
+          "scene": "Lens reveals proxy is censor in mask.",
+          "narration": [
+            "Под маской — цензор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Знала, что ты сам придёшь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Mega-mix without name — super climax.",
+          "narration": [
+            "Смесь без имени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Все рецепты — сейчас!"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 5,
+          "scene": "Proxy yields — guild seal breaks.",
+          "narration": [
+            "Прокси сдаётся. Печать ломается."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Ты… монстр…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Монстр — тот, кто продаёт надежду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Tribunal opens upper gate.",
+          "narration": [
+            "Верхний ярус открыт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Финал — на рассвете!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Hunters surround lab cart.",
+          "narration": [
+            "Окружение повозки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Смесь останется здесь!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Смесь — в голове."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Escapes via steam vent.",
+          "narration": [
+            "Побег через пар."
+          ],
+          "dialogue": [
+            {
+              "speaker": "remy",
+              "text": "Сюда!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 9,
+          "scene": "Rain roof toward upper tier.",
+          "narration": [
+            "Крыша под дождём."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Финал ждёт последнюю каплю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Chapter VIII end.",
+          "narration": [
+            "Глава VIII."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Смесь без имени — не смесь без цели."
+            }
+          ],
+          "sfx": "ДОЖДЬ…"
+        }
+      ]
+    },
+    "9": {
+      "title": "Спор трёх путей",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena backstage mist: green/purple/gold fog, roots through floor — SHADOWED trio scene, green acid + violet poison + blue tide.",
+          "narration": [
+            "Закулисье. Туман. Три силуэта у трещины в полу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Кто там — без приглашения?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Три пути. Один зал. Выбери."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "poison vial SILHOUETTE and ink tide trident SILHOUETTE flank shadow — NOT full faces, only outlines.",
+          "narration": [
+            "Два силуэта по бокам. Лица скрыты туманом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Ещё охотники?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Охотники на ложь. Не на тебя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Arena hunters attack all three silhouettes; hero strikes to break nets.",
+          "narration": [
+            "Охотники Арены бросаются на силуэты. Герой режет сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Если вы против них — говорите быстрее."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 4,
+          "scene": "Triangle composition: green acid + violet poison + blue tide protective circle — silhouettes only.",
+          "narration": [
+            "Три цвета в тумане сходятся в круг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Месть — дорога без выхода."
+            },
+            {
+              "speaker": "callista",
+              "text": "Выход найду сам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Silhouettes hold line while hero strikes hunter captain.",
+          "narration": [
+            "Силуэты держат линию. Герой бьёт капитана."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Троих… невозможно…"
+            },
+            {
+              "speaker": "callista",
+              "text": "Невозможное — мой репертуар."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Quiet vow exchange: three ideas, faces hidden.",
+          "narration": [
+            "Тихий спор: три идеи, лица скрыты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Убьёшь врага — станешь легендой. Или пустотой."
+            },
+            {
+              "speaker": "callista",
+              "text": "Пустота не принимает приглашений."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Sky triangle: vial, wave, callista symbol burn into mist.",
+          "narration": [
+            "В небе проступают три знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Три пути. Один враг. Пока сходимся."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Combined strike: hero power + root/light/time thread cuts nets.",
+          "narration": [
+            "Комбо: удар героя, нити союзников, рвутся сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Вместе — до ворот."
+            },
+            {
+              "speaker": "callista",
+              "text": "После — каждый своей дорогой."
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 9,
+          "scene": "Triangle mark burned into Arena sand; herald watches.",
+          "narration": [
+            "На песке — треугольный знак. Глашатай затаил дыхание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Тебя объявят союзником тени!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Объявят — не значит узнают."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Silhouettes depart three ways; hero alone with mark on glove.",
+          "narration": [
+            "Силуэты уходят тремя тропами. На перчатке — знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Спор трёх путей. Ответ — на песке завтра."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Завтра мы снова станем тенью."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Лекарство на табло",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena ceremony wide: golden scoreboard, herald announces trio alliance rumor.",
+          "narration": [
+            "Церемония. Слухи о троице гремят громче барабанов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Верхний круг открыт. Финал — сегодня."
+            },
+            {
+              "speaker": "callista",
+              "text": "Сегодня зал полон. Без пустых стульев."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Rin steps from portal — match rin_skin1.png FULL design.",
+          "narration": [
+            "Из портала выходит Рин — полный облик, не силуэт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rin",
+              "text": "Яд и лекарство — соседи на полке."
+            },
+            {
+              "speaker": "callista",
+              "text": "Соседи — не враги."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Octavia descends — match octavia_skin1.png FULL design.",
+          "narration": [
+            "Спускается Октавия — полный дизайн, лицо видно."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Вода смывает осколки лаборатории."
+            },
+            {
+              "speaker": "callista",
+              "text": "Смыть — не забыть."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs arena hunters on sand — SAME wide composition, all FULL faces.",
+          "narration": [
+            "Трое на песке против охотников. Все лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Слева — сети. Режем вместе."
+            },
+            {
+              "speaker": "rin",
+              "text": "Флакон держит."
+            },
+            {
+              "speaker": "octavia",
+              "text": "Прилив держит."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Team fight: mega-mix + poison cloud + tidal veil combo layout.",
+          "narration": [
+            "Комбо суперов троих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "rin",
+              "text": "Капля!"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Волна!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Upper gate: Guild Censor descends in full regalia.",
+          "narration": [
+            "Цензор спускается с верхнего яруса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "censor",
+              "text": "Сдай все рецепты гильдии!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Наука — не тайна для трусов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena edge debate: three voices, three paths.",
+          "narration": [
+            "Край арены. Три голоса — три пути."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rin",
+              "text": "Правда — в дозе."
+            },
+            {
+              "speaker": "octavia",
+              "text": "Месть — не лекарство."
+            },
+            {
+              "speaker": "callista",
+              "text": "Мой путь — мой выбор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night sky: lab ruins + jungle vial + moonlit lake merge over Arena dome.",
+          "narration": [
+            "Ночное небо: мотивы троицы сливаются над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "professorVoss",
+              "text": "Не взрывай ради гордости."
+            },
+            {
+              "speaker": "callista",
+              "text": "Ношу память. Маску сниму."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final splash: trio vs enemy wave — hero leads.",
+          "narration": [
+            "Финальный залп: герой ведёт, союзники прикрывают."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Вперёд!"
+            },
+            {
+              "speaker": "censor",
+              "text": "Смесь поглотит вас!"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Не сегодня!"
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "End card: hero walks forward, trio behind, wind takes token.",
+          "narration": [
+            "Конец главы X. Знак уносит ветер — не прощание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Имя на табло — не конец."
+            },
+            {
+              "speaker": "rin",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "octavia",
+              "text": "До конца пути."
+            }
+          ],
+          "sfx": "ВЕТЕР…"
+        }
+      ]
+    }
+  }
+}

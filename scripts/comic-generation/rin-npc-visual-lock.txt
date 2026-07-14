@@ -1,0 +1,23 @@
+=== RIN COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO RIN (every page): match rin_skin1.png ONLY — young female assassin, green hair, poison daggers, jungle leather armor, silent eyes, NOT any NPC face.
+
+elderShade — UNIQUE: elderly shaman, face covered in GREEN VINE TATTOO patterns, hollow wise eyes, bone necklace, moss cloak, NOT young, NOT Rin.
+
+formulaThief — UNIQUE: slick thief Sai, PURPLE ALCHEMY GLOVES, belt of glass vials, slicked black hair, smirk, pinstripe dark green suit under coat, NOT hunter.
+
+boneCollector — UNIQUE: tall collector, ARMOR made of bleached BONES stitched together, net launcher for toxin samples, skull pauldrons, NO mask, NOT formulaThief.
+
+jungleGuide — UNIQUE: young WOMAN guide Iva, bare silent feet, leaf-wrapped legs, short brown hair, bow on back, gentle eyes, NOT Rin duplicate.
+
+herald — UNIQUE: arena announcer MAN, SNAKE-SKIN bandana, copper megaphone, jungle-green arena vest, scar on cheek, NOT other heralds.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher grey hood.
+
+shadowVoice ch9 — silhouettes only: callista (sea trident) + octavia (ink quill) — NO faces.
+
+callista ch10 — match callista_skin1.png FULL color.
+
+octavia ch10 — match octavia_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

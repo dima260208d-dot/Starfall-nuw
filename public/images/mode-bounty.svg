@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#311b92"/>
+      <stop offset="1" stop-color="#5e35b1"/>
+    </linearGradient>
+    <radialGradient id="starGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0" stop-color="#fff8e1" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#ffe082" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffe082" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="starFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff9c4"/>
+      <stop offset="0.5" stop-color="#ffd54f"/>
+      <stop offset="1" stop-color="#ffb300"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="36" fill="url(#bg)"/>
+  <rect x="28" y="28" width="200" height="200" rx="26" fill="none" stroke="#b39ddb" stroke-opacity="0.4" stroke-width="4"/>
+  <circle cx="128" cy="118" r="72" fill="url(#starGlow)"/>
+  <!-- arena crosshair -->
+  <circle cx="128" cy="118" r="54" fill="none" stroke="#d1c4e9" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="8 10"/>
+  <line x1="128" y1="52" x2="128" y2="184" stroke="#d1c4e9" stroke-opacity="0.25" stroke-width="3"/>
+  <line x1="62" y1="118" x2="194" y2="118" stroke="#d1c4e9" stroke-opacity="0.25" stroke-width="3"/>
+  <!-- team star counters -->
+  <rect x="24" y="96" width="18" height="44" rx="9" fill="#6ec8ff" fill-opacity="0.85"/>
+  <rect x="214" y="96" width="18" height="44" rx="9" fill="#ff7b7b" fill-opacity="0.85"/>
+  <g fill="#ffe082" fill-opacity="0.95">
+    <path transform="translate(33 108) scale(0.55)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+    <path transform="translate(33 122) scale(0.45)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+    <path transform="translate(205 108) scale(0.55)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+    <path transform="translate(205 122) scale(0.45)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+  </g>
+  <!-- main bounty star -->
+  <g transform="translate(128 118)" filter="url(#soft)">
+    <path d="M0-34l10 21 23 3-17 16 4 23-20-11-20 11 4-23-17-16 23-3z" fill="url(#starFill)" stroke="#ff8f00" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="0" cy="-2" r="7" fill="#4a148c" fill-opacity="0.35"/>
+  </g>
+  <!-- orbiting small stars -->
+  <g fill="#fff59d" fill-opacity="0.9">
+    <path transform="translate(78 72) scale(0.7)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+    <path transform="translate(178 78) scale(0.6)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+    <path transform="translate(188 148) scale(0.55)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+    <path transform="translate(68 158) scale(0.5)" d="M12 0l3.7 7.5 8.3 1.2-6 5.9 1.4 8.3-7.4-3.9-7.4 3.9 1.4-8.3-6-5.9 8.3-1.2z"/>
+  </g>
+  <!-- score badge -->
+  <rect x="88" y="196" width="80" height="28" rx="14" fill="#1a0d3d" fill-opacity="0.65" stroke="#ffe082" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="128" y="216" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#ffe082">25 &#9733;</text>
+</svg>

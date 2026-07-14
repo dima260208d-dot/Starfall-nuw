@@ -1,0 +1,19 @@
+{
+  "name": "starfall-config-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Authoritative live-ops config service. The external admin panel writes drafts/publishes here; the game and all game servers read the signed published config and receive live pushes. Replaces the in-game admin panel.",
+  "scripts": {
+    "start": "node --env-file=.env src/server.mjs",
+    "start:noenv": "node src/server.mjs",
+    "gen-keys": "node tools/gen-keys.mjs",
+    "test": "node test/config-test.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

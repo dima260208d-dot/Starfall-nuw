@@ -1,0 +1,23 @@
+=== OCTAVIA COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO OCTAVIA (every page): match octavia_skin1.png ONLY — mermaid mutant pink tentacle legs, ink powers, human torso, NOT any NPC face.
+
+pip — UNIQUE: fisher boy CHILD at underground dock, lantern, rope, brave smile, NOT Octavia.
+
+alchemistVex — UNIQUE: alchemist MAN, glass tubes, green apron, cold eyes, NOT generic mechanic.
+
+motherPearl — UNIQUE: lake elder giant pearl shell throne, voice as water splash, NOT human elder woman face.
+
+labAssistant — UNIQUE: lab assistant WOMAN, gas mask half-down, guilty eyes, NOT female herald.
+
+gin — UNIQUE: arena announcer MAN, GOLD MICROPHONE, arena broadcast jacket.
+
+cleanDrop — UNIQUE: spirit of clean water, transparent child silhouette, NOT solid human.
+
+shadowVoice ch9 — silhouettes only: callista (poison fan) + rin (shadow blade) — NO faces.
+
+callista ch10 — match callista_skin1.png FULL color.
+
+rin ch10 — match rin_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

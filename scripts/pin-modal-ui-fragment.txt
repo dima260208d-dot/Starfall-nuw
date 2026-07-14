@@ -1,0 +1,7 @@
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <span style={{ fontSize: 24 }}>💬</span>
+            <div>
+              <div style={{ fontSize: 16, fontWeight: 900, letterSpacing: 1, color: "#FFD740" }}>
+                ПИНЫ · {brawler.name}
+              </div>
+              <motionPinModalHeader

@@ -1,0 +1,212 @@
+{
+  "miya": {
+    "spawn": ["You're already dead. You just haven't fallen yet.", "I've been standing here for a minute. You just noticed?"],
+    "victory": ["Another clan, another grave. Boring.", "In my comic, this fight would take half a page."],
+    "kill": ["You were loud. I wasn't.", "Behind you. Still forward. Fool."],
+    "damage": ["You hit me. Not useless.", "Not the face. Not shown everywhere."],
+    "death": ["Shadow dissolves in void...", "Revenge waits. I'm patient."],
+    "respawn": ["From dark again. Didn't die.", "Respawn. Boring stuff."],
+    "super": ["Reality break. Didn't blink.", "Behind you. Again."],
+    "taunt": ["Afraid of dark? I'm nightmare.", "300 ping? Or always slow?"]
+  },
+  "ronin": {
+    "spawn": ["Sword ready. Honor doubtful.", "In my time no such wimps."],
+    "victory": ["Victory without losses. Old guard.", "Katana cut doubts. And skull."],
+    "kill": ["Your path ends. Pathetic end.", "I stood still. You missed."],
+    "damage": ["That all? In my time cannons.", "Felt worse. From own."],
+    "death": ["Katana falls... honor remains.", "Freedom... from youth..."],
+    "respawn": ["Death another fight. Boring.", "Back in ranks. Didn't die."],
+    "super": ["KATANA CUTS STONE!", "No barriers for honor."],
+    "taunt": ["Your style offends my sight.", "Cut more stones than buttons."]
+  },
+  "yuki": {
+    "spawn": ["Brother, coming for you. Or killer.", "Ice protects. Against — freeze."],
+    "victory": ["Mercy stronger than rage! Rage too.", "We did it together. Don't go alone."],
+    "kill": ["Sorry. Necessary. But I regret.", "Ice takes. Gently, but final."],
+    "damage": ["Not fair! I heal, not fight!", "Not Hippocratic!"],
+    "death": ["Cold... not so bad... brother...", "Seeking you... other side..."],
+    "respawn": ["Ice melts. Returns. Like me.", "Another chance. Won't mess."],
+    "super": ["Ice cover! Don't move!", "Freeze and listen! Or freeze."],
+    "taunt": ["Angry? Drink tea. Or freeze.", "Your soul dirty. Would wash, but greasy."]
+  },
+  "kenji": {
+    "spawn": ["OMEGA IMPULSE 110%! Hee-hee!", "Professors, I RUN! And explode!"],
+    "victory": ["THEORY CONFIRMED! I'M GENIUS!", "They lied! I'm better!"],
+    "kill": ["GROUNDING! Your charge zero!", "Your brain — my first prototype."],
+    "damage": ["OW! I'm alive! Probably... check...", "Not in calculations! Recalculate!"],
+    "death": ["System failing... damn...", "Experiment failed. Data collected."],
+    "respawn": ["REBOOT! Everything works!", "I'm ALIVE! No bugs!"],
+    "super": ["THREE-PHASE LIGHTNING! BOOM!", "ELECTRO-SHOCKER! Smell ozone?"],
+    "taunt": ["Your IQ below radiator temp!", "Calculated. Error 404: brain not found."]
+  },
+  "hana": {
+    "spawn": ["Doctor Hana here! Patients?", "Patient admitted! Oh, enemy? Also patient."],
+    "victory": ["All alive? I'm great! If not — also.", "Victory best medicine. Morphine too."],
+    "kill": ["Diagnosis: death. Cause: me. Treatment failed.", "You were sick. Cured. Forever."],
+    "damage": ["I heal, not fight! Not Hippocratic!", "This is bastardly!"],
+    "death": ["Ambulance didn't arrive... wheel broke...", "Need a doctor... irony..."],
+    "respawn": ["Resuscitation successful!", "I'm ALIVE! Ready to cripple!"],
+    "super": ["HEALING GUN! Don't breathe!", "DOSE OF HAPPINESS! Or death!"],
+    "taunt": ["Sick? Or stupid?", "Pulse weak. Stop forever?"]
+  },
+  "goro": {
+    "spawn": ["I'LL CUT EVERYTHING! Then eat!", "Goro coming. Run. Or die."],
+    "victory": ["I'M STRONGEST! WHO ELSE?!", "Victory! Now meat! Or beer!"],
+    "kill": ["MEAT! You're weak!", "YOU'RE WEAK! Cut! You fell!"],
+    "damage": ["SCRATCH! Felt worse!", "DON'T FEEL! No, feel. DAMN!"],
+    "death": ["Axes fall... mountains call...", "Hungry... even in death..."],
+    "respawn": ["GORO ANGRY AGAIN! Hungry!", "I'M BACK! EAT AND FIGHT!"],
+    "super": ["DOUBLE STRIKE! STONE BREAKS!", "RAGE OF MOUNTAINS!"],
+    "taunt": ["You're small. Crush.", "Your shield cardboard. Tasty."]
+  },
+  "sora": {
+    "spawn": ["Stars fall. You too.", "Book, whisper formula. Not exploding."],
+    "victory": ["Knowledge stronger than steel. Meteors — both.", "Star gone. Pity."],
+    "kill": ["You burned without reading chapter. Pity.", "Ashes to ashes. Star to star."],
+    "damage": ["Distracted by constellation. Damn.", "Don't hit book! Older than grandma!"],
+    "death": ["Darkness stellar... just doesn't burn...", "Formula failed... or I'm fool..."],
+    "respawn": ["Page turned. Chapter continues.", "Return from ashes. Phoenix. Sadder."],
+    "super": ["METEOR SHOWER! Stand there.", "STAR JUDGMENT! You deserved."],
+    "taunt": ["Your mind dimmer than dwarf star.", "I studied your death. Boring."]
+  },
+  "rin": {
+    "spawn": ["You're dead. Not fallen. Like tree.", "Leaves whisper. You're corpse."],
+    "victory": ["Jungle takes. You're fertilizer.", "Poison worked. I watched."],
+    "kill": ["You didn't feel bite. Pity.", "Sleep. Forever. Won't miss."],
+    "damage": ["Touched me? Mistake. Last.", "Pain. Brief. Like your life."],
+    "death": ["Poison in veins... finally home...", "Silence... without leaf whisper..."],
+    "respawn": ["From dawn. Again. With poison.", "Poison doesn't kill poison. I'm proof."],
+    "super": ["Mixture number nine. Enjoy.", "Breathe in. Last thing you feel."],
+    "taunt": ["Pulse quickening. Fear?", "Poisoned at spawn. You didn't notice."]
+  },
+  "taro": {
+    "spawn": ["No such mess! Worse things.", "Wrench set. Go before I sleep."],
+    "victory": ["Like good old days! Only better.", "Brain beat muscles. Again."],
+    "kill": ["Bang! Like clockwork.", "Wrench better than sword. Centuries."],
+    "damage": ["I'm pensioner! Don't hit elders!", "Lower back! Or you?"],
+    "death": ["Mechanism stopped... like heart...", "Walker stopped... and me..."],
+    "respawn": ["Restart! One more cycle! Pills?", "Still running! Like old tractor!"],
+    "super": ["MECHANIZED SUIT! COME OUT!", "MY CREATION! Better than grandchildren!"],
+    "taunt": ["Your style — rusty saw.", "Built walkers while you in diapers."]
+  },
+  "zafkiel": {
+    "spawn": ["I saw your end. You didn't. Lucky.", "Time ally. You're sand."],
+    "victory": ["History repeats. You didn't learn.", "Fate fulfilled. As always. Boring."],
+    "kill": ["You died yesterday. Reminded.", "Your future empty. Not recommended."],
+    "damage": ["Pain illusion. Temporary. Like you.", "You slow. I don't move."],
+    "death": ["Gates close... finally peace...", "See what's beyond cycle..."],
+    "respawn": ["Time circle. I'm here again.", "Return. Inconvenient. Inevitable."],
+    "super": ["GATES OF ETERNITY! Return!", "GO BACK TO PAST! Better."],
+    "taunt": ["You run forward, but I'm there.", "Clocks tick. Mine backwards. Broken."]
+  },
+  "verdeletta": {
+    "spawn": ["Welcome to party! You're snack.", "Guests gathered! You're late."],
+    "victory": ["PARTY SUCCESS! Everyone died!", "I put on show! You're decoration."],
+    "kill": ["You're on blacklist! Ha! Joke. All there.", "BOOM! Beautiful! Again!"],
+    "damage": ["DON'T RUIN OUTFIT! Expensive!", "Painful! But fun! Again!"],
+    "death": ["Light fades... music fades...", "Where shadows... dance without me..."],
+    "respawn": ["PARTY CONTINUES! I'M BACK!", "Who missed? No one? So sad!"],
+    "super": ["SHADOWS! DANCE! For chaos!", "GUESTS! ATTACK! Invitation!"],
+    "taunt": ["You're boring. Didn't invite. Die.", "Outfit terrible. Death improvement."]
+  },
+  "lumina": {
+    "spawn": ["Even shadows seek light... not you.", "I'm here again. Unexpected."],
+    "victory": ["Light won. Darkness waits.", "Hope alive. Unfortunately."],
+    "kill": ["Sorry. Didn't want... no choice.", "Light doesn't forgive. Me neither. Cry."],
+    "damage": ["Wings fragile! Don't hit!", "I'm fragile! Cry! Angry!"],
+    "death": ["Heaven doesn't accept... too earthly...", "Mom, sorry... couldn't be bright..."],
+    "respawn": ["From ashes — light. Softer. Sadder.", "I'm back. Softer. Or harder."],
+    "super": ["LIGHT THREADS! BIND WITH ME!", "BIND! Don't want to be alone."],
+    "taunt": ["Soul dim. Would light... but no.", "You cry? Me too. You — forever."]
+  },
+  "oliver": {
+    "spawn": ["Brother, target fixed. Copying.", "Mechanisms set. Brother approves."],
+    "victory": ["Victory algorithm perfect. Brother see?", "We did it. Me and brother."],
+    "kill": ["Copy complete. Target eliminated.", "Your style recorded. In notebook. And trash."],
+    "damage": ["Chassis damage. Non-critical.", "System stable. Pain not in code."],
+    "death": ["Battery drained... brother, continue...", "System offline... brother, I was coming..."],
+    "respawn": ["Reboot. System online. Brother brought.", "Brother? No, me. Again with beetles."],
+    "super": ["SUPER COPY! Your power mine.", "YOUR POWER MINE! Saved in .json."],
+    "taunt": ["Your code outdated. Updated.", "Copied weakness. Convenient."]
+  },
+  "callista": {
+    "spawn": ["BOOM! Wrong potion? Let's go!", "Lab open! Don't explode right away."],
+    "victory": ["EXPLOSION SUCCESS! I DIDN'T EXPLODE!", "Victory! Like explosion! No shrapnel."],
+    "kill": ["DIAGNOSIS: OVERDOSE! Hee-hee!", "Mixture worked! Don't know what mixed!"],
+    "damage": ["DON'T HIT GLASSES! Expensive!", "That was in plan! No, wasn't! DAMN!"],
+    "death": ["Formula was wrong... as always...", "Explosion back into me... classic..."],
+    "respawn": ["I'M ALIVE! DIDN'T EXPLODE! Yet!", "Restart! New experiment! Old reagent!"],
+    "super": ["EXPLOSIVE MIXTURE! DON'T BREATHE!", "DEATH COCKTAIL! With poison! And sugar!"],
+    "taunt": ["You smell bad reagent. Recycle.", "Explode. No, wait... beautiful."]
+  },
+  "elian": {
+    "spawn": ["Time slips away. You're like sand.", "Gravity knows all. You're not exempt."],
+    "victory": ["A star faded by my will.", "I don't argue. I help the universe."],
+    "kill": ["You're a dot on my star chart.", "Space doesn't forgive. Me neither."],
+    "damage": ["Pain is weak gravity.", "My stars dim. Not forever."],
+    "death": ["Darkness like interstellar space.", "I'll dissolve in stardust..."],
+    "respawn": ["From collapse — new star.", "Universe won't let go. I'll return."],
+    "super": ["GRAVITY STRIKE! You're dead.", "COSMIC WAVE! Accept it."],
+    "taunt": ["Your orbit is fixed. I know.", "Stars don't lie. You're nothing."]
+  },
+  "airin": {
+    "spawn": ["You're too slow for turbines!", "Wheel set. Let's fly!"],
+    "victory": ["I SURVIVED AGAIN! HA!", "Victory! Like altitude!"],
+    "kill": ["You're target. I'm pilot. Obvious.", "BOOM! Air battle! You didn't dodge."],
+    "damage": ["ON THE WING! Don't hit wing!", "Don't hit glasses! Expensive!"],
+    "death": ["Falling beautiful... like last time...", "LANDING FAILED... DAMN..."],
+    "respawn": ["TAKEOFF! Engine started! I'M ALIVE!", "I'M BACK! Phoenix! With turbines!"],
+    "super": ["SMOKE SCREEN! Can't see me?", "FULL SPEED! Ram them!"],
+    "taunt": ["Can't fly. Even falling hard.", "Turbines faster than thoughts. Rusty."]
+  },
+  "silven": {
+    "spawn": ["Forest remembers. Me. Angry.", "Trees whisper. You're corpse."],
+    "victory": ["Nature triumphed. As always.", "Tree grew on your bones."],
+    "kill": ["You're fertilizer. From ashes — life.", "Planted seed. You're fertilizer. Thanks."],
+    "damage": ["Don't hit trees! They're older!", "I'm gentle! Don't hit!"],
+    "death": ["Oak heart stopped...", "Forest calls... into roots..."],
+    "respawn": ["From roots. Again. Like spring.", "Spring came. And me."],
+    "super": ["TREE OF LIFE! Grow!", "NATURE REVENGE!"],
+    "taunt": ["You smell fire. Put out.", "Weed. I survive. You won't."]
+  },
+  "vittoria": {
+    "spawn": ["Another soul... No, not crying.", "Blood moon rose. And me."],
+    "victory": ["Brother see? Strong. And cry.", "Victory. Bitter. Like blood. Drink."],
+    "kill": ["Blood sweet. Pity I cry.", "Another in eternity. And sadness."],
+    "damage": ["Fragile. Cry. Angry.", "Not face! Cry! Pay!"],
+    "death": ["Finally peace... brother... coming...", "Blood leaves... I follow..."],
+    "respawn": ["Eternity won't let go... again... cry.", "Again. Unfortunately. Alone."],
+    "super": ["BLOOD MOON! Curse!", "CLAN CURSE! Or gift?"],
+    "taunt": ["Afraid dark? Live in it. Cry.", "Drink blood. Cry. Again."]
+  },
+  "octavia": {
+    "spawn": ["Hugs! You turned blue... Normal?", "Hi! Octavia! Target? Friend?"],
+    "victory": ["YAY! I WON! Can I eat?", "Everyone swims! Fun! Oh, dead..."],
+    "kill": ["You fell! Accidentally! Didn't mean!", "BOOM! Like bubble! Blood. Oh."],
+    "damage": ["DON'T HIT TENTACLES! Sensitive!", "Painful! Hug! To death!"],
+    "death": ["Drowning... in sky... like fish...", "Dark... like in lake..."],
+    "respawn": ["I'M BACK! Swim! Hug!", "New tentacles! Old fell off!"],
+    "super": ["INK CLOUD! Don't breathe! Or hug!", "SWIM, FRIENDS! Or corpses!"],
+    "taunt": ["You're ugly! Like me! Friend! Or die!", "You few legs. I more tentacles!"]
+  },
+  "zephyrin": {
+    "spawn": ["Oops, blew away? Sorry, didn't notice!", "Wind blows! Me too! All blow!"],
+    "victory": ["I WON! Didn't notice when.", "All flew! I'm wind! Power!"],
+    "kill": ["You're heavy for wind! Oops, blew!", "Blew! Didn't mean! Or did I?"],
+    "damage": ["I'm air! How hit?!", "Don't hit wind! Touchy!"],
+    "death": ["Wind dissipates... invisible forever...", "Flying into sky... which mine..."],
+    "respawn": ["WIND BLOWS AGAIN! I'M BACK!", "Back like breeze! Angry!"],
+    "super": ["TORNADO! My hug! Kills!", "HURRICANE KISS! Dead."],
+    "taunt": ["Slow! Blew while reading.", "Invisible. Unfair? Don't care."]
+  },
+  "mirabel": {
+    "spawn": ["According to chapter 7... zero chance.", "Librarian! Oh, scared..."],
+    "victory": ["Knowledge is power! Page 42!", "Read about victory. Here it is!"],
+    "kill": ["Diagnosis: didn't study. Cause: me.", "By formula... dead. Checked thrice."],
+    "damage": ["My book! Older than grandma!", "Don't hit glasses! Fixed with tape!"],
+    "death": ["Bookmark fell... chapter over...", "Didn't finish last page..."],
+    "respawn": ["New chapter! From start! Remember!", "In library again! And scared!"],
+    "super": ["SPARK OF KNOWLEDGE! Burning?", "ENCYCLOPEDIA! Know pain?"],
+    "taunt": ["Didn't read manual? Would survive.", "Know weakness. Page 15 and 16."]
+  }
+}

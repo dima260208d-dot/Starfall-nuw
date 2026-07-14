@@ -1,0 +1,25 @@
+=== KENJI COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO KENJI (every page): match kenji_skin1.png ONLY — young male inventor, spiky dark hair, yellow tech suit, cyan electric gauntlets, lean build. NOT any NPC face.
+
+labKoji — UNIQUE: skinny young man, messy SPIKY BLACK hair, thick ROUND GLASSES, oversized white lab coat with ink stains, clipboard always, hunched shoulders, wide nervous eyes, NO beard, NO monocle, NOT bald.
+
+professorVeldt — UNIQUE: elderly bald man with GREY SIDE TUFTS only, BRASS MONOCLE right eye, long grey academic robe gold trim, thin cruel lips, pale wrinkled face, NO glasses besides monocle, NOT young, NOT lab coat.
+
+droneCommander — UNIQUE: faceless armored figure, matte black helmet single RED VISOR slit, council eagle on chest plate, NO human skin visible, NOT same as any other character.
+
+patentThief — UNIQUE: slick businessman, slicked DARK GREEN hair, pinstripe grey suit, crocodile smirk, GOLD TOOTH, leather blueprint briefcase, sharp jaw, NOT scientist, NOT lab coat.
+
+arenaTech — UNIQUE: stocky WOMAN, short RED hair, ORANGE hard hat, yellow utility vest covered in coiled cables, grease smudge on left cheek, awed expression, NOT male, NOT bald herald.
+
+sisterMio — UNIQUE: young WOMAN, short BROWN BOB haircut, soft pink hospital scrubs, stethoscope, worried gentle eyes, younger sister look, NOT male, NOT yellow suit.
+
+koto (Kenji herald) — UNIQUE: bald muscular announcer, BRONZE megaphone, red-gold arena announcer coat with DRUM patch on shoulder, tribal drum tattoos on scalp, NOT scroll scribe, NOT Ronin/Yuki Koto design.
+
+shadowVoice ch9 — silhouettes only, NO faces.
+
+taro ch10 — match taro_skin1.png FULL color, old engineer wrench, NOT Kenji NPC faces.
+
+oliver ch10 — match oliver_skin1.png FULL color, mechanical bugs, NOT Kenji NPC faces.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

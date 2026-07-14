@@ -1,0 +1,23 @@
+=== OLIVER COMIC — UNIQUE NPC VISUAL LOCK (NEVER reuse faces from other brawler comics) ===
+
+HERO OLIVER (every page): match oliver_skin1.png ONLY — russet hair, round glasses, bronze mechanical beetles swarm, blue replicator device on belt, workshop apron, young mechanic build, NOT any NPC face.
+
+emma — UNIQUE: middle-aged mother, GREY BUN hair, flour-dusted apron, warm tired eyes, soldering iron in hand, domestic workshop warmth, NOT Oliver.
+
+beetleBrother — UNIQUE: single bronze beetle with glowing blue memory core, small antenna, brother's voice — NOT human face, mechanical insect with soul-light eyes.
+
+collector — UNIQUE: tall thin man, GREY TRENCHCOAT, cold glass display case arms, monocle, slicked black hair, museum curator vibe, NOT arena herald.
+
+rivalTinker — UNIQUE: teen boy PAX, messy red hair, jealous scowl, stolen wrench in pocket, patched overalls, NOT Kenji or Taro.
+
+herald — UNIQUE: arena announcer MAN, GOLD MEGAPHONE horn, orange arena jacket, buzz-cut, loud grin, NOT female herald from Lumina comic.
+
+hunterCaptain — UNIQUE: white smooth MASK no mouth, net launcher, grey hood cloak, NOT Ronin.
+
+shadowVoice ch9 — silhouettes only: kenji (yellow lightning cage) + taro (brass wrench/turret) — NO faces.
+
+kenji ch10 — match kenji_skin1.png FULL color.
+
+taro ch10 — match taro_skin1.png FULL color.
+
+RULE: Each panel NPC must match their lock above. Never copy generic Injustice male face for all roles.

@@ -1,0 +1,1917 @@
+{
+  "brawlerId": "ronin",
+  "brawlerName": "Ронин",
+  "lore": "Когда-то Ронин был генералом императорской армии. Преданный собственными лордами, он надел старые доспехи и стал вольным самураем. Его катана разрубает камень, а щит выдерживает залпы из десятка винтовок. Честь требует стоять, даже когда доверять некому.",
+  "skinRef": "public/dev-notes/brawler-skins/ronin_skin1.png",
+  "trioId": "oathbound-frontline",
+  "trioOthers": [
+    "hana",
+    "goro"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "genkei": "Гэнкэй — наставник ката, седой хвост, голос точильного камня, не хвалит дважды",
+    "mizunaga": "Лорд Мизунага — предательский сюзерен, золотая накидка, улыбка мёда и яда",
+    "ashida": "Корпорал Асида — бывший вассал Ронина, шрам через бровь, дрожащая верность",
+    "rie": "Сестра Риэ — полевая медсестра до Ханы, розовый фартук, сухой юмор",
+    "koto": "Глашатай Кото — барабанщик Арены, мегафон, кричит как гром над песком",
+    "vassalCaptain": "Капитан вассалов — нагината, герб Мизунаги на плече, голос без сомнений",
+    "shadowVoice": "Голос из тени — союзник трио, лицо скрыто до десятой главы",
+    "hana": "Хана — розовый медик, лечебный пистолет, милосердие сильнее страха",
+    "goro": "Горо — северный берсерк, двойные топоры, ярость без прошлого"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Ронин huge red-armored samurai with stone-cutting katana and battered shield, imperial betrayal smoke, gold clan seal cracked, palette #B71C1C #FFD700 #FF6F00, title РОНИН Cyrillic, dramatic pose, NO speech balloons, match ronin_skin1.png"
+  },
+  "chapters": {
+    "1": {
+      "title": "Столбы у крепости",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide dawn: imperial stone fortress on cliff, red-armored soldiers drill, earth pillars rise from courtyard mist.",
+          "narration": [
+            "Императорская крепость просыпается раньше солнца. Столбы земли держат двор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Сегодня крепость учится стоять, генерал Ронин."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Столб держит не камень — спину солдата."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Training yard: Ronin draws stone-edged katana beside cracked granite pillar.",
+          "narration": [
+            "Учебный двор. Катана режет гранит, как хлеб на пиру."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Генерал! Столб снова рассыпался!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Рассыплется — построим новый. Так учатся крепости."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Close-up: Genkei watches earth pillar technique, gold clan emblem on Ronin shield.",
+          "narration": [
+            "Гэнкэй смотрит на удар. На щите — золото клана, ещё не тронутое ложью."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Земля слушает только тех, кто не просит пощады."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Пощада — для тех, кто стоит за спиной."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Dispatch room: young officer Rie unrolls map of western revolt smoke.",
+          "narration": [
+            "Карта западного бунта. Дым на бумаге пахнет настоящим."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Лорды просят усилить западный фронт."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Фронт держат солдаты, не пергамент."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Inner gate: Lord Mizunaga arrives with silk banner and cold smile.",
+          "narration": [
+            "Лорд Мидзунага входит с шёлковым знаменем и холодной улыбкой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mizunaga",
+              "text": "Император ждёт побед, генерал. Не оправданий."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Победы приносят мои люди. Я принесу их."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Sunset rampart: Ronin alone, fortress banners snap over red valley.",
+          "narration": [
+            "Закат на стене. Долина красная — от солнца или от крови впереди."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Ты слишком доверяешь тем, кто не держит щит."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Щит держу я. Доверие — долг."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Super preview: Ronin slams katana — earth pillar erupts, splits training stone.",
+          "narration": [
+            "Катана бьёт землю. Столб вздымается и раскалывает камень."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Столб — не украшение. Это линия, которую не сдвинуть."
+            },
+            {
+              "speaker": "rie",
+              "text": "Так… так учат нас на западе?"
+            }
+          ],
+          "sfx": "ГРОХОТ!"
+        },
+        {
+          "page": 8,
+          "scene": "Night war room: scribe Koto stacks sealed orders beside broken practice shield.",
+          "narration": [
+            "Ночной зал. Кото складывает печати. Щит учебный уже в трещинах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Три приказа с одной печатью. Это необычно."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Необычное — повод читать медленнее."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Ronin and Genkei on highest tower — distant western fires pulse.",
+          "narration": [
+            "С высоты видны западные огни. Крепость ещё цела."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Завтра совет лордов. Готовь слова, не только меч."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Меч готов всегда. Слова — для честных."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: ground trembles, courtyard pillars crack in spider pattern.",
+          "narration": [
+            "Земля дрожит. Столбы трескаются, как лёд под сапогом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Генерал! Двор… ломается!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Держите линию! Я найду источник."
+            }
+          ],
+          "sfx": "ТРЕСК!"
+        }
+      ]
+    },
+    "2": {
+      "title": "Печать предательства",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Night inner hall: Lords Mizunaga and Ashida whisper over wine, betrayal seal on table.",
+          "narration": [
+            "Ночной совет. Два лорда шепчут над вином. Печать лежит между ними."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Генерал слишком любим солдатами."
+            },
+            {
+              "speaker": "mizunaga",
+              "text": "Любовь солдат — угроза трону."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Ronin summoned before empty throne chair — accusation scroll unfurled.",
+          "narration": [
+            "Ронина зовут к пустому трону. Свиток обвинений раскрыт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mizunaga",
+              "text": "Ты продал западный фронт."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Я продал только врагу страх. Не империю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flash inset: forged dispatches with Ronin seal — Koto discovers mismatch.",
+          "narration": [
+            "Память: подделанные приказы. Печать Ронина — ложная."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Почерк ваш, генерал… но чернила чужие."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Значит, враг внутри стен."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Guards surround Ronin — red armor soldiers hesitate to draw.",
+          "narration": [
+            "Стража окружает. Солдаты не решаются поднять клинок на генерала."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Сдай меч и печать!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Печать империи — не ваша собственность."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Genkei steps between blades — struck by Ashida's hidden dagger.",
+          "narration": [
+            "Гэнкэй встаёт между клинками. Кинжал Асиды находит его грудь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Беги… через западные ворота…"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Гэнкэй!!!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Ronin shatters hall pillar — earth eruption covers escape through smoke.",
+          "narration": [
+            "Ронин бьёт столб. Земля взрывается дымом — путь к воротам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mizunaga",
+              "text": "Не дайте ему уйти живым!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Живым уйду. Мёртвым вернусь — к вам."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 7,
+          "scene": "Courtyard: imperial betrayal seal burned on brazier, Ronin watches from wall.",
+          "narration": [
+            "Во дворе сжигают печать верности. Ронин смотрит с парапета."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Они объявили вас предателем…"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Объявят — не значит стану."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Fortress gates slam shut behind fleeing Ronin — arrows bite stone.",
+          "narration": [
+            "Ворота захлопнулись. Стрелы кусают камень, не спину."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Пусть гниёт за стенами!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Стены рухнут раньше моей клятвы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Rain road: Ronin kneels, removes gold clan crest from shoulder armor.",
+          "narration": [
+            "Дождь на тракте. Золотой герб срывается с наплечника."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Хозяин предал. Честь осталась."
+            },
+            {
+              "speaker": "koto",
+              "text": "Я нашёл вас… возьмите это."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Wide: lone samurai walks from fortress shadow, broken shield strap in hand.",
+          "narration": [
+            "Глава II. Печать предательства. Один на дороге без клана."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Гэнкэй. Я верну имя тем, кто украл его."
+            },
+            {
+              "speaker": "rie",
+              "text": "Я иду с вами. Приказ или нет."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Катана против залпа",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mountain pass ambush: riflemen on ridge, barrels gleam in cold light.",
+          "narration": [
+            "Перевал. На хребте — строевые винтовки. Холодный блеск стволов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Сдавайся, генерал. Залп не прощает гордости."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Гордость — мой щит. Стреляйте."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "First volley: Ronin raises clan shield — sparks cascade gold and red.",
+          "narration": [
+            "Первый залп. Щит поднимается. Искры сыплются, как дождь из огня."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Ещё."
+            },
+            {
+              "speaker": "rie",
+              "text": "Они перезаряжают!"
+            }
+          ],
+          "sfx": "ДЗЫНЬ-ДЗЫНЬ!"
+        },
+        {
+          "page": 3,
+          "scene": "Slow motion: bullets dent shield rim but fail to pierce.",
+          "narration": [
+            "Пули вминают золото, но не проходят насквозь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Щит помнит каждую клятву крепости."
+            },
+            {
+              "speaker": "ashida",
+              "text": "Помнит — значит сломается."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Ronin charges uphill through gun smoke, katana low.",
+          "narration": [
+            "Ронин идёт вверх сквозь пороховой дым. Катана — у земли."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Винтовка стреляет один раз. Катана — пока дышу."
+            },
+            {
+              "speaker": "rie",
+              "text": "Я прикрою фланг!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 5,
+          "scene": "Signature scene: katana cuts earth — stone pillar redirects ricochets into riflemen.",
+          "narration": [
+            "Катана режет землю. Столб поднимается и ломает строй."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Камень против свинца. Посмотрим, кто устоит."
+            },
+            {
+              "speaker": "ashida",
+              "text": "Невозможно…"
+            }
+          ],
+          "sfx": "ГРОХОТ!"
+        },
+        {
+          "page": 6,
+          "scene": "Close combat: rifle butt vs shield bash, Ronin disarms three at once.",
+          "narration": [
+            "Приклад против щита. Трое разоружены одним шагом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Залп кончился. Мой ход."
+            },
+            {
+              "speaker": "rie",
+              "text": "Не дайте им собраться!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Ashida orders second volley at point blank — shield face spider-cracks.",
+          "narration": [
+            "Второй залп в упор. Лицо щита покрывается сеткой трещин."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Ломай щит! Ломай его!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Ломайте. Я всё равно стою."
+            }
+          ],
+          "sfx": "БА-БА-БАХ!"
+        },
+        {
+          "page": 8,
+          "scene": "Ronin plants katana, earth wall rises — absorbs remaining shots.",
+          "narration": [
+            "Катана в землю. Стена из камня принимает остаток залпа."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Несокрушимая — не сталь. Воля."
+            },
+            {
+              "speaker": "rie",
+              "text": "Генерал… вы кровоточите."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Ashida flees on horse; surviving riflemen drop weapons.",
+          "narration": [
+            "Асида скачет прочь. Стрелки бросают оружие."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Уходи. Расскажи лордам: залп не победил."
+            },
+            {
+              "speaker": "rie",
+              "text": "Мы их отпускаем?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Ronin slumps by broken pillar, shield smoking, dawn breaks over pass.",
+          "narration": [
+            "Глава III. Катана против залпа. Щит дымится, но цел."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Щит держал. Следующий удар — мой."
+            },
+            {
+              "speaker": "koto",
+              "text": "Письмо… я нашёл его в грязи у вашего щита."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Щит со сломанной печатью",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Muddy battlefield: Ronin pulls broken shield from corpses and wagon wreckage.",
+          "narration": [
+            "Грязное поле. Сломанный щит торчит из обломков повозки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Мой щит… или то, что от него осталось."
+            },
+            {
+              "speaker": "koto",
+              "text": "Смотрите на трещину."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Close-up: tournament letter wedged in shield crack, gold wax seal split.",
+          "narration": [
+            "В трещине — письмо. Восковая печать турнира расколота пополам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Приглашение на Арену. Иммунитет для победителя нижнего круга."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Иммунитет… или ловушка?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback inset: Genkei gifts shield at garrison ceremony years ago.",
+          "narration": [
+            "Память: Гэнкэй вручает щит на церемонии крепости."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Щит держит не только тело — имя."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Имя империи. Я не подведу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Letter text: Arena tournament grants audience with imperial tribunal.",
+          "narration": [
+            "В письме — право выйти к имперскому трибуналу через победу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Лорды закрыли двери. Арена открывает другие."
+            },
+            {
+              "speaker": "rie",
+              "text": "Это путь к правде?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Mizunaga's torn seal half glued to shield inner leather.",
+          "narration": [
+            "На коже изнутри — половина печати Мидзунаги. Оторвана грубо."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Они использовали мою печать для подделки."
+            },
+            {
+              "speaker": "koto",
+              "text": "Доказательство… если доживёте до зала."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Campfire: Ronin reads tournament rules by flame, katana across knees.",
+          "narration": [
+            "Ночь. Огонь освещает правила. Катана на коленях."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Без хозяина — но не без чести."
+            },
+            {
+              "speaker": "rie",
+              "text": "Я запишу каждое слово письма."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Distant wanted poster: Ronin face sketched, bounty from Ashida.",
+          "narration": [
+            "На столбе — розыск. Награда от Асиды."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Мёртв или жив — принесите его меч."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Меч придёт сам. Раньше меня."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Rie warns: former vassal riders spotted on eastern road.",
+          "narration": [
+            "Рие приносит весть: всадники бывших вассалов на востоке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Они охотятся за вашей головой."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Пусть охотятся. Я иду к куполу."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Ronin straps broken shield anyway — crack like second mouth.",
+          "narration": [
+            "Ронин всё равно берёт щит. Трещина — как второй рот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Сломанный щит помнит удар лучше целого."
+            },
+            {
+              "speaker": "koto",
+              "text": "Тогда я иду с вами. Как свидетель."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Wide: Arena dome glows on horizon beyond red sand dunes.",
+          "narration": [
+            "Глава IV. Щит со сломанной печатью. Купол манит сквозь бархан."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Письмо зовёт. Я отвечу сталью."
+            },
+            {
+              "speaker": "rie",
+              "text": "Красный песок впереди. Готовьтесь."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Погоня вассалов",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Eastern road: vassalCaptain leads armored riders, former clan crests crossed out.",
+          "narration": [
+            "Восточный тракт. Капитан вассалов ведёт всадников. Гербы зачёркнуты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Генерал-предатель! Сдай меч клана!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Клан сдал меня первым."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Bamboo forest chase: horses crash through stalks, Ronin runs low.",
+          "narration": [
+            "Погоня в бамбуке. Лошади ломят стебли. Ронин — у земли."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Направо — обрыв!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Направо — значит через них."
+            }
+          ],
+          "sfx": "ТОПОТ!"
+        },
+        {
+          "page": 3,
+          "scene": "Trap: rope nets drop from trees — vassal hunters grin.",
+          "narration": [
+            "Сверху падают сети. Охотники улыбаются."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Без гarrison ты — просто беглец."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Беглец с катаной — всё ещё генерал."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Ronin earth pillar lifts nets, flips riders from saddles.",
+          "narration": [
+            "Столб поднимает сети и сбрасывает всадников."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Земля помнит мои приказы."
+            },
+            {
+              "speaker": "koto",
+              "text": "Бегите к мосту!"
+            }
+          ],
+          "sfx": "ГРОХОТ!"
+        },
+        {
+          "page": 5,
+          "scene": "Bridge duel: vassalCaptain with naginata vs Ronin shield.",
+          "narration": [
+            "Мост. Капитан с нагинатой. Щит Ронина — стена."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Ты сломал нашу клятву!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Клятву сломали лорды. Я держал линию."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Flash inset: vassals once swore to Ronin at fortress gate.",
+          "narration": [
+            "Память: вассалы клялись у ворот крепости."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Мы следовали за вами на запад!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Следуйте за правдой, не за печатью."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Shield bash shatters naginata shaft — captain kneels.",
+          "narration": [
+            "Удар щитом ломает древко. Капитан падает на колени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Убей… или я вернусь."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Живи. Расскажи Арене, кто дал приказ."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Rie covers escape with thrown daggers — not to kill, to delay.",
+          "narration": [
+            "Рие бросает кинжалы — не убить, задержать."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Они снова поднимаются!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Хватит. Мост за нами."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 9,
+          "scene": "Ravine escape: Ronin cuts cliff face, stone steps for allies.",
+          "narration": [
+            "Ущелье. Катана режет склон — каменные ступени."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Доверие режут. Я строю дорогу."
+            },
+            {
+              "speaker": "koto",
+              "text": "Честь без хозяина… теперь понимаю."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "VassalCaptain at Arena outer wall vows revenge before crowd.",
+          "narration": [
+            "У стены Арены капитан клянётся местью на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Увижу тебя на красном песке!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Глава V. Погоня вассалов. Жду."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Честь без хозяина",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Shrine road: Ronin ties masterless white cord on katana hilt.",
+          "narration": [
+            "Дорога к святилищу. На рукояти — белый шнур ронина."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Хозяина нет. Честь — есть."
+            },
+            {
+              "speaker": "rie",
+              "text": "Как служить без приказа?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Genkei letter hidden in shield lining — posthumous advice.",
+          "narration": [
+            "В подкладке щита — письмо Гэнкэя."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Не ищи хозяина. Ищи правду, которую стоиит защищать."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Правду… я найду на песке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Border town: Ashida bounty hunters argue over Ronin price.",
+          "narration": [
+            "Приграничный город. Охотники торгуют ценой за голову."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Живой дороже мёртвого."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Оба варианта — для трусов."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Inn scene: Ronin refused service — no clan crest at door.",
+          "narration": [
+            "Таверна не пускает. Без герба — без места."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Они боятся лордов."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Я боюсь только собственной трусости."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Inner conflict: honor demands stand, trust shattered — split panel.",
+          "narration": [
+            "Честь требует стоять. Доверие — в осколках."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Стоять легко. Верить — нет."
+            },
+            {
+              "speaker": "rie",
+              "text": "Мы верим вам. Этого мало?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Village raid: Ronin defends farmers from mercenaries without reward.",
+          "narration": [
+            "Деревню грабят наёмники. Ронин вступает без платы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Щит — не за монеты."
+            },
+            {
+              "speaker": "koto",
+              "text": "Они зовут вас «безликим самураем»."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 7,
+          "scene": "Mizunaga's pardon trap: messenger offers safe return — Ronin burns offer.",
+          "narration": [
+            "Посланник предлагает прощение. Ронин сжигает свиток."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mizunaga",
+              "text": "Вернись — и забудем."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Забыть — не мой стиль."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Koto brings Arena registration deadline — three days of red sand season.",
+          "narration": [
+            "Кото: регистрация закрывается с началом сезона красного песка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "После — только зрители."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Тогда я успею. Без оправданий."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Registration desk: Ronin registers as Ronin — no clan name.",
+          "narration": [
+            "Стол регистрации. Имя без клана."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Так и напишут на табло?"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Ронин. Этого достаточно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "First glimpse through gates: red sand floor gleams like wet blood.",
+          "narration": [
+            "Сквозь ворота — красный песок, блестящий, как мокрая кровь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Глава VI. Честь без хозяина. Песок ждёт."
+            },
+            {
+              "speaker": "koto",
+              "text": "Письмо на щите — наш билет."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "7": {
+      "title": "Ворота с красным песком",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena lower gates open — red sand floor, iron nets above, crowd roars.",
+          "narration": [
+            "Нижние ворота. Красный песок. Сети над головой. Толпа ревёт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rie",
+              "text": "Это… больше, чем крепость."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Крепость была честнее. Но правда — здесь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Herald on sand stage announces masterless samurai first match.",
+          "narration": [
+            "Глашатай объявляет бой. Без хозяина — без пощады толпы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Они смеются над вашим шнуром."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Пусть смеются. Песок не смеётся."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Ronin enters ring barefoot on red sand, broken shield polished.",
+          "narration": [
+            "Ронин выходит босиком. Щит отполирован — трещина видна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Я не прячу сломанное."
+            },
+            {
+              "speaker": "vassalCaptain",
+              "text": "Смотрите! Предатель на песке!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Opponent: rifle champion with bandolier — crowd favorite.",
+          "narration": [
+            "Противник — стрелок с перевязью. Любимец толпы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Он обучен моим людьми!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Тогда он знает, как я ломаю строй."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Opening clash: gun butt vs shield rim — sand sprays crimson.",
+          "narration": [
+            "Приклад бьёт по щиту. Песок взлетает алым облаком."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Залп начинается."
+            },
+            {
+              "speaker": "rie",
+              "text": "Держите центр!"
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Ronin katana drags sand — stone chips fly like shrapnel.",
+          "narration": [
+            "Катана чертит песок. Каменные осколки — как осколки гранаты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Песок здесь — тоже камень. Помни."
+            },
+            {
+              "speaker": "koto",
+              "text": "Он режет арену!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 7,
+          "scene": "Super move: earth pillar erupts from red sand, lifts rifleman off feet.",
+          "narration": [
+            "Столб взрывается из песка. Стрелка поднимает с ног."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Катана против залпа — на песке."
+            },
+            {
+              "speaker": "vassalCaptain",
+              "text": "Невозможно… опять…"
+            }
+          ],
+          "sfx": "ГРОХОТ!"
+        },
+        {
+          "page": 8,
+          "scene": "Victory: crowd splits — some cheer masterless honor, some boo.",
+          "narration": [
+            "Победа. Толпа расколота — часть скандирует, часть шипит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Честь слышна и в освистывании."
+            },
+            {
+              "speaker": "rie",
+              "text": "Вы выиграли право на вызов!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "VIP box: Mizunaga watches cold, Ashida fingers pistol.",
+          "narration": [
+            "Ложа лордов. Мидзунага холоден. Асида касается пистолета."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mizunaga",
+              "text": "Пусть выигрывает. Арена сожрёт его."
+            },
+            {
+              "speaker": "ashida",
+              "text": "Или мы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Night: tournament letter seal glows faintly on shield — next round set.",
+          "narration": [
+            "Ночь. Печать на щите слабо светится. Следующий бой назначен."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Глава VII. Ворота с красным песком. Стена впереди."
+            },
+            {
+              "speaker": "koto",
+              "text": "Двенадцать стволов. Легенда."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "8": {
+      "title": "Несокрушимая стена",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mid-tier ring: twelve riflemen in semicircle, barrels level at Ronin.",
+          "narration": [
+            "Средний круг. Двенадцать стволов. Полукруг. Ронин — в центре."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ashida",
+              "text": "Залп сожрёт его щит!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Щит уже ел залпы. Подавайте."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Volley one: shield sparks — Ronin does not step back.",
+          "narration": [
+            "Первый залп. Искры. Ронин не отступает ни на шаг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Несокрушимая — не сталь."
+            },
+            {
+              "speaker": "rie",
+              "text": "Трещина расширяется!"
+            }
+          ],
+          "sfx": "ДЗЫНЬ!"
+        },
+        {
+          "page": 3,
+          "scene": "Volley two: crack spreads across shield face like lightning.",
+          "narration": [
+            "Второй залп. Трещина бежит по щиту, как молния."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Ещё один — и он падает!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Падают те, кто стреляет без лица."
+            }
+          ],
+          "sfx": "БА-БА-БАХ!"
+        },
+        {
+          "page": 4,
+          "scene": "Flash inset: Genkei training — wall is will not steel.",
+          "narration": [
+            "Память: Гэнкэй учит — стена это воля, не металл."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Когда сталь кончится — останешься ты."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Я — ещё здесь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Ronin plants feet — sand ripples outward, immovable stance.",
+          "narration": [
+            "Ронин вбивает пятки. Песок расходится волной."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Стоять — моя единственная империя."
+            },
+            {
+              "speaker": "koto",
+              "text": "Он не двигается…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Counterattack: katana severs rifle barrels in arc of red light.",
+          "narration": [
+            "Катана срезает стволы дугой красного света."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Без ствола — без залпа."
+            },
+            {
+              "speaker": "ashida",
+              "text": "Что он творит?!"
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 7,
+          "scene": "Twin earth pillars flank Ronin — stone walls absorb stray shots.",
+          "narration": [
+            "Два столба по бокам. Каменные стены принимают stray пули."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Стена держит линию."
+            },
+            {
+              "speaker": "rie",
+              "text": "Они бегут!"
+            }
+          ],
+          "sfx": "ГРОХОТ!"
+        },
+        {
+          "page": 8,
+          "scene": "VassalCaptain enters as champion — naginata and broken crest banner.",
+          "narration": [
+            "Капитан выходит как чемпион. Знамя с зачёркнутым гербом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Последний урок, генерал!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Урок — доверие. Ты его не выучил."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Duel: shield vs command — Ronin disarms captain without killing.",
+          "narration": [
+            "Дуэль. Ронин обезоруживает, не убивая."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Живи. И выбери, кому служить."
+            },
+            {
+              "speaker": "vassalCaptain",
+              "text": "…проклятый…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Upper gate opens golden — Ronin ascends, shield held high cracked.",
+          "narration": [
+            "Верхние ворота открыты. Ронин поднимается со сломанным щитом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Глава VIII. Несокрушимая стена. Дальше — правда."
+            },
+            {
+              "speaker": "mizunaga",
+              "text": "Пусть поднимается. Там его ждём."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "9": {
+      "title": "Три клятвы одной линии",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena backstage mist: Ronin silhouette center, purple fog, roots through floor.",
+          "narration": [
+            "Закулисье. Туман. Три силуэта у корней, пробивших пол."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Кто смотрит из тени?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Три клятвы. Одна линия. Выбери."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Pink medic SILHOUETTE and axe giant SILHOUETTE flank Ronin — NOT full faces, backlit only.",
+          "narration": [
+            "Розовый силуэт медика. Силуэт гиганта с топором. Лица не видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Ещё охотники Арены?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Охотники на ложь лордов. Не на тебя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Iron-net hunters attack silhouettes; Ronin raises shield to break nets.",
+          "narration": [
+            "Охотники бросаются на силуэты. Ронин рвёт сети щитом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Если вы против Мидзунаги — говорите быстрее."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Милосердие, честь, ярость — одна линия."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 4,
+          "scene": "Triangle composition: crimson armor center, pink glow left, grey axe shadow right.",
+          "narration": [
+            "Три цвета в тумане: багряный, розовый, серый."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Честь без хозяина — не пустота."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Знаю. Стою на ней."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Silhouettes hold line while Ronin strikes hunter captain with katana flat.",
+          "narration": [
+            "Силуэты держат линию. Ронин бьёт капитана плоскостью клинка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "vassalCaptain",
+              "text": "Троих… как…"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Трое — любимый мой строй."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Quiet vow exchange: honor mercy fury debate, all faces hidden in shadow.",
+          "narration": [
+            "Тихий спор: честь, милосердие, ярость. Лица скрыты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Убьёшь лорда — станешь легендой. Или пеплом."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Легенда — не пустой щит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Sky marks: shield emblem, katana stroke, twin axe symbols burn into mist.",
+          "narration": [
+            "В небе проступают три знака: щит, катана, топоры."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Три клятвы. Один враг. Пока сходимся здесь."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Передовая помнит каждую."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Combined strike: earth pillar + pink healing flash + axe spin cuts arena nets.",
+          "narration": [
+            "Комбо: столб земли, розовая вспышка, вихрь топора рвёт сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Вместе — до верхних ворот."
+            },
+            {
+              "speaker": "ronin",
+              "text": "После — каждый своей дорогой."
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 9,
+          "scene": "Triangle mark burned into red sand; Koto watches from corridor.",
+          "narration": [
+            "На песке — треугольный знак. Кото смотрит из коридора."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Тебя объявят союзником тени!"
+            },
+            {
+              "speaker": "ronin",
+              "text": "Объявят — не значит узнают."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Silhouettes depart three ways into mist; Ronin alone with triangle mark on glove.",
+          "narration": [
+            "Силуэты уходят тремя тропами. На перчатке — знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Три клятвы одной линии. Ответ — завтра на песке."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Завтра мы снова станем лицами."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Клятва передовой",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena ceremony wide: golden scoreboard, herald announces trio alliance rumor.",
+          "narration": [
+            "Церемония. Слухи о троице гремят громче барабанов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "koto",
+              "text": "Верхний круг открыт. Финал — сегодня."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Сегодня песок станет судом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Hana steps from pink garden light portal — match hana_skin1.png FULL design.",
+          "narration": [
+            "Из розового света выходит Хана — полный облик, не силуэт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hana",
+              "text": "Линия держится, когда честь не спит."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Честь слышна. Лечи дальше."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Goro descends from mountain dust — match goro_skin1.png FULL design.",
+          "narration": [
+            "Из горной пыли спускается Горо — полный дизайн, не силуэт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "goro",
+              "text": "Ярость помнит твою крепость. Мы обещали стычку."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Крепость — не слабость. Вперёд."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs riflemen on red sand — all FULL faces, Ronin shield center.",
+          "narration": [
+            "Трое на песке против стрелков. Все лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Слева — залп. Щит держит."
+            },
+            {
+              "speaker": "hana",
+              "text": "Справа — раненые. Я прикрою."
+            },
+            {
+              "speaker": "goro",
+              "text": "Центр — мой."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Team combo: Stone Katana pillar + Blooming Garden dome + Berserker spin.",
+          "narration": [
+            "Комбо: столб катаны, цветущий сад, вихрь ярости."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "hana",
+              "text": "Держитесь в круге!"
+            },
+            {
+              "speaker": "goro",
+              "text": "Ярость!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Upper gate: Mizunaga and vassalCaptain descend with riflemen escort.",
+          "narration": [
+            "Верхние ворота. Мидзунага и капитан спускаются со стражей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "mizunaga",
+              "text": "Ронин… вернулся за второй казнью?"
+            },
+            {
+              "speaker": "ronin",
+              "text": "За правдой. Ваша очередь говорить."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena edge debate: Hana mercy, Goro fury, Ronin honor between.",
+          "narration": [
+            "Край арены. Три голоса — милосердие, ярость, честь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hana",
+              "text": "Суд — не только сталью."
+            },
+            {
+              "speaker": "goro",
+              "text": "Победа — топором."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Мой путь — мой выбор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night sky: fortress shadow, pink hospital glow, northern peaks merge over Arena dome.",
+          "narration": [
+            "Ночное небо: тень крепости, розовый госпиталь, северные вершины."
+          ],
+          "dialogue": [
+            {
+              "speaker": "genkei",
+              "text": "Не носи мою смерть как второй щит."
+            },
+            {
+              "speaker": "ronin",
+              "text": "Ношу память. Печать сниму с них."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final splash: trio vs rifle wave — Ronin leads earth pillar charge.",
+          "narration": [
+            "Финальный залп: трое против волны стволов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Катана против залпа!"
+            },
+            {
+              "speaker": "mizunaga",
+              "text": "Залп!"
+            },
+            {
+              "speaker": "goro",
+              "text": "Не сегодня!"
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "End card: Ronin forward, Hana and Goro behind, broken shield letter visible.",
+          "narration": [
+            "Конец главы X. Клятва передовой. Щит треснут — линия цела."
+          ],
+          "dialogue": [
+            {
+              "speaker": "ronin",
+              "text": "Имя на песке — не конец. Клятва передовой."
+            },
+            {
+              "speaker": "hana",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "goro",
+              "text": "До конца линии."
+            }
+          ],
+          "sfx": "ВЕТЕР…"
+        }
+      ]
+    }
+  }
+}

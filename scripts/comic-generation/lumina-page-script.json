@@ -1,0 +1,1755 @@
+{
+  "brawlerId": "lumina",
+  "brawlerName": "Люмина",
+  "lore": "Люмина — дочь падшего ангела и смертной. Крылья светятся тоской по небу. Золотые нити связывают врагов и потерянные души. Она примиряет, а не убивает.",
+  "skinRef": "public/dev-notes/brawler-skins/lumina_skin1.png",
+  "trioId": "shadow-grove",
+  "trioOthers": [
+    "miya",
+    "silven"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "sisterMaris": "Сестра Марис — монахиня часовни: серая ряса, мягкий голос, знает падших",
+    "lostSoul": "Потерянная душа — полупрозрачная, просит покоя",
+    "lightHunter": "Охотник за светом — чёрный плащ, ненавидит крылья",
+    "penitent": "Кающийся воин — шрамы, ищет прощения",
+    "herald": "Глашатай Арены — золотой рупор",
+    "hunterCaptain": "Капитан охотников — белая маска, сети",
+    "shadowVoice": "Голос из тени — союзник без лица"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3; hero Lumina mythic girl glowing wings, golden threads, white wings, palette #ECEFF1 #FFD54F #FFFFFF, title ЛЮМИНА Cyrillic, NO speech balloons, match lumina_skin1.png"
+  },
+  "chapters": {
+    "1": {
+      "title": "Часовня у обрыва",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide: cliff chapel at dawn, Lumina wings glow gold.",
+          "narration": [
+            "Часовня у обрыва. Крылья светятся золотом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Сегодня — тишина, Люмина."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Тишина громче моих крыльев."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Close: golden thread between two sparrows.",
+          "narration": [
+            "Золотая нить между двумя воробьями."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Связь — не клетка. Мост."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback inset: fallen angel father fades into sky.",
+          "narration": [
+            "Память: отец-ангел растворяется в небе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Он… ушёл вверх?"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Вверх — не всегда дом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Sister Maris rings bell — Arena call in sound.",
+          "narration": [
+            "Колокол звенит в сторону Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Это не для молитвы."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Значит, для ответа."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Lost soul knocks chapel door — glowing cage visible far.",
+          "narration": [
+            "Потерянная душа стучит. Вдали — сияющая клетка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Меня держат…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Держат — значит, можно отпустить."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Lumina sends thread toward distant Arena dome.",
+          "narration": [
+            "Нить тянется к куполу Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Туда нельзя."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Нельзя — не значит не нужно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Light hunter watches from forest edge.",
+          "narration": [
+            "Охотник за светом в лесу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lightHunter",
+              "text": "Падшая…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Падшая — всё ещё свет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Training: chain thread hits two targets without harm.",
+          "narration": [
+            "Цепь нити бьёт две цели без смерти."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Ты не убиваешь."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Убивают те, кто боится связи."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Night prayer: wings dim with longing.",
+          "narration": [
+            "Ночная молитва. Крылья тускнеют от тоски."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Дом… если он есть… услышь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: Arena cage soul screams her name.",
+          "narration": [
+            "Клетка на горизонте зовёт её имя."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Люмина!!!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Иду."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "2": {
+      "title": "Крылья без неба",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Chapel destroyed by hunter raid — feathers on stone.",
+          "narration": [
+            "Налёт охотников. Перья на камне."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lightHunter",
+              "text": "Свет должен погаснуть!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Погаснуть — не значит исчезнуть."
+            }
+          ],
+          "sfx": "БУМ!"
+        },
+        {
+          "page": 2,
+          "scene": "Sister Maris hides children in crypt.",
+          "narration": [
+            "Марис прячет детей в склепе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Беги!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Я держу дверь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Golden dome super preview — hunters trapped slow.",
+          "narration": [
+            "Купол замедляет охотников."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Пока — без крови."
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 4,
+          "scene": "Penitent fights hunter — Lumina binds both.",
+          "narration": [
+            "Кающийся бьёт охотника. Она связывает обоих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Я заслужил боль!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Боль — не судья."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Lost soul freed briefly — dissolves smiling.",
+          "narration": [
+            "Душа освобождена — растворяется с улыбкой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Спасибо…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Покой — не конец."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Chapel burns; Lumina saves bell rope.",
+          "narration": [
+            "Часовня горит. Она спасает верёвку колокола."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Всё…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Не всё. Есть Аренa."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Light hunter vows to follow to Arena.",
+          "narration": [
+            "Охотник клянётся идти следом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lightHunter",
+              "text": "На песке погасну."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Lumina reads mother's letter — stay merciful.",
+          "narration": [
+            "Письмо матери: оставайся милосердной."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "«Не стань тем, кто режет». Поняла."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Wide: lone figure walks road to Arena.",
+          "narration": [
+            "Она идёт к куполу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Куда?"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Туда, где души в клетках."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Wings reflect fire — resolve hardens.",
+          "narration": [
+            "Крылья отражают огонь."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Глава II. Крылья без неба. Небо — впереди."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "3": {
+      "title": "Нить к потерянным",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Forest shrine: threads connect lost souls in circle.",
+          "narration": [
+            "Лесной алтарь. Нити соединяют души."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Каждая нить — имя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Soul shows Arena registration number burned on wrist.",
+          "narration": [
+            "На запястье души — номер Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Они записали меня…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Запишу ответ."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Flashback: mother teaches mercy at cliff.",
+          "narration": [
+            "Мать учит милосердию у обрыва."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Голос памяти: не тяни за нить."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Тянуть — значит не бросать."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Penitent joins as guide — knows Arena slums.",
+          "narration": [
+            "Кающийся ведёт через трущобы."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Там охотники сильнее."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Свет — тоже."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Ambush: hunter net; thread cuts net without blade.",
+          "narration": [
+            "Сеть. Нить режет без лезвия."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lightHunter",
+              "text": "Снова ты!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Снова — без ненависти."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Night camp: souls whisper Arena secrets.",
+          "narration": [
+            "Души шепчут секреты Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Клетка… живая…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Lumina super dome heals penitent's scars.",
+          "narration": [
+            "Купол лечит шрамы кающегося."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Зачем?"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Потому что можешь встать."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Hunter captain offers deal — soul for pass.",
+          "narration": [
+            "Сделка: душа за пропуск."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Одна душа — вход."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Ни одной."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Registration desk: alias Golden Thread.",
+          "narration": [
+            "Псевдоним «Золотая нить»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Следующая — без крови?"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Без смерти — да."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Arena wall pulses gold.",
+          "narration": [
+            "Стена пульсирует золотом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Глава III. Нить к потерянным."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Охотники света",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Border town: wanted posters for fallen angel blood.",
+          "narration": [
+            "Объявления: кровь падшего ангела."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lightHunter",
+              "text": "Награда за крылья!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Крылья не продаются."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Tavern: penitent bribes clerk for papers.",
+          "narration": [
+            "Подкуп чиновника."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Держи."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Не платим душами."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Alley fight: two hunters; threads bind both.",
+          "narration": [
+            "Два охотника. Обе связаны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Запомню нить!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Запомни — милосердие."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 4,
+          "scene": "Captain mask reflects her wings.",
+          "narration": [
+            "Маска отражает крылья."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Ты слаба."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Слабость — не убивать."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Rips hunter insignia — light cult symbol.",
+          "narration": [
+            "Под insignia — символ культа света."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Свет без милости — слеп."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Debate penitent: justice vs mercy.",
+          "narration": [
+            "Спор: правосудие или милость."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Они убили часовню!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Суд будет. На песке."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Dream: father angel behind cloud.",
+          "narration": [
+            "Сон: отец за облаком."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Не режь во сне…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Я бодрствую."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Caravan to gates; iron nets above.",
+          "narration": [
+            "Караван. Сети на дороге."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Голос письма: осторожно."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Сети рвутся светом."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Outer wall looms.",
+          "narration": [
+            "Стена Арены."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Здесь клетки громче молитв."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Registers Golden Thread.",
+          "narration": [
+            "Регистрация."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Имя на ветру. Пока так."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "5": {
+      "title": "Золотая клетка",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Rooftop chase: hunters fire light bolts.",
+          "narration": [
+            "Погоня по крышам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lightHunter",
+              "text": "Гори!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Свет не жжёт своих."
+            }
+          ],
+          "sfx": "ВЗРЫВ!"
+        },
+        {
+          "page": 2,
+          "scene": "Net trap; dome contains blast.",
+          "narration": [
+            "Сеть. Купол гасит взрыв."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Клетка — щит, не тюрьма."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Penitent and Maris letter guide escape.",
+          "narration": [
+            "Письмо ведёт к безопасному пути."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Направо!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Слева — свет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Triple thread pins three hunters.",
+          "narration": [
+            "Три нити — три руки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Один жест. Три паузы."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 5,
+          "scene": "Captain watches from higher roof.",
+          "narration": [
+            "Капитан смотрит сверху."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Арена любит слабых."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Арена любит правду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Map of Arena layers — cage marked top.",
+          "narration": [
+            "Карта. Клетка на верхнем ярусе."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Десять боёв."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Десять — не вечность."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Practice dome on dummy — no damage.",
+          "narration": [
+            "Купол на манекене без урона."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Супер — не приговор."
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 8,
+          "scene": "Intel: Light Patriarch dines with patron.",
+          "narration": [
+            "Патриарх света у покровителя."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Его не выдадут."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Вытащу на песок."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Nails golden thread on net tower.",
+          "narration": [
+            "Нить на башне сетей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Пусть увидят свет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Sunrise over Arena.",
+          "narration": [
+            "Рассвет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Глава V. Золотая клетка ждёт ключ."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Цена милосердия",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Twin altars: living and dead.",
+          "narration": [
+            "Два алтаря."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Две клятвы. Одна — душам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback child Lumina swears mercy.",
+          "narration": [
+            "Детство: клятва милости."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Голос матери: не ненавидь."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Ненависть — темнота."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Incense for chapel, thread for hunter.",
+          "narration": [
+            "Благовоние — часовне. Нить — охотнику."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Помнишь?"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Помню. Поэтому свет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Penitent almost sold her for bounty.",
+          "narration": [
+            "Кающийся чуть не предал."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Мне предлагали…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Второй раз — выбор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Argument mercy vs punishment.",
+          "narration": [
+            "Спор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Им нужна кровь!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Им нужен суд."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Lost soul visible to penitent.",
+          "narration": [
+            "Душа видна кающемуся."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Не тащи его в тьму."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Tribunal: champion can demand trial.",
+          "narration": [
+            "Трибунал: право вызова."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Победи — получишь голос."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Голос — свет."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Two notches on thread bracelet.",
+          "narration": [
+            "Две насечки на браслете."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Милость и правда."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Wind like verdict.",
+          "narration": [
+            "Ветер как приговор."
+          ],
+          "dialogue": [
+            {
+              "speaker": "sisterMaris",
+              "text": "Выбери путь без клетки для своих."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Walks to lower gate.",
+          "narration": [
+            "К нижним воротам."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Глава VI. Цена милосердия — терпение."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Первый суд на песке",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Lower ring: Lumina vs net fighter.",
+          "narration": [
+            "Нижний круг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "«Золотая нить»!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Без смерти — с бой."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Threads bind weapons not throats.",
+          "narration": [
+            "Нити связывают оружие."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Опусти. Живи."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Opening clash; crowd unsure.",
+          "narration": [
+            "Толпа не понимает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "penitent",
+              "text": "Люмина…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Chain hits two enemies.",
+          "narration": [
+            "Цепь бьёт двоих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Связаны — значит, честно."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 5,
+          "scene": "Dome ends fight — winner declared.",
+          "narration": [
+            "Купол завершает бой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Победа без крови!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Captain backstage deal.",
+          "narration": [
+            "Сделка за крылья."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Сдай нить."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Нить — мой ответ."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Healer scene child fighter.",
+          "narration": [
+            "Ребёнок на носилках."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Арена жрёт малых. Я — щит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night training dome on sand.",
+          "narration": [
+            "Ночная тренировка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Хватит."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Не хватит, пока клетка жива."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Signs fight vs Light Fang.",
+          "narration": [
+            "Вызов «Клыку света»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Первый песок пройден."
+            }
+          ],
+          "sfx": "ШШШ…"
+        },
+        {
+          "page": 10,
+          "scene": "Upper tier glows.",
+          "narration": [
+            "Верхний ярус."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Глава VII. Суд начинается."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Бой без крови",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mid ring: Light Fang half-mask.",
+          "narration": [
+            "«Клык света»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Свет без милости — слеп."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Blinding flash; she closes eyes listens.",
+          "narration": [
+            "Ослепление. Она слушает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Дыхание громче вспышки."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Threads on mask and sleeve.",
+          "narration": [
+            "Нити на маске."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Третья — терпение."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 4,
+          "scene": "Dome contains Fang charge.",
+          "narration": [
+            "Купол держит рывок."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Граница!"
+            }
+          ],
+          "sfx": "КРАК!"
+        },
+        {
+          "page": 5,
+          "scene": "Mask cracks — cult recruit not patriarch.",
+          "narration": [
+            "Под маской — рекрут."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Пешка. Патриарх прячется."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Tribunal queue vs Light Patriarch.",
+          "narration": [
+            "Официальный вызов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Это он."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Hunters surround quarters.",
+          "narration": [
+            "Окружение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Ты сломала культ."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Культ сломал часовню."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Thread rain through window escape.",
+          "narration": [
+            "Дождь нитей."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Буря — впереди."
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 9,
+          "scene": "Rain roof eyes to upper tier.",
+          "narration": [
+            "Крыша под дождём."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Патриарх. Песок ждёт."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Chapter VIII end.",
+          "narration": [
+            "Глава VIII."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Бой без крови — не бой без силы."
+            }
+          ],
+          "sfx": "ДОЖДЬ…"
+        }
+      ]
+    },
+    "9": {
+      "title": "Спор трёх путей",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena backstage mist: green/purple/gold fog, roots through floor — SHADOWED trio scene, purple shadow + green roots + gold light.",
+          "narration": [
+            "Закулисье. Туман. Три силуэта у трещины в полу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Кто там — без приглашения?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Три пути. Один зал. Выбери."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "ninja fan shuriken SILHOUETTE and tree-antler SILHOUETTE flank shadow — NOT full faces, only outlines.",
+          "narration": [
+            "Два силуэта по бокам. Лица скрыты туманом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Ещё охотники?"
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Охотники на ложь. Не на тебя."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Arena hunters attack all three silhouettes; hero strikes to break nets.",
+          "narration": [
+            "Охотники Арены бросаются на силуэты. Герой режет сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Если вы против них — говорите быстрее."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 4,
+          "scene": "Triangle composition: purple shadow + green roots + gold light protective circle — silhouettes only.",
+          "narration": [
+            "Три цвета в тумане сходятся в круг."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Месть — дорога без выхода."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Выход найду сам."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Silhouettes hold line while hero strikes hunter captain.",
+          "narration": [
+            "Силуэты держат линию. Герой бьёт капитана."
+          ],
+          "dialogue": [
+            {
+              "speaker": "hunterCaptain",
+              "text": "Троих… невозможно…"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Невозможное — мой репертуар."
+            }
+          ],
+          "sfx": "WHOOSH!"
+        },
+        {
+          "page": 6,
+          "scene": "Quiet vow exchange: three ideas, faces hidden.",
+          "narration": [
+            "Тихий спор: три идеи, лица скрыты."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Убьёшь врага — станешь легендой. Или пустотой."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Пустота не принимает приглашений."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Sky triangle: shuriken, oak leaf, lumina symbol burn into mist.",
+          "narration": [
+            "В небе проступают три знака."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Три пути. Один враг. Пока сходимся."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Combined strike: hero power + root/light/time thread cuts nets.",
+          "narration": [
+            "Комбо: удар героя, нити союзников, рвутся сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "shadowVoice",
+              "text": "Вместе — до ворот."
+            },
+            {
+              "speaker": "lumina",
+              "text": "После — каждый своей дорогой."
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 9,
+          "scene": "Triangle mark burned into Arena sand; herald watches.",
+          "narration": [
+            "На песке — треугольный знак. Глашатай затаил дыхание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Тебя объявят союзником тени!"
+            },
+            {
+              "speaker": "lumina",
+              "text": "Объявят — не значит узнают."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Silhouettes depart three ways; hero alone with mark on glove.",
+          "narration": [
+            "Силуэты уходят тремя тропами. На перчатке — знак."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Спор трёх путей. Ответ — на песке завтра."
+            },
+            {
+              "speaker": "shadowVoice",
+              "text": "Завтра мы снова станем тенью."
+            }
+          ],
+          "sfx": "ШШШ…"
+        }
+      ]
+    },
+    "10": {
+      "title": "Свет на табло",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena ceremony wide: golden scoreboard, herald announces trio alliance rumor.",
+          "narration": [
+            "Церемония. Слухи о троице гремят громче барабанов."
+          ],
+          "dialogue": [
+            {
+              "speaker": "herald",
+              "text": "Верхний круг открыт. Финал — сегодня."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Сегодня зал полон. Без пустых стульев."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Miya steps from portal — match miya_skin1.png FULL design.",
+          "narration": [
+            "Из портала выходит Мия — полный облик, не силуэт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "miya",
+              "text": "Тень с бамбуком. Мы обещали стычку у ворот."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Обещание держу. Свет — впереди."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Silven descends — match silven_skin1.png FULL design.",
+          "narration": [
+            "Спускается Сильвен — полный дизайн, лицо видно."
+          ],
+          "dialogue": [
+            {
+              "speaker": "silven",
+              "text": "Корни помнят ваш свет. Вместе — до конца."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Корни и свет — не враги."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs arena hunters on sand — SAME wide composition, all FULL faces.",
+          "narration": [
+            "Трое на песке против охотников. Все лица видны."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Слева — сети. Режем вместе."
+            },
+            {
+              "speaker": "miya",
+              "text": "Лезвие держит."
+            },
+            {
+              "speaker": "silven",
+              "text": "Корни держат."
+            }
+          ],
+          "sfx": "КЛАНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Team fight: golden dome + shuriken fan + life tree combo layout.",
+          "narration": [
+            "Комбо суперов троих."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Сейчас!"
+            },
+            {
+              "speaker": "miya",
+              "text": "Разрыв!"
+            },
+            {
+              "speaker": "silven",
+              "text": "Рост!"
+            }
+          ],
+          "sfx": "КРАК-БУМ!"
+        },
+        {
+          "page": 6,
+          "scene": "Upper gate: Light Patriarch descends in full regalia.",
+          "narration": [
+            "Патриарх света спускается с верхнего яруса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lightHunter",
+              "text": "Падшая… вернулась за вторым сиянием?"
+            },
+            {
+              "speaker": "lumina",
+              "text": "За именем. Твоим."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Arena edge debate: three voices, three paths.",
+          "narration": [
+            "Край арены. Три голоса — три пути."
+          ],
+          "dialogue": [
+            {
+              "speaker": "miya",
+              "text": "Клинок — моим дыханием."
+            },
+            {
+              "speaker": "silven",
+              "text": "Суд — корнями."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Мой путь — мой выбор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Night sky: burned chapel + oak + golden cage merge over Arena dome.",
+          "narration": [
+            "Ночное небо: мотивы троицы сливаются над куполом."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lostSoul",
+              "text": "Не носи чужую ярость как вторую пару крыльев."
+            },
+            {
+              "speaker": "lumina",
+              "text": "Ношу память. Маску сниму."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Final splash: trio vs enemy wave — hero leads.",
+          "narration": [
+            "Финальный залп: герой ведёт, союзники прикрывают."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Вперёд!"
+            },
+            {
+              "speaker": "lightHunter",
+              "text": "Свет поглотит крылья!"
+            },
+            {
+              "speaker": "silven",
+              "text": "Не сегодня!"
+            }
+          ],
+          "sfx": "ВЖУХ-ВЖУХ-ВЖУХ!"
+        },
+        {
+          "page": 10,
+          "scene": "End card: hero walks forward, trio behind, wind takes token.",
+          "narration": [
+            "Конец главы X. Знак уносит ветер — не прощание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "lumina",
+              "text": "Имя на табло — не конец."
+            },
+            {
+              "speaker": "miya",
+              "text": "Мы рядом."
+            },
+            {
+              "speaker": "silven",
+              "text": "До конца пути."
+            }
+          ],
+          "sfx": "ВЕТЕР…"
+        }
+      ]
+    }
+  }
+}

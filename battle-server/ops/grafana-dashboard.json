@@ -1,0 +1,58 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": { "defaults": { "unit": "short" }, "overrides": [] },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "id": 1,
+      "options": { "legend": { "displayMode": "list" }, "tooltip": { "mode": "single" } },
+      "targets": [
+        { "expr": "sum(starfall_battle_rooms)", "legendFormat": "rooms", "refId": "A" },
+        { "expr": "sum(starfall_battle_running)", "legendFormat": "running", "refId": "B" },
+        { "expr": "sum(starfall_battle_humans)", "legendFormat": "humans", "refId": "C" }
+      ],
+      "title": "Battle load",
+      "type": "timeseries"
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": { "defaults": { "unit": "ops" }, "overrides": [] },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "id": 2,
+      "options": { "legend": { "displayMode": "list" }, "tooltip": { "mode": "single" } },
+      "targets": [
+        { "expr": "sum(rate(starfall_physics_ticks_total[1m]))", "legendFormat": "physics/s", "refId": "A" },
+        { "expr": "sum(rate(starfall_snapshots_sent_total[1m]))", "legendFormat": "snapshots/s", "refId": "B" },
+        { "expr": "sum(rate(starfall_turns_received_total[1m]))", "legendFormat": "turns/s", "refId": "C" }
+      ],
+      "title": "Throughput",
+      "type": "timeseries"
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": { "defaults": { "unit": "short" }, "overrides": [] },
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 8 },
+      "id": 3,
+      "options": { "legend": { "displayMode": "list" }, "tooltip": { "mode": "single" } },
+      "targets": [
+        { "expr": "starfall_udp_routes", "legendFormat": "{{worker}}", "refId": "A" }
+      ],
+      "title": "UDP routes per worker",
+      "type": "timeseries"
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 39,
+  "tags": ["starfall", "battle"],
+  "templating": { "list": [] },
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Starfall Battle v2",
+  "uid": "starfall-battle-v2",
+  "version": 1
+}

@@ -1,0 +1,1744 @@
+{
+  "1": {
+    "title": "Тень в бамбуке",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Wide dawn: hidden shadow-blade village between bamboo stalks, violet paper lanterns, mist.",
+        "narration": [
+          "Скрытая деревня теневых клинков. Бамбук шепчет раньше птиц."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shima",
+            "text": "Сегодня три лезвия — одним выдохом, Мия."
+          },
+          {
+            "speaker": "miya",
+            "text": "Вдох короткий. Лезвия длиннее."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Training yard: Miya throws three shurikens in fan arc, blades bite wood targets.",
+        "narration": [
+          "Учебный двор. Промах здесь — позор, не урок."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shima",
+            "text": "Центральный бьёт сердце цели. Боковые — туда, куда бежит трус."
+          },
+          {
+            "speaker": "miya",
+            "text": "Трус не успеет. Тени быстрее."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Close-up: Ren ties red ribbon on Miya wrist beside broken practice dummy.",
+        "narration": [
+          "Старший брат Рэн смеётся тихо — как будто завтра нельзя отменить."
+        ],
+        "dialogue": [
+          {
+            "speaker": "ren",
+            "text": "Если промахнёшься — скажу деревне, что это был ветер."
+          },
+          {
+            "speaker": "miya",
+            "text": "Ветер не оставляет кровь на бамбуке."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Night porch: Ren hands sealed letter to Miya, moon through bamboo slats.",
+        "narration": [
+          "Письмо с печатью турнира. Рэн уходит на рассвете."
+        ],
+        "dialogue": [
+          {
+            "speaker": "ren",
+            "text": "Если не вернусь к ужину — прочти. Не раньше."
+          },
+          {
+            "speaker": "miya",
+            "text": "Ты вернёшься. Я не читаю чужие тени."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Miya alone reads letter by candle — tournament invite, clan honor, Ren handwriting.",
+        "narration": [
+          "В письме — турнир, честь клана и почерк, который ещё тёплый."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "«Береги ленту». Он знал, что я буду упрямой."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Hairline purple crack flickers above village gate; bamboo leaves freeze mid-fall.",
+        "narration": [
+          "Воздух над воротами рвётся тонкой фиолетовой нитью."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Шима-сэнсэй! Небо… ломается?"
+          },
+          {
+            "speaker": "miya",
+            "text": "Смотри на трещину, не на страх."
+          }
+        ],
+        "sfx": "ТРЕСК!"
+      },
+      {
+        "page": 7,
+        "scene": "Shima inspects crack with gloved hand; purple static crawls along bamboo.",
+        "narration": [
+          "Сэнсэй зовёт старейшин. Трещина пахнет чужой кровью."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shima",
+            "text": "Закрой тренировочный двор. Сегодня учим только слушать."
+          },
+          {
+            "speaker": "gin",
+            "text": "Слушать — не наша сильная сторона."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Miya teleports behind wooden dummy in training hall, blade stops a hair from neck.",
+        "narration": [
+          "Зал теней. Телепорт — дар клана, не фокус."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "За спиной врага — моя вторая тишина."
+          },
+          {
+            "speaker": "kaito",
+            "text": "Ты… растворилась и снова стала!"
+          }
+        ],
+        "sfx": "WHOOSH!"
+      },
+      {
+        "page": 9,
+        "scene": "Triple shuriken strike — three targets splinter; Miya exhales once.",
+        "narration": [
+          "Три мишени. Один выдох. Ни одного дрожащего листа."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shima",
+            "text": "Достаточно. Остальное — завтра."
+          },
+          {
+            "speaker": "miya",
+            "text": "Завтра у Рэна турнир. Я провожу его до ворот."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Cliffhanger: distant torches beyond bamboo — sakura-pink masks glint between trees.",
+        "narration": [
+          "На рассвете за бамбуком мелькают маски с цветком сакуры."
+        ],
+        "dialogue": [
+          {
+            "speaker": "ren",
+            "text": "Мия… кто-то смотрит на деревню."
+          },
+          {
+            "speaker": "miya",
+            "text": "Тогда смотрят на клинок."
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  },
+  "2": {
+    "title": "Пепел клана",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Pre-dawn ambush: sakura-mask raiders pour through cracked gate, violet fire blooms.",
+        "narration": [
+          "Клан Хакурэн входит с рассветом. Ворота уже были сломаны."
+        ],
+        "dialogue": [
+          {
+            "speaker": "hakuren",
+            "text": "Теневые клинки… ваш долг пахнет старым страхом."
+          },
+          {
+            "speaker": "miya",
+            "text": "Страх — ваш цвет на маске."
+          }
+        ],
+        "sfx": "БУМ!"
+      },
+      {
+        "page": 2,
+        "scene": "Burning dojo: Miya drags Kaito through smoke, Ren fights two masked ninjas.",
+        "narration": [
+          "Деревня горит за один вдох. Рэн стоит у моста."
+        ],
+        "dialogue": [
+          {
+            "speaker": "ren",
+            "text": "Мия! Веди детей к северному ручью!"
+          },
+          {
+            "speaker": "miya",
+            "text": "А ты?"
+          },
+          {
+            "speaker": "ren",
+            "text": "Я задержу их ложью о чести."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Rooftop chase: Miya throws shurikens, pursues white-mask scout across burning tiles.",
+        "narration": [
+          "Крыши рушатся. Она бежит по пламени, как по тренировочному мосту."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessHunter",
+            "text": "Девочка с лентой… Хакурэн заплатит за твою голову."
+          },
+          {
+            "speaker": "miya",
+            "text": "Платишь ты. Сейчас."
+          }
+        ],
+        "sfx": "ВЖУХ!"
+      },
+      {
+        "page": 4,
+        "scene": "Bridge duel: Ren blocks Hakuren blade, blood on sakura mask, Miya reaches edge.",
+        "narration": [
+          "Рэн режет воздух. Хакурэн смеётся под маской."
+        ],
+        "dialogue": [
+          {
+            "speaker": "hakuren",
+            "text": "Брат слабее сестры. Какая жалость."
+          },
+          {
+            "speaker": "ren",
+            "text": "Мия — беги! Письмо… в кармане кимоно!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Slow-motion: Hakuren blade passes through Ren; red ribbon falls into river.",
+        "narration": [
+          "Лезвие проходит. Лента падает в воду — краснее рассвета."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Рэн!!!"
+          }
+        ],
+        "sfx": "КРАК!"
+      },
+      {
+        "page": 6,
+        "scene": "Miya kneels at riverbank clutching wet ribbon; village burns behind.",
+        "narration": [
+          "Пепел клана оседает на её плечи тяжелее свинца."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Мия… все…"
+          },
+          {
+            "speaker": "miya",
+            "text": "Молчи. Слёзы шумят. Мне нужен шёпот."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Shima broken katana in ash; Gin bandages Miya arm in ruins.",
+        "narration": [
+          "Сэнсэй не дышит. Джин кричит без звука."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Хакурэн ушёл к дороге Арены."
+          },
+          {
+            "speaker": "miya",
+            "text": "Значит, дорога одна."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Miya opens Ren blood-stained letter — postscript: hunt the sakura, not the shadow.",
+        "narration": [
+          "Добавка в письме — почерк дрожит, но слова твёрды."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Охотиться на сакуру… не на тень. Поняла."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Wide: lone figure walks away from burning bamboo forest toward distant Arena dome.",
+        "narration": [
+          "Она уходит. За спиной — только пепел и обещание."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Куда?"
+          },
+          {
+            "speaker": "miya",
+            "text": "Туда, где маски снимают победители."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Close: Miya eyes reflect fire; three shurikens clenched in fist.",
+        "narration": [
+          "Глава II. Пепел клана. В груди — холоднее ночи."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Рэн. Я найду имя под маской."
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  },
+  "3": {
+    "title": "Кровь на жетоне",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Forest trail: Miya tracks boot prints to abandoned checkpoint, blood on leaves.",
+        "narration": [
+          "Следы ведут к старому посту. Кровь ещё липкая на листьях."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Два каблука. Один тяжелее — носил мёртвого."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Miya finds torn sakura-mask cloth and iron token stamped with Hakuren crest.",
+        "narration": [
+          "На жетоне — герб клана и пятно, не успевшее высохнуть."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Кровь на металле. Подпись без слов."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Flashback inset: Ren teaches young Miya to read enemy tokens, not faces.",
+        "narration": [
+          "Память: Рэн учил читать знаки врагов, не их лица."
+        ],
+        "dialogue": [
+          {
+            "speaker": "ren",
+            "text": "Жетон важнее крика. Крик врёт."
+          },
+          {
+            "speaker": "miya",
+            "text": "А кровь?"
+          },
+          {
+            "speaker": "ren",
+            "text": "Кровь — честный чернильник."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Rain shelter: Gin catches up with supplies, maps, and bad news.",
+        "narration": [
+          "Джин находит её у ручья. Дождь бьёт по крыше навеса."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Хакурэн нанял безликих. Их капитан — призрак с белой маской."
+          },
+          {
+            "speaker": "miya",
+            "text": "Призраки боятся стали."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Miya sharpens shurikens; purple energy wisps along blade edges.",
+        "narration": [
+          "Лезвия светятся слабым фиолетовым — отголосок разрыва."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Трещина во мне открылась в ту ночь. Использую."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Night camp: Ren letter half-burned for warmth; Miya stops herself.",
+        "narration": [
+          "Она чуть не сожгла письмо ради тепла. Остановилась."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Тепло не стоит его последней строчки."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Ambush: faceless scout drops from tree; Miya pins token to chest with shuriken.",
+        "narration": [
+          "Разведчик падает. Жетон звенит о его броню."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessHunter",
+            "text": "…"
+          },
+          {
+            "speaker": "miya",
+            "text": "Молчи. Твой клан уже написал имя."
+          }
+        ],
+        "sfx": "ВЖУХ!"
+      },
+      {
+        "page": 8,
+        "scene": "Interrogation: hunter reveals Arena registration list with Hakuren alias.",
+        "narration": [
+          "Список бойцов. Псевдоним Хакурэн подчёркнут чужой кровью."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessHunter",
+            "text": "Убей — и не узнаешь больше."
+          },
+          {
+            "speaker": "miya",
+            "text": "Уже узнала достаточно."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Miya lets hunter crawl away as message; eyes hard.",
+        "narration": [
+          "Она отпускает врага — как наживку, не как милость."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Зачем?"
+          },
+          {
+            "speaker": "miya",
+            "text": "Пусть расскажет, что тень идёт."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Silhouette against moon: Miya pockets blood-token, walks toward highway lights.",
+        "narration": [
+          "Глава III. Кровь на жетоне. Дорога зовёт по имени врага."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Хакурэн. Я увижу твоё лицо без цветка."
+          }
+        ],
+        "sfx": null
+      }
+    ]
+  },
+  "4": {
+    "title": "След маски",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Border town market: wanted posters for shadow-clan survivors; Miya hooded.",
+        "narration": [
+          "Город у тракта. На стенах — её лицо, ещё не уставшее."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Тебя ищут как предательницу клана."
+          },
+          {
+            "speaker": "miya",
+            "text": "Пусть ищут. Я ищу маску."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Tavern back room: Gin bribes clerk for Arena transit papers.",
+        "narration": [
+          "Подкупленный чиновник боится не золота — безликих."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Без пропуска — не войдёшь даже в нижний ярус."
+          },
+          {
+            "speaker": "miya",
+            "text": "Тогда украду пропуск у того, кто украл мой дом."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Alley fight: two faceless thugs; Miya teleports between puddles, strikes both.",
+        "narration": [
+          "Переулок. Два охотника. Один вдох — два тела."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessCaptain",
+            "text": "Смелая. Капитан запомнит ленту."
+          },
+          {
+            "speaker": "miya",
+            "text": "Запомнишь вкус бамбука во рту."
+          }
+        ],
+        "sfx": "WHOOSH!"
+      },
+      {
+        "page": 4,
+        "scene": "Captain white mask close-up reflected in Miya blade.",
+        "narration": [
+          "Белая маска без лица — зеркало, которое не моргает."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessCaptain",
+            "text": "Ты не охотница. Ты добыча."
+          },
+          {
+            "speaker": "miya",
+            "text": "Добыча режет, когда её не ждут."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Miya rips mask fragment off fallen captain — sakura paint underneath.",
+        "narration": [
+          "Под белой маской — розовый цветок. След Хакурэн."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Маска сломана. След остался."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Kaito tends wound; argues about justice vs revenge.",
+        "narration": [
+          "Кайто спорит. Мия молчит опаснее крика."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Если убьёшь без суда — чем лучше их?"
+          },
+          {
+            "speaker": "miya",
+            "text": "Суд будет. На песке Арены."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Dream sequence: Ren spirit behind bamboo curtain, face obscured.",
+        "narration": [
+          "Сон: Рэн стоит за занавесом из тростника."
+        ],
+        "dialogue": [
+          {
+            "speaker": "renSpirit",
+            "text": "Не стань тем, кто режет во сне."
+          },
+          {
+            "speaker": "miya",
+            "text": "Я бодрствую. Этого достаточно."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Morning: caravan to Arena gates; iron nets above road like spider web.",
+        "narration": [
+          "Караван к воротам. Сети на дороге — как паутина для птиц."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Безликие контролируют сети."
+          },
+          {
+            "speaker": "miya",
+            "text": "Сети рвутся с края."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Arena outer wall looms; purple energy veins pulse in stone.",
+        "narration": [
+          "Стена Арены дышит фиолетовым. Внутри — шум толпы."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Здесь маски смеют громко."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Registration desk: clerk scans token; Miya registers alias Bamboo Rain.",
+        "narration": [
+          "Псевдоним: «Бамбуковый дождь». Жетон — в кармане."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Имя на ветру. Пока так."
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  },
+  "5": {
+    "title": "Крыши и сети",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Rooftop sprint across Arena slums: Miya leaps gaps, nets snap below.",
+        "narration": [
+          "Нижний ярус. Крыши — дорога тех, кто не платит пошлину."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessHunter",
+            "text": "Сверху! Стрелять в сети!"
+          },
+          {
+            "speaker": "miya",
+            "text": "Сначала поймайте тень."
+          }
+        ],
+        "sfx": "ВЗРЫВ!"
+      },
+      {
+        "page": 2,
+        "scene": "Iron net trap cinches; Miya cuts rope with shuriken, drops into alley.",
+        "narration": [
+          "Сеть сжимается. Лезвие находит слабый узел."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Каждая сеть помнит, кто её плёл. Я — нож."
+          }
+        ],
+        "sfx": "РВАНЬ!"
+      },
+      {
+        "page": 3,
+        "scene": "Gin and Kaito on ground cover escape route with smoke bombs.",
+        "narration": [
+          "Дым. Кайто кашляет. Джин ведёт."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Влево — патруль безликих!"
+          },
+          {
+            "speaker": "kaito",
+            "text": "Справа — тоже они!"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Three-point ambush: Miya throws fan of shurikens, pins net handlers.",
+        "narration": [
+          "Три сюрикена — три руки, что тянули сеть."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Один бросок. Три судьбы. Без промаха."
+          }
+        ],
+        "sfx": "ВЖУХ!"
+      },
+      {
+        "page": 5,
+        "scene": "Faceless Captain on higher roof watches, does not pursue.",
+        "narration": [
+          "Капитан смотрит сверху и не спускается. Ждёт."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessCaptain",
+            "text": "Беги. Арена любит уставших."
+          },
+          {
+            "speaker": "miya",
+            "text": "Усталость — для тех, у кого нет ленты в кармане."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Safehouse attic: map of Arena layers pinned with shuriken tips.",
+        "narration": [
+          "Карта ярусов. Каждая булавка — обещание удара."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Хакурэн в верхнем круге. До него — десять боёв."
+          },
+          {
+            "speaker": "miya",
+            "text": "Десять — не бесконечность."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Miya practices Reality Tear: purple slash opens pocket behind enemy dummy.",
+        "narration": [
+          "Разрыв реальности — трещина, сквозь которую проходит только она."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shima",
+            "text": "Голос памяти: не рви мир без нужды."
+          },
+          {
+            "speaker": "miya",
+            "text": "Нужда — мой учитель теперь."
+          }
+        ],
+        "sfx": "КРАК-РВ!"
+      },
+      {
+        "page": 8,
+        "scene": "Night market intel: Hakuren seen with Arena patron in gold trim.",
+        "narration": [
+          "Слух: Хакурэн ужинает с покровителем купола."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Его не выдадут на площади."
+          },
+          {
+            "speaker": "miya",
+            "text": "Вытащу на песок."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Miya scales net tower, leaves token nailed at top as warning.",
+        "narration": [
+          "На вершине сетевой башни — жетон с кровью, вбитый сталью."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Пусть увидят. Пусть дрогнут."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Sunrise over Arena: Miya on highest roof, cloak snaps like flag.",
+        "narration": [
+          "Глава V. Крыши и сети. Ниже — город охотников."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Я спущусь туда, где маски платят налог кровью."
+          }
+        ],
+        "sfx": null
+      }
+    ]
+  },
+  "6": {
+    "title": "Две клятвы",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Shrine in abandoned bamboo grove near Arena: twin altars, wind bells.",
+        "narration": [
+          "Заброшенная роща. Два алтаря — для живых и для мёртвых."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Две клятвы. Одна — Рэну. Вторая — себе."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Flashback: child Miya and Ren swear to protect village on altar.",
+        "narration": [
+          "Детство: они клянутся защищать деревню, не зная цены."
+        ],
+        "dialogue": [
+          {
+            "speaker": "ren",
+            "text": "Если паду — ты поднимешь клинок, не ненависть."
+          },
+          {
+            "speaker": "miya",
+            "text": "А если ненависть сильнее?"
+          },
+          {
+            "speaker": "ren",
+            "text": "Тогда режь ненависть первой."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Present: Miya lights incense for Shima, blade for Hakuren.",
+        "narration": [
+          "Благовоние — сэнсэю. Лезвие — врагу."
+        ],
+        "dialogue": [
+          {
+            "speaker": "renSpirit",
+            "text": "Ты помнишь обе?"
+          },
+          {
+            "speaker": "miya",
+            "text": "Помню. Поэтому жива."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Kaito arrives angry — almost sold out Miya for bounty.",
+        "narration": [
+          "Кайто принёс монеты. Руки дрожат не от холода."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Мне предлагали цену за тебя. Я… отказался."
+          },
+          {
+            "speaker": "miya",
+            "text": "Второй раз откажись."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Argument erupts: justice needs law, revenge needs blood.",
+        "narration": [
+          "Спор гремит тише бури, но глубже."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Правосудие — не личный клинок!"
+          },
+          {
+            "speaker": "miya",
+            "text": "Тогда где суд для сожжённой деревни?"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 6,
+        "scene": "Ren spirit visible to Kaito briefly; boy faints.",
+        "narration": [
+          "Кайто видит призрак — и падает, как срубленный тростник."
+        ],
+        "dialogue": [
+          {
+            "speaker": "renSpirit",
+            "text": "Сестра… не тащи его в ад за собой."
+          },
+          {
+            "speaker": "miya",
+            "text": "Он идёт сам. Я не верёвка."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Gin mediates: Arena tribunal exists — champion can demand trial by combat.",
+        "narration": [
+          "Трибунал Арены: победитель может вызвать на бой с именем."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Убей чемпиона нижнего круга — получишь право голоса."
+          },
+          {
+            "speaker": "miya",
+            "text": "Голос режет."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Miya carves two notches on shuriken hilt — oath marks.",
+        "narration": [
+          "Две насечки на рукояти. Клятвы не стираются."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Первая — вернуть имя Рэна. Вторая — не стать Хакурэн."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Night wind through bamboo sounds like whispered verdict.",
+        "narration": [
+          "Ветер судит без зала. Мия кивает."
+        ],
+        "dialogue": [
+          {
+            "speaker": "renSpirit",
+            "text": "Выбери путь, где лента не станет петлёй."
+          },
+          {
+            "speaker": "miya",
+            "text": "Лента — напоминание, не петля."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Miya walks toward Arena lower gate, dual resolve in posture.",
+        "narration": [
+          "Глава VI. Две клятвы. За спиной — роща, впереди — песок."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Сегодня — первый бой. Не последний вдох."
+          }
+        ],
+        "sfx": null
+      }
+    ]
+  },
+  "7": {
+    "title": "Первый песок",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Arena lower ring: sand floor, crowd behind iron nets, herald raises staff.",
+        "narration": [
+          "Нижний круг. Песок впитывает чужие шаги."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Первый соперник — «Железная Сеть»."
+          },
+          {
+            "speaker": "miya",
+            "text": "Сети я уже рвала."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Opponent enters with chain nets; Miya barefoot, three shurikens ready.",
+        "narration": [
+          "Противник вертит цепи. Мия не мигает."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Песок честнее крыши. Здесь видно, кто падает."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Opening clash: nets whip sand; Miya ducks, throws single blade to test range.",
+        "narration": [
+          "Цепь хлещет. Она измеряет дистанцию лезвием."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Дальше, чем думал. Ближе, чем надо ему."
+          }
+        ],
+        "sfx": "ВЖУХ!"
+      },
+      {
+        "page": 4,
+        "scene": "Crowd roars; Kaito watches from cheap seats, fists white.",
+        "narration": [
+          "Толпа ревёт. Кайто не дышит."
+        ],
+        "dialogue": [
+          {
+            "speaker": "kaito",
+            "text": "Мия…"
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Miya teleports inside net arc — short burst, elbow strike to jaw.",
+        "narration": [
+          "Телепорт — короткий рывок сквозь фиолетовую искру."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "За сетью — пустота."
+          }
+        ],
+        "sfx": "WHOOSH!"
+      },
+      {
+        "page": 6,
+        "scene": "Enemy falls; herald declares winner Bamboo Rain.",
+        "narration": [
+          "Победа. Псевдоним звучит, как дождь по крыше."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Трибуна даст право на вызов через неделю."
+          },
+          {
+            "speaker": "miya",
+            "text": "Неделя — роскошь. Возьму завтра."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Backstage: Faceless Captain offers deal — Miya head for Hakuren location.",
+        "narration": [
+          "Капитан безликих шепчет сделку в коридоре."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessCaptain",
+            "text": "Сдай жетон — живи."
+          },
+          {
+            "speaker": "miya",
+            "text": "Живу и без твоих карт."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Miya finds Arena healer treating net scars on child fighter.",
+        "narration": [
+          "Ребёнок на носилках. Песок ещё тёплый от его крови."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Арена жрёт малых. Хакурэн — зуб."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Night training: triple throw into sand pillar until hand bleeds.",
+        "narration": [
+          "Песок на костяшках. Боль — счётчик."
+        ],
+        "dialogue": [
+          {
+            "speaker": "renSpirit",
+            "text": "Хватит. Ты уже сильнее того дня."
+          },
+          {
+            "speaker": "miya",
+            "text": "Сильнее — не достаточно."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Miya signs next fight petition against Hakuren proxy Sakura Fang.",
+        "narration": [
+          "Следующий вызов: «Клык сакуры». Прокси Хакурэн."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Первый песок пройден. Следующий — с цветком."
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  },
+  "8": {
+    "title": "Дождь из трёх",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Mid-tier ring: Sakura Fang wears half-mask, twin kodachi, cherry petal confetti.",
+        "narration": [
+          "Средний круг. «Клык сакуры» — стиль Хакурэн без лица."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Лепестки прячут кровь. Не сегодня."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Fight starts: petals blind crowd; Miya closes eyes, listens to breath.",
+        "narration": [
+          "Она слышит шаги, не видит цвет."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Дыхание врага — громче лепестков."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "First shuriken grazes mask; second pins sleeve; third waits in hand.",
+        "narration": [
+          "Первый режет щёку. Второй гвоздит рукав. Третий — терпение."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Дождь из трёх начинается с тишины."
+          }
+        ],
+        "sfx": "ВЖУХ!"
+      },
+      {
+        "page": 4,
+        "scene": "Sakura Fang charges; Miya opens Reality Tear — purple seam behind opponent.",
+        "narration": [
+          "Разрыв реальности: вертикальная рана в воздухе."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Шаг в трещину — удар из ниоткуда."
+          }
+        ],
+        "sfx": "КРАК-РВ!"
+      },
+      {
+        "page": 5,
+        "scene": "Teleport strike from tear: Miya emerges behind, kodachi clash sparks.",
+        "narration": [
+          "Она выходит из разрыва, как нож из ножен мира."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Третий сюрикен — в спину маски."
+          }
+        ],
+        "sfx": "ВЖУХ!"
+      },
+      {
+        "page": 6,
+        "scene": "Enemy mask cracks; underneath — not Hakuren, but branded recruit.",
+        "narration": [
+          "Под маской — клеймо найма, не лицо лорда."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Пешка. Хакурэн снова прячется."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Tribunal grants Miya formal duel queue against Masked Lord next moon.",
+        "narration": [
+          "Трибунал: официальный вызов «Замаскированному лорду»."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Это он. Псевдоним Хакурэн."
+          },
+          {
+            "speaker": "miya",
+            "text": "Луна подождёт. Я — нет."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Faceless hunters mass outside Miya quarters; captain blocks door.",
+        "narration": [
+          "Охотники окружают. Капитан стоит у двери."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessCaptain",
+            "text": "Ты сломала правила сети."
+          },
+          {
+            "speaker": "miya",
+            "text": "Правила сгорели с моей деревней."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Rain of three shurikens through window — hunters fall; Miya escapes roof.",
+        "narration": [
+          "Три лезвия в тёмном окне. Дождь стали."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Дождь закончился. Буря — впереди."
+          }
+        ],
+        "sfx": "ВЖУХ-ВЖУХ-ВЖУХ!"
+      },
+      {
+        "page": 10,
+        "scene": "Miya on rain-slick roof, blood on hands, eyes to upper Arena tier.",
+        "narration": [
+          "Глава VIII. Дождь из трёх. Верхний ярус мерцает."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Хакурэн. Песок ждёт твоих лепестков."
+          }
+        ],
+        "sfx": "ДОЖДЬ…"
+      }
+    ]
+  },
+  "9": {
+    "title": "Спор трёх путей",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Arena backstage mist: purple fog, roots through floor — SHADOWED trio scene.",
+        "narration": [
+          "Закулисье. Туман. Три силуэта у корней, пробивших пол."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Кто смотрит из тени?"
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Три пути. Один клинок. Выбери."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "Tree-antler SILHOUETTE and winged SILHOUETTE flank purple shadow — NOT full faces.",
+        "narration": [
+          "Силуэт с рогами дерева. Силуэт с крыльями. Лица не видны."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Ещё одни охотники?"
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Охотники на несправедливость. Не на тебя."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "Iron-net hunters attack all three silhouettes; Miya throws shuriken to help.",
+        "narration": [
+          "Безликие атакуют силуэты. Мия бросает лезвие в сеть."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Если вы враги Хакурэн — говорите быстрее."
+          }
+        ],
+        "sfx": "КЛАНГ!"
+      },
+      {
+        "page": 4,
+        "scene": "Triangle composition: purple shadow, green roots, gold light — SHARED palette.",
+        "narration": [
+          "Три цвета в тумане: пурпур, зелень, золото."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shadowVoice",
+            "text": "Месть — дорога без моста."
+          },
+          {
+            "speaker": "miya",
+            "text": "Мосты я строю из стали."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 5,
+        "scene": "Roots and wings hold line while Miya strikes hunter captain.",
+        "narration": [
+          "Силуэты держат линию. Мия режет капитана."
+        ],
+        "dialogue": [
+          {
+            "speaker": "facelessCaptain",
+            "text": "Тень… троих… невозможно…"
+          },
+          {
+            "speaker": "miya",
+            "text": "Невозможное учится на крови."
+          }
+        ],
+        "sfx": "WHOOSH!"
+      },
+      {
+        "page": 6,
+        "scene": "Quiet vow exchange: three ideas of justice, faces hidden.",
+        "narration": [
+          "Тихий спор: три идеи справедливости, лица скрыты."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shadowVoice",
+            "text": "Убьёшь лорда — станешь легендой. Или монстром."
+          },
+          {
+            "speaker": "miya",
+            "text": "Монстры носят сакуру. Я ношу ленту."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Sky triangle: shuriken, oak leaf, angel wing symbols burn into mist.",
+        "narration": [
+          "В небе проступают три знака: сюрикен, лист, крыло."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Три пути. Один враг. Пока сходимся здесь."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Combined strike: shuriken rain + root surge + light thread cuts nets.",
+        "narration": [
+          "Комбо: дождь стали, рост корней, нить света рвёт сети."
+        ],
+        "dialogue": [
+          {
+            "speaker": "shadowVoice",
+            "text": "Вместе — до ворот верхнего круга."
+          },
+          {
+            "speaker": "miya",
+            "text": "После — каждый своей дорогой."
+          }
+        ],
+        "sfx": "КРАК-БУМ!"
+      },
+      {
+        "page": 9,
+        "scene": "Triangle mark burned into Arena sand; herald sees from afar.",
+        "narration": [
+          "На песке — треугольный знак. Глашатай затаил дыхание."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Тебя объявят союзницей тени!"
+          },
+          {
+            "speaker": "miya",
+            "text": "Объявят — не значит узнают."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 10,
+        "scene": "Silhouettes depart into mist three ways; Miya alone with new mark on glove.",
+        "narration": [
+          "Силуэты уходят тремя тропами. На перчатке — знак."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Спор трёх путей. Ответ — на песке завтра."
+          },
+          {
+            "speaker": "shadowVoice",
+            "text": "Завтра мы снова станем тенью."
+          }
+        ],
+        "sfx": "ШШШ…"
+      }
+    ]
+  },
+  "10": {
+    "title": "Имя на ветру",
+    "pages": [
+      {
+        "page": 1,
+        "scene": "Arena ceremony wide shot: golden scoreboard, herald announces trio alliance rumor.",
+        "narration": [
+          "Церемония. Слухи о троице гремят громче барабанов."
+        ],
+        "dialogue": [
+          {
+            "speaker": "gin",
+            "text": "Верхний круг открыт. Хакурэн — сегодня."
+          },
+          {
+            "speaker": "miya",
+            "text": "Имя на ветру. Сегодня станет криком."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 2,
+        "scene": "FULL COLOR: Silven steps from living roots portal — match silven_skin1.png FULL design.",
+        "narration": [
+          "Из корневого портала выходит Сильвен — полный облик, не силуэт."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Тень с бамбуком. Мы обещали стычку у ворот."
+          },
+          {
+            "speaker": "miya",
+            "text": "Обещание держу. Лезвие — впереди."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 3,
+        "scene": "FULL COLOR: Lumina descends golden threads — match lumina_skin1.png FULL design.",
+        "narration": [
+          "С неба спускается Лумина — золотые нити, полный дизайн."
+        ],
+        "dialogue": [
+          {
+            "speaker": "lumina",
+            "text": "Три пути сошлись. Враг — один."
+          },
+          {
+            "speaker": "miya",
+            "text": "Враг — с маской сакуры. Остальное — потом."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 4,
+        "scene": "Trio vs iron-net hunters on Arena sand — SAME wide composition, all FULL faces.",
+        "narration": [
+          "Трое на песке против безликих. Все лица видны."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Слева — сети. Режем вместе."
+          },
+          {
+            "speaker": "silven",
+            "text": "Корни держат."
+          },
+          {
+            "speaker": "lumina",
+            "text": "Свет режет."
+          }
+        ],
+        "sfx": "КЛАНГ!"
+      },
+      {
+        "page": 5,
+        "scene": "Team fight: Reality Tear + Life Tree + Golden Cage combo layout.",
+        "narration": [
+          "Комбо: разрыв, дерево, клетка света."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Сейчас!"
+          },
+          {
+            "speaker": "silven",
+            "text": "Рост!"
+          },
+          {
+            "speaker": "lumina",
+            "text": "Граница!"
+          }
+        ],
+        "sfx": "КРАК-БУМ!"
+      },
+      {
+        "page": 6,
+        "scene": "Upper gate opens: Hakuren in full sakura mask and lord kimono descends.",
+        "narration": [
+          "Ворота верхнего круга. Хакурэн спускается с цветком на лице."
+        ],
+        "dialogue": [
+          {
+            "speaker": "hakuren",
+            "text": "Девочка с лентой… вернулась за второй смертью?"
+          },
+          {
+            "speaker": "miya",
+            "text": "За именем. Твоим."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 7,
+        "scene": "Arena edge debate: Silven justice, Lumina mercy, Miya blade between.",
+        "narration": [
+          "Край арены. Три голоса спора — три пути."
+        ],
+        "dialogue": [
+          {
+            "speaker": "silven",
+            "text": "Суд — корнями."
+          },
+          {
+            "speaker": "lumina",
+            "text": "Пощада — светом."
+          },
+          {
+            "speaker": "miya",
+            "text": "Клинок — моим дыханием."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 8,
+        "scene": "Night sky: burned forest shadow, oak, chapel light merge over Arena.",
+        "narration": [
+          "Ночное небо: тень сожжённого леса, дуб, свет часовни."
+        ],
+        "dialogue": [
+          {
+            "speaker": "renSpirit",
+            "text": "Не носи мою ненависть как вторую маску."
+          },
+          {
+            "speaker": "miya",
+            "text": "Ношу память. Маску сниму с него."
+          }
+        ],
+        "sfx": null
+      },
+      {
+        "page": 9,
+        "scene": "Final splash: trio vs Hakuren wave — Miya leads shuriken fan.",
+        "narration": [
+          "Финальный залп: веер из трёх сюрикенов ведёт Мия."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Дождь из трёх!"
+          },
+          {
+            "speaker": "hakuren",
+            "text": "Лепестки поглотят сталь!"
+          },
+          {
+            "speaker": "lumina",
+            "text": "Не сегодня!"
+          }
+        ],
+        "sfx": "ВЖУХ-ВЖУХ-ВЖУХ!"
+      },
+      {
+        "page": 10,
+        "scene": "End card: Miya walks forward, Silven and Lumina behind, wind takes red ribbon.",
+        "narration": [
+          "Конец главы X. Имя на ветру. Лента уносит ветер — не прощание."
+        ],
+        "dialogue": [
+          {
+            "speaker": "miya",
+            "text": "Рэн. Я назову его имя вслух. На песке. Без маски."
+          },
+          {
+            "speaker": "silven",
+            "text": "Мы рядом."
+          },
+          {
+            "speaker": "lumina",
+            "text": "До конца пути."
+          }
+        ],
+        "sfx": "ВЕТЕР…"
+      }
+    ]
+  }
+}

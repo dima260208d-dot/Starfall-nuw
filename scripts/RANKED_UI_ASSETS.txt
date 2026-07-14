@@ -1,0 +1,13 @@
+Ranked UI uses AI-generated illustrations (Brawl Stars style), not SVG placeholders.
+
+Installed files in public/images/:
+- mode-ranked-battle.png, mode-select-tab-ranked.png, ranked-menu-btn.png
+- ranked-league-*.png (8 leagues, transparent)
+- ranked-bg-*.png (8 menu backgrounds, 1280x720)
+
+Source PNGs: .cursor/projects/.../assets/ (Cursor Generate Image output)
+
+Re-install after regenerating assets:
+  npm run ranked-ui:install
+
+Requires PNG files in assets folder with exact names listed above.

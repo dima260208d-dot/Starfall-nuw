@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "g_coin_stack",
+    "label": "Монетки",
+    "emoji": "🪙",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_sword",
+    "label": "Меч",
+    "emoji": "⚔️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_shield",
+    "label": "Щит",
+    "emoji": "🛡️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_star",
+    "label": "Звезда",
+    "emoji": "⭐",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_fire",
+    "label": "Огонь",
+    "emoji": "🔥",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_ice",
+    "label": "Лёд",
+    "emoji": "❄️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_bolt",
+    "label": "Молния",
+    "emoji": "⚡",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_skull",
+    "label": "Череп",
+    "emoji": "💀",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_clover",
+    "label": "Удача",
+    "emoji": "🍀",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_target",
+    "label": "В цель",
+    "emoji": "🎯",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_flag",
+    "label": "Флаг",
+    "emoji": "🏁",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_bell",
+    "label": "Звонок",
+    "emoji": "🔔",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_key",
+    "label": "Ключ",
+    "emoji": "🗝️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_book",
+    "label": "Книга",
+    "emoji": "📖",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_music",
+    "label": "Музыка",
+    "emoji": "🎵",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_ball",
+    "label": "Мяч",
+    "emoji": "⚽",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_pizza",
+    "label": "Пицца",
+    "emoji": "🍕",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_coffee",
+    "label": "Кофе",
+    "emoji": "☕",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_dragon",
+    "label": "Дракон",
+    "emoji": "🐉",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_wolf",
+    "label": "Волк",
+    "emoji": "🐺",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_eagle",
+    "label": "Орёл",
+    "emoji": "🦅",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_gem",
+    "label": "Кристалл",
+    "emoji": "💎",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_crown",
+    "label": "Корона",
+    "emoji": "👑",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_rocket",
+    "label": "Ракета",
+    "emoji": "🚀",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_ufo",
+    "label": "НЛО",
+    "emoji": "🛸",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_ghost",
+    "label": "Призрак",
+    "emoji": "👻",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_alien",
+    "label": "Пришелец",
+    "emoji": "👽",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_robot",
+    "label": "Робот",
+    "emoji": "🤖",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_pirate",
+    "label": "Пират",
+    "emoji": "🏴‍☠️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_ninja",
+    "label": "Ниндзя",
+    "emoji": "🥷",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_wizard",
+    "label": "Маг",
+    "emoji": "🧙",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_viking",
+    "label": "Викинг",
+    "emoji": "⚓",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_phoenix",
+    "label": "Феникс",
+    "emoji": "🔥",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_kraken",
+    "label": "Кракен",
+    "emoji": "🐙",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_unicorn",
+    "label": "Единорог",
+    "emoji": "🦄",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_comet",
+    "label": "Комета",
+    "emoji": "☄️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_trophy",
+    "label": "Трофей",
+    "emoji": "🏆",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_medal",
+    "label": "Медаль",
+    "emoji": "🎖️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_champion",
+    "label": "Чемпион",
+    "emoji": "🥇",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_boss",
+    "label": "Босс",
+    "emoji": "👹",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_demon",
+    "label": "Демон",
+    "emoji": "😈",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_angel",
+    "label": "Ангел",
+    "emoji": "😇",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_legend",
+    "label": "Легенда",
+    "emoji": "🌟",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_mythic",
+    "label": "Миф",
+    "emoji": "✨",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_void",
+    "label": "Пустота",
+    "emoji": "🕳️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_time",
+    "label": "Время",
+    "emoji": "⏳",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_chaos",
+    "label": "Хаос",
+    "emoji": "🌀",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_order",
+    "label": "Порядок",
+    "emoji": "⚖️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_infinity",
+    "label": "Бесконечность",
+    "emoji": "♾️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_glitch",
+    "label": "Глитч",
+    "emoji": "📺",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_nebula",
+    "label": "Туманность",
+    "emoji": "🌠",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_eclipse",
+    "label": "Затмение",
+    "emoji": "🌑",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_gold_king",
+    "label": "Золотой король",
+    "emoji": "👑",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_gold_dragon",
+    "label": "Золотой дракон",
+    "emoji": "🐲",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_gold_star",
+    "label": "Золотая звезда",
+    "emoji": "🌟",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_gold_gem",
+    "label": "Золотой кристалл",
+    "emoji": "💠",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_gold_crown",
+    "label": "Империя",
+    "emoji": "🏆",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g_gold_legend",
+    "label": "Бессмертный",
+    "emoji": "✴️",
+    "rarity": "common",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "common"
+  },
+  {
+    "id": "g2_blade",
+    "label": "Клинок",
+    "emoji": "⚔️",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_hammer",
+    "label": "Молот",
+    "emoji": "🔨",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_bow",
+    "label": "Лук",
+    "emoji": "🏹",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_dagger",
+    "label": "Кинжал",
+    "emoji": "🗡️",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_axe",
+    "label": "Топор",
+    "emoji": "🪓",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_spear",
+    "label": "Копьё",
+    "emoji": "🔱",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_cat",
+    "label": "Кот",
+    "emoji": "🐱",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_bear",
+    "label": "Медведь",
+    "emoji": "🐻",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_shark",
+    "label": "Акула",
+    "emoji": "🦈",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_spider",
+    "label": "Паук",
+    "emoji": "🕷️",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_falcon",
+    "label": "Сокол",
+    "emoji": "🦅",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_cobra",
+    "label": "Кобра",
+    "emoji": "🐍",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_tiger",
+    "label": "Тигр",
+    "emoji": "🐯",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_panther",
+    "label": "Пантера",
+    "emoji": "🐆",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_stag",
+    "label": "Олень",
+    "emoji": "🦌",
+    "rarity": "rare",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_inferno",
+    "label": "Инферно",
+    "emoji": "🔥",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_blizzard",
+    "label": "Метель",
+    "emoji": "❄️",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_storm",
+    "label": "Шторм",
+    "emoji": "⛈️",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_nature",
+    "label": "Природа",
+    "emoji": "🌿",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_shadow",
+    "label": "Тень",
+    "emoji": "🌑",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_light",
+    "label": "Свет",
+    "emoji": "✨",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_poison",
+    "label": "Яд",
+    "emoji": "☠️",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_crystal",
+    "label": "Кристалл+",
+    "emoji": "💎",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_meteor",
+    "label": "Метеор",
+    "emoji": "☄️",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_tsunami",
+    "label": "Цунами",
+    "emoji": "🌊",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_plasma",
+    "label": "Плазма",
+    "emoji": "⚡",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gravity",
+    "label": "Гравитация",
+    "emoji": "🌀",
+    "rarity": "epic",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_overlord",
+    "label": "Повелитель",
+    "emoji": "👹",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_seraph",
+    "label": "Серафим",
+    "emoji": "😇",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_reaper",
+    "label": "Жнец",
+    "emoji": "💀",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_titan",
+    "label": "Титан",
+    "emoji": "🗿",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_phantom",
+    "label": "Фантом",
+    "emoji": "👻",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_spectre",
+    "label": "Спектр",
+    "emoji": "👤",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_wraith",
+    "label": "Дух",
+    "emoji": "💨",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_oracle",
+    "label": "Оракул",
+    "emoji": "🔮",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_harbinger",
+    "label": "Вестник",
+    "emoji": "📯",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_colossus",
+    "label": "Колосс",
+    "emoji": "🏛️",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_nova",
+    "label": "Нова",
+    "emoji": "💫",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_zenith",
+    "label": "Зенит",
+    "emoji": "🔺",
+    "rarity": "unique",
+    "goldenFrame": false,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_blade",
+    "label": "Золотой клинок",
+    "emoji": "⚔️",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_phoenix",
+    "label": "Золотой феникс",
+    "emoji": "🔥",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_crown",
+    "label": "Золотая корона+",
+    "emoji": "👑",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_skull",
+    "label": "Золотой череп",
+    "emoji": "💀",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_wings",
+    "label": "Золотые крылья",
+    "emoji": "🪽",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_flame",
+    "label": "Золотое пламя",
+    "emoji": "🔥",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_eye",
+    "label": "Золотой глаз",
+    "emoji": "👁️",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_fist",
+    "label": "Золотой кулак",
+    "emoji": "👊",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_scales",
+    "label": "Золотая чешуя",
+    "emoji": "🐉",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_halo",
+    "label": "Золотой нимб",
+    "emoji": "😇",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_coin",
+    "label": "Золотая монета",
+    "emoji": "🪙",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_heart",
+    "label": "Золотое сердце",
+    "emoji": "💖",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_star",
+    "label": "Золотая звезда+",
+    "emoji": "⭐",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_dragon",
+    "label": "Золотой дракон+",
+    "emoji": "🐲",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "g2_gold_god",
+    "label": "Божество",
+    "emoji": "✴️",
+    "rarity": "golden",
+    "goldenFrame": true,
+    "dir": "game",
+    "pool": "premium"
+  },
+  {
+    "id": "u_hello",
+    "kind": "default",
+    "label": "Привет!",
+    "emoji": "👋",
+    "dir": "general",
+    "pool": "universal"
+  },
+  {
+    "id": "u_happy",
+    "kind": "happy",
+    "label": "Ха-ха!",
+    "emoji": "😂",
+    "dir": "general",
+    "pool": "universal"
+  },
+  {
+    "id": "u_sad",
+    "kind": "sad",
+    "label": "Эх...",
+    "emoji": "😭",
+    "dir": "general",
+    "pool": "universal"
+  },
+  {
+    "id": "u_thumbs",
+    "kind": "thumbs_up",
+    "label": "Отлично!",
+    "emoji": "👍",
+    "dir": "general",
+    "pool": "universal"
+  },
+  {
+    "id": "u_angry",
+    "kind": "angry",
+    "label": "Грр!",
+    "emoji": "😡",
+    "dir": "general",
+    "pool": "universal"
+  },
+  {
+    "id": "u_hard",
+    "kind": "hard",
+    "label": "Жесть...",
+    "emoji": "😵",
+    "dir": "general",
+    "pool": "universal"
+  },
+  {
+    "id": "u_heart",
+    "kind": "heart",
+    "label": "Спасибо!",
+    "emoji": "❤️",
+    "dir": "general",
+    "pool": "universal"
+  },
+  {
+    "id": "u_special",
+    "kind": "special",
+    "label": "Изи!",
+    "emoji": "💎",
+    "dir": "general",
+    "pool": "universal"
+  }
+]

@@ -1,0 +1,1582 @@
+{
+  "brawlerId": "octavia",
+  "brawlerName": "Октавия",
+  "lore": "Октавия — русалка-мутант из подземного озера, которое отравили алхимики. Её щупальца — результат экспериментов. Чернила, которые она оставляет, ядовиты для врагов, но для союзников они как туман, скрывающий их от опасности. Она ищет способ очистить воду, но пока что её ловушки с щупальцами хватают лишь тех, кто не верит в чудеса.",
+  "skinRef": "public/dev-notes/brawler-skins/octavia_skin1.png",
+  "trioId": "venom-tide",
+  "trioOthers": [
+    "callista",
+    "rin"
+  ],
+  "rules": {
+    "format": "VERTICAL PORTRAIT 2:3 tall comic page",
+    "speech": "No character name prefixes in balloons. Use cream/yellow narration boxes.",
+    "gameBrawlersFromChapter": 10,
+    "chapter9SilhouettesOnly": true,
+    "bannedPhrases": [
+      "Здесь начинается мой путь",
+      "не паникуй",
+      "Держись за мою спину",
+      "вернул не манекен",
+      "Арена не зовёт",
+      "обратного тика",
+      "сделаю свой тик",
+      "боюсь того кем станет",
+      "последний пост",
+      "невозможное — моя работа",
+      "откатил",
+      "три секунды запаса"
+    ]
+  },
+  "npcs": {
+    "pip": "Пip — мальчик-рыбак с подземного причала: фонарь, верёvка, не боится щупалец",
+    "alchemistVex": "Векс — алхimik: стеклянные труbки, зелёный фартук, автор отравления",
+    "motherPearl": "Жемчужина — старейшина озера: раковина-трон, голос как плеск",
+    "labAssistant": "Ассистентка лаборатории — маска, чувствует вину",
+    "gin": "Джин — диктор Арены",
+    "cleanDrop": "Капля — дух чистой воды: прозрачный силуэт ребёнка"
+  },
+  "cover": {
+    "prompt": "finished full-color comic book cover, vertical 2:3 poster; hero Octavia mermaid mutant pink tentacle legs, ink veil underwater cavern, poisoned lake green-black, alchemist silhouettes, palette #EC407A #F8BBD0 #F48FB1, title ОКТАВИЯ Cyrillic, match octavia_skin1.png, NO speech balloons"
+  },
+  "chapters": {
+    "1": {
+      "title": "Зеркало озера",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Wide: underground lake cavern, bioluminescent algae.",
+          "narration": [
+            "Подземное озеро светится."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Октавия! Сверху снова шум!"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Шум не от воды. Вода молчит, когда ей больно."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Octavia swims — human torso, tentacle tail.",
+          "narration": [
+            "Плывёт — щупальца вместо ног."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Дочь прилива, не пугай мальчика."
+            },
+            {
+              "speaker": "octavia",
+              "text": "Он не пугается. Редкость."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Reflection: normal mermaid shadow flickers.",
+          "narration": [
+            "В отражении — прежняя форма."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Чудовище… или память?"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Pip brings surface news — alchemist guild.",
+          "narration": [
+            "Новости с поверхности."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Гильдия ищет «образец прилива»."
+            },
+            {
+              "speaker": "octavia",
+              "text": "Образец. Не игрушка."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Ink practice on rock — harmless pink trail.",
+          "narration": [
+            "Чернила на камне — розовые."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Друзьям — туман. Врагам — жжёт."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Mother Pearl shows pure spring sealed off.",
+          "narration": [
+            "Чистый родник запечатан."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Отравили исток. Мы медленно умираем."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Octavia finds lab pipe dripping green.",
+          "narration": [
+            "Труba лаборатории."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Они льют смерть в наш дом."
+            }
+          ],
+          "sfx": "КAP-KAP!"
+        },
+        {
+          "page": 8,
+          "scene": "Flashback inset: human legs on shore before mutation.",
+          "narration": [
+            "Память: ноги на берегу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Я… помню пляж…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Vex voice over pipe: «Subject stable».",
+          "narration": [
+            "Голос Векса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Образец стабилен. Продолжаем."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: water turns black spiral.",
+          "narration": [
+            "Вода чернеет спiralью."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Октавия!!!"
+            }
+          ],
+          "sfx": "БUL-BUL!"
+        }
+      ]
+    },
+    "2": {
+      "title": "Чёрная вода",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mass poisoning: fish float; Octavia screams silent.",
+          "narration": [
+            "Рыба плывёт брюхом вверх."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "НЕТ!"
+            }
+          ],
+          "sfx": "BUL-BUL!"
+        },
+        {
+          "page": 2,
+          "scene": "Octavia carries Pip to air pocket.",
+          "narration": [
+            "Несёт Пипа в карман воздуха."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Не оставляй…"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Никогда."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Mutation accelerates — tentacles multiply.",
+          "narration": [
+            "Щупальца растут."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Боль… или дар…"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Оба!!!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Vex divers in suits harvest samples.",
+          "narration": [
+            "Дайверы за образцами."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Взять щупальце! Живое!"
+            }
+          ],
+          "sfx": "ЖЖЖ!"
+        },
+        {
+          "page": 5,
+          "scene": "Octavia ink blinds divers — rescue elders.",
+          "narration": [
+            "Чернильная завеса."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Прочь из моего озера!"
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Mother Pearl weakens — gives pearl charm.",
+          "narration": [
+            "Жемчужина отдаёт amulet."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Под фундаментом Арены… чистый исток…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Pip injured — Octavia heals with ink mist.",
+          "narration": [
+            "Лечебный туман для Пипа."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Дыши розовым. Живи."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Vex escapes with vial labeled Octavia.",
+          "narration": [
+            "Векс уходит с пробиркой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Идеальный mutagen!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Survivors hide in ink cocoon cave.",
+          "narration": [
+            "Кокон из чернил."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Я монстр… который прячет…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Wide: black lake, pink eyes glow.",
+          "narration": [
+            "Глава II. Чёрная вода."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Очистить… или мстить…"
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Щупальца и шов",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Octavia stitches Pip wound with ink thread.",
+          "narration": [
+            "Чернильный шov."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Не больно… странно…"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Шов держит."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Training tentacle trap on rocks.",
+          "narration": [
+            "Ловушка на камнях."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Хватать. Не ломать. Учиться."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Lab assistant defects — brings antidote draft.",
+          "narration": [
+            "Ассистентка приносит antidote."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labAssistant",
+              "text": "Векс солгал… вы не образец… вы человек…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Antidote fails on fish — Octavia not giving up.",
+          "narration": [
+            "Antidote не работает."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Ещё не конец формулы."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Ink map of arena foundation leak.",
+          "narration": [
+            "Карта течи под Ареной."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Туда… только через турнир…"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Тогда турнир."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Vex hires mercenary nets for live capture.",
+          "narration": [
+            "Сети за живой capture."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Мutant alive pays triple!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Octavia super tentacle trap — first test.",
+          "narration": [
+            "Первая ловушка супера."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Верь в чудо. Или попадись."
+            }
+          ],
+          "sfx": "ХЛОП!"
+        },
+        {
+          "page": 8,
+          "scene": "Clean Drop spirit appears in pure drop.",
+          "narration": [
+            "Дух в капле."
+          ],
+          "dialogue": [
+            {
+              "speaker": "cleanDrop",
+              "text": "…исток… ждёт…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Octavia vow: cleanse not revenge.",
+          "narration": [
+            "Клятva."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Месть отравляет второй раз."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: arena pipe glows pink.",
+          "narration": [
+            "Труba светится."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Дом зовёт снизу."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Источник под фундаментом",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena maintenance tunnel — water drip.",
+          "narration": [
+            "Туннель обслуживания."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Соль… железо… и надежда…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Octavia in disguise cloak — tentacles hidden.",
+          "narration": [
+            "Плащ скрывает щупальца."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Новая face под кupolом!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Finds spring under stone — matches Mother map.",
+          "narration": [
+            "Исток под камнем."
+          ],
+          "dialogue": [
+            {
+              "speaker": "cleanDrop",
+              "text": "…здесь… пить…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Vex already drilling spring.",
+          "narration": [
+            "Векс сверлит."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Чистая вода. Новый elixir!"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Не твоё."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Ink duel in tunnel — allies invisible.",
+          "narration": [
+            "Дuel в туннеле."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Туман для Пипа. Яд для тебя."
+            }
+          ],
+          "sfx": "ВЖУХ!"
+        },
+        {
+          "page": 6,
+          "scene": "Registration alias Pink Tide.",
+          "narration": [
+            "Псевдонim «Розовый прилив»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Имя. Обещание воде."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Lab assistant arrested — Octavia breaks her out.",
+          "narration": [
+            "Освобождает ассистентку."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labAssistant",
+              "text": "Форmula… почти…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Arena medic wants sample — Octavia refuses.",
+          "narration": [
+            "Отказ от sample."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Я не пробирка."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Vision: trio silhouettes acid green and jungle.",
+          "narration": [
+            "Силуэты триo."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Яд… колба… джунгли…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: Vex registers as rival alchemist.",
+          "narration": [
+            "Векс на турнире."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Уничтожу mutanta на песке!"
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Алхimики-отравители",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Chase through aqueduct — ink slides.",
+          "narration": [
+            "Погоня по aqueduct."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Закрой клапан!"
+            }
+          ],
+          "sfx": "BUL-BUL!"
+        },
+        {
+          "page": 2,
+          "scene": "Octavia saves worker from acid valve.",
+          "narration": [
+            "Спасает рабочего."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Вода для всех. Даже для них."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Vex poisons public fountain — scandal.",
+          "narration": [
+            "Отравлен фонтан."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Саботаж!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Octavia neutralizes with ink counteragent.",
+          "narration": [
+            "Нейтрализация."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Розовое не значит слабое."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Mercenary nets in lower tier — Pip captured.",
+          "narration": [
+            "Пип в сети."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Октавия!"
+            }
+          ],
+          "sfx": "KRAK!"
+        },
+        {
+          "page": 6,
+          "scene": "Super trap grabs netters — gentle on Pip.",
+          "narration": [
+            "Ловушка бережно."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Тронешь мальчика. Потонешь."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Vex offers cure for surrender.",
+          "narration": [
+            "Сделка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Сдайся. Озеро получит antidote."
+            },
+            {
+              "speaker": "octavia",
+              "text": "Лжешь. Глаза бегают."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Lab assistant completes partial formula.",
+          "narration": [
+            "Частичная formula."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labAssistant",
+              "text": "Нужен чистый исток на песке…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Mother Pearl message via shell.",
+          "narration": [
+            "Послание в раковине."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Дочь… мы держимся…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: tournament bracket Octavia vs Vex.",
+          "narration": [
+            "Бracket."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "На песке. Правда и вода."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Чудовище и чудо",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Mirror pool: Octavia sees human legs again.",
+          "narration": [
+            "Зеркало: ноги."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Чудо… или bait…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Flashback: pre-mutation dance on shore.",
+          "narration": [
+            "Память: танец."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Я верила в чудеса. До труb."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "Crowd calls her monster before match.",
+          "narration": [
+            "Толпа: «монстр»."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Она героиня!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Inner conflict: hide vs show tentacles.",
+          "narration": [
+            "Скрыть или показать."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Чудовище в зеркале ищет чудо…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Lab assistant: cure needs belief sample.",
+          "narration": [
+            "Вера нужна."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labAssistant",
+              "text": "Союзники должны верить…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Octavia saves Vex assistant from collapse.",
+          "narration": [
+            "Спасает врага."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Жизнь. Не ошибка experiment."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Clean Drop grows brighter.",
+          "narration": [
+            "Дух ярче."
+          ],
+          "dialogue": [
+            {
+              "speaker": "cleanDrop",
+              "text": "…вера… кapля…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Debate with Mother Pearl vision.",
+          "narration": [
+            "Visión."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Мutant. Не приговор."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Octavia removes cloak — public tentacles.",
+          "narration": [
+            "Показывает щупальца."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Я — Октавия. Не образец."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: pink ink ring on sand.",
+          "narration": [
+            "Кольцо на песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Цена. Быть видимой."
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Прилив к воротам",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Arena gates flooded ankle-deep — Octavia home advantage.",
+          "narration": [
+            "Вода у ворот."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Кто включил прилив?!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Gate trial: Octavia swims through blade gaps.",
+          "narration": [
+            "Плывёт сквozь лезвия."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Вода гибче стали."
+            }
+          ],
+          "sfx": "ЖЖЖ!"
+        },
+        {
+          "page": 3,
+          "scene": "Pip in stands with pearl charm.",
+          "narration": [
+            "Пip на трибунах."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Прилив!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Vex sabotages water pipes — Octavia fixes live.",
+          "narration": [
+            "Чинит trubу на ходу."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Чистая вода — не товар!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Trio silhouettes acid and dagger watch.",
+          "narration": [
+            "Силуэты триo."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Ядовитый прилив…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Registration complete — crowd mixed.",
+          "narration": [
+            "Регистрация."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Розовый прилив против Зелёного лжи!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Lab assistant deploys partial antidote in stands.",
+          "narration": [
+            "Antidote в зале."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labAssistant",
+              "text": "Дышите паром!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Octavia promises cleanse arena spring if wins.",
+          "narration": [
+            "Обещание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Выиграю. Вода для всех."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Vex last threat.",
+          "narration": [
+            "Угроза."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "На песке. Без mercy!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: gong echo underwater.",
+          "narration": [
+            "Гонг под водой."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": ""
+            }
+          ],
+          "sfx": "ГOНГ!"
+        }
+      ]
+    },
+    "8": {
+      "title": "Чернильная завеса на песке",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Match: Octavia vs Vex — sand turned slick.",
+          "narration": [
+            "Бой на мокром песке."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Alchemist против прилива!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "Vex throws acid flasks.",
+          "narration": [
+            "Кислота."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Моя вода помнит боль."
+            }
+          ],
+          "sfx": "ШШШ!"
+        },
+        {
+          "page": 3,
+          "scene": "Ink veil hides Pip's antidote team.",
+          "narration": [
+            "Туман для команды."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Верьте. И видите."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Super tentacle trap immobilizes Vex — no kill.",
+          "narration": [
+            "Ловушка."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Отпусти!"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Скажи правду."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 5,
+          "scene": "Vex confesses poisoning — crowd erupts.",
+          "narration": [
+            "Признание."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "SCANDAL!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Partial cleanse of arena spring — water clears.",
+          "narration": [
+            "Исток проясняется."
+          ],
+          "dialogue": [
+            {
+              "speaker": "cleanDrop",
+              "text": "…спасибо…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Octavia wins — tears of ink.",
+          "narration": [
+            "Слёзы-чернила."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Ты сделала чудо!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Mother Pearl feels relief via pearl glow.",
+          "narration": [
+            "Жемчужина светится."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Дочь…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Lab assistant full antidote draft.",
+          "narration": [
+            "Полная formula почти."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labAssistant",
+              "text": "Нужен союз на финале…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: trio marks on wet sand.",
+          "narration": [
+            "Знаки триo."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": ""
+            }
+          ],
+          "sfx": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Яд, колбы, вода",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Backstage mist: green flask silhouette.",
+          "narration": [
+            "Зелёная колба."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Кто там?"
+            },
+            {
+              "speaker": "flaskSilhouette",
+              "text": "Alchemy without pride."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "SILHOUETTE: green hair lenses — NOT full face.",
+          "narration": [
+            "Силуэт Callista."
+          ],
+          "dialogue": [
+            {
+              "speaker": "flaskSilhouette",
+              "text": "Взрыв лечит, если не гордиться."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "SILHOUETTE: jungle daggers — NOT full face.",
+          "narration": [
+            "Силуэт Rin."
+          ],
+          "dialogue": [
+            {
+              "speaker": "daggerSilhouette",
+              "text": "Яд. Не имя. Инструмент."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Vex remnant attack; trio inks jungle acid combo.",
+          "narration": [
+            "Атака остатков."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Вода держит центр!"
+            }
+          ],
+          "sfx": "KRAK!"
+        },
+        {
+          "page": 5,
+          "scene": "Triangle pink green jungle.",
+          "narration": [
+            "Треугольник."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Лекарство вместо мести."
+            },
+            {
+              "speaker": "flaskSilhouette",
+              "text": "Риск с расчётом."
+            },
+            {
+              "speaker": "daggerSilhouette",
+              "text": "Исчезнуть легко. Остаться. Для вас."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 6,
+          "scene": "Combined veil + acid ice + poison root.",
+          "narration": [
+            "Комбо."
+          ],
+          "dialogue": [
+            {
+              "speaker": "alchemistVex",
+              "text": "Невозможно!"
+            },
+            {
+              "speaker": "octavia",
+              "text": "Верим в чудо."
+            }
+          ],
+          "sfx": "BOOM!"
+        },
+        {
+          "page": 7,
+          "scene": "Vow chapter 10.",
+          "narration": [
+            "Клятва."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "На десятой. Лица и чистая капля."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Sky: tentacle, flask, leaf.",
+          "narration": [
+            "Знаки."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Ядовитый прилив."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Silhouettes go.",
+          "narration": [
+            "Уход."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": ""
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "Cliffhanger: lake half-clear vision.",
+          "narration": [
+            "Озеро светлеет."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Ещё не конец."
+            }
+          ],
+          "sfx": "KAP!"
+        }
+      ]
+    },
+    "10": {
+      "title": "Чистая капля",
+      "pages": [
+        {
+          "page": 1,
+          "scene": "Finale Venom Tide trio.",
+          "narration": [
+            "Финал."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Callista! Rin! Octavia!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 2,
+          "scene": "FULL COLOR: Callista — match callista_skin1.png.",
+          "narration": [
+            "Каллиста."
+          ],
+          "dialogue": [
+            {
+              "speaker": "callista",
+              "text": "Формула без гордыни."
+            },
+            {
+              "speaker": "octavia",
+              "text": "Вода без яда."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 3,
+          "scene": "FULL COLOR: Rin — match rin_skin1.png.",
+          "narration": [
+            "Рin."
+          ],
+          "dialogue": [
+            {
+              "speaker": "rin",
+              "text": "Яд служит лесу."
+            },
+            {
+              "speaker": "octavia",
+              "text": "А я. Озеру."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 4,
+          "scene": "Trio vs Vex coalition — FULL faces.",
+          "narration": [
+            "Трое."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Завесa!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Кислота-лед!"
+            },
+            {
+              "speaker": "rin",
+              "text": "Корни!"
+            }
+          ],
+          "sfx": "ГOНГ!"
+        },
+        {
+          "page": 5,
+          "scene": "Combo supers cleanse arena spring fully.",
+          "narration": [
+            "Очищение."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Ловушка!"
+            },
+            {
+              "speaker": "callista",
+              "text": "Колба!"
+            },
+            {
+              "speaker": "rin",
+              "text": "Прыжок!"
+            }
+          ],
+          "sfx": "KRAK-BOOM!"
+        },
+        {
+          "page": 6,
+          "scene": "Mother Pearl telepathic thanks.",
+          "narration": [
+            "Благодарность."
+          ],
+          "dialogue": [
+            {
+              "speaker": "motherPearl",
+              "text": "Дочь… вода поёт…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 7,
+          "scene": "Pip drinks clear drop — cries.",
+          "narration": [
+            "Пip пьёт."
+          ],
+          "dialogue": [
+            {
+              "speaker": "pip",
+              "text": "Сладко…"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 8,
+          "scene": "Vex imprisoned — lab assistant lead healer.",
+          "narration": [
+            "Векс в тюрьме."
+          ],
+          "dialogue": [
+            {
+              "speaker": "labAssistant",
+              "text": "Новая гильдия. Чистая."
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 9,
+          "scene": "Scoreboard legend.",
+          "narration": [
+            "Табло."
+          ],
+          "dialogue": [
+            {
+              "speaker": "gin",
+              "text": "Записано!"
+            }
+          ],
+          "sfx": null
+        },
+        {
+          "page": 10,
+          "scene": "End card: Octavia tail in clear water, trio reflected.",
+          "narration": [
+            "Конец X."
+          ],
+          "dialogue": [
+            {
+              "speaker": "octavia",
+              "text": "Чудовище нашло чудо."
+            },
+            {
+              "speaker": "callista",
+              "text": "Рядом."
+            },
+            {
+              "speaker": "rin",
+              "text": "До капли."
+            }
+          ],
+          "sfx": "KAP-KAP…"
+        }
+      ]
+    }
+  }
+}

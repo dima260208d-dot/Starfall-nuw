@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Starfall — выбор логотипа</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: #12082e; color: #eee; padding: 24px; }
+    h1 { font-size: 1.25rem; margin: 0 0 8px; }
+    p { color: #bbb; margin: 0 0 20px; max-width: 680px; line-height: 1.5; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+    figure { margin: 0; border: 2px solid rgba(206,147,216,0.35); border-radius: 12px; overflow: hidden; background: #06031a; }
+    figure:hover { border-color: #d500f9; }
+    .preview {
+      min-height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,0.35) 0%, transparent 40%),
+        url('../loading-battle.png') center/cover no-repeat;
+    }
+    img { max-width: 100%; max-height: 140px; object-fit: contain; }
+    figcaption { padding: 10px 12px; font-weight: 700; font-size: 14px; }
+    code { background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Логотип Starfall — 10 вариантов</h1>
+  <p>
+    Как в Brawl Stars: надпись + эмблема снизу. Сейчас на экране загрузки стоит <code>v01</code>.
+    Напиши номер, например «логотип 04».
+  </p>
+  <div class="grid">
+    <figure><div class="preview"><img src="starfall-logo-v01.png" alt="" /></div><figcaption>01 — звезда с крыльями ★ сейчас</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v02.png" alt="" /></div><figcaption>02 — космический кристалл</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v03.png" alt="" /></div><figcaption>03 — щит со звездой</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v04.png" alt="" /></div><figcaption>04 — маскот-метеор</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v05.png" alt="" /></div><figcaption>05 — портал-кольцо</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v06.png" alt="" /></div><figcaption>06 — звёздные мечи</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v07.png" alt="" /></div><figcaption>07 — галактика-спираль</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v08.png" alt="" /></div><figcaption>08 — корона-звезда</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v09.png" alt="" /></div><figcaption>09 — комета</figcaption></figure>
+    <figure><div class="preview"><img src="starfall-logo-v10.png" alt="" /></div><figcaption>10 — монограмма S</figcaption></figure>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+name = "starfall-clubs"
+main = "src/index.mjs"
+compatibility_date = "2024-11-01"
+account_id = "a5856411e3002d781745b974b500bb61"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "starfall-clubs"
+database_id = "bdfbd293-db7b-414f-9fc5-ccb637fdd10f"

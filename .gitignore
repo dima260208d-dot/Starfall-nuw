@@ -1,0 +1,87 @@
+# ????????? ? Cursor (?? ? ???????????)
+.cursor/
+.cursorignore
+.ignore
+AGENTS.md
+.analysis/
+.vscode/
+.idea/
+.cursor/*.log
+
+# ???????
+.env
+.env.local
+.env.*.local
+public/cloud-config.json
+
+# Cloudflare Worker ????????? ?????
+cloudflare-worker/.wrangler/
+cloudflare-worker/.worker-url
+cloudflare-worker/node_modules/
+
+# Party server URL ????? ??????
+server/.party-url
+
+# ??????
+dist/
+build/
+*.cache
+.vite/
+*.tsbuildinfo
+
+# Android / Capacitor
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/keystore.properties
+android/*.keystore
+android/capacitor-cordova-android-plugins/build/
+android-admin/
+android-admin/.gradle/
+android-admin/build/
+android-admin/app/build/
+android-admin/local.properties
+android-admin/keystore.properties
+
+# Unity ?????? web-????
+Setup Guide In-Editor Tutorial/
+My project/
+
+# ???????????
+node_modules/
+*/node_modules/
+package-lock.json
+*/package-lock.json
+
+# ???? ? ????????? ?????
+*.log
+debug-*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# APK / ?????????
+*.apk
+*.aab
+
+# ??????? ?????? (CDN R2 ? infra/CLOUDFLARE-WORKER-R2.ru.md)
+public/dev-models/
+public/news/
+public/models/
+public/pins/
+public/dev-notes/
+public/main-menu-bg-variants/
+public/portrait-bg/
+public/brawlers/
+public/vfx/chroma/
+_ref-bots/
+pin_sheets/
+assets/
+
+# 3D ?????????
+*.gltf
+*.obj
+*.mtl
+*.fbx
+*.blend
