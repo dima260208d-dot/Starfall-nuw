@@ -9,8 +9,10 @@ import { readFileSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadCloudflareTokenFromEnvFile } from "./load-cloudflare-env.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+loadCloudflareTokenFromEnvFile(root);
 const envPath = join(root, ".env.local");
 const workerDir = join(root, "cloudflare-worker");
 const wranglerBin = join(workerDir, "node_modules", "wrangler", "bin", "wrangler.js");
